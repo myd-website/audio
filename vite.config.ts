@@ -9,7 +9,7 @@ export default defineConfig({
   base: './',
   server: {
     host: true,
-    port: 8010,
+    port: 8090,
   },
   build: {
     outDir: 'docs',

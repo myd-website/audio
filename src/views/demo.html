@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>音频裁剪工具</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .container { margin: 20px auto; width: 600px; text-align: center; }
+  input, button { margin: 10px; }
+  audio { display: block; margin: 0 auto; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>音频裁剪工具</h1>
+  <input type="file" id="audioFileInput" accept="audio/*"/>
+  <label for="startTime">开始时间 (秒): </label>
+  <input type="number" id="startTime" step="0.01" value="0" min="0"/>
+  <label for="endTime">结束时间 (秒): </label>
+  <input type="number" id="endTime" step="0.01" value="10" min="0"/>
+  <button id="cutButton">裁剪音频</button>
+  <br>
+  <audio id="audioPlayer" controls></audio>
+  <a id="downloadLink" style="display:none;">下载裁剪后的音频</a>
+</div>
+
+<script>
+async function loadAndCutAudio(file, startTime, endTime) {
+  const reader = new FileReader();
+  reader.onload = async () => {
+    const arrayBuffer = reader.result;
+    const context = new (window.AudioContext || window.webkitAudioContext)();
+    const audioBuffer = await context.decodeAudioData(arrayBuffer);
+
+    // 确保结束时间不超过音频总长度
+    if (endTime > audioBuffer.duration) {
+      endTime = audioBuffer.duration;
+    }
+
+    // 裁剪音频
+    const cutAudioBuffer = context.createBuffer(
+      audioBuffer.numberOfChannels,
+      Math.ceil(context.sampleRate * (endTime - startTime)),
+      audioBuffer.sampleRate
+    );
+
+    for (let channel = 0; channel < audioBuffer.numberOfChannels; channel++) {
+      const inputData = audioBuffer.getChannelData(channel);
+      const outputData = cutAudioBuffer.getChannelData(channel);
+      for (let i = 0; i < outputData.length; i++) {
+        outputData[i] = inputData[Math.floor(startTime * context.sampleRate) + i];
+      }
+    }
+
+    // 将裁剪后的音频数据转换为 Blob 并生成 URL
+    const blob = await exportWAV(cutAudioBuffer, context.sampleRate);
+    const url = URL.createObjectURL(blob);
+
+    // 更新页面上的元素
+    document.getElementById('audioPlayer').src = url;
+    document.getElementById('downloadLink').href = url;
+    document.getElementById('downloadLink').download = 'trimmed-audio.wav';
+    document.getElementById('downloadLink').style.display = 'inline-block';
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function exportWAV(audioBuffer, sampleRate) {
+  return new Promise((resolve) => {
+    const worker = new Worker(URL.createObjectURL(new Blob([`
+      onmessage = async function(e) {
+        importScripts('https://cdn.jsdelivr.net/npm/wavefile@1.2.1/WaveFile.min.js');
+        const waveFile = new WaveFile(new Uint8Array(e.data.buffer));
+        waveFile.toPCM16Bit();
+        postMessage(waveFile.toBuffer());
+      }
+    `], { type: 'text/javascript' })));
+
+    worker.onmessage = (e) => {
+      resolve(new Blob([e.data], { type: 'audio/wav' }));
+    };
+
+    worker.postMessage({ buffer: audioBuffer });
+  });
+}
+
+document.getElementById('cutButton').addEventListener('click', () => {
+  const fileInput = document.getElementById('audioFileInput');
+  const startTime = parseFloat(document.getElementById('startTime').value);
+  const endTime = parseFloat(document.getElementById('endTime').value);
+
+  if (fileInput.files.length === 0) {
+    alert('请选择一个音频文件');
+    return;
+  }
+
+  loadAndCutAudio(fileInput.files[0], startTime, endTime);
+});
+</script>
+</body>
+</html>

@@ -3,14 +3,23 @@
     <!-- 滚动号码 -->
     <div class="luckdraw-scroll">
       <ul class="bg-scroll">
-        <li v-for="(item, i) in list" :key="i" :class="{ 'anim': animate && i == 0 }">
+        <li
+          v-for="(item, i) in list"
+          :key="i"
+          :class="{ anim: animate && i == 0 }"
+        >
           <span class="lkq-name">{{ item.phone }}</span>
         </li>
       </ul>
     </div>
     <!-- 抽奖弹窗 -->
     <div class="turntable">
-      <svg class="bulb svelte-ecndpu" viewBox="-6 -6 316 316" fill="currentColor" fill-rule="evenodd">
+      <svg
+        class="bulb svelte-ecndpu"
+        viewBox="-6 -6 316 316"
+        fill="currentColor"
+        fill-rule="evenodd"
+      >
         <g class="bulb-1 svelte-ecndpu">
           <circle cx="10" cy="10" r="4" />
           <circle cx="78" cy="4" r="4" />
@@ -51,9 +60,16 @@
           v-for="(item, key) in awardList"
           :key="item.id"
           class="awards-item"
-          :class="{ 'awards-item-draw': key === 4, 'run-item': item.runId === current }"
+          :class="{
+            'awards-item-draw': key === 4,
+            'run-item': item.runId === current,
+          }"
         >
-          <div v-if="key === 4" @click="handleStart" class="draw-btn svelte-ecndpu">
+          <div
+            v-if="key === 4"
+            @click="handleStart"
+            class="draw-btn svelte-ecndpu"
+          >
             <span class="draw-btn-text">点击抽奖</span>
           </div>
           <div v-else>{{ item.name }}</div>
@@ -64,7 +80,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, reactive, computed, onMounted, nextTick } from "vue";
+import { showToast } from "vant";
+import {
+  defineComponent,
+  ref,
+  reactive,
+  computed,
+  onMounted,
+  nextTick,
+} from "vue";
 
 interface AwardTypes {
   id: number;
@@ -179,6 +203,7 @@ export default defineComponent({
                 console.log(
                   `您抽中的奖品是${getAward.name},奖品id是${getAward.id}`
                 );
+                showToast(`您抽中的奖品是${getAward.name}`);
               }
             }, 400);
             return;
@@ -231,7 +256,7 @@ export default defineComponent({
       handleStart,
     };
   },
-})
+});
 </script>
 
 <style lang="less" scoped>
@@ -355,15 +380,15 @@ export default defineComponent({
 
 @keyframes bulb-animation {
   0% {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   50% {
-    color: #FFE37F;
+    color: #ffe37f;
   }
 
   100% {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
