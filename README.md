@@ -1,16 +1,13 @@
+## 访问地址
+- https://myd-website.github.io/audio/
+
 # vue3-aide
-
 - vue3 + vite + ts + vue-router + pinia + vant + axios
-- npm install
-- npm run dev // 启动项目
-- npm run build // 打包项目
-- npm run preview
-- npm run deploy // 部署项目
+- pnpm install
+- pnpm run dev // 启动项目
+- pnpm run build // 打包项目
 
-## 项目集成
-
-- npm install gh-pages --save-dev // 部署项目到 github pages
-
+## 项目集成-后续更新
 ```
     "scripts": {
     "predeploy": "vite build",
