@@ -5,7 +5,7 @@
         <component :is="Component" />
       </transition>
     </router-view>
-    <van-tabbar placeholder route v-show="showFooter">
+    <van-tabbar placeholder route>
       <van-tabbar-item icon="home-o" replace to="/">首页</van-tabbar-item>
       <van-tabbar-item icon="search" replace to="/maths">数学</van-tabbar-item>
       <van-tabbar-item icon="friends-o" replace to="/todoList">菜单2</van-tabbar-item>
