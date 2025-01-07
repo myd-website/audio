@@ -149,7 +149,7 @@ const handleAnalysis = () => {
   margin: 20px 0;
   .box {
     width: 100%;
-    height: 50px;
+    height: auto;
     color: #5e5a5a;
     background: #ffc400;
     padding: 10px 0;
@@ -157,6 +157,9 @@ const handleAnalysis = () => {
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .calc-content {
@@ -170,11 +173,10 @@ const handleAnalysis = () => {
       background-color: #e384ff;
       color: #fff;
       width: 100px;
-      height: 50px;
-      line-height: 50px;
+      height: auto;
       border-radius: 10px;
       text-align: center;
-      padding: 0 10px;
+      padding: 5px 2px;
     }
   }
   .calc-question {
