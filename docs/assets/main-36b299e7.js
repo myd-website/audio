@@ -1,1 +1,0 @@
-import{aS as t}from"./index-2821a120.js";const o=t("main",{state:()=>({counter:0,name:"Eduardo",selectAddress:null,undoneTodoList:[{id:Date.now(),name:"吃饭"}]}),getters:{doubleCount:e=>e.counter*2,doubleCountPlusOne(){return this.doubleCount*2+1}},actions:{reset(){this.counter=0}}}),s=o;export{s as u};
