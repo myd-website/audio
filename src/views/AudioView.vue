@@ -39,7 +39,7 @@
         >截取片段</van-button
       >
 
-      <p>
+      <p class="audition">
         试听：
         <audio :src="cutAudioUrl" controls autoplay="false"></audio>
       </p>
@@ -164,8 +164,8 @@ const playSegment = (startTime, endTime) => {
   source.start(audioContext.currentTime, startTime, duration);
 
   const audioTrack = audioContext.createMediaStreamDestination();
-  console.log(audioContext, 'audioContext');
-  
+  console.log(audioContext, "audioContext");
+
   // 设置audio元素的src为音频上下文的地址
   // source.connect(audioTrack);
   // cutAudioUrl.value = audioTrack.stream;
@@ -267,6 +267,11 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+.audition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 :deep(.van-field__body) {
