@@ -6,7 +6,7 @@
       </transition>
     </router-view>
     <van-tabbar placeholder route>
-      <van-tabbar-item icon="home-o" replace to="/">首页</van-tabbar-item>
+      <van-tabbar-item icon="home-o" replace to="/home">首页</van-tabbar-item>
       <van-tabbar-item icon="search" replace to="/maths">数学</van-tabbar-item>
       <van-tabbar-item icon="friends-o" replace to="/todoList">菜单2</van-tabbar-item>
       <van-tabbar-item icon="setting-o" replace to="/luckdraw">菜单3</van-tabbar-item>
@@ -29,3 +29,8 @@ export default defineComponent({
   },
 });
 </script>
+<style>
+.van-tabbar__placeholder {
+  display: block !important;
+}
+</style>

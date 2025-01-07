@@ -1,6 +1,5 @@
 <template>
   <div class="home text-center">
-    <!-- <p class="text-color">{{ time }}</p> -->
     <van-notice-bar left-icon="volume-o" :text="`当前时间：${time}`" />
     <div class="upload-box">
       <p class="mg10">请上传音频文件：</p>
@@ -256,12 +255,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style scope lang="less">
-.text-color {
-  color: v-bind(color);
-  height: 40px;
-  line-height: 40px;
-  // background: #fcfa90;
-}
 .upload-box {
   background: #ffac00;
   padding: 10px;
