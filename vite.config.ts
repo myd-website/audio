@@ -10,6 +10,18 @@ export default defineConfig({
     host: true,
     port: 8090,
   },
+  plugins: [
+    vue(),
+    vueJsx(),
+    Components({
+      resolvers: [VantResolver()],
+    }),
+  ],
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
   build: {
     outDir: 'docs',
     sourcemap: false,
@@ -26,18 +38,6 @@ export default defineConfig({
         entryFileNames: 'static/js/[name].js',
         assetFileNames: 'static/[ext]/[name].[ext]',
     }
-    },
-  },
-  plugins: [
-    vue(),
-    vueJsx(),
-    Components({
-      resolvers: [VantResolver()],
-    }),
-  ],
-  resolve: {
-    alias: {
-      '@': '/src',
     },
   },
 });
