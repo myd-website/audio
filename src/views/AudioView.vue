@@ -62,11 +62,15 @@ const files = ref([]);
 const cutAudioUrl = ref("");
 const beginTime = ref(null);
 const endTime = ref(null);
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const audioBuffer = ref(null);
+const audioPlayer = ref(null);
 
 onMounted(() => {
   initTime();
 });
 
+// 初始化时间
 const initTime = () => {
   time.value = dayjs().format("YYYY-MM-DD HH:mm:ss");
   timer.value = setInterval(() => {
@@ -74,6 +78,7 @@ const initTime = () => {
   }, 1000);
 };
 
+// 下载事件处理
 const download = () => {
   showConfirmDialog({
     title: "下载提示",
@@ -82,7 +87,7 @@ const download = () => {
     .then(() => {
       showToast("下载");
       const file = files.value[0];
-      downloadPdf(file.file);
+      downloadFile(file.file);
     })
     .catch(() => {
       showToast("取消下载");
@@ -90,7 +95,7 @@ const download = () => {
 };
 
 // 下载file文件
-const downloadPdf = async (file) => {
+const downloadFile = async (file) => {
   if (file) {
     const blob = new Blob([file]);
     const fileUrl = window.URL.createObjectURL(blob);
@@ -105,6 +110,7 @@ const downloadPdf = async (file) => {
   }
 };
 
+// 文件开始上传
 const beforeRead = (file) => {
   console.log(file, "file上传中");
   file.status = "uploading";
@@ -112,6 +118,7 @@ const beforeRead = (file) => {
   return true;
 };
 
+// 文件上传成功
 const afterRead = (file) => {
   console.log(file, "file上传成功");
   aduioName.value = file.file.name;
@@ -123,6 +130,7 @@ const afterRead = (file) => {
   loadAudioFile(file.file);
 };
 
+// 文件删除
 const beforeDelete = (file) => {
   console.log(file, "file上传成功");
   aduioName.value = "";
@@ -130,57 +138,40 @@ const beforeDelete = (file) => {
   files.value = [];
 };
 
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-const audioBuffer = ref(null);
-const audioPlayer = ref(null);
-// const startTime = ref(0);
-// const endTime = ref(10); // 默认值可以调整
-// const downloadUrl = ref(null);
-
+// 音频时长处理
 const loadAudioFile = (file) => {
   if (!file) return;
-
   const reader = new FileReader();
-
-  reader.onload = (e) => {
-    const audioData = e.target.result;
-    createAudioContext(audioData, file);
+  reader.onload = async () => {
+    const audioData = reader.result;
+    audioBuffer.value = await audioContext.decodeAudioData(audioData);
   };
   reader.readAsArrayBuffer(file);
 };
 
-const createAudioContext = (audioData, file) => {
-  audioContext.decodeAudioData(audioData, (buffer) => {
-    audioBuffer.value = buffer;
-    // audioPlayer.value.src = URL.createObjectURL(file);
-  });
-};
-
-const playSegment = (startTime, endTime) => {
+// 裁剪音频
+const playSegment = async (startTime, endTime) => {
   if (!audioBuffer.value) return;
+
+  // const response = await fetch(audioUrl.value);
+  // const arrayBuffer = await response.arrayBuffer();
+
   const source = audioContext.createBufferSource();
   source.buffer = audioBuffer.value;
   const duration = endTime - startTime;
+
+  // // 将源连接到目的地（扬声器）播放
+  source.connect(audioContext.destination);
   source.start(audioContext.currentTime, startTime, duration);
 
   const audioTrack = audioContext.createMediaStreamDestination();
   console.log(audioContext, "audioContext");
 
-  // 设置audio元素的src为音频上下文的地址
-  // source.connect(audioTrack);
-  // cutAudioUrl.value = audioTrack.stream;
+  // return;
 
-  // 播放片段
-  source.connect(audioContext.destination);
-
-  // cutAudio();
-};
-
-async function cutAudio() {
-  const startSample = Math.floor(
-    beginTime.value * audioBuffer.value.sampleRate
-  );
-  const endSample = Math.floor(endTime.value * audioBuffer.value.sampleRate);
+  const channelData = audioBuffer.value.getChannelData(0); // 获取第一个通道的数据
+  const startSample = audioContext.sampleRate * startTime; // 开始剪切的样本位置
+  const endSample = audioContext.sampleRate * endTime; // 结束剪切的样本位置
 
   // 确保结束时间不超过音频总长度
   if (endSample > audioBuffer.value.length) {
@@ -188,65 +179,33 @@ async function cutAudio() {
     return;
   }
 
-  // 创建新的音频缓冲区
-  const cutBuffer =
-    audioContext &&
-    audioContext.createBuffer(
-      audioBuffer.value.numberOfChannels,
-      endSample - startSample,
-      audioBuffer.value.sampleRate
-    );
+  const clippedData = channelData.subarray(startSample, endSample); // 剪切音频数据
+  /**
+   * 1. numberOfChannels：指定新缓冲区中的声道数（如单声道为 1，立体声为 2）。必须是一个正整数。
+   * 2. length：定义了新缓冲区的样本帧数量。这决定了音频片段的时间长度，取决于采样率。
+   * 3. sampleRate：指定了每秒的样本数量，单位是赫兹 (Hz)。常见的值包括 44100、48000 等。
+   */
+  const newAudioBuffer = audioContext.createBuffer(
+    1,
+    clippedData.length,
+    audioContext.sampleRate
+  );
+  
+  newAudioBuffer.getChannelData(0).set(clippedData);
+  const audioData = newAudioBuffer.getChannelData(0);
+  const audioBlob = new Blob([audioData], { type: "audio/mp3" });
+  cutAudioUrl.value = URL.createObjectURL(audioBlob);
+  // cutAudioUrl.value = audioUrl.value;
 
-  for (
-    let channel = 0;
-    channel < audioBuffer.value.numberOfChannels;
-    channel++
-  ) {
-    const inputData = audioBuffer.value.getChannelData(channel);
-    const outputData = cutBuffer.getChannelData(channel);
-    for (let i = 0; i < outputData.length; i++) {
-      outputData[i] = inputData[startSample + i];
-    }
-  }
+  // cutAudioDown();
+};
 
-  // 将裁剪后的音频数据转换为 Blob 并生成 URL
-  const blob = await exportWAV(cutBuffer);
-  const url = URL.createObjectURL(blob);
-
-  // 更新页面上的元素
-  if (audioPlayer) {
-    audioPlayer.value.src = url;
-  }
-  cutAudioUrl.value = url;
-}
-
-function exportWAV(audioBuffer) {
-  return new Promise((resolve) => {
-    const worker = new Worker(
-      URL.createObjectURL(
-        new Blob(
-          [
-            `
-          onmessage = async function(e) {
-            importScripts('https://cdn.jsdelivr.net/npm/wavefile@1.2.1/WaveFile.min.js');
-            const waveFile = new WaveFile(new Float32Array(e.data.buffer));
-            waveFile.toPCM16Bit();
-            postMessage(waveFile.toBuffer());
-          }
-        `,
-          ],
-          { type: "text/javascript" }
-        )
-      )
-    );
-
-    worker.onmessage = (e) => {
-      resolve(new Blob([e.data], { type: "audio/wav" }));
-    };
-
-    // 报错
-    worker && worker.postMessage({ buffer: audioBuffer });
-  });
+// 下载剪切后的音频文件
+async function cutAudioDown() {
+  const downloadLink = document.createElement("a");
+  downloadLink.href = cutAudioUrl.value;
+  downloadLink.download = `${aduioName.value}`;
+  downloadLink.click();
 }
 
 onBeforeUnmount(() => {

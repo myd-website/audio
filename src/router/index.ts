@@ -50,4 +50,16 @@ const router = createRouter({
   routes
 })
 
+// 添加全局前置守卫
+router.beforeEach((to, from, next) => {
+  // 检查目标路径是否为 /audio
+  if (to.path === '/audio') {
+    // 如果是，则重定向到 /home
+    next('/home');
+  } else {
+    // 否则继续原来的导航
+    next();
+  }
+});
+
 export default router
