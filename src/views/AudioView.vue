@@ -81,43 +81,40 @@ const initTime = () => {
 
 // 下载事件处理
 const download = () => {
-  showConfirmDialog({
+  showDialog({
     title: "下载提示",
-    message: "确实要下载吗？下载后请前往文件目录查看！！！",
-  })
-    .then(() => {
-      // showToast("下载中");
-      cutAudioDown();
-      // customFileName.value = `${beginTime.value}秒-${endTime.value}秒_${aduioName.value}`;
-
+    message: `
+        <input
+          style="width: 100%;"
+          class="customFileName"
+          value="${customFileName.value}"
+          type="text"
+          colon
+          placeholder="请输入文件名称"
+        />`,
+    allowHtml: true,
+    theme: "round-button",
+  }).then(() => {
+    const inputValue =
+      document.getElementsByClassName("customFileName")[0].value;
+    if (!inputValue) {
+      showToast("文件名称不能为空");
+      return;
+    } else {
       // 设置文件名
-      // showDialog({
-      //   title: "请输入文件名称",
-      //   message: `
-      //   <input
-      //     class="customFileName"
-      //     v-model="customFileName"
-      //     type="text"
-      //     colon
-      //     placeholder="请输入文件名称"
-      //   />`,
-      //   allowHtml: true,
-      //   theme: "round-button",
-      // }).then(() => {
-      //   const customFileName =
-      //     document.getElementsByClassName("customFileName")[0].value;
-      // });
-    })
-    .catch(() => {
-      showToast("取消下载");
-    });
+      customFileName.value = inputValue.includes("mp3")
+        ? inputValue
+        : `${inputValue}.mp3`;
+      cutAudioDown();
+    }
+  });
 };
 
 // 下载剪切后的音频文件
 const cutAudioDown = (wavBlob) => {
   const downloadLink = document.createElement("a");
   downloadLink.href = cutAudioUrl.value;
-  downloadLink.download = `${beginTime.value}秒-${endTime.value}秒_${aduioName.value}`;
+  downloadLink.download = customFileName.value;
   downloadLink.click();
 };
 
@@ -169,7 +166,7 @@ const playSegment = async (beginTime, endTime) => {
     return;
   }
 
-  if (isNaN(beginTime) || isNaN(endTime) || beginTime >= endTime) {
+  if (Number(beginTime) >= Number(endTime)) {
     showToast("请输入有效的时间段");
     return;
   }
@@ -201,7 +198,7 @@ const playSegment = async (beginTime, endTime) => {
 
   // 设置试听链接
   cutAudioUrl.value = URL.createObjectURL(wavBlob);
-  customFileName.value = `${beginTime.value}秒-${endTime.value}秒_${aduioName.value}`;
+  customFileName.value = `[${beginTime}秒~${endTime}秒片段]_${aduioName.value}`;
 };
 
 function audioBufferToWav(buffer) {
