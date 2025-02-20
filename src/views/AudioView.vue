@@ -88,7 +88,7 @@ const download = () => {
   showDialog({
     title: "下载提示：浏览器打开进行下载",
     message: `
-        <a href="${cutAudioUrl.value}" target="_blank">https://myd-website.github.io/audio/</a>
+        <a href="${cutAudioUrl.value}" id="linkText" target="_blank">https://myd-website.github.io/audio/</a>
         <input
           style="width: 100%;"
           class="customFileName"
@@ -110,9 +110,27 @@ const download = () => {
       customFileName.value = inputValue.includes("mp3")
         ? inputValue
         : `${inputValue}.mp3`;
+
+      // 复制内容到剪切板
+      copyWriteText();
+
+      // 下载方法
       cutAudioDown();
     }
   });
+};
+
+// 复制地址
+const copyWriteText = async () => {
+  const linkSrc = "https://myd-website.github.io/audio/";
+
+  const range = document.createRange();
+  range.selectNode(document.querySelector("#linkText"));
+  const selection = window.getSelection();
+  if (selection.rangeCount > 0) selection.removeAllRanges();
+  selection.addRange(range);
+  document.execCommand("Copy");
+  showToast("复制成功");
 };
 
 // 下载剪切后的音频文件
