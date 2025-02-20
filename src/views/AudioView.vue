@@ -52,7 +52,7 @@
 <script setup>
 import dayjs from "dayjs";
 import { ref, onMounted, onBeforeUnmount, watchEffect } from "vue";
-import { showToast, showConfirmDialog } from "vant";
+import { showToast, showConfirmDialog, showDialog } from "vant";
 
 const time = ref("");
 const timer = ref(null);
@@ -65,6 +65,7 @@ const endTime = ref(null);
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const audioBuffer = ref(null);
 const audioPlayer = ref(null);
+const customFileName = ref(null);
 
 onMounted(() => {
   initTime();
@@ -85,29 +86,39 @@ const download = () => {
     message: "确实要下载吗？下载后请前往文件目录查看！！！",
   })
     .then(() => {
-      showToast("下载");
-      const file = files.value[0];
-      downloadFile(file.file);
+      // showToast("下载中");
+      cutAudioDown();
+      // customFileName.value = `${beginTime.value}秒-${endTime.value}秒_${aduioName.value}`;
+
+      // 设置文件名
+      // showDialog({
+      //   title: "请输入文件名称",
+      //   message: `
+      //   <input
+      //     class="customFileName"
+      //     v-model="customFileName"
+      //     type="text"
+      //     colon
+      //     placeholder="请输入文件名称"
+      //   />`,
+      //   allowHtml: true,
+      //   theme: "round-button",
+      // }).then(() => {
+      //   const customFileName =
+      //     document.getElementsByClassName("customFileName")[0].value;
+      // });
     })
     .catch(() => {
       showToast("取消下载");
     });
 };
 
-// 下载file文件
-const downloadFile = async (file) => {
-  if (file) {
-    const blob = new Blob([file]);
-    const fileUrl = window.URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.setAttribute("download", file.name);
-    document.body.appendChild(link);
-    link.click();
-    window.URL.revokeObjectURL(fileUrl);
-    document.body.removeChild(link);
-    return;
-  }
+// 下载剪切后的音频文件
+const cutAudioDown = (wavBlob) => {
+  const downloadLink = document.createElement("a");
+  downloadLink.href = cutAudioUrl.value;
+  downloadLink.download = `${beginTime.value}秒-${endTime.value}秒_${aduioName.value}`;
+  downloadLink.click();
 };
 
 // 文件开始上传
@@ -149,8 +160,107 @@ const loadAudioFile = (file) => {
   reader.readAsArrayBuffer(file);
 };
 
+// 截取片段
+const playSegment = async (beginTime, endTime) => {
+  const fileInput = files.value[0];
+
+  if (!fileInput.file) {
+    showToast("请先选择一个音频文件");
+    return;
+  }
+
+  if (isNaN(beginTime) || isNaN(endTime) || beginTime >= endTime) {
+    showToast("请输入有效的时间段");
+    return;
+  }
+
+  const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  const arrayBuffer = await fileInput.file.arrayBuffer();
+  const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+
+  // 截取指定时间段的音频
+  const clippedBuffer = audioContext.createBuffer(
+    audioBuffer.numberOfChannels,
+    (endTime - beginTime) * audioBuffer.sampleRate,
+    audioBuffer.sampleRate
+  );
+
+  for (let channel = 0; channel < audioBuffer.numberOfChannels; channel++) {
+    const inputChannelData = audioBuffer.getChannelData(channel);
+    const outputChannelData = clippedBuffer.getChannelData(channel);
+    outputChannelData.set(
+      inputChannelData.subarray(
+        beginTime * audioBuffer.sampleRate,
+        endTime * audioBuffer.sampleRate
+      )
+    );
+  }
+
+  // 将音频缓冲区转换为Blob对象
+  const wavBlob = await audioBufferToWav(clippedBuffer);
+
+  // 设置试听链接
+  cutAudioUrl.value = URL.createObjectURL(wavBlob);
+  customFileName.value = `${beginTime.value}秒-${endTime.value}秒_${aduioName.value}`;
+};
+
+function audioBufferToWav(buffer) {
+  let numOfChan = buffer.numberOfChannels,
+    length = buffer.length * numOfChan * 2 + 44,
+    bufferOffset = 0,
+    view = new DataView(new ArrayBuffer(length)),
+    channels = [],
+    i,
+    sample,
+    offset = 0,
+    pos = 0;
+
+  // write WAVE header
+  setUint32(0x46464952);
+  setUint32(length - 8);
+  setUint32(0x45564157);
+
+  setUint32(0x20746d66);
+  setUint32(16);
+  setUint16(1);
+  setUint16(numOfChan);
+  setUint32(buffer.sampleRate);
+  setUint32(buffer.sampleRate * 2 * numOfChan);
+  setUint16(numOfChan * 2);
+  setUint16(16);
+
+  setUint32(0x61746164);
+  setUint32(length - pos - 4);
+
+  for (i = 0; i < buffer.numberOfChannels; i++)
+    channels.push(buffer.getChannelData(i));
+
+  while (pos < length) {
+    for (i = 0; i < numOfChan; i++) {
+      sample = Math.max(-1, Math.min(1, channels[i][bufferOffset]));
+      sample = (0.5 + sample < 0 ? sample * 32768 : sample * 32767) | 0;
+      view.setInt16(pos, sample, true);
+      pos += 2;
+    }
+    bufferOffset++;
+  }
+
+  // create Blob
+  return new Blob([view], { type: "audio/mp3" });
+
+  function setUint16(data) {
+    view.setUint16(pos, data, true);
+    pos += 2;
+  }
+
+  function setUint32(data) {
+    view.setUint32(pos, data, true);
+    pos += 4;
+  }
+}
+
 // 裁剪音频
-const playSegment = async (startTime, endTime) => {
+const playSegment1 = async (startTime, endTime) => {
   if (!audioBuffer.value) return;
 
   // const response = await fetch(audioUrl.value);
@@ -190,30 +300,20 @@ const playSegment = async (startTime, endTime) => {
     clippedData.length,
     audioContext.sampleRate
   );
-  
+
   newAudioBuffer.getChannelData(0).set(clippedData);
   const audioData = newAudioBuffer.getChannelData(0);
   const audioBlob = new Blob([audioData], { type: "audio/mp3" });
   cutAudioUrl.value = URL.createObjectURL(audioBlob);
   // cutAudioUrl.value = audioUrl.value;
-
-  // cutAudioDown();
 };
-
-// 下载剪切后的音频文件
-async function cutAudioDown() {
-  const downloadLink = document.createElement("a");
-  downloadLink.href = cutAudioUrl.value;
-  downloadLink.download = `${aduioName.value}`;
-  downloadLink.click();
-}
 
 onBeforeUnmount(() => {
   clearInterval(timer);
 });
 </script>
 
-<style scope lang="less">
+<style scoped lang="less">
 .upload-box {
   background: #ffac00;
   padding: 10px;
