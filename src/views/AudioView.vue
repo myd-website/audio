@@ -81,6 +81,10 @@ const initTime = () => {
 
 // 下载事件处理
 const download = () => {
+  if(!customFileName.value) {
+      showToast("片段不能为空");
+    return;
+  }
   showDialog({
     title: "下载提示",
     message: `
