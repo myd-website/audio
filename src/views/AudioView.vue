@@ -81,13 +81,14 @@ const initTime = () => {
 
 // 下载事件处理
 const download = () => {
-  if(!customFileName.value) {
-      showToast("片段不能为空");
+  if (!customFileName.value) {
+    showToast("片段不能为空");
     return;
   }
   showDialog({
-    title: "下载提示",
+    title: "下载提示：浏览器打开进行下载",
     message: `
+        <a href="${cutAudioUrl.value}" target="_blank">https://myd-website.github.io/audio/</a>
         <input
           style="width: 100%;"
           class="customFileName"
@@ -260,8 +261,8 @@ function audioBufferToWav(buffer) {
   }
 }
 
-// 裁剪音频
-const playSegment1 = async (startTime, endTime) => {
+// 裁剪音频(弃用)
+const playSegment_Deprecated = async (startTime, endTime) => {
   if (!audioBuffer.value) return;
 
   // const response = await fetch(audioUrl.value);
