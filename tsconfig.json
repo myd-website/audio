@@ -1,30 +1,31 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "types": ["vite/client"],
-    "allowJs": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "skipLibCheck": true,
-    "paths": {
+    "baseUrl": "./", // 根目录
+    "target": "ES2020", // 目标语言版本
+    "useDefineForClassFields": true, // TypeScript 将使用与 ECMAScript 规范一致的方式来处理类字段，包括字段的初始化顺序、如何处理子类覆盖父类字段等
+    "module": "ESNext", // 模块类型
+    "types": ["vite/client"], // 声明文件
+    "allowJs": true, // 允许编译 JavaScript 文件
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // 指定要包含在编译中的库文件
+    "skipLibCheck": true, // 跳过库文件的类型检查
+    "paths": { // 路径别名
       "@/*": ["src/*"]
     },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "preserve",
+    "allowImportingTsExtensions": true, // 允许导入 .ts 文件
+    "resolveJsonModule": true, // 允许导入 JSON 文件
+    "isolatedModules": true, // 将每个文件作为单独的模块
+    "noEmit": true, // 不生成输出文件
+    "jsx": "preserve", // 保留 JSX 语法
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "strict": true, // 使用严格的类型检查
+    "noImplicitAny": false, // 是否在表达式和声明上有隐含的any类型时报错
+    "noUnusedLocals": true, // 是否有未使用的局部变量
+    "noUnusedParameters": true, // 是否有未使用的参数
+    "noFallthroughCasesInSwitch": true, // 是否在switch语句中有未使用的case
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": [
