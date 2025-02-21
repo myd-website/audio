@@ -16,6 +16,7 @@
       <div class="calc-title">
         <span>{{ defaultCalc.name }}题目：</span>
         <span class="AI" @click="handleAnalysis">分析</span>
+        <span class="clear" @click="resetAll">清空</span>
       </div>
       <div class="calc-question">
         <van-field class="input" v-model="startNumber" type="number" />
@@ -63,13 +64,14 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, watch } from "vue";
 
 const customText = ref("好好学习，天天向上");
 const defaultCalc = ref(null);
 const startNumber = ref(null);
 const endNumber = ref(null);
 const answerNumber = ref(null);
+const trigger = ref(false);
 
 const quotes = [
   "学海无涯，奋斗不止。",
@@ -111,6 +113,12 @@ const calculation = [
   },
 ];
 
+watch([startNumber, endNumber], ([newStart, newEnd]) => {
+  if (newStart && newEnd) {
+    answerNumber.value = null;
+  }
+});
+
 onMounted(() => {
   showRandomQuote();
 });
@@ -125,6 +133,7 @@ const handleCalculation = (item) => {
   console.log(item, "item");
   defaultCalc.value = item;
   answerNumber.value = null;
+  trigger.value = false;
 };
 
 // 分析题目并计算结果
@@ -132,10 +141,19 @@ const handleAnalysis = () => {
   console.log(defaultCalc.value, "defaultCalc");
   console.log(startNumber.value, "startNumber");
   console.log(endNumber.value, "endNumber");
+  trigger.value = true;
   answerNumber.value = defaultCalc.value.fn(
     Number(startNumber.value),
     Number(endNumber.value)
   );
+};
+
+// 重置所有输入框
+const resetAll = () => {
+  startNumber.value = null;
+  endNumber.value = null;
+  answerNumber.value = null;
+  trigger.value = false;
 };
 </script>
 <style scoped lang="less">
@@ -177,6 +195,17 @@ const handleAnalysis = () => {
       border-radius: 10px;
       text-align: center;
       padding: 5px 2px;
+    }
+    .clear {
+      display: inline-block;
+      background-color: #e384ff;
+      color: #fff;
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+      text-align: center;
+      padding: 5px 2px;
+      margin-left: 0.2rem;
     }
   }
   .calc-question {

@@ -13,6 +13,9 @@
       />
     </div>
 
+    <!-- 测试子组建引入 -->
+    <!-- <child /> -->
+
     <!-- 显示上传的 mp3 文件信息 -->
     <div v-if="audioUrl" class="audio-resouse">
       <span>{{ aduioName }}</span>
@@ -53,6 +56,7 @@
 import dayjs from "dayjs";
 import { ref, onMounted, onBeforeUnmount, watchEffect } from "vue";
 import { showToast, showConfirmDialog, showDialog } from "vant";
+import child from "./child.vue";
 
 const time = ref("");
 const timer = ref(null);

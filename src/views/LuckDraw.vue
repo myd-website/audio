@@ -8,7 +8,7 @@
           :key="i"
           :class="{ anim: animate && i == 0 }"
         >
-          <span class="lkq-name">{{ item.phone }}</span>
+          <span class="lkq-name">{{ item.classmate }}</span>
         </li>
       </ul>
     </div>
@@ -79,16 +79,13 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { showToast } from "vant";
-import {
-  defineComponent,
-  ref,
-  reactive,
-  computed,
-  onMounted,
-  nextTick,
-} from "vue";
+import { ref, reactive, computed, onMounted, nextTick } from "vue";
+
+defineOptions({
+  name: "LuckDraw",
+})
 
 interface AwardTypes {
   id: number;
@@ -96,166 +93,174 @@ interface AwardTypes {
   name: string;
 }
 
-export default defineComponent({
-  name: "LuckDraw",
-  setup() {
-    const initSpeed = 200, // 初始速度
-      diff = 20, // 速度变化的值，值越大，变化地越快
-      minRotateTime = 2.5, //抽奖动画最少转动时间
-      rotateTime = 5; // 抽奖动画转动时间
+const initSpeed = 200, // 初始速度
+  diff = 20, // 速度变化的值，值越大，变化地越快
+  minRotateTime = 2.5, //抽奖动画最少转动时间
+  rotateTime = 5; // 抽奖动画转动时间
 
-    let speed = 0, // 变化速度
-      award: AwardTypes, // 抽中的奖品
-      time = 0, // 记录开始抽奖的时间
-      isRuningLucky = false; // 是否正在抽奖
-    const animate = ref(false), //中奖名单滚动动画控制
-      current = ref(0), // 当前转动的位置
-      list = reactive([
-        // 中奖号码
-        {
-          phone: "186****2336抽中0元话费",
-        },
-        {
-          phone: "166****2336抽中1元话费",
-        },
-        {
-          phone: "156****2336抽中2元话费",
-        },
-      ]),
-      awards = reactive([
-        // 奖品列表
-        {
-          id: 1,
-          runId: 0,
-          name: "潘多拉音箱",
-        },
-        {
-          id: 2,
-          runId: 1,
-          name: "小酷M1耳机",
-        },
-        {
-          id: 3,
-          runId: 2,
-          name: "酷狗VIP会员",
-        },
-        {
-          id: 4,
-          runId: 7,
-          name: "8元话费",
-        },
-        {
-          id: 5,
-          runId: 3,
-          name: "12元话费",
-        },
-        {
-          id: 6,
-          runId: 6,
-          name: "谢谢参与1",
-        },
-        {
-          id: 7,
-          runId: 5,
-          name: "4元话费",
-        },
-        {
-          id: 8,
-          runId: 4,
-          name: "谢谢参与2",
-        },
-      ]),
-      awardList = computed<typeof awards>(() => {
-        const newArr = JSON.parse(JSON.stringify(awards));
-        newArr.splice(4, 0, { name: "drawBtn" });
-        return newArr;
-      });
-    const scroll = () => {
-      // 中奖名单滚动
-      animate.value = true;
-      setTimeout(() => {
-        list.push(list[0]);
-        list.shift();
-        animate.value = false;
-      }, 500);
-    };
-    const move = () => {
-      const timer = setTimeout(() => {
-        current.value++;
-        if (current.value > 7) current.value = 0;
-        // 若抽中的奖品id存在，并且转动时间大于2.5秒后，则开始减速转动
-        if (award?.id && (Date.now() - time) / 1000 > minRotateTime) {
-          console.log("奖品出来了");
-          speed += diff; // 转动减速
-          // 若转动时间超过5秒，等到当前格子是对应奖品id数组，则停下来
-          if (
-            (Date.now() - time) / 1000 > rotateTime &&
-            award.runId === current.value
-          ) {
-            clearTimeout(timer);
-            setTimeout(() => {
-              isRuningLucky = false;
-              // 这里写停下来要执行的操作（弹出奖品框之类的）
-              const getAward: AwardTypes | undefined = awards.find(
-                (v) => v.id === award.id
-              );
-              if (getAward) {
-                console.log(
-                  `您抽中的奖品是${getAward.name},奖品id是${getAward.id}`
-                );
-                showToast(`您抽中的奖品是${getAward.name}`);
-              }
-            }, 400);
-            return;
+let speed = 0, // 变化速度
+  award: AwardTypes, // 抽中的奖品
+  time = 0, // 记录开始抽奖的时间
+  isRuningLucky = false; // 是否正在抽奖
+
+const animate = ref(false); //中奖名单滚动动画控制
+const current = ref(0); // 当前转动的位置
+const list = reactive([
+  // 中奖名单
+  {
+    classmate: "赵同学抽中荧光笔一盒",
+  },
+  {
+    classmate: "钱同学抽中便利贴一包",
+  },
+  {
+    classmate: "孙同学抽中钥匙链一个",
+  },
+  {
+    classmate: "李同学抽中徽章一枚",
+  },
+  {
+    classmate: "周同学抽中漫画一册",
+  },
+  {
+    classmate: "吴同学抽中游乐园门票一张",
+  },
+  {
+    classmate: "郑同学抽中电影票一张",
+  },
+  {
+    classmate: "王同学抽中便利贴一包",
+  },
+]);
+const awards = reactive([
+  // 奖品列表
+  {
+    id: 1,
+    runId: 0,
+    name: "荧光笔一盒",
+  },
+  {
+    id: 2,
+    runId: 1,
+    name: "便利贴一包",
+  },
+  {
+    id: 3,
+    runId: 2,
+    name: "钥匙链一个",
+  },
+  {
+    id: 4,
+    runId: 3,
+    name: "徽章一枚",
+  },
+  {
+    id: 5,
+    runId: 4,
+    name: "漫画一册",
+  },
+  {
+    id: 6,
+    runId: 5,
+    name: "游乐园门票一张",
+  },
+  {
+    id: 7,
+    runId: 6,
+    name: "电影票一张",
+  },
+  {
+    id: 8,
+    runId: 7,
+    name: "谢谢参与",
+  },
+]);
+const awardList = computed<typeof awards>(() => {
+  const newArr = JSON.parse(JSON.stringify(awards));
+  newArr.splice(4, 0, { name: "drawBtn" });
+  return newArr;
+});
+
+// 中奖名单滚动
+const scroll = () => {
+  animate.value = true;
+  setTimeout(() => {
+    list.push(list[0]);
+    list.shift();
+    animate.value = false;
+  }, 500);
+};
+
+// 开始抽奖
+const move = () => {
+  const timer = setTimeout(() => {
+    current.value++;
+    if (current.value > 7) current.value = 0;
+    // 若抽中的奖品id存在，并且转动时间大于2.5秒后，则开始减速转动
+    if (award?.id && (Date.now() - time) / 1000 > minRotateTime) {
+      console.log("奖品出来了");
+      speed += diff; // 转动减速
+      // 若转动时间超过5秒，等到当前格子是对应奖品id数组，则停下来
+      if (
+        (Date.now() - time) / 1000 > rotateTime &&
+        award.runId === current.value
+      ) {
+        clearTimeout(timer);
+        setTimeout(() => {
+          isRuningLucky = false;
+          // 这里写停下来要执行的操作（弹出奖品框之类的）
+          const getAward: AwardTypes | undefined = awards.find(
+            (v) => v.id === award.id
+          );
+          if (getAward) {
+            console.log(
+              `您抽中的奖品是${getAward.name},奖品id是${getAward.id}`
+            );
+            showToast(`您抽中的奖品是${getAward.name}`);
           }
-          // 若抽中的奖品不存在，则加速转动
-        } else {
-          if (speed >= 50) speed -= diff; // 转动加速
-        }
-        move();
-      }, speed);
-    };
-    const drawAward = () => {
-      // 请求接口，模拟一个抽奖数据(假设请求时间为2s)
-      setTimeout(() => {
-        const awardId = Math.ceil(Math.random() * 8); //随机奖品
-        const getAward = awards.find((v) => v.id === awardId);
-        if (getAward) award = getAward;
-        console.log("返回的抽奖结果是", award);
-      }, 2000);
-      move();
-    };
-    const handleStart = () => {
-      // 开始抽奖
-      if (isRuningLucky) {
-        console.log("正在抽奖中...");
+        }, 400);
         return;
       }
-      if (isNaN(Number(initSpeed))) {
-        return false;
-      }
-      speed = initSpeed;
-      // 开始抽奖
-      isRuningLucky = true;
-      time = Date.now();
-      drawAward();
-      console.log("开始抽奖");
-      return;
-    };
+      // 若抽中的奖品不存在，则加速转动
+    } else {
+      if (speed >= 50) speed -= diff; // 转动加速
+    }
+    move();
+  }, speed);
+};
 
-    onMounted(async () => {
-      await nextTick();
-      setInterval(scroll, 2000);
-    });
-    return {
-      awards,
-      awardList,
-      animate,
-      list,
-      current,
-      handleStart,
-    };
-  },
+// 点击抽奖按钮
+const drawAward = () => {
+  // 请求接口，模拟一个抽奖数据(假设请求时间为2s)
+  setTimeout(() => {
+    const awardId = Math.ceil(Math.random() * 8); //随机奖品
+    const getAward = awards.find((v) => v.id === awardId);
+    if (getAward) award = getAward;
+    console.log("返回的抽奖结果是", award);
+  }, 2000);
+  move();
+};
+
+// 开始转动
+const handleStart = () => {
+  if (isRuningLucky) {
+    console.log("正在抽奖中...");
+    return;
+  }
+  if (isNaN(Number(initSpeed))) {
+    return false;
+  }
+  speed = initSpeed;
+  isRuningLucky = true;
+  time = Date.now();
+  drawAward();
+  console.log("开始抽奖");
+  return;
+};
+
+onMounted(async () => {
+  await nextTick();
+  setInterval(scroll, 2000);
 });
 </script>
 
@@ -331,6 +336,7 @@ export default defineComponent({
     }
 
     .awards-item {
+      text-align: center;
       width: 32%;
       height: 32%;
       margin: 0.66%;
@@ -348,6 +354,9 @@ export default defineComponent({
       border-color: #ffffff;
       background-color: #ffffff;
       transition: border-color 0.1s;
+      div {
+        padding: 0 0.1rem;
+      }
     }
 
     .awards-item-draw {

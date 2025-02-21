@@ -7,6 +7,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 export default defineConfig({
   base: './',
   server: {
+    open: true,
     host: true,
     port: 8090,
   },
