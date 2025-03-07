@@ -1,1 +1,1 @@
-import{aI as t}from"./index.js";const n=t("main",{state:()=>({counter:0,name:"Eduardo",selectAddress:null,undoneTodoList:[{id:Date.now(),name:"吃饭"}]}),getters:{doubleCount:e=>e.counter*2,doubleCountPlusOne(){return this.doubleCount*2+1}},actions:{reset(){this.counter=0}}});export{n as u};
+import{aJ as t}from"./index.js";const n=t("main",{state:()=>({counter:0,name:"Eduardo",selectAddress:null,undoneTodoList:[{id:Date.now(),name:"吃饭"}]}),getters:{doubleCount:e=>e.counter*2,doubleCountPlusOne(){return this.doubleCount*2+1}},actions:{reset(){this.counter=0}}});export{n as u};
