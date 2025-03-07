@@ -5,6 +5,7 @@
       ref="audioPlayer"
       :src="audioUrl"
       @timeupdate="onTimeUpdate"
+      @ended="onTimeEnded"
       @loadedmetadata="onLoadedMetadata"
     />
 
@@ -16,7 +17,7 @@
     </div>
 
     <!-- 进度条 -->
-    <div
+    <!-- <div
       class="progress-bar"
       @touchstart="onTouchStart"
       @touchmove="onTouchMove"
@@ -26,6 +27,18 @@
         class="progress"
         :style="{ width: progress + '%', '--after-width': progress + '%' }"
       ></div>
+    </div> -->
+
+    <!-- 滑块用于调整播放进度 -->
+    <div class="progress-bar">
+      <van-slider
+        v-model="progress"
+        bar-height="6px"
+        button-size="15px"
+        active-color="#fff"
+        inactive-color="#7b8458"
+        @change="onSliderChange"
+      />
     </div>
 
     <!-- 播放时间 -->
@@ -63,7 +76,7 @@ const progress = ref(0); // 播放进度百分比
 const volume = ref(1); // 音量
 const isDragging = ref(false); // 是否正在拖动进度条
 const afterWidth = ref(progress.value); // 进度值的宽度
-const storageVolume = ref(1); // 默认为1 
+const storageVolume = ref(1); // 默认为1
 
 // 播放/暂停
 const togglePlay = () => {
@@ -78,9 +91,18 @@ const togglePlay = () => {
 // 更新播放时间和进度
 const onTimeUpdate = () => {
   if (!isDragging.value) {
-    currentTime.value = audioPlayer.value.currentTime;
+    currentTime.value = audioPlayer.value?.currentTime;
     progress.value = (currentTime.value / duration.value) * 100;
   }
+};
+
+// 音频播放结束
+const onTimeEnded = () => {
+  console.log('播放完')
+  isPlaying.value = true; // 更新播放状态
+  togglePlay();
+  // currentTime.value = 0; // 重置播放时间
+  // progress.value = 0; // 重置进度条
 };
 
 // 加载音频元数据
@@ -112,6 +134,14 @@ const setMute = () => {
   }
 };
 
+// 拖动滑块时更新播放时间
+const onSliderChange = (value) => {
+  isPlaying.value = true;
+  togglePlay();
+  audioPlayer.value.currentTime = (value / 100) * duration.value;
+  progress.value = value; // 更新滑块位置
+};
+
 // 触摸事件处理
 let startX = 0;
 let startProgress = 0;
@@ -123,10 +153,18 @@ const onTouchStart = (event) => {
 };
 
 const onTouchMove = (event) => {
+  event.preventDefault();
+  if (event.target.clientWidth === 0) return;
+
   if (isDragging.value) {
-    const deltaX = event.touches[0].clientX - startX;
-    const progressDelta = (deltaX / event.target.clientWidth) * 100;
-    progress.value = Math.min(100, Math.max(0, startProgress + progressDelta));
+    requestAnimationFrame(() => {
+      const deltaX = event.touches[0].clientX - startX;
+      const progressDelta = (deltaX / event.target.clientWidth) * 100;
+      progress.value = Math.min(
+        100,
+        Math.max(0, startProgress + progressDelta)
+      );
+    });
   }
 };
 

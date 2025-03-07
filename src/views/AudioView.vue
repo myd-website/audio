@@ -21,7 +21,10 @@
       <span>{{ aduioName }}</span>
       <!-- <audio :src="audioUrl" controls :autoplay="false" /> -->
 
-      <div style="width: 100%; padding: 0 0.3rem">
+      <div class="music-box">
+        <div class="close" @click="beforeDelete">
+          <van-icon name="clear" />
+        </div>
         <AudioPlay :audioUrl="audioUrl" />
       </div>
 
@@ -369,6 +372,17 @@ onBeforeUnmount(() => {
   gap: 20px;
   background: url("../assets/music_bg.avif") no-repeat center;
   padding-bottom: 1rem;
+  .music-box {
+    width: 100%;
+    padding: 0 0.3rem;
+    position: relative;
+    .close {
+      position: absolute;
+      right: 7%;
+      top: 3%;
+      z-index: 10;
+    }
+  }
 }
 .audition {
   display: flex;
