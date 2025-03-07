@@ -1,7 +1,7 @@
 <template>
   <div class="home text-center">
     <van-notice-bar left-icon="volume-o" :text="`当前时间：${time}`" />
-    <div class="upload-box">
+    <div class="upload-box" v-if="!audioUrl">
       <p class="mg10">请上传音频文件：</p>
       <van-uploader
         v-model="files"
@@ -19,7 +19,11 @@
     <!-- 显示上传的 mp3 文件信息 -->
     <div v-if="audioUrl" class="audio-resouse">
       <span>{{ aduioName }}</span>
-      <audio :src="audioUrl" controls :autoplay="false" />
+      <!-- <audio :src="audioUrl" controls :autoplay="false" /> -->
+
+      <div style="width: 100%; padding: 0 0.3rem">
+        <AudioPlay :audioUrl="audioUrl" />
+      </div>
 
       <van-cell-group inset>
         <van-field
@@ -57,6 +61,7 @@ import dayjs from "dayjs";
 import { ref, onMounted, onBeforeUnmount, watchEffect } from "vue";
 import { showToast, showConfirmDialog, showDialog } from "vant";
 import child from "./child.vue";
+import AudioPlay from "./audioPlay.vue";
 
 const time = ref("");
 const timer = ref(null);
@@ -202,11 +207,28 @@ const playSegment = async (beginTime, endTime) => {
   const arrayBuffer = await fileInput.file.arrayBuffer();
   const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
 
-  // 截取指定时间段的音频
+  /**
+   * @describe 通过以下方法可以有效降低音频文件的大小
+   * 1. numberOfChannels：指定新缓冲区中的声道数（如单声道为 1，立体声为 2）。必须是一个正整数。
+   * 2. length：定义了新缓冲区的样本帧数量。这决定了音频片段的时间长度，取决于采样率。【采样率越高，音频质量越好，但文件大小也会增加。】
+   * 3. sampleRate：指定了每秒的样本数量，单位是赫兹 (Hz)。常见的值包括 44100(CD质量)、48000(DVD质量)、96000(高保真音频)
+   * 4. 降低音频文件大小
+   *  - 降低采样率。
+   *  - 降低比特率。
+   *  - 减少声道数（立体声转单声道）。
+   *  - 裁剪音频。
+   *  - 使用更高效的音频格式（如 MP3、OGG、AAC）。
+   *  - 动态调整音频质量。
+   *
+   */
+  const numberOfChannels = 2; // 单声道 audioBuffer.numberOfChannels
+  const length = (endTime - beginTime) * audioBuffer.sampleRate; // 音频片段的长度，单位是样本帧。(endTime - beginTime) * audioBuffer.sampleRate
+  const sampleRate = audioBuffer.sampleRate;
+
   const clippedBuffer = audioContext.createBuffer(
-    audioBuffer.numberOfChannels,
-    (endTime - beginTime) * audioBuffer.sampleRate,
-    audioBuffer.sampleRate
+    numberOfChannels,
+    length,
+    sampleRate
   );
 
   for (let channel = 0; channel < audioBuffer.numberOfChannels; channel++) {
@@ -270,7 +292,7 @@ function audioBufferToWav(buffer) {
   }
 
   // create Blob
-  return new Blob([view], { type: "audio/mp3" });
+  return new Blob([view], { type: "audio/wav" });
 
   function setUint16(data) {
     view.setUint16(pos, data, true);
@@ -314,11 +336,7 @@ const playSegment_Deprecated = async (startTime, endTime) => {
   }
 
   const clippedData = channelData.subarray(startSample, endSample); // 剪切音频数据
-  /**
-   * 1. numberOfChannels：指定新缓冲区中的声道数（如单声道为 1，立体声为 2）。必须是一个正整数。
-   * 2. length：定义了新缓冲区的样本帧数量。这决定了音频片段的时间长度，取决于采样率。
-   * 3. sampleRate：指定了每秒的样本数量，单位是赫兹 (Hz)。常见的值包括 44100、48000 等。
-   */
+  // 压缩文件
   const newAudioBuffer = audioContext.createBuffer(
     1,
     clippedData.length,
@@ -344,17 +362,19 @@ onBeforeUnmount(() => {
 }
 .audio-resouse {
   width: 100%;
-  margin: 30px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  background: url("../assets/music_bg.avif") no-repeat center;
+  padding-bottom: 1rem;
 }
 .audition {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
 }
 
 :deep(.van-field__body) {
@@ -362,5 +382,6 @@ onBeforeUnmount(() => {
 }
 :deep(.van-cell-group .van-cell) {
   align-items: center;
+  background: #9ba66c;
 }
 </style>
