@@ -3,9 +3,9 @@
     <h3 class="mg10">Todo List</h3>
     <div class="flex flex-center">
       <input ref="todoinput" v-focus="200" v-model="addTodoName" />
-      <van-button @click="addTodoAction" size="small" type="primary">新增清单</van-button>
+      <van-button @click="addTodoAction" size="small" type="primary" style="margin-left: 0.9rem;">新增清单</van-button>
     </div>
-    <div>
+    <div v-if="undoneTodoList.length > 0">
       <h3 class="mg10">任务清单</h3>
       <van-cell-group>
         <van-cell :key="item.id" v-for="item in undoneTodoList">
@@ -13,13 +13,13 @@
             <span>---{{ item.name }}---</span>
           </template>
           <template #right-icon>
-            <van-button @click="doneTodo(item)" size="small" type="success">已完成</van-button>
+            <van-button @click="doneTodo(item)" size="small" type="success" style="margin-right: 0.1rem;">已完成</van-button>
             <van-button @click="delTodoAction(item, true)" size="small" type="danger">删除</van-button>
           </template>
         </van-cell>
       </van-cell-group>
     </div>
-    <div class="done-todo-area">
+    <div v-if="completedTodoList.length > 0" class="done-todo-area">
       <h3 class="mg10">已完成的任务清单</h3>
       <van-cell-group>
         <van-cell :key="item.id" v-for="item in completedTodoList">
@@ -42,7 +42,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, reactive, getCurrentInstance } from "vue";
+import { ref, reactive, getCurrentInstance, onMounted } from "vue";
 import { useRouter } from 'vue-router'
 import { useMainStore } from '@/pinia'
 
@@ -53,6 +53,12 @@ const CurrentInstance = getCurrentInstance();
 const todoinput = ref()
 const addTodoName = ref(""); // input 绑定值
 
+onMounted(() => {
+   if (document.activeElement) {
+        document.activeElement.blur();
+    }
+})
+
 // 获取 pinia 任务清单列表
 const undoneTodoList = mainStore.undoneTodoList
 // 调用 pinia 的 actions 方法
@@ -60,10 +66,10 @@ const undoneTodoList = mainStore.undoneTodoList
 
 // 已完成的清单列表
 const completedTodoList = reactive([
-  {
-    id: Date.now(),
-    name: "睡觉",
-  },
+  // {
+  //   id: Date.now(),
+  //   name: "睡觉",
+  // },
 ]);
 
 const addTodoAction = () => {

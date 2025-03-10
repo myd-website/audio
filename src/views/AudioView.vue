@@ -1,16 +1,25 @@
 <template>
   <div class="home text-center">
     <van-notice-bar left-icon="volume-o" :text="`当前时间：${time}`" />
-    <div class="upload-box" v-if="!audioUrl">
-      <p class="mg10">请上传音频文件：</p>
-      <van-uploader
-        v-model="files"
-        :max-count="1"
-        :before-read="beforeRead"
-        :after-read="afterRead"
-        :before-delete="beforeDelete"
-        accept="audio/mp3"
-      />
+    <div v-if="!audioUrl">
+      <div class="upload-box">
+        <p class="mg10">请上传音频文件：</p>
+        <van-uploader
+          v-model="files"
+          :max-count="1"
+          :before-read="beforeRead"
+          :after-read="afterRead"
+          :before-delete="beforeDelete"
+          accept="audio/mp3"
+        />
+      </div>
+
+      <div class="upload-btn">
+        <a href="http://www.eev3.com/" target="_blank">音乐库</a>
+        <a href="http://www.4c44.com/slist/huayu/nan.html" target="_blank"
+          >音乐库</a
+        >
+      </div>
     </div>
 
     <!-- 测试子组建引入 -->
@@ -18,14 +27,14 @@
 
     <!-- 显示上传的 mp3 文件信息 -->
     <div v-if="audioUrl" class="audio-resouse">
-      <span>{{ aduioName }}</span>
+      <!-- <span>{{ aduioName }}</span> -->
       <!-- <audio :src="audioUrl" controls :autoplay="false" /> -->
 
       <div class="music-box">
         <div class="close" @click="beforeDelete">
           <van-icon name="clear" />
         </div>
-        <AudioPlay :audioUrl="audioUrl" />
+        <AudioPlay :audioUrl="audioUrl" :aduioName="aduioName" />
       </div>
 
       <van-cell-group inset>
@@ -50,8 +59,9 @@
       >
 
       <p class="audition">
-        试听：
-        <audio :src="cutAudioUrl" controls autoplay="false"></audio>
+        <!-- 试听： -->
+        <!-- <audio :src="cutAudioUrl" controls autoplay="false"></audio> -->
+        <AudioPlay :audioUrl="cutAudioUrl" :aduioName="customFileName" />
       </p>
 
       <van-button type="success" @click="download">下载</van-button>
@@ -363,6 +373,22 @@ onBeforeUnmount(() => {
   background: #ffac00;
   padding: 10px;
 }
+.upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  a {
+    color: black;
+    width: 1rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0.2rem 0.2rem;
+    background: #ffac00;
+    border-radius: 0.1rem;
+  }
+}
 .audio-resouse {
   width: 100%;
   display: flex;
@@ -372,6 +398,7 @@ onBeforeUnmount(() => {
   gap: 20px;
   background: url("../assets/music_bg.avif") no-repeat center;
   padding-bottom: 1rem;
+  padding-top: 0.5rem;
   .music-box {
     width: 100%;
     padding: 0 0.3rem;
@@ -385,14 +412,14 @@ onBeforeUnmount(() => {
   }
 }
 .audition {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
+  width: 100%;
+  padding: 0 0.3rem;
 }
 
 :deep(.van-field__body) {
-  border: 1px solid black;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0 10px;
 }
 :deep(.van-cell-group .van-cell) {
   align-items: center;

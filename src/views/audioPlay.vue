@@ -1,5 +1,6 @@
 <template>
   <div class="audio-player">
+    <span class="audio-name">{{ aduioName }}</span>
     <!-- 音频播放器 -->
     <audio
       ref="audioPlayer"
@@ -66,6 +67,7 @@ import { ref, onMounted, watch } from "vue";
 
 defineProps({
   audioUrl: String,
+  aduioName: String,
 });
 
 const audioPlayer = ref(null); // 音频元素
@@ -98,7 +100,7 @@ const onTimeUpdate = () => {
 
 // 音频播放结束
 const onTimeEnded = () => {
-  console.log('播放完')
+  console.log("播放完");
   isPlaying.value = true; // 更新播放状态
   togglePlay();
   // currentTime.value = 0; // 重置播放时间
@@ -178,7 +180,7 @@ onMounted(() => {
 });
 </script>
 
-<style scoped>
+<style scoped lang="less">
 .audio-player {
   display: flex;
   flex-direction: column;
@@ -190,60 +192,63 @@ onMounted(() => {
   background: linear-gradient(to right top, #ecfe56aa, #f2ff8a94);
   backdrop-filter: blur(12px);
   border: 1px solid #f0f0f025;
-}
+  .audio-name {
+    margin: 0 0 0.1rem;
+  }
 
-.play-btn {
-  font-size: 0.7rem;
-  color: #d2f2c5;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-}
+  .play-btn {
+    font-size: 0.7rem;
+    color: #d2f2c5;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
-.progress-bar {
-  width: 100%;
-  height: 6px;
-  background-color: #33333355;
-  border-radius: 0.1rem;
-  margin: 20px 0;
-  position: relative;
-  cursor: pointer;
-}
+  .progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: #33333355;
+    border-radius: 0.1rem;
+    margin: 20px 0;
+    position: relative;
+    cursor: pointer;
+  }
 
-.progress::after {
-  content: "";
-  background: #fff;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  left: calc(var(--after-width, 0%) - 1px);
-  z-index: 1000;
-  display: block;
-  position: absolute;
-  top: 50%;
-  transform: translatey(-50%);
-  transition: left 0.1sease-in-out;
-  flex-shrink: 0px;
-}
+  .progress::after {
+    content: "";
+    background: #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    left: calc(var(--after-width, 0%) - 1px);
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    transition: left 0.1sease-in-out;
+    flex-shrink: 0px;
+  }
 
-.progress {
-  height: 100%;
-  background-color: #fff;
-  border-radius: 0.1rem 0 0 0.1rem;
-}
+  .progress {
+    height: 100%;
+    background-color: #fff;
+    border-radius: 0.1rem 0 0 0.1rem;
+  }
 
-.time-display {
-  font-size: 14px;
-  color: #333;
-  margin-bottom: 20px;
-}
+  .time-display {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
 
-.volume-control {
-  width: 100%;
-}
+  .volume-control {
+    width: 100%;
+  }
 
-input[type="range"] {
-  width: 100%;
-  height: 6px;
+  input[type="range"] {
+    width: 100%;
+    height: 6px;
+  }
 }
 </style>

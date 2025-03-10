@@ -208,7 +208,17 @@ input {
 }
 
 .pd-nav {
-  padding-top: 46px;
+  .van-nav-bar__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    .van-nav-bar__arrow {
+      position: absolute;
+      left: 3%;
+      top: 35%;
+    }
+  }
 }
 
 .fade-enter-active, .fade-leave-active {

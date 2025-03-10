@@ -1,6 +1,6 @@
 import { defineComponent, ref, reactive, computed, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
-import { Form, Field, NavBar, Button, Dialog, Cell, Switch, showToast } from 'vant';
+import { Form, Field, NavBar, Button, Dialog, Cell, Switch, showToast, showLoadingToast } from 'vant';
 import { openLoading, closeLoading } from '@/components/Loading';
 import { getLocalStorage, setLocalStorage } from '@/utils/storage';
 import { AddressInfo } from './address';
@@ -69,7 +69,12 @@ export default defineComponent({
       vanForm.value
         .validate()
         .then(() => {
-          openLoading('正在保存');
+          // openLoading('正在保存');
+          showLoadingToast({
+            message: '加载中...',
+            forbidClick: true,
+            loadingType: 'spinner',
+          });
           console.log('submit', form);
           let addressList = getLocalStorage('addressList');
           if (addressList && Array.isArray(addressList)) {
@@ -90,7 +95,7 @@ export default defineComponent({
           }
           setLocalStorage('addressList', addressList);
           setTimeout(() => {
-            closeLoading();
+            // closeLoading();
             showToast('保存成功');
             routerBack();
           }, 1000);

@@ -111,7 +111,7 @@ export default defineComponent(() => {
 
   return () => (
     <div class="pd-nav">
-      <NavBar fixed title="聊天室" left-arrow onClick-left={onClickLeft} />
+      <NavBar fixed title="聊天室" left-arrow onClick={onClickLeft} />
       {messageDom()}
       {answerDom()}
     </div>
