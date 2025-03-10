@@ -1,7 +1,7 @@
 import { defineComponent, ref, reactive, computed, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { Form, Field, NavBar, Button, Dialog, Cell, Switch, showToast, showLoadingToast } from 'vant';
-import { openLoading, closeLoading } from '@/components/Loading';
+// import { openLoading, closeLoading } from '@/components/Loading';
 import { getLocalStorage, setLocalStorage } from '@/utils/storage';
 import { AddressInfo } from './address';
 import CityPicker from '@/components/city-picker';

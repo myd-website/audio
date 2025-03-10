@@ -66,10 +66,10 @@ const undoneTodoList = mainStore.undoneTodoList
 
 // 已完成的清单列表
 const completedTodoList = reactive([
-  // {
-  //   id: Date.now(),
-  //   name: "睡觉",
-  // },
+  {
+    id: '', // Date.now(),
+    name: '', //"睡觉",
+  },
 ]);
 
 const addTodoAction = () => {

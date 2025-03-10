@@ -9,10 +9,10 @@ export const useMainStore = defineStore('main', {
     name: 'Eduardo',
     selectAddress: null,
     undoneTodoList: [
-      // {
-      //   id: Date.now(),
-      //   name: '吃饭',
-      // },
+      {
+        id: '', // Date.now(),
+        name: '', // '吃饭',
+      },
     ],
   }),
   // optional getters
