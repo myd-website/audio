@@ -54,9 +54,10 @@ const todoinput = ref()
 const addTodoName = ref(""); // input 绑定值
 
 onMounted(() => {
-   if (document.activeElement) {
-        document.activeElement.blur();
-    }
+  const element = document.activeElement as HTMLElement;
+  if (element) {
+      element.blur();
+  }
 })
 
 // 获取 pinia 任务清单列表
@@ -67,8 +68,8 @@ const undoneTodoList = mainStore.undoneTodoList
 // 已完成的清单列表
 const completedTodoList = reactive([
   {
-    id: '', // Date.now(),
-    name: '', //"睡觉",
+    id: Date.now(),
+    name: "睡觉",
   },
 ]);
 
