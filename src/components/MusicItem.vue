@@ -8,7 +8,9 @@
         />
       </div>
       <div class="track-detail">
-        <div class="track-name">{{ track.name }}</div>
+        <div class="track-name-wrapper">
+          <div class="track-name">{{ track.name }}</div>
+        </div>
         <div class="track-artist" v-if="track.artist">{{ track.artist }}</div>
       </div>
     </div>
@@ -69,10 +71,6 @@ const handleDownload = () => {
   
   // 触发 download 事件
   emit('download', props.track);
-  
-  if (props.onDownload) {
-    props.onDownload(props.track);
-  }
 };
 </script>
 
@@ -82,13 +80,13 @@ const handleDownload = () => {
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  background: white;
+  background: #1a1a1a;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid #333;
   transition: all 0.3s ease;
   
   &:active {
-    transform: scale(0.98);
+    background: #252525;
   }
 
   .track-info {
@@ -96,40 +94,85 @@ const handleDownload = () => {
     align-items: center;
     flex: 1;
     cursor: pointer;
+    min-width: 0; // 允许 flex 子项收缩
     
     .track-icon {
-      font-size: 24px;
+      font-size: 20px;
       margin-right: 12px;
-      color: #667eea;
+      color: #666;
+      flex-shrink: 0;
       
       .playing {
-        color: #f57c5e;
+        color: #1db954;
         animation: pulse 1.5s infinite;
       }
     }
     
     .track-detail {
       flex: 1;
+      min-width: 0; // 允许文本溢出
+      overflow: hidden;
       
-      .track-name {
-        font-size: 16px;
-        font-weight: 500;
-        color: #333;
+      .track-name-wrapper {
+        position: relative;
+        overflow: hidden;
         margin-bottom: 4px;
+        
+        .track-name {
+          font-size: 15px;
+          font-weight: 500;
+          color: #fff;
+          white-space: nowrap;
+          overflow-x: auto;
+          overflow-y: hidden;
+          text-overflow: clip;
+          scrollbar-width: none; // Firefox 隐藏滚动条
+          -webkit-overflow-scrolling: touch;
+          
+          &::-webkit-scrollbar {
+            display: none; // Chrome/Safari 隐藏滚动条
+          }
+          
+          // 添加渐变遮罩提示可滚动
+          mask-image: linear-gradient(to right, 
+            transparent 0%, 
+            black 5%, 
+            black 95%, 
+            transparent 100%);
+          -webkit-mask-image: linear-gradient(to right, 
+            transparent 0%, 
+            black 5%, 
+            black 95%, 
+            transparent 100%);
+        }
       }
       
       .track-artist {
         font-size: 13px;
         color: #999;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
   }
   
   .track-actions {
+    margin-left: 12px;
+    flex-shrink: 0;
+    
     .van-button {
       padding: 0 12px;
       height: 28px;
       font-size: 12px;
+      border-color: #444;
+      color: #1db954;
+      background: transparent;
+      
+      &:active {
+        background: rgba(29, 185, 84, 0.1);
+        border-color: #1db954;
+      }
     }
   }
 }

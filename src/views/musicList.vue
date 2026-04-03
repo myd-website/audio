@@ -35,10 +35,13 @@
 
     <!-- 播放列表 -->
     <div class="playlist-area">
-      <h3 class="section-title">
-        播放列表
+      <div class="playlist-header">
+        <h3 class="section-title">
+          <van-icon name="music-o" class="title-icon" />
+          播放列表
+        </h3>
         <span class="count">({{ playlist.length }}首)</span>
-      </h3>
+      </div>
 
       <van-empty
         v-if="playlist.length === 0"
@@ -62,39 +65,84 @@
       @update:show="showUpload = $event"
       title="添加歌曲"
       show-cancel-button
+      confirm-button-text="确认添加"
+      cancel-button-text="取消"
       @confirm="handleAddMusic"
     >
-      <!-- 搜索框 -->
-      <van-field
-        v-model="searchKeyword"
-        label=""
-        placeholder="搜索歌曲（接口待实现）"
-        clearable
-        right-icon="search"
-        @click-right-icon="handleSearch"
-      />
+      <!-- 搜索区域 -->
+      <div class="search-section">
+        <div class="section-label">
+          <van-icon name="search" />
+          <span>搜索歌曲</span>
+        </div>
+        <div class="search-input-wrapper">
+          <van-field
+            v-model="searchKeyword"
+            placeholder="输入歌名搜索（接口待实现）"
+            clearable
+            @click-right-icon="handleSearch"
+          />
+          <van-icon name="search" class="search-icon" />
+        </div>
+      </div>
+
+      <!-- 分割线 -->
+      <div class="divider"></div>
 
       <!-- 上传表单 -->
-      <van-field
-        v-model="newTrack.name"
-        label="歌曲名"
-        placeholder="请输入歌曲名称"
-        clearable
-      />
-      <van-field
-        v-model="newTrack.artist"
-        label="歌手"
-        placeholder="请输入歌手名称"
-        clearable
-      />
-      <van-field
-        v-model="newTrack.url"
-        label="地址"
-        placeholder="请输入音频文件 URL 或点击上传"
-        clearable
-        readonly
-        @click="handleUrlClick"
-      />
+      <div class="upload-form">
+        <div class="section-label">
+          <van-icon name="add-o" />
+          <span>添加歌曲</span>
+        </div>
+
+        <div class="form-item">
+          <label class="form-label">
+            <van-icon name="music-o" />
+            歌曲名称
+          </label>
+          <div class="input-wrapper">
+            <van-field
+              v-model="newTrack.name"
+              placeholder="请输入歌曲名称"
+              clearable
+              readonly
+            />
+          </div>
+        </div>
+
+        <div class="form-item">
+          <label class="form-label">
+            <van-icon name="user-o" />
+            歌手名称
+          </label>
+          <div class="input-wrapper">
+            <van-field
+              v-model="newTrack.artist"
+              placeholder="请输入歌手名称"
+              clearable
+              readonly
+            />
+          </div>
+        </div>
+
+        <div class="form-item">
+          <label class="form-label">
+            <van-icon name="link" />
+            音频地址
+          </label>
+          <div class="input-wrapper" @click="handleUrlClick">
+            <van-field
+              v-model="newTrack.url"
+              placeholder="点击上传或输入 URL"
+              readonly
+            />
+            <van-icon name="upload" class="upload-icon" />
+          </div>
+        </div>
+      </div>
+
+      <!-- 文件输入 -->
       <input
         ref="inputFile"
         type="file"
@@ -153,13 +201,6 @@ const handleFileSelect = (event) => {
   showToast("文件已选择");
 };
 
-// 处理 URL 输入框点击
-const handleUrlClick = () => {
-  if (inputFile.value) {
-    inputFile.value.click();
-  }
-};
-
 // 搜索歌曲（预留接口）
 const handleSearch = () => {
   if (!searchKeyword.value.trim()) {
@@ -170,6 +211,13 @@ const handleSearch = () => {
   // TODO: 调用搜索接口
   showToast(`搜索：${searchKeyword.value}（接口待实现）`);
   console.log("搜索歌曲:", searchKeyword.value);
+};
+
+// 处理 URL 输入框点击
+const handleUrlClick = () => {
+  if (inputFile.value) {
+    inputFile.value.click();
+  }
 };
 
 // 添加歌曲
@@ -234,10 +282,10 @@ const handleClearAll = async () => {
 .music-list-page {
   min-height: 100vh;
   padding: 20px;
-  background: linear-gradient(180deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(180deg, #0f0f0f 0%, #1a1a2e 100%);
 
   .player-area {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .control-area {
@@ -250,33 +298,327 @@ const handleClearAll = async () => {
       transition: all 0.3s ease;
       border-radius: 20px;
       padding: 0 16px;
+      border-color: #333;
+      background: #1a1a1a;
+      color: #fff;
 
       &:active {
         transform: scale(0.95);
+        background: #252525;
       }
     }
   }
 
   .playlist-area {
-    .section-title {
-      font-size: 18px;
-      font-weight: 600;
-      color: #333;
-      margin-bottom: 16px;
-      text-align: center;
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #333;
+
+    .playlist-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #333;
+
+      .section-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+        .title-icon {
+          margin-right: 8px;
+          color: #1db954;
+          font-size: 20px;
+        }
+      }
 
       .count {
         font-size: 14px;
         font-weight: 400;
         color: #999;
+        margin-left: 8px;
       }
     }
 
     .playlist {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 8px;
     }
+  }
+}
+
+// 弹窗样式覆盖
+:deep(.van-dialog) {
+  background: #1a1a1a !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+  max-width: 90% !important;
+  width: auto !important;
+
+  .van-dialog__header {
+    background: #1db954;
+    padding: 10px 20px !important;
+    text-align: center !important;
+    position: relative;
+
+    .van-dialog__title {
+      color: #fff !important;
+      font-weight: 600 !important;
+      font-size: 20px !important;
+      letter-spacing: 1px !important;
+    }
+
+    // 添加光晕效果
+    // &::before {
+    //   content: '';
+    //   position: absolute;
+    //   top: -50%;
+    //   left: -50%;
+    //   width: 200%;
+    //   height: 200%;
+    //   background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    //   animation: shimmer 3s infinite;
+    // }
+  }
+
+  .van-dialog__content {
+    padding: 10px 20px !important;
+    background: #5d5c5c !important;
+    color: #fff !important;
+    max-height: 60vh;
+    overflow-y: auto;
+
+    // 搜索区域
+    .search-section {
+      margin-bottom: 8px;
+
+      .section-label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 12px;
+        color: #1db954;
+        font-size: 14px;
+        font-weight: 600;
+
+        .van-icon {
+          font-size: 16px;
+        }
+      }
+
+      .search-input-wrapper {
+        position: relative;
+
+        .van-field {
+          background: #4f4d4d;
+          border-radius: 12px !important;
+          padding: 0 40px 0 16px !important;
+          border: 1px solid #333 !important;
+          transition: all 0.3s ease;
+
+          &:focus-within {
+            border-color: #1db954 !important;
+            box-shadow: 0 0 0 2px rgba(29, 185, 84, 0.1) !important;
+          }
+
+          :deep(.van-field__control) {
+            color: #fff;
+            font-size: 14px;
+          }
+
+          :deep(.van-field__placeholder) {
+            color: #666;
+            font-size: 14px;
+          }
+
+          :deep(.van-field__clear) {
+            color: #666;
+          }
+        }
+
+        .search-icon {
+          position: absolute;
+          right: 14px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #1db954;
+          font-size: 18px;
+          pointer-events: none;
+        }
+      }
+    }
+
+    // 分割线
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #333, transparent);
+      margin: 20px 0;
+    }
+
+    // 上传表单
+    .upload-form {
+      .section-label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+        color: #1db954;
+        font-size: 14px;
+        font-weight: 600;
+
+        .van-icon {
+          font-size: 16px;
+        }
+      }
+
+      .form-item {
+        margin-bottom: 16px;
+
+        .form-label {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          margin-bottom: 8px;
+          color: #fff;
+          font-size: 13px;
+          font-weight: 500;
+
+          .van-icon {
+            color: #1db954;
+            font-size: 14px;
+          }
+        }
+
+        .input-wrapper {
+          position: relative;
+          cursor: pointer;
+
+          .van-field {
+            background: #4f4d4d;
+            border-radius: 12px !important;
+            padding: 0 40px 0 16px !important;
+            border: 1px solid #333 !important;
+            transition: all 0.3s ease;
+
+            &:focus-within {
+              border-color: #1db954 !important;
+              box-shadow: 0 0 0 2px rgba(29, 185, 84, 0.1) !important;
+            }
+
+            :deep(.van-field__control) {
+              color: #c8c9cc;
+              font-size: 14px;
+            }
+
+            :deep(.van-field__placeholder) {
+              color: #666;
+              font-size: 14px;
+            }
+
+            :deep(.van-field__control) {
+              color: #fff;
+            }
+
+            &[readonly] {
+              cursor: pointer;
+              background: linear-gradient(135deg, #2a2a2a 0%, #242424 100%);
+            }
+          }
+
+          .upload-icon {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #1db954;
+            font-size: 18px;
+            transition: all 0.3s ease;
+          }
+
+          &:hover .upload-icon {
+            transform: translateY(-50%) scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  .van-dialog__footer {
+    padding: 16px 20px 20px !important;
+    background: #5d5c5c !important;
+    border-top: 1px solid #333 !important;
+    display: flex;
+    gap: 12px;
+
+    .van-button {
+      flex: 1;
+      border-radius: 10px !important;
+      font-weight: 600 !important;
+      font-size: 14px !important;
+      padding: 12px 0 !important;
+      transition: all 0.3s ease;
+
+      &--default {
+        background: #1db954;
+        border: 1px solid #333 !important;
+        color: #fff !important;
+
+        &:hover {
+          background: linear-gradient(
+            135deg,
+            #2a2a2a 0%,
+            #242424 100%
+          ) !important;
+          border-color: #444 !important;
+        }
+
+        &:active {
+          transform: scale(0.98);
+          background: #333 !important;
+        }
+      }
+
+      &--primary {
+        background: linear-gradient(
+          135deg,
+          #1db954 0%,
+          #1ed760 100%
+        ) !important;
+        border: none !important;
+        color: #fff !important;
+        box-shadow: 0 4px 12px rgba(29, 185, 84, 0.3) !important;
+
+        &:hover {
+          box-shadow: 0 6px 16px rgba(29, 185, 84, 0.4) !important;
+        }
+
+        &:active {
+          transform: scale(0.98);
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
+
+:deep(.van-field__control) {
+  color: #c8c9cc !important;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 </style>
