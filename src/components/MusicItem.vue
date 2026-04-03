@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { computed, ref } from "vue";
+import { computed } from "vue";
 import { useMusicStore } from "@/pinia/modules/music";
 import { musicAPI } from "@/services/music";
 import { showToast } from "vant";
@@ -51,9 +51,6 @@ const props = defineProps({
 });
 
 const musicStore = useMusicStore();
-
-// 存储更新后的歌曲数据
-const updatedTrackData = ref(null);
 
 // 计算当前播放的歌曲
 const currentTrack = computed(() => musicStore.currentTrack);
@@ -77,8 +74,8 @@ const handlePlayToggle = async () => {
       if (result && result.data) {
         const songData = result.data;
 
-        // 更新歌曲信息
-        updatedTrackData.value = {
+        // 构建完整的歌曲数据对象
+        const updatedTrack = {
           ...props.track,
           name: songData.name || props.track.name,
           artist: songData.artist || props.track.artist,
@@ -88,12 +85,13 @@ const handlePlayToggle = async () => {
           album: songData.album,
         };
 
-        // 播放更新后的歌曲
-        musicStore.playTrack(updatedTrackData.value);
-        showToast(`正在播放：${updatedTrackData.value.name}`);
+        // 通过 store 播放歌曲，确保数据统一管理
+        musicStore.setCurrentTrack(updatedTrack);
+        musicStore.playTrack(updatedTrack);
+        showToast(`正在播放：${updatedTrack.name}`);
       }
     } else {
-      // 没有 rid，直接播放
+      // 没有 rid，直接通过 store 播放
       musicStore.playTrack(props.track);
       if (props.track.name) {
         showToast(`正在播放：${props.track.name}`);
@@ -111,14 +109,9 @@ const emit = defineEmits(["download"]);
 
 // 处理下载
 const handleDownload = () => {
-  // 检查是否是本地上传的歌曲（没有 rid）
-  // if (!props.track.rid) {
-  //   showToast("本地上传的歌曲暂不支持下载");
-  //   return;
-  // }
-
-  // 优先使用更新后的数据，如果没有则使用原始数据
-  const trackToDownload = updatedTrackData.value || props.track;
+  // 从 store 获取当前最新的歌曲数据（如果是当前播放的歌曲）
+  const isCurrent = currentTrack.value?.rid === props.track.rid;
+  const trackToDownload = isCurrent ? currentTrack.value : props.track;
 
   if (!trackToDownload.url) {
     showToast("本地音频无法下载或暂无可下载的音频地址");

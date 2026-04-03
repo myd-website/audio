@@ -197,6 +197,8 @@ const handleFileSelect = (event) => {
   newTrack.value.url = url;
   newTrack.value.name = file.name.replace(/\.[^/.]+$/, ""); // 移除扩展名作为歌名
   newTrack.value.artist = file.name.split("-")[0] || "未知艺术家"; // 默认艺术家
+  // 添加到store中
+  musicStore.setCurrentTrack(newTrack.value);
 
   showToast("文件已选择");
 };

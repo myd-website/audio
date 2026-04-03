@@ -45,9 +45,24 @@ export const useMusicStore = defineStore('music', {
       this.isPlaying = false;
     },
     
+    // 暂停播放（用于播放器控制）
+    pauseTrack() {
+      this.isPlaying = false;
+    },
+    
+    // 恢复播放（用于播放器控制）
+    resumeTrack() {
+      this.isPlaying = true;
+    },
+    
     // 设置当前播放歌曲
     setCurrentTrack(track) {
       this.currentTrack = track;
+    },
+    
+    // 切换播放状态（用于播放器控制）
+    togglePlayStatus() {
+      this.isPlaying = !this.isPlaying;
     },
   },
 });
