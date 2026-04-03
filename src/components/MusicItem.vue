@@ -18,10 +18,10 @@
     </div>
 
     <div class="track-actions">
-      <van-button 
-        size="mini" 
-        icon="download-o" 
-        plain 
+      <van-button
+        size="mini"
+        icon="download-o"
+        plain
         type="primary"
         @click="handleDownload"
         :disabled="!props.track.rid"
@@ -61,7 +61,7 @@ const isPlaying = computed(() => musicStore.isPlaying);
 
 // 是否是当前播放的歌曲
 const isCurrentTrack = computed(() => {
-  return currentTrack.value?.id === props.track.id;
+  return currentTrack.value?.rid === props.track.rid;
 });
 
 // 处理播放/暂停
@@ -112,31 +112,31 @@ const emit = defineEmits(["download"]);
 // 处理下载
 const handleDownload = () => {
   // 检查是否是本地上传的歌曲（没有 rid）
-  if (!props.track.rid) {
-    showToast('本地上传的歌曲暂不支持下载');
-    return;
-  }
-  
+  // if (!props.track.rid) {
+  //   showToast("本地上传的歌曲暂不支持下载");
+  //   return;
+  // }
+
   // 优先使用更新后的数据，如果没有则使用原始数据
   const trackToDownload = updatedTrackData.value || props.track;
-  
+
   if (!trackToDownload.url) {
-    showToast('暂无可下载的音频地址');
+    showToast("本地音频无法下载或暂无可下载的音频地址");
     return;
   }
-  
-  const link = document.createElement('a');
+
+  const link = document.createElement("a");
   link.href = trackToDownload.url;
   link.download = trackToDownload.name;
-  link.target = '_blank';
+  link.target = "_blank";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
-  
+
   showToast(`正在下载：${trackToDownload.name}`);
-  
+
   // 触发 download 事件
-  emit('download', trackToDownload);
+  emit("download", trackToDownload);
 };
 </script>
 

@@ -52,7 +52,7 @@
       <div v-else class="playlist">
         <MusicItem
           v-for="track in playlist"
-          :key="track.id"
+          :key="track.rid"
           :track="track"
           @download="handleDownload"
         />
@@ -179,7 +179,6 @@ const playlist = computed(() => musicStore.playlist);
 
 // 当前播放的歌曲
 const currentTrack = computed(() => musicStore.currentTrack);
-
 // 处理文件选择
 const handleFileSelect = (event) => {
   const target = event.target;
@@ -239,6 +238,7 @@ const handleSearch = async () => {
         tracks.forEach((track) => {
           musicStore.addToPlaylist(track);
         });
+        musicStore.setCurrentTrack(tracks[0]);
         showToast(`成功添加 ${tracks.length} 首歌曲`);
         // 关闭弹窗
         showUpload.value = false;
@@ -278,7 +278,7 @@ const handleAddMusic = () => {
   }
 
   const track = {
-    id: Date.now().toString(),
+    rid: null,
     name,
     url,
     artist: artist || undefined,
