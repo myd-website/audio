@@ -224,13 +224,13 @@ const handleSearch = async () => {
       // 处理搜索结果
       const tracks = result.data
         .map((item) => ({
-          id: item.id || Date.now().toString(),
+          rid: item.rid,
           name: item.name || item.title || "未知歌曲",
           artist: item.artist || item.singer || "未知歌手",
-          url: item.url || item.pic,
-          cover: item.cover,
+          url: item.url,
+          cover: item.cover || item.pic,
         }))
-        .filter((track) => track.url); // 只保留有 URL 的歌曲
+        .filter((track) => track.rid); // 只保留有 URL 的歌曲
 
       console.log("处理后的歌曲数据:", tracks);
 
@@ -245,7 +245,7 @@ const handleSearch = async () => {
         // 清空搜索
         searchKeyword.value = "";
       } else {
-        showToast("未找到可播放的歌曲");
+        showToast("未找到可播放的歌曲id");
       }
     } else {
       showToast("未找到相关歌曲");

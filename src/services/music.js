@@ -1,4 +1,4 @@
-import request from './api';
+import request from "./api";
 
 /**
  * 音乐相关 API 接口
@@ -11,10 +11,10 @@ export const musicAPI = {
    */
   searchSongs(keyword) {
     return request({
-      url: '/songs.php',
-      method: 'get',
+      url: "/songs.php",
+      method: "get",
       params: {
-        type: 'search',
+        type: "search",
         keyword: keyword,
       },
     });
@@ -25,13 +25,15 @@ export const musicAPI = {
    * @param {string} id - 歌曲 ID
    * @returns {Promise}
    */
-  getSongDetail(id) {
+  getSongDetail(rid) {
     return request({
-      url: '/songs.php',
-      method: 'get',
+      url: `/kw.php`,
+      method: "get",
       params: {
-        type: 'detail',
-        id: id,
+        type: "json", // json/mp3/pic
+        level: "exhigh", // standard,低音质，exhigh,高音质，lossless,无损音质，aac，wma，ape这三个不知
+        lrc: true, // true/false，是否歌词改变歌词格式
+        rid, // 歌曲id
       },
     });
   },
@@ -42,10 +44,10 @@ export const musicAPI = {
    */
   getHotSongs() {
     return request({
-      url: '/songs.php',
-      method: 'get',
+      url: "/songs.php",
+      method: "get",
       params: {
-        type: 'hot',
+        type: "hot",
       },
     });
   },
@@ -56,10 +58,10 @@ export const musicAPI = {
    */
   getNewSongs() {
     return request({
-      url: '/songs.php',
-      method: 'get',
+      url: "/songs.php",
+      method: "get",
       params: {
-        type: 'new',
+        type: "new",
       },
     });
   },
@@ -70,10 +72,10 @@ export const musicAPI = {
    */
   getNetworkSongs() {
     return request({
-      url: '/songs.php',
-      method: 'get',
+      url: "/songs.php",
+      method: "get",
       params: {
-        type: 'net',
+        type: "net",
       },
     });
   },

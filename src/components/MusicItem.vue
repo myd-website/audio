@@ -2,8 +2,10 @@
   <div class="music-item">
     <div class="track-info" @click="handlePlayToggle">
       <div class="track-icon">
-        <van-icon 
-          :name="isCurrentTrack && isPlaying ? 'pause-circle-o' : 'play-circle-o'" 
+        <van-icon
+          :name="
+            isCurrentTrack && isPlaying ? 'pause-circle-o' : 'play-circle-o'
+          "
           :class="{ playing: isCurrentTrack && isPlaying }"
         />
       </div>
@@ -14,7 +16,7 @@
         <div class="track-artist" v-if="track.artist">{{ track.artist }}</div>
       </div>
     </div>
-    
+
     <div class="track-actions">
       <van-button 
         size="mini" 
@@ -22,16 +24,24 @@
         plain 
         type="primary"
         @click="handleDownload"
+        :disabled="!props.track.rid"
       >
         下载
       </van-button>
+      <!-- <van-icon 
+        v-if="!props.track.rid" 
+        name="info-o" 
+        style="color: #999; margin-left: 8px; font-size: 14px;"
+      /> -->
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue';
-import { useMusicStore } from '@/pinia/modules/music';
+import { computed, ref } from "vue";
+import { useMusicStore } from "@/pinia/modules/music";
+import { musicAPI } from "@/services/music";
+import { showToast } from "vant";
 
 const props = defineProps({
   track: {
@@ -41,6 +51,9 @@ const props = defineProps({
 });
 
 const musicStore = useMusicStore();
+
+// 存储更新后的歌曲数据
+const updatedTrackData = ref(null);
 
 // 计算当前播放的歌曲
 const currentTrack = computed(() => musicStore.currentTrack);
@@ -52,25 +65,78 @@ const isCurrentTrack = computed(() => {
 });
 
 // 处理播放/暂停
-const handlePlayToggle = () => {
-  musicStore.playTrack(props.track);
+const handlePlayToggle = async () => {
+  try {
+    // 如果有 rid，先获取歌曲详情
+    if (props.track.rid) {
+      showToast("正在加载...");
+      const result = await musicAPI.getSongDetail(props.track.rid);
+
+      console.log("歌曲详情:", result);
+
+      if (result && result.data) {
+        const songData = result.data;
+
+        // 更新歌曲信息
+        updatedTrackData.value = {
+          ...props.track,
+          name: songData.name || props.track.name,
+          artist: songData.artist || props.track.artist,
+          url: songData.url || songData.src || songData.file || props.track.url,
+          cover: songData.cover || songData.pic || props.track.cover,
+          duration: songData.duration,
+          album: songData.album,
+        };
+
+        // 播放更新后的歌曲
+        musicStore.playTrack(updatedTrackData.value);
+        showToast(`正在播放：${updatedTrackData.value.name}`);
+      }
+    } else {
+      // 没有 rid，直接播放
+      musicStore.playTrack(props.track);
+      if (props.track.name) {
+        showToast(`正在播放：${props.track.name}`);
+      }
+    }
+  } catch (error) {
+    console.error("获取歌曲详情失败:", error);
+    // 如果获取详情失败，尝试直接播放
+    musicStore.playTrack(props.track);
+  }
 };
 
 // 暴露事件
-const emit = defineEmits(['download']);
+const emit = defineEmits(["download"]);
 
 // 处理下载
 const handleDownload = () => {
+  // 检查是否是本地上传的歌曲（没有 rid）
+  if (!props.track.rid) {
+    showToast('本地上传的歌曲暂不支持下载');
+    return;
+  }
+  
+  // 优先使用更新后的数据，如果没有则使用原始数据
+  const trackToDownload = updatedTrackData.value || props.track;
+  
+  if (!trackToDownload.url) {
+    showToast('暂无可下载的音频地址');
+    return;
+  }
+  
   const link = document.createElement('a');
-  link.href = props.track.url;
-  link.download = props.track.name;
+  link.href = trackToDownload.url;
+  link.download = trackToDownload.name;
   link.target = '_blank';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
   
+  showToast(`正在下载：${trackToDownload.name}`);
+  
   // 触发 download 事件
-  emit('download', props.track);
+  emit('download', trackToDownload);
 };
 </script>
 
@@ -84,7 +150,7 @@ const handleDownload = () => {
   border-radius: 8px;
   border: 1px solid #333;
   transition: all 0.3s ease;
-  
+
   &:active {
     background: #252525;
   }
@@ -92,32 +158,32 @@ const handleDownload = () => {
   .track-info {
     display: flex;
     align-items: center;
-    flex: 1;
+    // flex: 1;
     cursor: pointer;
     min-width: 0; // 允许 flex 子项收缩
-    
+
     .track-icon {
       font-size: 20px;
       margin-right: 12px;
       color: #666;
       flex-shrink: 0;
-      
+
       .playing {
         color: #1db954;
         animation: pulse 1.5s infinite;
       }
     }
-    
+
     .track-detail {
       flex: 1;
       min-width: 0; // 允许文本溢出
       overflow: hidden;
-      
+
       .track-name-wrapper {
         position: relative;
         overflow: hidden;
         margin-bottom: 4px;
-        
+
         .track-name {
           font-size: 15px;
           font-weight: 500;
@@ -128,25 +194,29 @@ const handleDownload = () => {
           text-overflow: clip;
           scrollbar-width: none; // Firefox 隐藏滚动条
           -webkit-overflow-scrolling: touch;
-          
+
           &::-webkit-scrollbar {
             display: none; // Chrome/Safari 隐藏滚动条
           }
-          
+
           // 添加渐变遮罩提示可滚动
-          mask-image: linear-gradient(to right, 
-            transparent 0%, 
-            black 5%, 
-            black 95%, 
-            transparent 100%);
-          -webkit-mask-image: linear-gradient(to right, 
-            transparent 0%, 
-            black 5%, 
-            black 95%, 
-            transparent 100%);
+          mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 5%,
+            black 95%,
+            transparent 100%
+          );
+          -webkit-mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            black 5%,
+            black 95%,
+            transparent 100%
+          );
         }
       }
-      
+
       .track-artist {
         font-size: 13px;
         color: #999;
@@ -156,11 +226,13 @@ const handleDownload = () => {
       }
     }
   }
-  
+
   .track-actions {
     margin-left: 12px;
     flex-shrink: 0;
-    
+    display: flex;
+    align-items: center;
+
     .van-button {
       padding: 0 12px;
       height: 28px;
@@ -168,10 +240,19 @@ const handleDownload = () => {
       border-color: #444;
       color: #1db954;
       background: transparent;
-      
+
       &:active {
         background: rgba(29, 185, 84, 0.1);
         border-color: #1db954;
+      }
+
+      &[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+
+        &:active {
+          background: transparent;
+        }
       }
     }
   }
