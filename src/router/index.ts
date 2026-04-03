@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "maths" */ '@/views/MathsView.vue')
   },
   {
+    path: '/musicList',
+    name: 'MusicList',
+    component: () => import(/* webpackChunkName: "todo" */ '@/views/MusicList.vue')
+  },
+  {
     path: '/todoList',
     name: 'TodoList',
     component: () => import(/* webpackChunkName: "todo" */ '@/views/TodoList.vue')

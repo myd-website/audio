@@ -8,6 +8,9 @@
     <van-tabbar placeholder route v-model="active" @change="onChange">
       <van-tabbar-item icon="home-o" replace to="/home">首页</van-tabbar-item>
       <van-tabbar-item icon="search" replace to="/maths">数学</van-tabbar-item>
+      <van-tabbar-item icon="service" replace to="/musicList"
+        >音乐</van-tabbar-item
+      >
       <van-tabbar-item icon="friends-o" replace to="/todoList"
         >备忘录</van-tabbar-item
       >
