@@ -78,11 +78,10 @@
         <div class="search-input-wrapper">
           <van-field
             v-model="searchKeyword"
-            placeholder="输入歌名搜索（接口待实现）"
+            placeholder="输入歌名搜索"
             clearable
-            @click-right-icon="handleSearch"
           />
-          <van-icon name="search" class="search-icon" />
+          <van-icon name="search" class="search-icon" @click="handleSearch" />
         </div>
       </div>
 
@@ -160,6 +159,7 @@ import AudioPlay from "./audioPlay.vue";
 import MusicItem from "@/components/MusicItem.vue";
 import { useMusicStore } from "@/pinia/modules/music";
 import { showToast, showConfirmDialog } from "vant";
+import { musicAPI } from "@/services/music";
 
 const musicStore = useMusicStore();
 const audioPlayerRef = ref(null);
@@ -197,20 +197,63 @@ const handleFileSelect = (event) => {
   const url = URL.createObjectURL(file);
   newTrack.value.url = url;
   newTrack.value.name = file.name.replace(/\.[^/.]+$/, ""); // 移除扩展名作为歌名
+  newTrack.value.artist = file.name.split("-")[0] || "未知艺术家"; // 默认艺术家
 
   showToast("文件已选择");
 };
 
-// 搜索歌曲（预留接口）
-const handleSearch = () => {
+// 搜索歌曲
+const handleSearch = async () => {
   if (!searchKeyword.value.trim()) {
     showToast("请输入搜索关键词");
     return;
   }
 
-  // TODO: 调用搜索接口
-  showToast(`搜索：${searchKeyword.value}（接口待实现）`);
-  console.log("搜索歌曲:", searchKeyword.value);
+  try {
+    showToast("正在搜索...");
+
+    const keyword = searchKeyword.value.trim();
+    console.log("搜索关键词:", keyword);
+
+    // 调用封装的 API
+    const result = await musicAPI.searchSongs(keyword);
+
+    console.log("搜索结果:", result);
+
+    if (result && result.data && result.data.length > 0) {
+      // 处理搜索结果
+      const tracks = result.data
+        .map((item) => ({
+          id: item.id || Date.now().toString(),
+          name: item.name || item.title || "未知歌曲",
+          artist: item.artist || item.singer || "未知歌手",
+          url: item.url || item.pic,
+          cover: item.cover,
+        }))
+        .filter((track) => track.url); // 只保留有 URL 的歌曲
+
+      console.log("处理后的歌曲数据:", tracks);
+
+      if (tracks.length > 0) {
+        // 添加到播放列表
+        tracks.forEach((track) => {
+          musicStore.addToPlaylist(track);
+        });
+        showToast(`成功添加 ${tracks.length} 首歌曲`);
+        // 关闭弹窗
+        showUpload.value = false;
+        // 清空搜索
+        searchKeyword.value = "";
+      } else {
+        showToast("未找到可播放的歌曲");
+      }
+    } else {
+      showToast("未找到相关歌曲");
+    }
+  } catch (error) {
+    console.error("搜索失败:", error);
+    // 错误提示已在拦截器中处理
+  }
 };
 
 // 处理 URL 输入框点击
@@ -451,7 +494,18 @@ const handleClearAll = async () => {
           transform: translateY(-50%);
           color: #1db954;
           font-size: 18px;
-          pointer-events: none;
+          pointer-events: auto;
+          cursor: pointer;
+          transition: all 0.3s ease;
+
+          &:hover {
+            transform: translateY(-50%) scale(1.1);
+            color: #1ed760;
+          }
+
+          &:active {
+            transform: translateY(-50%) scale(0.95);
+          }
         }
       }
     }

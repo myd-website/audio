@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vant/area-data": "^1.4.1",
+    "axios": "^1.14.0",
     "dayjs": "^1.11.7",
     "pinia": "^2.0.36",
     "vant": "^4.3.1",
