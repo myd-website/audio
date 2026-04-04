@@ -26,7 +26,7 @@
         @click="handleDownload"
         :disabled="!props.track.rid"
       >
-        下载
+        {{ isDownloading ? "下载中..." : "下载" }}
       </van-button>
       <!-- <van-icon 
         v-if="!props.track.rid" 
@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { computed } from "vue";
+import { ref, computed } from "vue";
 import { useMusicStore } from "@/pinia/modules/music";
 import { musicAPI } from "@/services/music";
 import { showToast } from "vant";
@@ -107,29 +107,53 @@ const handlePlayToggle = async () => {
 // 暴露事件
 const emit = defineEmits(["download"]);
 
+// 特殊符号处理
+const sanitizeFileName = (name) => {
+  return name.replace(/[\\/:*?"<>|]/g, "_").substring(0, 200);
+};
+
 // 处理下载
-const handleDownload = () => {
-  // 从 store 获取当前最新的歌曲数据（如果是当前播放的歌曲）
-  const isCurrent = currentTrack.value?.rid === props.track.rid;
-  const trackToDownload = isCurrent ? currentTrack.value : props.track;
+const isDownloading = ref(false);
+const handleDownload = async () => {
+  // 检查是否正在下载
+  if (isDownloading.value) return;
 
-  if (!trackToDownload.url) {
-    showToast("本地音频无法下载或暂无可下载的音频地址");
-    return;
+  // 设置下载状态
+  isDownloading.value = true;
+
+  try {
+    const isCurrent = currentTrack.value?.rid === props.track.rid;
+    const trackToDownload = isCurrent ? currentTrack.value : props.track;
+
+    if (!trackToDownload.url) {
+      showToast("本地音频无法下载或暂无可下载的音频地址");
+      return;
+    }
+
+    const fileName = trackToDownload.name.includes(".")
+      ? sanitizeFileName(trackToDownload.name)
+      : `${sanitizeFileName(trackToDownload.name)}.mp3`;
+
+    const link = document.createElement("a");
+    link.href = trackToDownload.url;
+    link.download = fileName;
+    link.crossOrigin = "anonymous";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    showToast(`正在下载：${fileName}`);
+    emit("download", trackToDownload);
+  } catch (error) {
+    console.error("下载失败:", error);
+    showToast("下载失败，请稍后重试");
+  } finally {
+    // 重置下载状态
+    setTimeout(() => {
+      isDownloading.value = false;
+    }, 1000);
   }
-
-  const link = document.createElement("a");
-  link.href = trackToDownload.url;
-  link.download = trackToDownload.name;
-  link.target = "_blank";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-
-  showToast(`正在下载：${trackToDownload.name}`);
-
-  // 触发 download 事件
-  emit("download", trackToDownload);
 };
 </script>
 

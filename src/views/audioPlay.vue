@@ -64,7 +64,8 @@
 
 <script setup>
 import { ref, onMounted, watch, computed } from "vue";
-import { useMusicStore } from '@/pinia/modules/music';
+import { showToast, showConfirmDialog } from "vant";
+import { useMusicStore } from "@/pinia/modules/music";
 
 const props = defineProps({
   audioUrl: String,
@@ -83,36 +84,56 @@ const afterWidth = ref(progress.value); // 进度值的宽度
 const storageVolume = ref(1); // 默认为 1
 
 // 监听全局播放状态变化（核心：同步 store 状态到播放器）
-watch(() => musicStore.isPlaying, (newVal) => {
-  console.log('播放器 watch 到状态变化:', newVal, '当前歌曲:', musicStore.currentTrack?.name);
-  if (newVal !== isPlaying.value) {
-    if (newVal) {
-      // 全局状态是要播放，本地也播放
-      console.log('播放器开始播放');
-      audioPlayer.value?.play();
+watch(
+  () => musicStore.isPlaying,
+  (newVal) => {
+    console.log(
+      "播放器 watch 到状态变化:",
+      newVal,
+      "当前歌曲:",
+      musicStore.currentTrack?.name
+    );
+    if (newVal !== isPlaying.value) {
+      if (newVal) {
+        // 全局状态是要播放，本地也播放
+        console.log("播放器开始播放");
+        audioPlayer.value?.play();
+      } else {
+        // 全局状态是暂停，本地也暂停
+        console.log("播放器暂停播放");
+        audioPlayer.value?.pause();
+      }
+      isPlaying.value = newVal;
     } else {
-      // 全局状态是暂停，本地也暂停
-      console.log('播放器暂停播放');
+      console.log("播放器暂停播放");
       audioPlayer.value?.pause();
     }
-    isPlaying.value = newVal;
   }
-});
+);
 
 // 监听歌曲切换（当 currentTrack 变化时，重新加载音频）
-watch(() => musicStore.currentTrack, (newTrack) => {
-  if (newTrack && newTrack.url) {
-    console.log('歌曲切换:', newTrack.name);
-    // 如果是新歌，重置播放状态
-    isPlaying.value = false;
-    progress.value = 0;
-    currentTime.value = 0;
-  }
-}, { immediate: true });
+watch(
+  () => musicStore.currentTrack,
+  (newTrack) => {
+    if (newTrack && newTrack.url) {
+      console.log("歌曲切换:", newTrack.name);
+      // 如果是新歌，重置播放状态
+      isPlaying.value = false;
+      progress.value = 0;
+      currentTime.value = 0;
+    }
+  },
+  { immediate: true }
+);
 
 // 播放/暂停（核心：同步本地状态到 store）
 const togglePlay = () => {
-  console.log('点击播放/暂停，当前状态:', isPlaying.value);
+  console.log("点击播放/暂停，当前状态:", isPlaying.value);
+  if (!musicStore.currentTrack?.url) {
+    showToast(`音频地址为空，请点击列表播放`);
+    return;
+  }
+
   if (isPlaying.value) {
     // 当前正在播放，需要暂停
     audioPlayer.value.pause();
@@ -143,8 +164,8 @@ const onTimeEnded = () => {
 // 加载音频元数据
 const onLoadedMetadata = () => {
   duration.value = audioPlayer.value.duration;
-  console.log('音频加载完成:', props.aduioName, '时长:', duration.value);
-  
+  console.log("音频加载完成:", props.aduioName, "时长:", duration.value);
+
   // 如果 store 状态是播放，自动开始播放
   if (musicStore.isPlaying) {
     audioPlayer.value.play();
