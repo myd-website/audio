@@ -155,8 +155,8 @@
 
 <script setup>
 import { ref, computed } from "vue";
-import AudioPlay from "./audioPlay.vue";
-import MusicItem from "@/components/MusicItem.vue";
+import AudioPlay from "@/components/music/musicPlay.vue";
+import MusicItem from "@/components/music/MusicItem.vue";
 import { useMusicStore } from "@/pinia/modules/music";
 import { showToast, showConfirmDialog } from "vant";
 import { musicAPI } from "@/services/music";

@@ -10,7 +10,8 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Button: typeof import('./src/components/base/Button.vue')['default']
-    MusicItem: typeof import('./src/components/MusicItem.vue')['default']
+    MusicItem: typeof import('./src/components/music/MusicItem.vue')['default']
+    MusicPlay: typeof import('./src/components/music/musicPlay.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Select: typeof import('./src/components/base/Select.vue')['default']
