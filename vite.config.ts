@@ -12,9 +12,9 @@ export default defineConfig({
     port: 8090,
     proxy: {
       '/api': {
-        target: 'https://www.qqmp3.vip',
+        target: 'https://www.qqmp3.vip/api',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '/api'),
+        rewrite: (path) => path.replace(/^\/api/, ''),
         headers: {
           Referer: 'https://www.qqmp3.vip/',
           'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
