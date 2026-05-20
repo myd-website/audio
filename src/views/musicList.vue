@@ -3,6 +3,7 @@
     <!-- 播放区域 - 使用 audioPlay 组件 -->
     <div class="player-area" v-if="currentTrack">
       <AudioPlay
+        :key="currentTrackKey"
         :audioUrl="currentTrack.url"
         :aduioName="currentTrack.name"
         ref="audioPlayerRef"
@@ -52,7 +53,7 @@
       <div v-else class="playlist">
         <MusicItem
           v-for="track in playlist"
-          :key="track.rid"
+          :key="track.rid || track.id || track.url || track.name"
           :track="track"
           @download="handleDownload"
         />
@@ -179,6 +180,10 @@ const playlist = computed(() => musicStore.playlist);
 
 // 当前播放的歌曲
 const currentTrack = computed(() => musicStore.currentTrack);
+const currentTrackKey = computed(() => {
+  const track = currentTrack.value;
+  return track?.rid ?? track?.id ?? track?.url ?? track?.name ?? null;
+});
 // 处理文件选择
 const handleFileSelect = (event) => {
   const target = event.target;
@@ -225,6 +230,7 @@ const handleSearch = async () => {
       // 处理搜索结果
       const tracks = result.data
         .map((item) => ({
+          id: item.rid,
           rid: item.rid,
           name: item.name || item.title || "未知歌曲",
           artist: item.artist || item.singer || "未知歌手",
@@ -280,6 +286,7 @@ const handleAddMusic = () => {
   }
 
   const track = {
+    id: url,
     rid: null,
     name,
     url,

@@ -1,5 +1,10 @@
 import { defineStore } from 'pinia';
 
+const getTrackKey = (track) => {
+  if (!track) return null;
+  return track.rid ?? track.id ?? track.url ?? track.name ?? null;
+};
+
 export const useMusicStore = defineStore('music', {
   state: () => ({
     playlist: [], // 播放列表
@@ -15,7 +20,7 @@ export const useMusicStore = defineStore('music', {
     
     // 从播放列表移除
     removeFromPlaylist(trackId) {
-      const index = this.playlist.findIndex(t => t.id === trackId);
+      const index = this.playlist.findIndex((t) => getTrackKey(t) === trackId);
       if (index !== -1) {
         this.playlist.splice(index, 1);
       }
@@ -30,7 +35,7 @@ export const useMusicStore = defineStore('music', {
     
     // 播放歌曲
     playTrack(track) {
-      if (this.currentTrack?.id === track.id) {
+      if (getTrackKey(this.currentTrack) === getTrackKey(track)) {
         // 如果是同一首歌，切换播放/暂停状态
         this.isPlaying = !this.isPlaying;
       } else {

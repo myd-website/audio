@@ -52,21 +52,32 @@ const props = defineProps({
 
 const musicStore = useMusicStore();
 
+const getTrackKey = (track) => {
+  return track?.rid ?? track?.id ?? track?.url ?? track?.name ?? null;
+};
+
 // 计算当前播放的歌曲
 const currentTrack = computed(() => musicStore.currentTrack);
 const isPlaying = computed(() => musicStore.isPlaying);
 
 // 是否是当前播放的歌曲
 const isCurrentTrack = computed(() => {
-  return currentTrack.value?.rid === props.track.rid;
+  return getTrackKey(currentTrack.value) === getTrackKey(props.track);
 });
 
 // 处理播放/暂停
 const handlePlayToggle = async () => {
+  let loadingToast = null;
+
   try {
     // 如果有 rid，先获取歌曲详情
     if (props.track.rid) {
-      showToast("正在加载...");
+      loadingToast = showToast({
+        message: "正在加载...",
+        duration: 0, // 不自动关闭
+        forbidClick: true,
+      });
+
       const result = await musicAPI.getSongDetail(props.track.rid);
 
       console.log("歌曲详情:", result);
@@ -85,22 +96,45 @@ const handlePlayToggle = async () => {
           album: songData.album,
         };
 
-        // 通过 store 播放歌曲，确保数据统一管理
-        musicStore.setCurrentTrack(updatedTrack);
+        // 通过 store 统一判断切歌或播放/暂停
         musicStore.playTrack(updatedTrack);
-        showToast(`正在播放：${updatedTrack.name}`);
+
+        // 关闭加载提示，显示播放提示
+        if (loadingToast) {
+          loadingToast.close();
+        }
+        if (musicStore.isPlaying) {
+          showToast({
+            message: `正在播放：${updatedTrack.name}`,
+            duration: 1500,
+          });
+        }
+      } else {
+        if (loadingToast) {
+          loadingToast.close();
+        }
+        showToast("获取歌曲详情失败");
       }
     } else {
       // 没有 rid，直接通过 store 播放
       musicStore.playTrack(props.track);
-      if (props.track.name) {
-        showToast(`正在播放：${props.track.name}`);
+      if (musicStore.isPlaying && props.track.name) {
+        showToast({
+          message: `正在播放：${props.track.name}`,
+          duration: 1500,
+        });
       }
     }
   } catch (error) {
     console.error("获取歌曲详情失败:", error);
+    if (loadingToast) {
+      loadingToast.close();
+    }
+    showToast("播放失败，请重试");
     // 如果获取详情失败，尝试直接播放
-    musicStore.playTrack(props.track);
+    if (props.track.url) {
+      musicStore.playTrack(props.track);
+    }
   }
 };
 
@@ -122,7 +156,7 @@ const handleDownload = async () => {
   isDownloading.value = true;
 
   try {
-    const isCurrent = currentTrack.value?.rid === props.track.rid;
+    const isCurrent = getTrackKey(currentTrack.value) === getTrackKey(props.track);
     const trackToDownload = isCurrent ? currentTrack.value : props.track;
 
     if (!trackToDownload.url) {

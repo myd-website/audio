@@ -3,13 +3,17 @@ import { showToast } from 'vant';
 
 // 创建 axios 实例
 const request = axios.create({
-  baseURL: 'https://www.qqmp3.vip/api',
+  baseURL: '/api', // 使用相对路径,通过 Vite 代理转发
   timeout: 10000, // 请求超时时间
 });
 
 // 请求拦截器
 request.interceptors.request.use(
   config => {
+    // 添加必要的请求头以绕过服务器限制
+    config.headers['Referer'] = 'https://www.qqmp3.vip/';
+    config.headers['User-Agent'] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+    
     // 可以在这里添加 token 等通用配置
     return config;
   },

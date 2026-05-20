@@ -63,7 +63,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from "vue";
+import { ref, onMounted, watch, computed, nextTick } from "vue";
 import { showToast, showConfirmDialog } from "vant";
 import { useMusicStore } from "@/pinia/modules/music";
 import { useRouter, useRoute } from "vue-router";
@@ -86,31 +86,50 @@ const volume = ref(1); // 音量
 const isDragging = ref(false); // 是否正在拖动进度条
 const afterWidth = ref(progress.value); // 进度值的宽度
 const storageVolume = ref(1); // 默认为 1
+const getTrackKey = (track) => {
+  return track?.rid ?? track?.id ?? track?.url ?? track?.name ?? null;
+};
 
 // 监听全局播放状态变化（核心：同步 store 状态到播放器）
 watch(
   () => musicStore.isPlaying,
-  (newVal) => {
+  async (newVal) => {
     console.log(
       "播放器 watch 到状态变化:",
       newVal,
       "当前歌曲:",
       musicStore.currentTrack?.name
     );
-    if (newVal !== isPlaying.value) {
-      if (newVal) {
-        // 全局状态是要播放，本地也播放
-        console.log("播放器开始播放");
-        audioPlayer.value?.play();
-      } else {
-        // 全局状态是暂停，本地也暂停
-        console.log("播放器暂停播放");
-        audioPlayer.value?.pause();
+    
+    // 如果状态没有变化，不做任何操作
+    if (newVal === isPlaying.value) {
+      return;
+    }
+    
+    if (newVal) {
+      // 全局状态是要播放，本地也播放
+      console.log("播放器开始播放");
+      if (!audioPlayer.value) {
+        return;
       }
-      isPlaying.value = newVal;
+
+      try {
+        await audioPlayer.value.play();
+        isPlaying.value = true;
+      } catch (error) {
+        console.error("播放失败:", error);
+        isPlaying.value = false;
+        musicStore.pauseTrack();
+        // 过滤掉常见的非错误情况
+        if (error.name !== "AbortError" && error.name !== "NotAllowedError") {
+          showToast("播放失败，请重试");
+        }
+      }
     } else {
+      // 全局状态是暂停，本地也暂停
       console.log("播放器暂停播放");
       audioPlayer.value?.pause();
+      isPlaying.value = false;
     }
   }
 );
@@ -118,16 +137,34 @@ watch(
 // 监听歌曲切换（当 currentTrack 变化时，重新加载音频）
 watch(
   () => musicStore.currentTrack,
-  (newTrack) => {
+  async (newTrack, oldTrack) => {
     if (newTrack && newTrack.url) {
       console.log("歌曲切换:", newTrack.name);
-      // 如果是新歌，重置播放状态
+
+      // 如果是同一首歌且正在播放，不需要重新加载
+      if (getTrackKey(oldTrack) === getTrackKey(newTrack) && isPlaying.value) {
+        return;
+      }
+
+      // 如果是新歌，重置播放状态并重新加载音频
+      audioPlayer.value?.pause();
+      if (audioPlayer.value) {
+        audioPlayer.value.currentTime = 0;
+      }
       isPlaying.value = false;
       progress.value = 0;
       currentTime.value = 0;
+
+      await nextTick();
+
+      // 重要：调用 load() 重新加载音频资源
+      if (audioPlayer.value) {
+        audioPlayer.value.load();
+        console.log("音频资源已重新加载");
+      }
     }
   },
-  { immediate: true }
+  { immediate: true, flush: "post" }
 );
 
 // 播放/暂停（核心：同步本地状态到 store）
@@ -166,14 +203,24 @@ const onTimeEnded = () => {
 };
 
 // 加载音频元数据
-const onLoadedMetadata = () => {
+const onLoadedMetadata = async () => {
   duration.value = audioPlayer.value.duration;
   console.log("音频加载完成:", props.aduioName, "时长:", duration.value);
 
-  // 如果 store 状态是播放，自动开始播放
-  if (musicStore.isPlaying) {
-    audioPlayer.value.play();
-    isPlaying.value = true;
+  // 如果 store 状态是播放，且本地状态不是播放中，才自动开始播放
+  if (musicStore.isPlaying && !isPlaying.value) {
+    try {
+      await audioPlayer.value.play();
+      isPlaying.value = true;
+    } catch (error) {
+      console.error("自动播放失败:", error);
+      isPlaying.value = false;
+      musicStore.pauseTrack();
+      // 只在真正失败时才显示提示，过滤掉用户主动中断的错误
+      if (error.name !== "AbortError" && error.name !== "NotAllowedError") {
+        showToast("播放失败，请重试");
+      }
+    }
   }
 };
 
