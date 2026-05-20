@@ -1,6 +1,6 @@
 <template>
   <div class="todo-list text-center mg20">
-    <h3 class="mg10">Todo List</h3>
+    <h3 class="mg10">Todo - List</h3>
     <div class="flex flex-center">
       <input ref="todoinput" v-focus="200" v-model="addTodoName" />
       <van-button @click="addTodoAction" size="small" type="primary" style="margin-left: 0.9rem;">新增清单</van-button>
