@@ -190,6 +190,7 @@ onBeforeUnmount(clearThinking);
   border-radius: 23px;
 }
 .tic-board button {
+  position: relative;
   display: grid;
   place-items: center;
   aspect-ratio: 1;
@@ -211,9 +212,9 @@ onBeforeUnmount(clearThinking);
   animation: winning 0.6s ease;
 }
 .tic-mark {
-  position: relative;
-  width: 46%;
-  aspect-ratio: 1;
+  /* 由棋格限定棋子尺寸，避免空 span 在自动网格轨道中收缩成零宽。 */
+  position: absolute;
+  inset: 26%;
   display: block;
   animation: mark-in 0.24s cubic-bezier(0.2, 0.9, 0.3, 1.2);
 }

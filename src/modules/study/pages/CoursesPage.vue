@@ -8,7 +8,6 @@ import type { Subject } from "@/shared/lib/workspace";
 import SourceBadge from "@/shared/components/SourceBadge.vue";
 import CourseFilters from "../components/CourseFilters.vue";
 import CourseLessonDetails from "../components/CourseLessonDetails.vue";
-import LearningResources from "../components/LearningResources.vue";
 import {
   SMARTEDU_HOME,
   bookUrl,
@@ -414,7 +413,6 @@ onBeforeUnmount(() => {
       </div>
     </main>
   </div>
-  <LearningResources />
   <van-popup
     :show="!!selectedLesson"
     position="bottom"

@@ -14,7 +14,6 @@ import { useWorkspaceStore } from "@/shared/stores/workspace";
 import { act, message } from "@/shared/lib/feedback";
 import AppSelect from "@/shared/components/AppSelect.vue";
 import SourceBadge from "@/shared/components/SourceBadge.vue";
-import LearningResources from "../components/LearningResources.vue";
 const route = useRoute();
 const store = useWorkspaceStore();
 const subject = ref<Subject>("chinese");
@@ -366,7 +365,6 @@ onBeforeRouteLeave(async () => {
   <p v-if="loadNotice && !loading" class="practice-notice muted" role="status">
     {{ loadNotice }}
   </p>
-  <LearningResources v-if="!active" />
   <section v-if="active && current" class="card quiz">
     <div class="section-head">
       <span class="badge">{{ current.topic }}</span
