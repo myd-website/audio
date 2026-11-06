@@ -4,6 +4,8 @@ import { PROFILE_SESSION_KEY, isProfileId } from "../lib/profiles";
 import type { ProfileId } from "../lib/profiles";
 
 export const useProfileStore = defineStore("profile", () => {
+  // 可配置邀请码列表，在 src/config/invitation.json 的 codes 数组中增删即可。
+  const invitationCodes: string[] = invitationConfig.codes ?? [];
   let current: ProfileId | null = null;
   let error = "";
   const verified = new Set<ProfileId>();
@@ -38,7 +40,7 @@ export const useProfileStore = defineStore("profile", () => {
     if (!verified.has(id)) {
       if (!invitation.trim()) throw new Error("请输入邀请码");
       // 纯前端使用门槛，不是服务端身份认证；会话只保存验证状态，不保存输入内容。
-      if (invitation.trim() !== invitationConfig.code)
+      if (!invitationCodes.includes(invitation.trim()))
         throw new Error("邀请码错误，请重新输入");
     }
     const nextVerified = new Set([...verified, id]);
