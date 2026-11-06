@@ -15,6 +15,8 @@ export default defineConfig({
       "/music-api": {
         target: "https://www.qqmp3.vip",
         changeOrigin: true,
+        // 上游搜索接口校验来源页；浏览器的 no-referrer 策略下由服务端代理补充。
+        headers: { Referer: "https://www.qqmp3.vip/" },
         rewrite: (path) => path.replace(/^\/music-api/, "/api"),
         timeout: 15000,
         proxyTimeout: 15000,
