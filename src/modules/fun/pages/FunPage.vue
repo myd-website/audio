@@ -12,6 +12,10 @@ import SlidingPuzzle from "../components/SlidingPuzzle.vue";
 import Game2048 from "../components/Game2048.vue";
 import GuessNumber from "../components/GuessNumber.vue";
 import TicTacToe from "../components/TicTacToe.vue";
+import Minesweeper from "../components/Minesweeper.vue";
+import LightsPuzzle from "../components/LightsPuzzle.vue";
+import ColorFlood from "../components/ColorFlood.vue";
+import BubblePop from "../components/BubblePop.vue";
 import GameCelebration from "../components/GameCelebration.vue";
 const route = useRoute();
 const workspace = useWorkspaceStore();
@@ -64,6 +68,34 @@ const tools = [
     name: "记忆翻牌",
     symbol: "◇",
     caption: "记住每一次相遇",
+    tone: "lilac",
+  },
+  {
+    id: "mines",
+    name: "轻松扫雷",
+    symbol: "⚑",
+    caption: "给每一步一点推理",
+    tone: "sage",
+  },
+  {
+    id: "lights",
+    name: "翻灯谜阵",
+    symbol: "☼",
+    caption: "换个角度，点亮思路",
+    tone: "sand",
+  },
+  {
+    id: "flood",
+    name: "色彩漫游",
+    symbol: "◈",
+    caption: "让喜欢的颜色长大",
+    tone: "peach",
+  },
+  {
+    id: "bubbles",
+    name: "泡泡消消乐",
+    symbol: "◌",
+    caption: "啪一下，烦恼少一点",
     tone: "lilac",
   },
   {
@@ -271,7 +303,7 @@ onBeforeUnmount(() => {
         </p>
         <h1>今天，玩点<span>开心的。</span></h1>
         <p>把忙碌暂停一下，让小小的快乐发生。</p>
-        <span class="hero-note">8 种小乐趣 · 随时来一局</span>
+        <span class="hero-note">{{ tools.length }} 种小乐趣 · 随时来一局</span>
       </div>
       <div class="hero-art" aria-hidden="true">
         <span class="art-orbit" /><span class="art-spark spark-one">✦</span
@@ -297,7 +329,9 @@ onBeforeUnmount(() => {
         ><span class="choice-copy"
           ><strong>{{ item.name }}</strong
           ><small>{{ item.caption }}</small></span
-        ><span class="choice-number" aria-hidden="true">0{{ index + 1 }}</span>
+        ><span class="choice-number" aria-hidden="true">{{
+          String(index + 1).padStart(2, "0")
+        }}</span>
       </button>
     </nav>
     <div class="game-stage">
@@ -447,6 +481,18 @@ onBeforeUnmount(() => {
         ><TicTacToe
           v-show="tool === 'tic-tac-toe'"
           :active="tool === 'tic-tac-toe'"
+      /></Transition>
+      <Transition name="game-panel"
+        ><Minesweeper v-show="tool === 'mines'" :active="tool === 'mines'"
+      /></Transition>
+      <Transition name="game-panel"
+        ><LightsPuzzle v-show="tool === 'lights'" :active="tool === 'lights'"
+      /></Transition>
+      <Transition name="game-panel"
+        ><ColorFlood v-show="tool === 'flood'" :active="tool === 'flood'"
+      /></Transition>
+      <Transition name="game-panel"
+        ><BubblePop v-show="tool === 'bubbles'" :active="tool === 'bubbles'"
       /></Transition>
       <Transition name="game-panel"
         ><section

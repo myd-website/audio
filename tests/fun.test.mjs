@@ -139,6 +139,18 @@ function clock(t) {
 const puzzle = load("modules/fun/domain/slidingPuzzle");
 const merge = load("modules/fun/domain/game2048");
 const tic = load("modules/fun/domain/ticTacToe");
+const lights = load("modules/fun/domain/lights");
+const minefield = load("modules/fun/domain/minefield");
+const colorGames = load("modules/fun/domain/colorGames");
+
+function seeded(seed) {
+  return (max) => {
+    seed ^= seed << 13;
+    seed ^= seed >>> 17;
+    seed ^= seed << 5;
+    return (seed >>> 0) % max;
+  };
+}
 test("娱乐页保留路由入口，切换取消未完成动画且模板校验不写入无效数据", async (t) => {
   const time = clock(t);
   const route = vue.reactive({ query: { tool: "focus" } });
@@ -191,6 +203,12 @@ test("娱乐页保留路由入口，切换取消未完成动画且模板校验�
   model.optionsText.value = "选项一\n选项二";
   model.saveTemplate();
   assert.deepEqual(data.templates[0].options, ["选项一", "选项二"]);
+  assert.equal(model.tools.length, 12);
+  for (const name of ["mines", "lights", "flood", "bubbles"]) {
+    route.query.tool = name;
+    await vue.nextTick();
+    assert.equal(model.tool.value, name);
+  }
   route.query.tool = "unknown";
   await vue.nextTick();
   assert.equal(model.tool.value, "wheel");
@@ -499,4 +517,220 @@ test("立体骰子点数、合计与朝向一致，快速重复点击和离开�
   assert.equal(model.numberResult.value, 6);
   unmount();
   assert.equal(time.jobs.size, 0);
+});
+
+test("翻灯随机局面始终非完成且可解，任意落子后保留有效解，不跨行翻转", () => {
+  for (const size of [3, 4, 5]) {
+    for (let seed = 1; seed <= 80; seed++) {
+      const random = seeded(seed);
+      let puzzle = lights.createLightsPuzzle(size, random);
+      assert.ok(puzzle.board.some(Boolean));
+      for (let move = 0; move < 20; move++)
+        puzzle = lights.playLight(puzzle, random(size * size));
+      const before = structuredClone(puzzle);
+      let solved = puzzle;
+      for (let index = 0; index < puzzle.solution.length; index++)
+        if (puzzle.solution[index]) solved = lights.playLight(solved, index);
+      assert.ok(solved.board.every((on) => !on));
+      assert.deepEqual(puzzle, before);
+      assert.equal(lights.playLight(puzzle, -1), puzzle);
+      assert.equal(lights.playLight(puzzle, size * size), puzzle);
+    }
+  }
+  assert.deepEqual(lights.toggleLights(Array(9).fill(false), 3, 2), [
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+  ]);
+  assert.ok(lights.createLightsPuzzle(3, () => 0).board.some(Boolean));
+  assert.throws(() => lights.createLightsPuzzle(9));
+});
+
+test("扫雷每个首次落点及邻域安全，雷数固定且展开不翻开地雷", () => {
+  for (const [size, count] of [
+    [6, 6],
+    [8, 10],
+  ]) {
+    for (let first = 0; first < size * size; first++) {
+      const initial = minefield.createMinefield(size, count);
+      const game = minefield.revealMineCell(initial, first, seeded(first + 1));
+      assert.equal(game.mines.filter(Boolean).length, count);
+      for (const index of [first, ...minefield.mineNeighbors(size, first)])
+        assert.equal(game.mines[index], false);
+      assert.equal(game.opened[first], true);
+      game.opened.forEach((opened, index) => {
+        if (opened) assert.equal(game.mines[index], false);
+      });
+      assert.ok(initial.mines.every((mine) => !mine));
+      assert.ok(initial.opened.every((opened) => !opened));
+    }
+  }
+});
+
+test("扫雷标旗受上限约束，标旗阻止展开，胜负终态拒绝继续操作", () => {
+  let game = minefield.createMinefield(4, 1);
+  game = minefield.toggleMineFlag(game, 5);
+  assert.equal(minefield.toggleMineFlag(game, 6), game);
+  assert.equal(minefield.revealMineCell(game, 5), game);
+  game = minefield.toggleMineFlag(game, 5);
+  assert.equal(game.flags[5], false);
+  game = { ...game, mines: [true, ...Array(15).fill(false)], phase: "playing" };
+  const flagged = minefield.toggleMineFlag(game, 15);
+  let safe = minefield.revealMineCell(flagged, 14);
+  assert.equal(safe.opened[15], false);
+  safe = minefield.toggleMineFlag(safe, 15);
+  safe = minefield.revealMineCell(safe, 15);
+  assert.equal(safe.phase, "won");
+  assert.equal(safe.opened.filter(Boolean).length, 15);
+  assert.equal(minefield.revealMineCell(safe, 0), safe);
+  assert.equal(minefield.toggleMineFlag(safe, 0), safe);
+  const lost = minefield.revealMineCell(game, 0);
+  assert.equal(lost.phase, "lost");
+  assert.equal(minefield.revealMineCell(lost, 1), lost);
+  assert.equal(minefield.toggleMineFlag(lost, 1), lost);
+  assert.equal(minefield.adjacentMines(game, 5), 1);
+  assert.equal(minefield.revealMineCell(game, -1), game);
+  assert.throws(() => minefield.createMinefield(4, 8));
+});
+
+test("色彩漫游只改变左上角连通区域，相邻同色合并，原棋盘不被修改", () => {
+  const board = [0, 0, 1, 2, 1, 1, 2, 2, 1];
+  const next = colorGames.floodColor(board, 3, 1);
+  assert.deepEqual(next, [1, 1, 1, 2, 1, 1, 2, 2, 1]);
+  assert.equal(colorGames.colorGroup(next, 3, 0).length, 6);
+  assert.ok(colorGames.floodColor(next, 3, 2).every((color) => color === 2));
+  assert.deepEqual(board, [0, 0, 1, 2, 1, 1, 2, 2, 1]);
+  assert.equal(colorGames.floodColor(board, 3, 0), board);
+  assert.equal(colorGames.floodColor(board, 3, -1), board);
+  assert.deepEqual(colorGames.colorGroup([0, 1, 1, 0], 2, 0), [0]);
+  for (const colors of [4, 5]) {
+    const generated = colorGames.createColorBoard(8, 7, colors, () => 0);
+    assert.equal(generated.length, 56);
+    assert.ok(generated.some((color) => color !== generated[0]));
+    assert.ok(colorGames.canPopColors(generated, 7));
+  }
+});
+
+test("泡泡连消计算得分、向下落子并向左收拢，隔行边缘和孤立泡泡不能消除", () => {
+  const board = [0, 1, 2, 0, 1, 2, 3, 1, 2];
+  const result = colorGames.popColors(board, 3, 1);
+  assert.deepEqual(result.removed, [1, 4, 7]);
+  assert.equal(result.points, 30);
+  assert.deepEqual(result.board, [0, 2, null, 0, 2, null, 3, 2, null]);
+  assert.deepEqual(board, [0, 1, 2, 0, 1, 2, 3, 1, 2]);
+  const dropped = colorGames.popColors(result.board, 3, 0);
+  assert.deepEqual(dropped.board, [null, 2, null, null, 2, null, 3, 2, null]);
+  const isolated = [0, 1, 1, 2];
+  assert.equal(colorGames.canPopColors(isolated, 2), false);
+  assert.equal(colorGames.popColors(isolated, 2, 1).board, isolated);
+  assert.equal(colorGames.popColors(isolated, 2, -1).points, 0);
+  assert.ok(
+    colorGames
+      .popColors([0, 0, 0, 0], 2, 0)
+      .board.every((color) => color === null),
+  );
+  assert.equal(colorGames.canPopColors([null, null, null, null], 2), false);
+});
+
+test("翻灯页面支持提示、获胜锁定、撤销、重开，隐藏时不响应操作", async (t) => {
+  const { model, props } = mount(t, "LightsPuzzle", {
+    "@/shared/lib/random": { randomInt: () => 0 },
+  });
+  props.active = false;
+  model.play(0);
+  assert.equal(model.moves.value, 0);
+  props.active = true;
+  model.showHint();
+  assert.ok(model.hint.value >= 0);
+  model.play(model.hint.value);
+  assert.equal(model.won.value, true);
+  model.play(0);
+  assert.equal(model.moves.value, 1);
+  model.undo();
+  assert.equal(model.won.value, false);
+  assert.equal(model.moves.value, 0);
+  model.restart(5);
+  assert.equal(model.puzzle.value.board.length, 25);
+  assert.equal(model.history.value.length, 0);
+  assert.equal(model.hint.value, -1);
+  for (let step = 0; step < 201; step++) model.play(0);
+  assert.equal(model.moves.value, 201);
+  assert.equal(model.history.value.length, 100);
+});
+
+test("扫雷页面的手机标旗、切换保留局面、终态及重开正常", async (t) => {
+  const { model, props } = mount(t, "Minesweeper");
+  model.flagMode.value = true;
+  model.play(0);
+  assert.equal(model.game.value.flags[0], true);
+  assert.equal(model.game.value.phase, "ready");
+  props.active = false;
+  const paused = model.game.value;
+  model.play(1);
+  assert.equal(model.game.value, paused);
+  props.active = true;
+  model.play(0);
+  assert.equal(model.game.value.flags[0], false);
+  model.flagMode.value = false;
+  model.play(0);
+  assert.equal(model.game.value.opened[0], true);
+  assert.ok(model.cellLabel(0).includes("已翻开"));
+  model.restart(8);
+  assert.equal(model.game.value.mines.length, 64);
+  assert.equal(model.game.value.mineCount, 10);
+  assert.equal(model.game.value.phase, "ready");
+  assert.equal(model.flagMode.value, false);
+});
+
+test("漫游页面同色不计步，完成、撤销和切换正常，重开清除旧局", async (t) => {
+  const { model, props } = mount(t, "ColorFlood", {
+    "@/shared/lib/random": { randomInt: () => 0 },
+  });
+  model.choose(0);
+  assert.equal(model.moves.value, 0);
+  props.active = false;
+  model.choose(1);
+  assert.equal(model.moves.value, 0);
+  props.active = true;
+  model.choose(1);
+  assert.equal(model.won.value, true);
+  assert.equal(model.moves.value, 1);
+  model.choose(2);
+  assert.equal(model.moves.value, 1);
+  model.undo();
+  assert.equal(model.won.value, false);
+  assert.equal(model.moves.value, 0);
+  model.restart(8);
+  assert.equal(model.board.value.length, 64);
+  assert.equal(model.history.value.length, 0);
+});
+
+test("消消乐页面完整清空只奖励一次，撤销恢复棋盘和分数，隐藏局面不被修改", async (t) => {
+  const { model, props } = mount(t, "BubblePop");
+  model.board.value = Array(56).fill(0);
+  props.active = false;
+  model.pop(0);
+  assert.equal(model.score.value, 0);
+  props.active = true;
+  model.pop(0);
+  assert.equal(model.won.value, true);
+  assert.equal(model.totalScore.value, 15900);
+  model.pop(1);
+  assert.equal(model.totalScore.value, 15900);
+  model.undo();
+  assert.equal(model.score.value, 0);
+  assert.equal(model.rounds.value, 0);
+  assert.equal(model.remaining.value, 56);
+  assert.equal(model.ended.value, false);
+  assert.deepEqual(model.burst.value, []);
+  model.restart();
+  assert.equal(model.history.value.length, 0);
+  assert.equal(model.score.value, 0);
+  assert.equal(model.remaining.value, 56);
 });
