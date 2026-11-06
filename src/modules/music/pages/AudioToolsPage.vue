@@ -9,6 +9,16 @@ import { formatTime } from "../domain/lyrics";
 import { usePlayerStore } from "../stores/player";
 import { message } from "@/shared/lib/feedback";
 import { downloadBlob } from "@/shared/services/download";
+import AppSelect from "@/shared/components/AppSelect.vue";
+const formatOptions = [
+  { value: "mp3", label: "MP3", description: "通用音频" },
+  { value: "wav", label: "WAV", description: "未压缩 PCM" },
+];
+const bitrateOptions = [
+  { value: 128, label: "128 kbps", description: "较小文件" },
+  { value: 192, label: "192 kbps", description: "日常推荐" },
+  { value: 320, label: "320 kbps", description: "较高码率" },
+];
 const route = useRoute();
 const player = usePlayerStore();
 const fileInput = ref<HTMLInputElement>();
@@ -339,18 +349,22 @@ if (typeof route.query.local === "string")
     </section>
     <section class="card stack">
       <h2><span class="step">03</span> 导出设置</h2>
-      <label
-        >输出格式<select v-model="format" :disabled="busy">
-          <option value="mp3">MP3 · 通用音频</option>
-          <option value="wav">WAV · 未压缩 PCM</option>
-        </select></label
-      ><label v-if="format === 'mp3'"
-        >MP3 编码质量<select v-model.number="bitrate" :disabled="busy">
-          <option :value="128">128 kbps · 较小文件</option>
-          <option :value="192">192 kbps · 日常推荐</option>
-          <option :value="320">320 kbps · 较高码率</option>
-        </select></label
-      ><label class="fade-option"
+      <AppSelect
+        :model-value="format"
+        label="输出格式"
+        :options="formatOptions"
+        :disabled="busy"
+        @update:model-value="format = $event as 'mp3' | 'wav'"
+      />
+      <AppSelect
+        v-if="format === 'mp3'"
+        :model-value="bitrate"
+        label="MP3 编码质量"
+        :options="bitrateOptions"
+        :disabled="busy"
+        @update:model-value="bitrate = Number($event)"
+      />
+      <label class="fade-option"
         ><input
           v-model="fade"
           type="checkbox"

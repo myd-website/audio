@@ -6,6 +6,15 @@ import { useWorkspaceStore } from "@/shared/stores/workspace";
 import { localDate, uid, validDate } from "@/shared/lib/workspace";
 import type { Task } from "@/shared/lib/workspace";
 import { act } from "@/shared/lib/feedback";
+import AppSelect from "@/shared/components/AppSelect.vue";
+const categoryOptions = [
+  { value: "life", label: "生活" },
+  { value: "study", label: "学习" },
+];
+const priorityOptions = [
+  { value: "normal", label: "普通" },
+  { value: "high", label: "重要" },
+];
 const store = useWorkspaceStore();
 const selected = ref(localDate());
 const month = ref(new Date(new Date().getFullYear(), new Date().getMonth(), 1));
@@ -389,17 +398,18 @@ onBeforeRouteLeave(async () => {
           ><label>时间（选填）<input v-model="draft.time" type="time" /></label>
         </div>
         <div class="grid-two">
-          <label
-            >分类<select v-model="draft.category">
-              <option value="life">生活</option>
-              <option value="study">学习</option>
-            </select></label
-          ><label
-            >优先级<select v-model="draft.priority">
-              <option value="normal">普通</option>
-              <option value="high">重要</option>
-            </select></label
-          >
+          <AppSelect
+            :model-value="draft.category"
+            label="分类"
+            :options="categoryOptions"
+            @update:model-value="draft.category = $event as Task['category']"
+          />
+          <AppSelect
+            :model-value="draft.priority"
+            label="优先级"
+            :options="priorityOptions"
+            @update:model-value="draft.priority = $event as Task['priority']"
+          />
         </div>
         <label
           >备注<textarea
