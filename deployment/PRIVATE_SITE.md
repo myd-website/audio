@@ -10,7 +10,9 @@
 - `build.sourcemap: false` 加入构建检查，禁止意外开启；环境文件加入 Git 忽略规则，已被 Git 跟踪的文件不会因此自动移除。
 - 开发服务默认只监听 `127.0.0.1:8090`。需要手机局域网调试时，明确运行 `pnpm run dev --host 0.0.0.0`，此时局域网其他设备也可能访问开发服务。
 
-正常使用不增加验证码、不要求浏览器指纹，也不拦截复制、右键或开发工具。
+非开发环境由 `src/shared/lib/browserGuards.ts` 在应用挂载前注册捕获阶段监听，拦截页面收到的 F12、Windows/Linux 的 Ctrl+Shift+I/J/C/K、macOS 的 Cmd+Option+I/J/C/K、查看源码快捷键以及右键/键盘菜单；开发环境不注册监听。复制、粘贴、全选、查找、刷新和正常表单操作继续可用。
+
+这只是减少常见调试入口：页面只能取消浏览器下发的可取消事件，无法控制浏览器自身菜单、预先打开的开发者工具、外部调试或禁用 JavaScript 后的访问，不承诺彻底禁止开发者工具。
 
 ## GitHub Pages 的 robots.txt 放置要求
 
@@ -39,6 +41,7 @@
 ```sh
 pnpm run audit:publication
 node --test tests/publication.test.mjs
+node --test tests/browser-guards.test.mjs
 node node_modules/vue-tsc/bin/vue-tsc.js --noEmit
 pnpm run build --outDir /private/tmp/audio-private-site-check --emptyOutDir false
 pnpm run audit:publication --out-dir /private/tmp/audio-private-site-check

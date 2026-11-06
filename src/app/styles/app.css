@@ -22,10 +22,20 @@ body {
     "Microsoft YaHei", sans-serif;
 }
 .aide-app {
+  --aide-bottom-clearance: 0px;
   font-size: 16px;
   line-height: 1.6;
   min-height: 100dvh;
-  padding-bottom: calc(160px + env(safe-area-inset-bottom, 0px));
+  /* 仅为当前显示的固定底栏留位，避免内容可完整显示时仍产生空白滚动。 */
+  padding-bottom: calc(
+    var(--aide-bottom-clearance) + env(safe-area-inset-bottom, 0px)
+  );
+}
+.aide-app.has-bottom-nav {
+  --aide-bottom-clearance: 65px;
+}
+.aide-app.has-mini-player {
+  --aide-bottom-clearance: 160px;
 }
 .aide-app *,
 .aide-app *::before,

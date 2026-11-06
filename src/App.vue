@@ -49,7 +49,11 @@ const active = computed(() => route.meta.tab || route.path);
 <template>
   <div
     class="aide-app"
-    :class="{ 'is-keyboard-open': keyboardOpen }"
+    :class="{
+      'is-keyboard-open': keyboardOpen,
+      'has-bottom-nav': !choosingProfile,
+      'has-mini-player': !choosingProfile && !!player.current,
+    }"
     :style="viewportStyle"
   >
     <ProfilesPage v-if="shellMounted && choosingProfile" />
