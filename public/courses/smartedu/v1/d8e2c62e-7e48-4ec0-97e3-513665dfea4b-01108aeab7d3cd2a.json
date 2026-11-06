@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "bookId": "d8e2c62e-7e48-4ec0-97e3-513665dfea4b",
+  "chapters": [
+    {
+      "id": "c6a35279-c658-37b0-8547-ac4ae3dca7d7",
+      "title": "Unit 1 Visiting Canada",
+      "parentId": ""
+    },
+    {
+      "id": "6339ce00-ccf0-3487-a128-4a0344f21541",
+      "title": "Lesson 1",
+      "parentId": "c6a35279-c658-37b0-8547-ac4ae3dca7d7"
+    },
+    {
+      "id": "725a7d49-b39a-3315-82cf-893820096695",
+      "title": "Lesson 2",
+      "parentId": "c6a35279-c658-37b0-8547-ac4ae3dca7d7"
+    },
+    {
+      "id": "4b740256-8f22-3b0c-917a-c0ff0e14852a",
+      "title": "Lesson 3",
+      "parentId": "c6a35279-c658-37b0-8547-ac4ae3dca7d7"
+    },
+    {
+      "id": "d0689342-c3b4-3939-a852-05e7716a7618",
+      "title": "Project Time",
+      "parentId": "c6a35279-c658-37b0-8547-ac4ae3dca7d7"
+    },
+    {
+      "id": "e0e3f3c4-a753-3a46-9183-b08a1cb75386",
+      "title": "Story Time",
+      "parentId": "c6a35279-c658-37b0-8547-ac4ae3dca7d7"
+    },
+    {
+      "id": "dcd64dfd-0b5d-3250-a818-452a1e3a54c4",
+      "title": "Unit 1 Visting Canada",
+      "parentId": "c6a35279-c658-37b0-8547-ac4ae3dca7d7"
+    },
+    {
+      "id": "0dae791e-b222-3882-8060-8ee3b5a2569f",
+      "title": "Unit 2 All Around Me",
+      "parentId": ""
+    },
+    {
+      "id": "2ca6543b-c976-38f9-a7e1-3c7d3ef79094",
+      "title": "Lesson 1",
+      "parentId": "0dae791e-b222-3882-8060-8ee3b5a2569f"
+    },
+    {
+      "id": "a2461a4f-48b0-3d77-9bba-8044e608083d",
+      "title": "Lesson 2",
+      "parentId": "0dae791e-b222-3882-8060-8ee3b5a2569f"
+    },
+    {
+      "id": "12aaaa86-6e79-3c71-89c7-272bc19aa5c6",
+      "title": "Lesson 3",
+      "parentId": "0dae791e-b222-3882-8060-8ee3b5a2569f"
+    },
+    {
+      "id": "fd69e672-69cd-351d-9ba7-032c59735d6b",
+      "title": "Project Time",
+      "parentId": "0dae791e-b222-3882-8060-8ee3b5a2569f"
+    },
+    {
+      "id": "bfa8d385-be8c-3bfc-ac96-4ab422ee38b4",
+      "title": "Story Time",
+      "parentId": "0dae791e-b222-3882-8060-8ee3b5a2569f"
+    },
+    {
+      "id": "d5ecdc0c-ee9e-3142-862f-740bc19d0d84",
+      "title": "Unit 2 All Around Me",
+      "parentId": "0dae791e-b222-3882-8060-8ee3b5a2569f"
+    },
+    {
+      "id": "cac070b3-34eb-3818-b914-b0e7f0937313",
+      "title": "Unit 3 Daily Life",
+      "parentId": ""
+    },
+    {
+      "id": "442dfb59-74a4-3a2e-a87b-b65189077e0c",
+      "title": "Lesson 1",
+      "parentId": "cac070b3-34eb-3818-b914-b0e7f0937313"
+    },
+    {
+      "id": "9111e488-3c41-3184-b786-a805b512fff6",
+      "title": "Lesson 2",
+      "parentId": "cac070b3-34eb-3818-b914-b0e7f0937313"
+    },
+    {
+      "id": "5ea94a03-91c5-3227-b555-972697a8200d",
+      "title": "Lesson 3",
+      "parentId": "cac070b3-34eb-3818-b914-b0e7f0937313"
+    },
+    {
+      "id": "10d7848f-fbd2-3466-b872-c15fafe69cc7",
+      "title": "Project Time",
+      "parentId": "cac070b3-34eb-3818-b914-b0e7f0937313"
+    },
+    {
+      "id": "4b602e43-9c44-34cf-b4cd-11adb3535dc6",
+      "title": "Story Time",
+      "parentId": "cac070b3-34eb-3818-b914-b0e7f0937313"
+    },
+    {
+      "id": "457263ce-e5c6-3f6b-be27-6ac682b95fd2",
+      "title": "Unit 3 Daily Life",
+      "parentId": "cac070b3-34eb-3818-b914-b0e7f0937313"
+    },
+    {
+      "id": "df709037-8b28-3368-add1-f0d601c721e2",
+      "title": "Unit 4 Free Time",
+      "parentId": ""
+    },
+    {
+      "id": "4bd93654-6af1-39ea-8661-46db455232cf",
+      "title": "Lesson 1",
+      "parentId": "df709037-8b28-3368-add1-f0d601c721e2"
+    },
+    {
+      "id": "2479f2f9-c6a0-3352-a634-c03b467879d4",
+      "title": "Lesson 2",
+      "parentId": "df709037-8b28-3368-add1-f0d601c721e2"
+    },
+    {
+      "id": "81663b08-3c66-38ee-a0cc-e2479336fe1d",
+      "title": "Lesson 3",
+      "parentId": "df709037-8b28-3368-add1-f0d601c721e2"
+    },
+    {
+      "id": "d55ed765-930c-3075-b221-989ffbd7d6af",
+      "title": "Project Time",
+      "parentId": "df709037-8b28-3368-add1-f0d601c721e2"
+    },
+    {
+      "id": "aa4bd92b-0c25-325c-9516-0f9b06d526a3",
+      "title": "Story Time",
+      "parentId": "df709037-8b28-3368-add1-f0d601c721e2"
+    },
+    {
+      "id": "8691811c-73dc-3634-a826-3ee91d2d2780",
+      "title": "Unit 4 Free Time",
+      "parentId": "df709037-8b28-3368-add1-f0d601c721e2"
+    },
+    {
+      "id": "e7643d1a-3dec-337a-ba40-0064e366b576",
+      "title": "Unit 5 Nature and Culture",
+      "parentId": ""
+    },
+    {
+      "id": "03979054-29bc-377a-acb2-3fbc7a5c1a7d",
+      "title": "Lesson 1",
+      "parentId": "e7643d1a-3dec-337a-ba40-0064e366b576"
+    },
+    {
+      "id": "3c8926d3-05e7-3979-bdbf-7e3598a97625",
+      "title": "Lesson 2",
+      "parentId": "e7643d1a-3dec-337a-ba40-0064e366b576"
+    },
+    {
+      "id": "c414c70f-985e-33cc-b74f-14e5156fbb99",
+      "title": "Lesson 3",
+      "parentId": "e7643d1a-3dec-337a-ba40-0064e366b576"
+    },
+    {
+      "id": "3856e3c0-21a0-34b4-90ac-5322698385fd",
+      "title": "Project Time",
+      "parentId": "e7643d1a-3dec-337a-ba40-0064e366b576"
+    },
+    {
+      "id": "f7eefaf8-5454-3d03-a2a2-121f80226ad3",
+      "title": "Story Time",
+      "parentId": "e7643d1a-3dec-337a-ba40-0064e366b576"
+    },
+    {
+      "id": "9a171b35-4d4d-3a6a-8ab7-8dc58f9af1f9",
+      "title": "Unit 5 Nature and Culture",
+      "parentId": "e7643d1a-3dec-337a-ba40-0064e366b576"
+    },
+    {
+      "id": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04",
+      "title": "Unit 6 Summer Vacation",
+      "parentId": ""
+    },
+    {
+      "id": "ea70ad4e-2104-3b58-9ab6-d4ed00ac7095",
+      "title": "Lesson 1",
+      "parentId": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04"
+    },
+    {
+      "id": "5d18db22-2917-3247-93f7-11df013daa16",
+      "title": "Lesson 2",
+      "parentId": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04"
+    },
+    {
+      "id": "017bf84c-64ea-3f83-bb72-bf160179e7bb",
+      "title": "Lesson 3",
+      "parentId": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04"
+    },
+    {
+      "id": "91d0b4fa-9951-3139-bffe-0128f6fddec3",
+      "title": "Project Time",
+      "parentId": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04"
+    },
+    {
+      "id": "56c4e422-d8a0-375f-acf4-06b02edef514",
+      "title": "Story Time",
+      "parentId": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04"
+    },
+    {
+      "id": "f2b1e817-dc1c-3197-bfe5-373c3f482eee",
+      "title": "Unit 6 Summer Vacation",
+      "parentId": "5b55c15b-f1e4-3ceb-bf98-29e4c85cab04"
+    },
+    {
+      "id": "6bae6761-1c39-33fc-b737-86bba4c694ad",
+      "title": "附录一 单元词汇表",
+      "parentId": ""
+    },
+    {
+      "id": "a803aa6c-57eb-3d0f-9181-515d6bcfbd16",
+      "title": "附录二 总词汇表",
+      "parentId": ""
+    }
+  ],
+  "lessons": []
+}

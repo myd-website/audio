@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "bookId": "8dabed50-6eed-40dd-8bea-c70f0718114d",
+  "chapters": [
+    {
+      "id": "3303d577-1af6-4e38-8757-b1952f36a21e",
+      "title": "Unit 1 Making friends",
+      "parentId": ""
+    },
+    {
+      "id": "f1ecd99d-f0c6-4f95-987b-9cead812e700",
+      "title": "part A How do we greet friends?",
+      "parentId": "3303d577-1af6-4e38-8757-b1952f36a21e"
+    },
+    {
+      "id": "9bbae21c-7f1b-480b-ac48-1defa46ebbe2",
+      "title": "part B How can we be a good friend?",
+      "parentId": "3303d577-1af6-4e38-8757-b1952f36a21e"
+    },
+    {
+      "id": "ac989d80-1fe3-47d6-b5af-db6e58335ff2",
+      "title": "part C (optional)",
+      "parentId": "3303d577-1af6-4e38-8757-b1952f36a21e"
+    },
+    {
+      "id": "b002907f-eb25-4a27-b32e-67572fb9631f",
+      "title": "Grammar",
+      "parentId": "3303d577-1af6-4e38-8757-b1952f36a21e"
+    },
+    {
+      "id": "4bc28d8d-5ad6-47b4-8633-55755c6607b9",
+      "title": "Unit 2 Different families",
+      "parentId": ""
+    },
+    {
+      "id": "483ea5b7-3b16-40a0-bfc1-5aa14139627a",
+      "title": "part A Who lives with you?",
+      "parentId": "4bc28d8d-5ad6-47b4-8633-55755c6607b9"
+    },
+    {
+      "id": "6a30821d-eab9-4409-8a96-e6e02f7ccde5",
+      "title": "part B How are families different?",
+      "parentId": "4bc28d8d-5ad6-47b4-8633-55755c6607b9"
+    },
+    {
+      "id": "e52bed62-3bba-4794-859e-fdd434b688af",
+      "title": "part C (optional)",
+      "parentId": "4bc28d8d-5ad6-47b4-8633-55755c6607b9"
+    },
+    {
+      "id": "4afa66b5-278c-4d18-b509-30eeec583ae4",
+      "title": "Grammar",
+      "parentId": "4bc28d8d-5ad6-47b4-8633-55755c6607b9"
+    },
+    {
+      "id": "364d6309-c2af-4d27-8918-ecf6b834e891",
+      "title": "Unit 3 Amazing animals",
+      "parentId": ""
+    },
+    {
+      "id": "1ee65a28-b8ac-4e3d-946b-83b3773d28c2",
+      "title": "part A What pets do you know?",
+      "parentId": "364d6309-c2af-4d27-8918-ecf6b834e891"
+    },
+    {
+      "id": "50d65071-9db3-4759-9eb4-14e0417c0b96",
+      "title": "part B What wild animals do you know?",
+      "parentId": "364d6309-c2af-4d27-8918-ecf6b834e891"
+    },
+    {
+      "id": "e2637cf0-50f0-420f-a285-3d10c2476db1",
+      "title": "part C (optional)",
+      "parentId": "364d6309-c2af-4d27-8918-ecf6b834e891"
+    },
+    {
+      "id": "a52c1235-a850-40b8-8447-1cd44c024cce",
+      "title": "Grammar",
+      "parentId": "364d6309-c2af-4d27-8918-ecf6b834e891"
+    },
+    {
+      "id": "a7603681-2c47-4463-b434-05258d8ce517",
+      "title": "Unit 4 Plants around us",
+      "parentId": ""
+    },
+    {
+      "id": "dc2d679b-88da-45df-8d07-f0623c604334",
+      "title": "part A What do we get from plants?",
+      "parentId": "a7603681-2c47-4463-b434-05258d8ce517"
+    },
+    {
+      "id": "a82c686a-fca2-45ff-9595-342ecfa3233f",
+      "title": "part B How can we help plants?",
+      "parentId": "a7603681-2c47-4463-b434-05258d8ce517"
+    },
+    {
+      "id": "ef888a39-25b4-459a-811d-af78e21d7769",
+      "title": "part C (optional)",
+      "parentId": "a7603681-2c47-4463-b434-05258d8ce517"
+    },
+    {
+      "id": "0640d6ef-6907-49d8-8e3e-1188a45c9127",
+      "title": "Grammar",
+      "parentId": "a7603681-2c47-4463-b434-05258d8ce517"
+    },
+    {
+      "id": "21a66b09-d4fa-40bc-af0f-86d389f4fa7a",
+      "title": "Unit 5 The colourful world",
+      "parentId": ""
+    },
+    {
+      "id": "6e6929d8-1bd0-4092-81b5-3635c882c36a",
+      "title": "part A What colours do you see?",
+      "parentId": "21a66b09-d4fa-40bc-af0f-86d389f4fa7a"
+    },
+    {
+      "id": "27af2bac-da97-40e4-b3c4-804043bc54c5",
+      "title": "part B How do colours help us?",
+      "parentId": "21a66b09-d4fa-40bc-af0f-86d389f4fa7a"
+    },
+    {
+      "id": "4479159f-4d33-4ddb-b5f0-e20b86b8791d",
+      "title": "part C (optional)",
+      "parentId": "21a66b09-d4fa-40bc-af0f-86d389f4fa7a"
+    },
+    {
+      "id": "28d1d443-9e95-46e5-a1e8-b652f504090e",
+      "title": "Grammar",
+      "parentId": "21a66b09-d4fa-40bc-af0f-86d389f4fa7a"
+    },
+    {
+      "id": "ba915a7c-6258-4a2b-a94b-cbe205b81d2c",
+      "title": "Unit 6 Useful numbers",
+      "parentId": ""
+    },
+    {
+      "id": "b7c4e7d0-e2d3-458e-982c-8f48a3e56f06",
+      "title": "part A When do we use numbers?",
+      "parentId": "ba915a7c-6258-4a2b-a94b-cbe205b81d2c"
+    },
+    {
+      "id": "b14acfa1-888a-4121-bb3d-522ad9535938",
+      "title": "part B How useful are numbers?",
+      "parentId": "ba915a7c-6258-4a2b-a94b-cbe205b81d2c"
+    },
+    {
+      "id": "74172f1b-1d16-4136-a7c6-f09abb7bdf3a",
+      "title": "part C (optional)",
+      "parentId": "ba915a7c-6258-4a2b-a94b-cbe205b81d2c"
+    },
+    {
+      "id": "f932b697-fc8e-41c2-b5c5-b19cf767defc",
+      "title": "Grammar",
+      "parentId": "ba915a7c-6258-4a2b-a94b-cbe205b81d2c"
+    },
+    {
+      "id": "f25e4218-9db0-4531-bf2c-016ca74a55dc",
+      "title": "Revision Being a good guest",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "5e7b70d5-8b90-b4e2-3de4-ef4dce5b755d",
+      "title": "Unit 1 Making friends Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3303d577-1af6-4e38-8757-b1952f36a21e",
+        "f1ecd99d-f0c6-4f95-987b-9cead812e700"
+      ]
+    },
+    {
+      "id": "29b581af-0f4d-845a-93ce-446cb62f6eb5",
+      "title": "Unit 1 Making friends Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3303d577-1af6-4e38-8757-b1952f36a21e",
+        "9bbae21c-7f1b-480b-ac48-1defa46ebbe2"
+      ]
+    },
+    {
+      "id": "3cfb6334-8e84-4b74-f1e6-c6a84c9705eb",
+      "title": "Unit 2 Different families Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "4bc28d8d-5ad6-47b4-8633-55755c6607b9",
+        "483ea5b7-3b16-40a0-bfc1-5aa14139627a"
+      ]
+    },
+    {
+      "id": "48af6647-ada6-bc3f-4209-a09f1e8ad681",
+      "title": "Unit 2 Different families Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "4bc28d8d-5ad6-47b4-8633-55755c6607b9",
+        "6a30821d-eab9-4409-8a96-e6e02f7ccde5"
+      ]
+    },
+    {
+      "id": "789b326e-f5c7-f687-0f51-534a50a7f3db",
+      "title": "Unit 3 Our animal friends Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "364d6309-c2af-4d27-8918-ecf6b834e891",
+        "1ee65a28-b8ac-4e3d-946b-83b3773d28c2"
+      ]
+    },
+    {
+      "id": "d18794b7-d57c-6316-c24d-5be733ebeef9",
+      "title": "Unit 3 Our animal friends Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "364d6309-c2af-4d27-8918-ecf6b834e891",
+        "50d65071-9db3-4759-9eb4-14e0417c0b96"
+      ]
+    },
+    {
+      "id": "c93b83e7-7e7b-5d88-1828-01501d0e5173",
+      "title": "Unit 4 Plants around us Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a7603681-2c47-4463-b434-05258d8ce517",
+        "dc2d679b-88da-45df-8d07-f0623c604334"
+      ]
+    },
+    {
+      "id": "0a89aaa0-446a-35d3-7841-940f673a64fb",
+      "title": "Unit 4 Plants around us Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a7603681-2c47-4463-b434-05258d8ce517",
+        "a82c686a-fca2-45ff-9595-342ecfa3233f"
+      ]
+    },
+    {
+      "id": "94e86bb7-6d0a-85bd-ff07-ad453f7cacbc",
+      "title": "Unit 5 The colourful world Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "21a66b09-d4fa-40bc-af0f-86d389f4fa7a",
+        "6e6929d8-1bd0-4092-81b5-3635c882c36a"
+      ]
+    },
+    {
+      "id": "86e6b30b-d8cd-9ff2-c70f-781e0caef8cc",
+      "title": "Unit 5 The colourful world Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "21a66b09-d4fa-40bc-af0f-86d389f4fa7a",
+        "27af2bac-da97-40e4-b3c4-804043bc54c5"
+      ]
+    },
+    {
+      "id": "32f02caf-3089-5588-b718-cf30de5f199b",
+      "title": "Unit 6 Useful numbers Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ba915a7c-6258-4a2b-a94b-cbe205b81d2c",
+        "b7c4e7d0-e2d3-458e-982c-8f48a3e56f06"
+      ]
+    },
+    {
+      "id": "0f35a00d-6b47-81d0-8109-e972f0324b99",
+      "title": "Unit 6 Useful numbers Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ba915a7c-6258-4a2b-a94b-cbe205b81d2c",
+        "b14acfa1-888a-4121-bb3d-522ad9535938"
+      ]
+    },
+    {
+      "id": "f9fb0f25-4422-5928-eef8-096f400e5110",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "21a66b09-d4fa-40bc-af0f-86d389f4fa7a",
+        "28d1d443-9e95-46e5-a1e8-b652f504090e"
+      ]
+    },
+    {
+      "id": "2c1fabdc-17e5-7a80-8fd4-df1979ac0da5",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a7603681-2c47-4463-b434-05258d8ce517",
+        "0640d6ef-6907-49d8-8e3e-1188a45c9127"
+      ]
+    },
+    {
+      "id": "602d97f4-c6e9-f267-9ff9-2cea1a4e7578",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "364d6309-c2af-4d27-8918-ecf6b834e891",
+        "a52c1235-a850-40b8-8447-1cd44c024cce"
+      ]
+    },
+    {
+      "id": "ec818ee0-d48d-f17c-ffba-24202236ef20",
+      "title": "Revision Being a good guest",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "f25e4218-9db0-4531-bf2c-016ca74a55dc"
+      ]
+    },
+    {
+      "id": "ed97368f-16ca-af9e-a3f0-8f926c72f942",
+      "title": "part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "364d6309-c2af-4d27-8918-ecf6b834e891",
+        "e2637cf0-50f0-420f-a285-3d10c2476db1"
+      ]
+    },
+    {
+      "id": "c4196674-3e61-30c9-8dc7-e2d9813b4bc8",
+      "title": "part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a7603681-2c47-4463-b434-05258d8ce517",
+        "ef888a39-25b4-459a-811d-af78e21d7769"
+      ]
+    },
+    {
+      "id": "70ebd215-29fa-d71a-7df0-d3b5efb361e3",
+      "title": "part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "ba915a7c-6258-4a2b-a94b-cbe205b81d2c",
+        "74172f1b-1d16-4136-a7c6-f09abb7bdf3a"
+      ]
+    },
+    {
+      "id": "c86101f5-a72b-209a-13ca-dadfb3ed3149",
+      "title": "part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "21a66b09-d4fa-40bc-af0f-86d389f4fa7a",
+        "4479159f-4d33-4ddb-b5f0-e20b86b8791d"
+      ]
+    },
+    {
+      "id": "65a03c73-987b-f446-ae42-771cc2e862fe",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "4bc28d8d-5ad6-47b4-8633-55755c6607b9",
+        "4afa66b5-278c-4d18-b509-30eeec583ae4"
+      ]
+    },
+    {
+      "id": "0cd7c609-0fca-10f4-55c0-37e6bbb642c6",
+      "title": "part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "4bc28d8d-5ad6-47b4-8633-55755c6607b9",
+        "e52bed62-3bba-4794-859e-fdd434b688af"
+      ]
+    },
+    {
+      "id": "b7bc0eca-cead-6617-7197-76f50b728d31",
+      "title": "Making friends part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "3303d577-1af6-4e38-8757-b1952f36a21e",
+        "ac989d80-1fe3-47d6-b5af-db6e58335ff2"
+      ]
+    },
+    {
+      "id": "5d0ac2c3-ab0c-bcf6-03dc-6bbce2d8899f",
+      "title": "part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "4bc28d8d-5ad6-47b4-8633-55755c6607b9",
+        "e52bed62-3bba-4794-859e-fdd434b688af"
+      ]
+    },
+    {
+      "id": "2bd8d762-7c24-c37a-63ac-d3e5ba269ddc",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "ba915a7c-6258-4a2b-a94b-cbe205b81d2c",
+        "f932b697-fc8e-41c2-b5c5-b19cf767defc"
+      ]
+    }
+  ]
+}

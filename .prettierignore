@@ -1,0 +1,4 @@
+# 已生成的词库分片保持紧凑 JSON，不对整库展开格式化。
+/public/dictionaries/v1/**
+# 官方课程快照由同步脚本生成，文件名包含内容哈希，不手工改写。
+/public/courses/smartedu/v1/**

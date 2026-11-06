@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "bookId": "a0bd25a0-6a56-4235-8225-eab16c04e217",
+  "chapters": [
+    {
+      "id": "1ada9274-2fe0-3caf-9387-db5204963002",
+      "title": "1 四则运算",
+      "parentId": ""
+    },
+    {
+      "id": "cde11478-f060-33d4-8301-9a588eade7ef",
+      "title": "加、减法的意义和各部分间的关系",
+      "parentId": "1ada9274-2fe0-3caf-9387-db5204963002"
+    },
+    {
+      "id": "beacc832-ebbe-3479-9317-e5acee3bca8f",
+      "title": "乘、除法的意义和各部分间的关系",
+      "parentId": "1ada9274-2fe0-3caf-9387-db5204963002"
+    },
+    {
+      "id": "3580514f-111a-3ee8-8f6f-e8b063f955b4",
+      "title": "括号",
+      "parentId": "1ada9274-2fe0-3caf-9387-db5204963002"
+    },
+    {
+      "id": "14b6a1c2-cbcb-3b63-ba5b-04f43cea45bd",
+      "title": "解决问题",
+      "parentId": "1ada9274-2fe0-3caf-9387-db5204963002"
+    },
+    {
+      "id": "715d2c9d-9224-3fd0-b658-ae737b859198",
+      "title": "2 观察物体（二）",
+      "parentId": ""
+    },
+    {
+      "id": "a5fad4df-c601-3d5d-bbf5-919da276e4d9",
+      "title": "3 运算律",
+      "parentId": ""
+    },
+    {
+      "id": "0144b108-8255-345f-9f37-f4ef40805684",
+      "title": "加法运算律",
+      "parentId": "a5fad4df-c601-3d5d-bbf5-919da276e4d9"
+    },
+    {
+      "id": "94e19e8f-c140-39c9-b2a3-f7d082f45b5b",
+      "title": "加法运算律的应用",
+      "parentId": "a5fad4df-c601-3d5d-bbf5-919da276e4d9"
+    },
+    {
+      "id": "a1e1ed90-7bd1-3fde-9ec6-bc5a13418b0a",
+      "title": "乘法运算律",
+      "parentId": "a5fad4df-c601-3d5d-bbf5-919da276e4d9"
+    },
+    {
+      "id": "63054efb-be38-3b88-88f0-e4fa18ccb1eb",
+      "title": "乘法运算律的应用",
+      "parentId": "a5fad4df-c601-3d5d-bbf5-919da276e4d9"
+    },
+    {
+      "id": "f899f838-da13-3113-a124-cf1fbf52ba60",
+      "title": "4 小数的意义和性质",
+      "parentId": ""
+    },
+    {
+      "id": "38efeb08-c8c3-34cd-af86-f5029bca8fde",
+      "title": "小数的意义",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "866d9360-73de-3457-a611-3042b06be43a",
+      "title": "小数的读法和写法",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "0755cdf2-0001-30a6-94f3-61607b6ca300",
+      "title": "小数的性质",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "900b2192-84be-35cc-bca4-650d9432b037",
+      "title": "小数的大小比较",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "e4c4edd4-e8c8-38e5-9555-775c7f96f4cf",
+      "title": "小数点移动引起小数大小的变化",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "ef913995-2d15-3b7d-a977-6971f8ad37b5",
+      "title": "解决问题",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "3bd73a09-787b-3cef-aef1-f4c28c9cb6be",
+      "title": "小数与单位换算",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "c881916a-7bd9-3cbf-b692-5dbcf98c037a",
+      "title": "小数的近似数",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "7226c86a-e60e-370d-b9d7-a354ab0307d8",
+      "title": "整理和复习",
+      "parentId": "f899f838-da13-3113-a124-cf1fbf52ba60"
+    },
+    {
+      "id": "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+      "title": "5 三角形",
+      "parentId": ""
+    },
+    {
+      "id": "239285b7-3535-3998-9ced-6c45120e7a58",
+      "title": "三角形的认识",
+      "parentId": "c75d7077-6d17-3393-a8de-008c9bd28ccb"
+    },
+    {
+      "id": "0908ed80-daf4-3f38-82e6-9b5d14b3d666",
+      "title": "三角形的特性",
+      "parentId": "c75d7077-6d17-3393-a8de-008c9bd28ccb"
+    },
+    {
+      "id": "e27fdff3-7198-370e-82b2-6330a5c3bab5",
+      "title": "三角形的三边关系",
+      "parentId": "c75d7077-6d17-3393-a8de-008c9bd28ccb"
+    },
+    {
+      "id": "9e1b8c22-8585-3b73-8904-c7d304fa7d69",
+      "title": "三角形的分类",
+      "parentId": "c75d7077-6d17-3393-a8de-008c9bd28ccb"
+    },
+    {
+      "id": "5431f369-203f-3d95-9665-abf5fd784039",
+      "title": "三角形的内角和",
+      "parentId": "c75d7077-6d17-3393-a8de-008c9bd28ccb"
+    },
+    {
+      "id": "b01b2c26-9aeb-36c3-8f29-b167385ca3b4",
+      "title": "解决问题",
+      "parentId": "c75d7077-6d17-3393-a8de-008c9bd28ccb"
+    },
+    {
+      "id": "b657df46-7402-31a8-bbea-7094533ed556",
+      "title": "6 小数的加法和减法",
+      "parentId": ""
+    },
+    {
+      "id": "309be799-aaac-3f92-abb1-9301e885615d",
+      "title": "小数加减法",
+      "parentId": "b657df46-7402-31a8-bbea-7094533ed556"
+    },
+    {
+      "id": "e929145c-4f59-3236-a5b3-27269b806fcb",
+      "title": "小数加减混合运算",
+      "parentId": "b657df46-7402-31a8-bbea-7094533ed556"
+    },
+    {
+      "id": "1702855d-6613-343c-8160-c88ff64ab615",
+      "title": "整数加法运算律推广到小数",
+      "parentId": "b657df46-7402-31a8-bbea-7094533ed556"
+    },
+    {
+      "id": "af4d7418-fac0-3f17-951c-ef537b092cb1",
+      "title": "7 图形的运动（二）",
+      "parentId": ""
+    },
+    {
+      "id": "351d7d1b-bb79-34cf-ac6a-44ad09facf7e",
+      "title": "轴对称",
+      "parentId": "af4d7418-fac0-3f17-951c-ef537b092cb1"
+    },
+    {
+      "id": "6f46a1eb-3f4f-380a-99ad-068c73c7d957",
+      "title": "平移",
+      "parentId": "af4d7418-fac0-3f17-951c-ef537b092cb1"
+    },
+    {
+      "id": "4862b736-b80c-312a-a944-33de9157bf5e",
+      "title": "8 平均数与条形统计图",
+      "parentId": ""
+    },
+    {
+      "id": "e3e12e3d-7d67-3cc5-a8f1-c30259ec93fc",
+      "title": "平均数",
+      "parentId": "4862b736-b80c-312a-a944-33de9157bf5e"
+    },
+    {
+      "id": "38deb080-64a2-3cd2-8e21-3be0aacf8833",
+      "title": "复式条形统计图",
+      "parentId": "4862b736-b80c-312a-a944-33de9157bf5e"
+    },
+    {
+      "id": "794160d3-32ff-3853-92d0-5fb6d9bb311a",
+      "title": "★ 营养午餐",
+      "parentId": ""
+    },
+    {
+      "id": "cc885465-d4b4-35f2-afc6-84827881074b",
+      "title": "9 数学广角——鸡兔同笼",
+      "parentId": ""
+    },
+    {
+      "id": "68f85e67-1c0d-3cc2-93e2-3e7c132c3890",
+      "title": "10 总复习",
+      "parentId": ""
+    },
+    {
+      "id": "3345701e-3713-3ce9-a1a5-55d88ec51c3e",
+      "title": "整数运算",
+      "parentId": "68f85e67-1c0d-3cc2-93e2-3e7c132c3890"
+    },
+    {
+      "id": "c1890277-c8f2-3dec-8c7b-1293403f4cbb",
+      "title": "认识小数及小数加减法",
+      "parentId": "68f85e67-1c0d-3cc2-93e2-3e7c132c3890"
+    },
+    {
+      "id": "497a2ca7-3a56-3d4d-865f-ea1d57d0a26c",
+      "title": "三角形",
+      "parentId": "68f85e67-1c0d-3cc2-93e2-3e7c132c3890"
+    },
+    {
+      "id": "886ca17c-d40d-31eb-9f8a-e3a00e2da6b8",
+      "title": "平均数与复式条形统计图",
+      "parentId": "68f85e67-1c0d-3cc2-93e2-3e7c132c3890"
+    },
+    {
+      "id": "bfe3682a-a454-33ea-91f9-75d6a4109352",
+      "title": "综合练习",
+      "parentId": "68f85e67-1c0d-3cc2-93e2-3e7c132c3890"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "28244acb-d4fb-4aad-bcdb-295604a5d71a",
+      "title": "小数的近似数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "c881916a-7bd9-3cbf-b692-5dbcf98c037a"
+      ]
+    },
+    {
+      "id": "9404d5d0-7409-38ce-dbfd-3c5e52b55de4",
+      "title": "小数的意义和性质整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "7226c86a-e60e-370d-b9d7-a354ab0307d8"
+      ]
+    },
+    {
+      "id": "8ede089c-82bb-fc42-ccab-e7dd3999e361",
+      "title": "三角形的特性",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+        "0908ed80-daf4-3f38-82e6-9b5d14b3d666"
+      ]
+    },
+    {
+      "id": "37b746c7-10d1-c82f-6ef1-bee45a13e963",
+      "title": "三角形的分类",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+        "9e1b8c22-8585-3b73-8904-c7d304fa7d69"
+      ]
+    },
+    {
+      "id": "209012c4-6307-ffa7-2f8f-1f1edbd6fa0c",
+      "title": "三角形的内角和",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+        "5431f369-203f-3d95-9665-abf5fd784039"
+      ]
+    },
+    {
+      "id": "e5449118-be6c-7cc7-28ab-9b993eb576cb",
+      "title": "四边形的内角和",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+        "b01b2c26-9aeb-36c3-8f29-b167385ca3b4"
+      ]
+    },
+    {
+      "id": "55aefab3-c803-c7c7-cabe-aabd5d8f54e2",
+      "title": "小数加减法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b657df46-7402-31a8-bbea-7094533ed556",
+        "309be799-aaac-3f92-abb1-9301e885615d"
+      ]
+    },
+    {
+      "id": "d68e3ba7-6326-74d9-9423-45c3d4c17350",
+      "title": "小数加减混合运算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b657df46-7402-31a8-bbea-7094533ed556",
+        "e929145c-4f59-3236-a5b3-27269b806fcb"
+      ]
+    },
+    {
+      "id": "188584ae-acc8-85ca-91d7-2e535e585e56",
+      "title": "整数加法运算律推广到小数(第1课时）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b657df46-7402-31a8-bbea-7094533ed556",
+        "1702855d-6613-343c-8160-c88ff64ab615"
+      ]
+    },
+    {
+      "id": "d61f20fc-283d-3dc0-09e1-bda72f477598",
+      "title": "小数的加法和减法整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b657df46-7402-31a8-bbea-7094533ed556",
+        "1702855d-6613-343c-8160-c88ff64ab615"
+      ]
+    },
+    {
+      "id": "982fe55c-b608-6847-68e4-4f8da249fbd4",
+      "title": "轴对称",
+      "type": "national_lesson",
+      "chapterIds": [
+        "af4d7418-fac0-3f17-951c-ef537b092cb1",
+        "351d7d1b-bb79-34cf-ac6a-44ad09facf7e"
+      ]
+    },
+    {
+      "id": "2429fbae-9ada-65c0-a5e1-9c9473067b56",
+      "title": "平移",
+      "type": "national_lesson",
+      "chapterIds": [
+        "af4d7418-fac0-3f17-951c-ef537b092cb1",
+        "6f46a1eb-3f4f-380a-99ad-068c73c7d957"
+      ]
+    },
+    {
+      "id": "10a9f19e-c356-d712-70d7-2b0914119bc2",
+      "title": "平均数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "4862b736-b80c-312a-a944-33de9157bf5e",
+        "e3e12e3d-7d67-3cc5-a8f1-c30259ec93fc"
+      ]
+    },
+    {
+      "id": "4a18a6a6-fd79-cc49-6237-19169d4d379c",
+      "title": "复式条形统计图",
+      "type": "national_lesson",
+      "chapterIds": [
+        "4862b736-b80c-312a-a944-33de9157bf5e",
+        "38deb080-64a2-3cd2-8e21-3be0aacf8833"
+      ]
+    },
+    {
+      "id": "35888d07-6d05-04d5-5a50-4b9722a71fca",
+      "title": "营养午餐",
+      "type": "national_lesson",
+      "chapterIds": [
+        "794160d3-32ff-3853-92d0-5fb6d9bb311a"
+      ]
+    },
+    {
+      "id": "09b4bb1d-1f33-e677-dbd2-701fc9cc7ec5",
+      "title": "鸡兔同笼",
+      "type": "national_lesson",
+      "chapterIds": [
+        "cc885465-d4b4-35f2-afc6-84827881074b"
+      ]
+    },
+    {
+      "id": "79474641-86cf-c052-53e5-f9492f91cfc1",
+      "title": "整数加法运算律推广到小数(第2课时）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b657df46-7402-31a8-bbea-7094533ed556",
+        "1702855d-6613-343c-8160-c88ff64ab615"
+      ]
+    },
+    {
+      "id": "716cc82c-b238-468a-869f-5998ba9c1030",
+      "title": "加、减法的意义和各部分间的关系",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1ada9274-2fe0-3caf-9387-db5204963002",
+        "cde11478-f060-33d4-8301-9a588eade7ef"
+      ]
+    },
+    {
+      "id": "41622daa-0154-4ea9-ab5d-59b1d4178a7a",
+      "title": "乘、除法的意义和各部分间的关系",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1ada9274-2fe0-3caf-9387-db5204963002",
+        "beacc832-ebbe-3479-9317-e5acee3bca8f"
+      ]
+    },
+    {
+      "id": "da6fb3b7-f992-46d2-9794-77c404455d98",
+      "title": "有关0的运算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1ada9274-2fe0-3caf-9387-db5204963002",
+        "beacc832-ebbe-3479-9317-e5acee3bca8f"
+      ]
+    },
+    {
+      "id": "d3e82597-e2a1-4c1f-96e1-507594a17ccd",
+      "title": "括号",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1ada9274-2fe0-3caf-9387-db5204963002",
+        "3580514f-111a-3ee8-8f6f-e8b063f955b4"
+      ]
+    },
+    {
+      "id": "2fa15574-bae4-4e18-a2ff-c752ddb94d83",
+      "title": "解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1ada9274-2fe0-3caf-9387-db5204963002",
+        "14b6a1c2-cbcb-3b63-ba5b-04f43cea45bd"
+      ]
+    },
+    {
+      "id": "6e29d87d-b45e-4fdd-8d5b-a160c7e69deb",
+      "title": "运算律整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a5fad4df-c601-3d5d-bbf5-919da276e4d9",
+        "63054efb-be38-3b88-88f0-e4fa18ccb1eb"
+      ]
+    },
+    {
+      "id": "fd85a03a-8e5b-4383-90c8-0484bc8a65d9",
+      "title": "观察物体（二）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "715d2c9d-9224-3fd0-b658-ae737b859198"
+      ]
+    },
+    {
+      "id": "156bf091-609f-4f06-9831-1f8b90bdd0ca",
+      "title": "加法运算律",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a5fad4df-c601-3d5d-bbf5-919da276e4d9",
+        "0144b108-8255-345f-9f37-f4ef40805684"
+      ]
+    },
+    {
+      "id": "95c3ccf4-2a27-4892-996a-390f69058843",
+      "title": "乘法运算律",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a5fad4df-c601-3d5d-bbf5-919da276e4d9",
+        "a1e1ed90-7bd1-3fde-9ec6-bc5a13418b0a"
+      ]
+    },
+    {
+      "id": "b8032fec-f4a6-480f-b3a0-c07c0c5a9867",
+      "title": "小数的意义和读写法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "38efeb08-c8c3-34cd-af86-f5029bca8fde"
+      ]
+    },
+    {
+      "id": "f6edf193-fc4b-46c9-9b37-dca85c4e4ea2",
+      "title": "小数的性质和大小比较",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "0755cdf2-0001-30a6-94f3-61607b6ca300"
+      ]
+    },
+    {
+      "id": "45f91496-f7d5-4d2f-9035-568db6fc13de",
+      "title": "小数点移动引起小数大小的变化",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "e4c4edd4-e8c8-38e5-9555-775c7f96f4cf"
+      ]
+    },
+    {
+      "id": "51c28082-dbf4-4188-a9c6-d8eaaf48a958",
+      "title": "小数与单位换算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "3bd73a09-787b-3cef-aef1-f4c28c9cb6be"
+      ]
+    },
+    {
+      "id": "5b1b6852-a56b-70df-92b1-51f09f64ff78",
+      "title": "小数的大小比较",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "900b2192-84be-35cc-bca4-650d9432b037"
+      ]
+    },
+    {
+      "id": "678965f4-cf19-1977-4dd9-5d0c731e8a77",
+      "title": "三角形的三边关系",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+        "e27fdff3-7198-370e-82b2-6330a5c3bab5"
+      ]
+    },
+    {
+      "id": "ca41d4b5-5962-71bf-bed7-a2264358aa29",
+      "title": "三角形的认识",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "c75d7077-6d17-3393-a8de-008c9bd28ccb",
+        "239285b7-3535-3998-9ced-6c45120e7a58"
+      ]
+    },
+    {
+      "id": "b6d9b48b-97bc-7212-8cbd-d2518d509a40",
+      "title": "整数运算",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "68f85e67-1c0d-3cc2-93e2-3e7c132c3890",
+        "3345701e-3713-3ce9-a1a5-55d88ec51c3e"
+      ]
+    },
+    {
+      "id": "e380818e-8241-86b8-64bb-e59164d62585",
+      "title": "认识小数及小数加减法",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "68f85e67-1c0d-3cc2-93e2-3e7c132c3890",
+        "c1890277-c8f2-3dec-8c7b-1293403f4cbb"
+      ]
+    },
+    {
+      "id": "50d53460-8170-02af-a0e1-e1020a793609",
+      "title": "小数的读法和写法",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "f899f838-da13-3113-a124-cf1fbf52ba60",
+        "866d9360-73de-3457-a611-3042b06be43a"
+      ]
+    },
+    {
+      "id": "702da817-79de-8110-0147-8a60d9a61d27",
+      "title": "平均数与复式条形统计图",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "68f85e67-1c0d-3cc2-93e2-3e7c132c3890",
+        "886ca17c-d40d-31eb-9f8a-e3a00e2da6b8"
+      ]
+    },
+    {
+      "id": "8ae7e4b0-83f9-d18c-0183-fa95ccec0142",
+      "title": "加法运算定律的应用",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a5fad4df-c601-3d5d-bbf5-919da276e4d9",
+        "94e19e8f-c140-39c9-b2a3-f7d082f45b5b"
+      ]
+    },
+    {
+      "id": "8ae7e4b0-83f9-d18c-0184-1d0848d32d5a",
+      "title": "三角形",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "68f85e67-1c0d-3cc2-93e2-3e7c132c3890",
+        "497a2ca7-3a56-3d4d-865f-ea1d57d0a26c"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "bookId": "66c72d68-4daf-9d6d-b6d3-06c3ffb3c7c2",
+  "chapters": [
+    {
+      "id": "873a366f-f8a5-31e4-8576-692b3b639f6e",
+      "title": "Unit 1 I went to Sanya for my holidays.",
+      "parentId": ""
+    },
+    {
+      "id": "c802708a-c842-33cb-bc2f-6a98b0af3857",
+      "title": "Lesson 1",
+      "parentId": "873a366f-f8a5-31e4-8576-692b3b639f6e"
+    },
+    {
+      "id": "444299ae-fb29-3516-be97-c68983df4f55",
+      "title": "Lesson 2",
+      "parentId": "873a366f-f8a5-31e4-8576-692b3b639f6e"
+    },
+    {
+      "id": "9efe35a6-a682-3477-8d83-e42b1f85fff0",
+      "title": "Lesson 3",
+      "parentId": "873a366f-f8a5-31e4-8576-692b3b639f6e"
+    },
+    {
+      "id": "c17fd8f3-a824-3d6c-88b2-f07d75f44462",
+      "title": "Lesson 4",
+      "parentId": "873a366f-f8a5-31e4-8576-692b3b639f6e"
+    },
+    {
+      "id": "b29412f3-61f2-302b-8514-c130d2c732a5",
+      "title": "Lesson 5",
+      "parentId": "873a366f-f8a5-31e4-8576-692b3b639f6e"
+    },
+    {
+      "id": "f7199566-4007-323e-8c83-3ddf2b114186",
+      "title": "Lesson 6",
+      "parentId": "873a366f-f8a5-31e4-8576-692b3b639f6e"
+    },
+    {
+      "id": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4",
+      "title": "Unit 2 There is a park near my home.",
+      "parentId": ""
+    },
+    {
+      "id": "b59f786d-7459-3d08-a8c3-1795e1922a74",
+      "title": "Lesson 7",
+      "parentId": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4"
+    },
+    {
+      "id": "fc57ea56-4a00-37cd-b396-3446c145a964",
+      "title": "Lesson 8",
+      "parentId": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4"
+    },
+    {
+      "id": "0e06c9b9-29bb-3855-bc11-a9c2449aea5b",
+      "title": "Lesson 9",
+      "parentId": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4"
+    },
+    {
+      "id": "0b127688-6f20-36c5-a777-5ff16f1aa837",
+      "title": "Lesson 10",
+      "parentId": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4"
+    },
+    {
+      "id": "be2568ab-5d16-3741-bd5e-9747c179f295",
+      "title": "Lesson 11",
+      "parentId": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4"
+    },
+    {
+      "id": "bddac097-dc63-38f8-9aec-b90081892c09",
+      "title": "Lesson 12",
+      "parentId": "044a9a16-113f-3fe2-aaa8-6fd56d5627d4"
+    },
+    {
+      "id": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683",
+      "title": "Unit 3 We are going to travel.",
+      "parentId": ""
+    },
+    {
+      "id": "6808eb5f-85b5-33cb-b00a-333d8b7a2564",
+      "title": "Lesson 13",
+      "parentId": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683"
+    },
+    {
+      "id": "982d7256-176b-3635-8ead-615de3b6fe43",
+      "title": "Lesson 14",
+      "parentId": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683"
+    },
+    {
+      "id": "ed055d73-9692-3b6a-8a4e-8d9e60c55c04",
+      "title": "Lesson 15",
+      "parentId": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683"
+    },
+    {
+      "id": "8b8b95d5-6eda-3575-ac78-e1e535b79366",
+      "title": "Lesson 16",
+      "parentId": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683"
+    },
+    {
+      "id": "33fbfe6d-60d9-35a5-9c98-69297cbbb069",
+      "title": "Lesson 17",
+      "parentId": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683"
+    },
+    {
+      "id": "e8b73aea-a964-37e9-bc44-23cdf8f52712",
+      "title": "Lesson 18",
+      "parentId": "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683"
+    },
+    {
+      "id": "97767737-d248-3894-9121-439e36722447",
+      "title": "Fun time",
+      "parentId": ""
+    },
+    {
+      "id": "6af1cbc1-b797-3ffd-8de7-6960df4f2d01",
+      "title": "Fun time 1 Recycle 1",
+      "parentId": "97767737-d248-3894-9121-439e36722447"
+    },
+    {
+      "id": "a79329d2-e676-3fc5-94ee-4868be7cac71",
+      "title": "Fun time 1 Recycle 2",
+      "parentId": "97767737-d248-3894-9121-439e36722447"
+    },
+    {
+      "id": "66199f34-391e-3e8c-8a30-9b1bfc468c79",
+      "title": "Fun time 1 Fun Reading",
+      "parentId": "97767737-d248-3894-9121-439e36722447"
+    },
+    {
+      "id": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251",
+      "title": "Unit 4 General Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "9c0cbf3e-90a4-346d-b5eb-ecaa6da2557d",
+      "title": "Task 1-2",
+      "parentId": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251"
+    },
+    {
+      "id": "8c026268-bd25-3fb3-91db-34ecf1c68d0c",
+      "title": "Task 3-4",
+      "parentId": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251"
+    },
+    {
+      "id": "dd058cad-3456-3523-bdc2-f7ebca47695e",
+      "title": "Task 5-6",
+      "parentId": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251"
+    },
+    {
+      "id": "8e464d9d-5069-335a-9f71-45857396451a",
+      "title": "Task 7-8",
+      "parentId": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251"
+    },
+    {
+      "id": "64bb967a-0000-36bb-954c-8b63eec29870",
+      "title": "Task 9-10",
+      "parentId": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251"
+    },
+    {
+      "id": "29915be0-8179-3975-b3bb-1e43f479d28f",
+      "title": "Task 11-12",
+      "parentId": "940dd0cb-f234-3b2b-a644-fcaa7a3d3251"
+    },
+    {
+      "id": "0619917f-15cc-3ffb-b650-e7ce307b463f",
+      "title": "Unit 5 General Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "2893d7e5-527d-3565-911c-cd33d18f1307",
+      "title": "Task 1-2",
+      "parentId": "0619917f-15cc-3ffb-b650-e7ce307b463f"
+    },
+    {
+      "id": "d2cf32b5-fcb3-3bae-a1ec-a0fb462c5c79",
+      "title": "Task 3-4",
+      "parentId": "0619917f-15cc-3ffb-b650-e7ce307b463f"
+    },
+    {
+      "id": "6c654ad3-8a84-38e0-9c61-8954b97c7c5b",
+      "title": "Task 5-6",
+      "parentId": "0619917f-15cc-3ffb-b650-e7ce307b463f"
+    },
+    {
+      "id": "8fea360e-b4b7-3f21-90b2-524a20e2ce4c",
+      "title": "Task 7-8",
+      "parentId": "0619917f-15cc-3ffb-b650-e7ce307b463f"
+    },
+    {
+      "id": "f342c51e-17a6-347b-ab75-76bd54092561",
+      "title": "Task 9-10",
+      "parentId": "0619917f-15cc-3ffb-b650-e7ce307b463f"
+    },
+    {
+      "id": "4b89eb39-7840-3893-8c8a-59d7774080ad",
+      "title": "Task 11-12",
+      "parentId": "0619917f-15cc-3ffb-b650-e7ce307b463f"
+    },
+    {
+      "id": "58a3538c-499e-3efb-aef5-0488f06745c9",
+      "title": "Unit 6 General Revision 3",
+      "parentId": ""
+    },
+    {
+      "id": "b8c1210c-8799-3105-b384-2d635899bf9b",
+      "title": "Task 1-2",
+      "parentId": "58a3538c-499e-3efb-aef5-0488f06745c9"
+    },
+    {
+      "id": "97f32261-b7ad-33ee-bbde-7e2e7c9140c5",
+      "title": "Task 3-4",
+      "parentId": "58a3538c-499e-3efb-aef5-0488f06745c9"
+    },
+    {
+      "id": "df925855-7667-34be-8dfe-cd464254833c",
+      "title": "Task 5-6",
+      "parentId": "58a3538c-499e-3efb-aef5-0488f06745c9"
+    },
+    {
+      "id": "0c9221bf-f8a0-3ccb-ae30-d805b2cf14fa",
+      "title": "Task 7-8",
+      "parentId": "58a3538c-499e-3efb-aef5-0488f06745c9"
+    },
+    {
+      "id": "559707c2-6c3e-302b-a4f1-bd6b3d54f6fb",
+      "title": "Task 9-10",
+      "parentId": "58a3538c-499e-3efb-aef5-0488f06745c9"
+    },
+    {
+      "id": "33930fb9-0525-3376-8531-417d6a7c8b75",
+      "title": "Task 11",
+      "parentId": "58a3538c-499e-3efb-aef5-0488f06745c9"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "99396d10-d2b1-0c1a-8cf9-9504edbb3149",
+      "title": "Lesson 2",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "873a366f-f8a5-31e4-8576-692b3b639f6e",
+        "444299ae-fb29-3516-be97-c68983df4f55"
+      ]
+    },
+    {
+      "id": "ea59d155-42ce-a93a-03e3-4610e57e45dc",
+      "title": "Lesson 1",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "873a366f-f8a5-31e4-8576-692b3b639f6e",
+        "c802708a-c842-33cb-bc2f-6a98b0af3857"
+      ]
+    },
+    {
+      "id": "f4b17325-0f4a-b1d1-af9d-b5dd02cea442",
+      "title": "Lesson 15",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683",
+        "ed055d73-9692-3b6a-8a4e-8d9e60c55c04"
+      ]
+    },
+    {
+      "id": "f0ec480c-ea54-137e-7a3f-a645667fe22d",
+      "title": "Lesson 13",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "ab8b553b-32a9-3e23-bd7c-3bbb9cdce683",
+        "6808eb5f-85b5-33cb-b00a-333d8b7a2564"
+      ]
+    }
+  ]
+}

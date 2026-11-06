@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "bookId": "ce032a22-7d96-4c36-b19c-f5cb8548a10e",
+  "chapters": [
+    {
+      "id": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+      "title": "一 万以上数的认识",
+      "parentId": ""
+    },
+    {
+      "id": "54215797-8f61-4ae8-89dc-1d1ea7405d7a",
+      "title": "亿以内数的认识-读数",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "31da9c64-2921-456f-8fa5-10b95c645d33",
+      "title": "亿以内数的认识-写数",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "4b974970-0a73-4f2a-b5d6-da715544a5c0",
+      "title": "十进制计数法",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "e700f59b-fb0e-4b94-a3ec-56a81455d7cf",
+      "title": "亿以上数的读写",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "f8448a5f-47b1-4ea7-8612-ae1fe311d4c2",
+      "title": "数的大小比较",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "93cb98ed-48d3-413b-ac6f-b41b193694c2",
+      "title": "数的改写和求近似数",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "20e30069-e5da-4613-af84-123e5cb3d3b5",
+      "title": "整理和复习",
+      "parentId": "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88"
+    },
+    {
+      "id": "0dbd3218-9c73-42ed-bbc6-a51d6abd3a26",
+      "title": "1亿有多大",
+      "parentId": ""
+    },
+    {
+      "id": "632ac446-439f-4215-9b75-25fc6e73f705",
+      "title": "1亿张纸有多高",
+      "parentId": "0dbd3218-9c73-42ed-bbc6-a51d6abd3a26"
+    },
+    {
+      "id": "e913cfe8-553c-46e5-b747-15b2566545f2",
+      "title": "1亿有多大",
+      "parentId": "0dbd3218-9c73-42ed-bbc6-a51d6abd3a26"
+    },
+    {
+      "id": "07f08473-764a-44a9-b364-6c692e9f3789",
+      "title": "二 角的度量",
+      "parentId": ""
+    },
+    {
+      "id": "079dc40a-3be1-4266-bc19-02018879b3e6",
+      "title": "角的再认识",
+      "parentId": "07f08473-764a-44a9-b364-6c692e9f3789"
+    },
+    {
+      "id": "bd1ca7f9-5baf-4ac7-9c50-864d28250112",
+      "title": "角的度量",
+      "parentId": "07f08473-764a-44a9-b364-6c692e9f3789"
+    },
+    {
+      "id": "64ff8d7d-2a4b-4493-bb98-3b2219431897",
+      "title": "量角",
+      "parentId": "07f08473-764a-44a9-b364-6c692e9f3789"
+    },
+    {
+      "id": "4e5140fa-8aa8-4d29-bf57-5c327f25ddd7",
+      "title": "画角",
+      "parentId": "07f08473-764a-44a9-b364-6c692e9f3789"
+    },
+    {
+      "id": "566cac9a-9592-45a1-ae56-3235eaaf0d79",
+      "title": "整理和复习",
+      "parentId": "07f08473-764a-44a9-b364-6c692e9f3789"
+    },
+    {
+      "id": "8b16b759-83a6-420c-82c1-5439be66e6f8",
+      "title": "三 多位数乘两位数",
+      "parentId": ""
+    },
+    {
+      "id": "e52f0cb7-f401-45ba-aad1-2a570f5f3584",
+      "title": "两位数（或几百几十）乘一位数的口算乘法",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "bbb60089-b7b9-4b58-9af3-277a2c69a324",
+      "title": "两位数（或几百几十）乘整十数的口算乘法",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "7bbdcef5-bbac-44cb-b05e-fd89bffb99ca",
+      "title": "多位数乘两位数（不进位）",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "7ed8628a-7ae5-4396-b7ae-a205fbfc4a94",
+      "title": "多位数乘两位数（进位）",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "13005a18-f1d6-42f0-8ce4-ec9146046106",
+      "title": "乘数中间或末尾有0的乘法",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "b78ab09c-010b-4c98-bd60-176795503a3d",
+      "title": "积的变化规律",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "33571a79-0e6f-41f7-9525-888ab136e62f",
+      "title": "用计算器探索规律",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "6d881095-d996-45e4-9c3c-01c670aa2183",
+      "title": "用乘法估算解决问题",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "b9217b96-1cb7-4885-8fdf-55d1c992fff2",
+      "title": "整理和复习",
+      "parentId": "8b16b759-83a6-420c-82c1-5439be66e6f8"
+    },
+    {
+      "id": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1",
+      "title": "四 加法模型和乘法模型",
+      "parentId": ""
+    },
+    {
+      "id": "289c215c-4533-47fb-b51d-896ff2ea5382",
+      "title": "总量与分量的关系",
+      "parentId": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1"
+    },
+    {
+      "id": "b4dd6ae9-f08b-43f4-bd74-fb18145ea14d",
+      "title": "解决问题（一）",
+      "parentId": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1"
+    },
+    {
+      "id": "61e204c7-5d47-46ee-87fa-28e08fdcda94",
+      "title": "单价、数量和总价的关系",
+      "parentId": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1"
+    },
+    {
+      "id": "50f5ef79-7ce8-481a-a388-9e373e921586",
+      "title": "解决问题（二）",
+      "parentId": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1"
+    },
+    {
+      "id": "1e842258-4e95-499d-8f2a-5c49ce18b37a",
+      "title": "时间、速度、路程的关系",
+      "parentId": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1"
+    },
+    {
+      "id": "1cc0e391-906c-4936-95cd-a6c89cf674eb",
+      "title": "解决问题（三）",
+      "parentId": "3cbd08fd-6ff1-4265-9fc6-98ac2ddf09f1"
+    },
+    {
+      "id": "da57b1f7-eead-463e-a5a0-8337ed6b7eff",
+      "title": "五 平行四边形和梯形",
+      "parentId": ""
+    },
+    {
+      "id": "a314f163-e37e-4e56-8ec0-45893430381a",
+      "title": "平行和垂直",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "d1807d0e-da23-404b-afbb-4c4a3a671d8c",
+      "title": "画垂线和点到直线的距离",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "f88878a0-9cd6-496c-b8e4-47a102cb1a13",
+      "title": "画平行线和平行线间的距离",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "7aaecfa0-d40b-479e-b959-602b3a437444",
+      "title": "画长方形",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "25e80a88-2aa9-499a-89ca-31c1c24fa6a5",
+      "title": "认识平行四边形",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "84d48b30-42a4-4251-b4d2-040e828dfdf5",
+      "title": "认识梯形",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "a1e11244-0e60-4947-b7af-e4f46eaa9d91",
+      "title": "整理和复习",
+      "parentId": "da57b1f7-eead-463e-a5a0-8337ed6b7eff"
+    },
+    {
+      "id": "06981017-2131-4869-8b06-231c1ed9223a",
+      "title": "六 条形统计图",
+      "parentId": ""
+    },
+    {
+      "id": "3325176b-4470-4243-b910-a1d44457f7cc",
+      "title": "以一当一",
+      "parentId": "06981017-2131-4869-8b06-231c1ed9223a"
+    },
+    {
+      "id": "84f90fcc-e9f1-4bba-865b-2862ea8513f9",
+      "title": "以一当多",
+      "parentId": "06981017-2131-4869-8b06-231c1ed9223a"
+    },
+    {
+      "id": "3b17a144-22f1-4c4f-bd0f-9cda892a5ac5",
+      "title": "复式条形统计图",
+      "parentId": "06981017-2131-4869-8b06-231c1ed9223a"
+    },
+    {
+      "id": "5a87c8ea-f63b-4b5e-a305-f0ff589ec190",
+      "title": "寻找宝藏",
+      "parentId": ""
+    },
+    {
+      "id": "eaa39452-b7d0-49a5-8c1f-65fc347ccf24",
+      "title": "校园寻宝",
+      "parentId": "5a87c8ea-f63b-4b5e-a305-f0ff589ec190"
+    },
+    {
+      "id": "808ec437-bc5b-43f8-84b0-840068f29b53",
+      "title": "绘制藏宝图",
+      "parentId": "5a87c8ea-f63b-4b5e-a305-f0ff589ec190"
+    },
+    {
+      "id": "39a9551b-52ae-4b23-a0f0-ce1ab7bf1a79",
+      "title": "“藏宝—寻宝”大挑战",
+      "parentId": "5a87c8ea-f63b-4b5e-a305-f0ff589ec190"
+    },
+    {
+      "id": "8fb251de-5f81-4ab2-8774-db7c988727ba",
+      "title": "小讲堂",
+      "parentId": "5a87c8ea-f63b-4b5e-a305-f0ff589ec190"
+    },
+    {
+      "id": "bd788277-12cc-4488-bdc7-235d4bea3cd4",
+      "title": "七 复习与关联",
+      "parentId": ""
+    },
+    {
+      "id": "3fc0b51a-6ca7-497f-bba4-40f5e5e40f5e",
+      "title": "数与运算",
+      "parentId": "bd788277-12cc-4488-bdc7-235d4bea3cd4"
+    },
+    {
+      "id": "78e15da4-0f08-4d38-8fb6-d8c03764af60",
+      "title": "数量关系",
+      "parentId": "bd788277-12cc-4488-bdc7-235d4bea3cd4"
+    },
+    {
+      "id": "8c2b5630-ddd7-4778-87ed-9e31aa46afc2",
+      "title": "图形的认识与测量",
+      "parentId": "bd788277-12cc-4488-bdc7-235d4bea3cd4"
+    },
+    {
+      "id": "99934cab-d363-40bf-b9b2-77b34d378a27",
+      "title": "数据的收集、整理与表达及认识方向",
+      "parentId": "bd788277-12cc-4488-bdc7-235d4bea3cd4"
+    },
+    {
+      "id": "d9d01ad2-d1c4-48ca-a2d6-3ab0bd2a051e",
+      "title": "数学广角（鸡兔同笼）",
+      "parentId": "bd788277-12cc-4488-bdc7-235d4bea3cd4"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "f51f1082-f9fc-e266-ddc0-a0209d3faf69",
+      "title": "亿以内数的认识-读数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "54215797-8f61-4ae8-89dc-1d1ea7405d7a"
+      ]
+    },
+    {
+      "id": "b693ecfb-2b33-d406-a089-ea6321b6f2a8",
+      "title": "亿以内数的认识-写数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "31da9c64-2921-456f-8fa5-10b95c645d33"
+      ]
+    },
+    {
+      "id": "a219ed82-a73e-e76b-edde-2040d3fa1cfc",
+      "title": "十进制计数法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "4b974970-0a73-4f2a-b5d6-da715544a5c0"
+      ]
+    },
+    {
+      "id": "333dd72a-7eaa-a086-3ff3-e709ffab91a3",
+      "title": "亿以上数的读写",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "e700f59b-fb0e-4b94-a3ec-56a81455d7cf"
+      ]
+    },
+    {
+      "id": "1484f6a2-b2d5-a314-beb9-47667f7710e4",
+      "title": "数的大小比较",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "f8448a5f-47b1-4ea7-8612-ae1fe311d4c2"
+      ]
+    },
+    {
+      "id": "ab55074c-4ee7-55ab-d556-8baa1b26d52f",
+      "title": "数的改写和求近似数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "93cb98ed-48d3-413b-ac6f-b41b193694c2"
+      ]
+    },
+    {
+      "id": "d524afad-0049-30a0-3c5e-7ed8226cf057",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b5c21163-c21e-48dd-ad70-fe5eb5aa9e88",
+        "20e30069-e5da-4613-af84-123e5cb3d3b5"
+      ]
+    },
+    {
+      "id": "ca6722c4-3b99-7908-ecf6-cb65e6d36837",
+      "title": "1亿张纸有多高",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0dbd3218-9c73-42ed-bbc6-a51d6abd3a26",
+        "632ac446-439f-4215-9b75-25fc6e73f705"
+      ]
+    },
+    {
+      "id": "39cf5508-15ac-e049-b09f-e0b61431a4f0",
+      "title": "1亿有多大",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0dbd3218-9c73-42ed-bbc6-a51d6abd3a26",
+        "e913cfe8-553c-46e5-b747-15b2566545f2"
+      ]
+    },
+    {
+      "id": "dc0ecb4c-3f6c-9510-2c45-346a12fe5204",
+      "title": "角的再认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "07f08473-764a-44a9-b364-6c692e9f3789",
+        "079dc40a-3be1-4266-bc19-02018879b3e6"
+      ]
+    },
+    {
+      "id": "e7f8fa86-fc85-37fc-c81b-817fff4d1aaa",
+      "title": "角的度量",
+      "type": "national_lesson",
+      "chapterIds": [
+        "07f08473-764a-44a9-b364-6c692e9f3789",
+        "bd1ca7f9-5baf-4ac7-9c50-864d28250112"
+      ]
+    },
+    {
+      "id": "a450b4e7-511a-46cb-bd21-6a63c4a00428",
+      "title": "量角",
+      "type": "national_lesson",
+      "chapterIds": [
+        "07f08473-764a-44a9-b364-6c692e9f3789",
+        "64ff8d7d-2a4b-4493-bb98-3b2219431897"
+      ]
+    },
+    {
+      "id": "5ced60c0-f618-945c-8a42-15a8d5a27851",
+      "title": "画角",
+      "type": "national_lesson",
+      "chapterIds": [
+        "07f08473-764a-44a9-b364-6c692e9f3789",
+        "4e5140fa-8aa8-4d29-bf57-5c327f25ddd7"
+      ]
+    },
+    {
+      "id": "e67eb673-473b-8bf7-d6d4-acc8e17ecc63",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "07f08473-764a-44a9-b364-6c692e9f3789",
+        "566cac9a-9592-45a1-ae56-3235eaaf0d79"
+      ]
+    }
+  ]
+}

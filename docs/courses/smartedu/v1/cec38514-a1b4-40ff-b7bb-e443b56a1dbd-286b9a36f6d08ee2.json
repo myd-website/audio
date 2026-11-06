@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "bookId": "cec38514-a1b4-40ff-b7bb-e443b56a1dbd",
+  "chapters": [
+    {
+      "id": "240d50c8-2538-47af-846d-34a8a1d41142",
+      "title": "第一单元",
+      "parentId": ""
+    },
+    {
+      "id": "57d5db9c-13fe-4117-81bc-c94519f35d50",
+      "title": "阅读",
+      "parentId": "240d50c8-2538-47af-846d-34a8a1d41142"
+    },
+    {
+      "id": "3641899e-12ec-423e-a55c-83301d0fc5d7",
+      "title": "1 草原",
+      "parentId": "57d5db9c-13fe-4117-81bc-c94519f35d50"
+    },
+    {
+      "id": "3ebf07fe-6128-42f2-aac0-7a6613a9199a",
+      "title": "2 丁香结",
+      "parentId": "57d5db9c-13fe-4117-81bc-c94519f35d50"
+    },
+    {
+      "id": "3eb0d739-c0e5-4965-bcb9-ef480c449d7a",
+      "title": "3 古诗词三首",
+      "parentId": "57d5db9c-13fe-4117-81bc-c94519f35d50"
+    },
+    {
+      "id": "ddfa3fab-23b4-405b-ab9d-5089598abad7",
+      "title": "习作",
+      "parentId": "240d50c8-2538-47af-846d-34a8a1d41142"
+    },
+    {
+      "id": "a791f0c8-0bb1-4d76-9687-c03155453036",
+      "title": "变形记",
+      "parentId": "ddfa3fab-23b4-405b-ab9d-5089598abad7"
+    },
+    {
+      "id": "58faf341-7f28-43a3-9859-79adaf63e901",
+      "title": "语文园地",
+      "parentId": "240d50c8-2538-47af-846d-34a8a1d41142"
+    },
+    {
+      "id": "52e556ee-92b4-4195-a85e-f0a11479ca6f",
+      "title": "第二单元",
+      "parentId": ""
+    },
+    {
+      "id": "b797a331-ef9c-4cfe-9f3b-fa85e35fce50",
+      "title": "阅读",
+      "parentId": "52e556ee-92b4-4195-a85e-f0a11479ca6f"
+    },
+    {
+      "id": "e5391333-b240-499b-b176-daed54f4e8e0",
+      "title": "4 七律·长征",
+      "parentId": "b797a331-ef9c-4cfe-9f3b-fa85e35fce50"
+    },
+    {
+      "id": "ef214226-0cae-436f-8a1e-89351f46e1c1",
+      "title": "5 狼牙山五壮士",
+      "parentId": "b797a331-ef9c-4cfe-9f3b-fa85e35fce50"
+    },
+    {
+      "id": "0b9d8a35-4964-4397-a15c-f94a847ec2e4",
+      "title": "6 开国大典",
+      "parentId": "b797a331-ef9c-4cfe-9f3b-fa85e35fce50"
+    },
+    {
+      "id": "951b4c08-731b-4270-ba61-8a65cd776e27",
+      "title": "7 我的战友邱少云",
+      "parentId": "b797a331-ef9c-4cfe-9f3b-fa85e35fce50"
+    },
+    {
+      "id": "dd1688dd-b9d3-404e-9b6b-95c77f4714c7",
+      "title": "口语交际",
+      "parentId": "52e556ee-92b4-4195-a85e-f0a11479ca6f"
+    },
+    {
+      "id": "8295d20c-510d-4f82-84a1-e51b18e008a8",
+      "title": "演讲",
+      "parentId": "dd1688dd-b9d3-404e-9b6b-95c77f4714c7"
+    },
+    {
+      "id": "c6cd02da-5e3a-4172-ac91-c4ecf1747b82",
+      "title": "习作",
+      "parentId": "52e556ee-92b4-4195-a85e-f0a11479ca6f"
+    },
+    {
+      "id": "f71019eb-ffd5-4127-aac9-99f18f07453f",
+      "title": "多彩的活动",
+      "parentId": "c6cd02da-5e3a-4172-ac91-c4ecf1747b82"
+    },
+    {
+      "id": "0803c97b-d7f7-41fa-aed6-2f9a9afbd111",
+      "title": "语文园地",
+      "parentId": "52e556ee-92b4-4195-a85e-f0a11479ca6f"
+    },
+    {
+      "id": "0a52d241-0f25-4880-9ca2-e0f425bd84aa",
+      "title": "第三单元",
+      "parentId": ""
+    },
+    {
+      "id": "c8b5ac01-bbbe-4a72-b572-48d24aac23aa",
+      "title": "阅读",
+      "parentId": "0a52d241-0f25-4880-9ca2-e0f425bd84aa"
+    },
+    {
+      "id": "fba81784-b963-47b7-a4c5-b3b4cf05482e",
+      "title": "8 竹节人",
+      "parentId": "c8b5ac01-bbbe-4a72-b572-48d24aac23aa"
+    },
+    {
+      "id": "22f4f2a9-1252-4de5-8907-9671e9350598",
+      "title": "9 宇宙生命之谜",
+      "parentId": "c8b5ac01-bbbe-4a72-b572-48d24aac23aa"
+    },
+    {
+      "id": "f46653bf-06dd-46e7-8c5c-ea8c692aea90",
+      "title": "10 故宫博物院",
+      "parentId": "c8b5ac01-bbbe-4a72-b572-48d24aac23aa"
+    },
+    {
+      "id": "aacb57d7-456b-4c7a-a382-1445186d19ef",
+      "title": "习作",
+      "parentId": "0a52d241-0f25-4880-9ca2-e0f425bd84aa"
+    },
+    {
+      "id": "c42a6af1-62a3-476c-aee3-311c8e943673",
+      "title": "_____让生活更美好",
+      "parentId": "aacb57d7-456b-4c7a-a382-1445186d19ef"
+    },
+    {
+      "id": "54c15ce7-251e-4825-ba24-ea2d26c98f22",
+      "title": "语文园地",
+      "parentId": "0a52d241-0f25-4880-9ca2-e0f425bd84aa"
+    },
+    {
+      "id": "10994680-5f88-4c51-bb52-f2cc4cf2924a",
+      "title": "第四单元",
+      "parentId": ""
+    },
+    {
+      "id": "22522d2f-7f3a-43dd-87d9-b7f485a55658",
+      "title": "阅读",
+      "parentId": "10994680-5f88-4c51-bb52-f2cc4cf2924a"
+    },
+    {
+      "id": "d48a2857-dd28-46e1-9fbc-68027712cf03",
+      "title": "11 桥",
+      "parentId": "22522d2f-7f3a-43dd-87d9-b7f485a55658"
+    },
+    {
+      "id": "80484c31-74d4-454e-8413-a7ba79759c7d",
+      "title": "12 穷人",
+      "parentId": "22522d2f-7f3a-43dd-87d9-b7f485a55658"
+    },
+    {
+      "id": "1760c9cb-c895-44d2-a6f5-2766af0e108a",
+      "title": "13 金色的鱼钩",
+      "parentId": "22522d2f-7f3a-43dd-87d9-b7f485a55658"
+    },
+    {
+      "id": "caedd742-e485-41fb-a501-61d14c78e108",
+      "title": "口语交际",
+      "parentId": "10994680-5f88-4c51-bb52-f2cc4cf2924a"
+    },
+    {
+      "id": "d17bc9e6-ea4f-4e1a-a459-e267cfd97f09",
+      "title": "请你支持我",
+      "parentId": "caedd742-e485-41fb-a501-61d14c78e108"
+    },
+    {
+      "id": "4b6bff89-3e1f-4ef5-ba41-3912e18dc1f4",
+      "title": "习作",
+      "parentId": "10994680-5f88-4c51-bb52-f2cc4cf2924a"
+    },
+    {
+      "id": "855f2901-1459-40e4-bafa-acb3a22c5957",
+      "title": "笔尖流出的故事",
+      "parentId": "4b6bff89-3e1f-4ef5-ba41-3912e18dc1f4"
+    },
+    {
+      "id": "6f75822d-fa6d-4369-9a61-12bb6a88314e",
+      "title": "语文园地",
+      "parentId": "10994680-5f88-4c51-bb52-f2cc4cf2924a"
+    },
+    {
+      "id": "6afd8002-2908-4dea-95de-ee804e044863",
+      "title": "快乐读书吧",
+      "parentId": "10994680-5f88-4c51-bb52-f2cc4cf2924a"
+    },
+    {
+      "id": "45054e8a-7233-480f-a20d-e91c573c9b43",
+      "title": "笑与泪，经历与成长",
+      "parentId": "6afd8002-2908-4dea-95de-ee804e044863"
+    },
+    {
+      "id": "47553f67-340f-4d4c-80e9-834286440f04",
+      "title": "第五单元",
+      "parentId": ""
+    },
+    {
+      "id": "2a0af185-2d80-4cdb-9354-6e62920e3e68",
+      "title": "阅读",
+      "parentId": "47553f67-340f-4d4c-80e9-834286440f04"
+    },
+    {
+      "id": "92681807-0a74-4d3a-ab93-96969f17c80e",
+      "title": "14 灯光",
+      "parentId": "2a0af185-2d80-4cdb-9354-6e62920e3e68"
+    },
+    {
+      "id": "c488ec7d-9b20-4b95-bb02-c8b13318adde",
+      "title": "15 盼",
+      "parentId": "2a0af185-2d80-4cdb-9354-6e62920e3e68"
+    },
+    {
+      "id": "b9ad66bc-93cb-4a87-8c9b-e54aac82d532",
+      "title": "习作",
+      "parentId": "47553f67-340f-4d4c-80e9-834286440f04"
+    },
+    {
+      "id": "a6623338-5058-4f13-991b-2eb3d320ef85",
+      "title": "围绕中心意思写",
+      "parentId": "b9ad66bc-93cb-4a87-8c9b-e54aac82d532"
+    },
+    {
+      "id": "70ecf4c9-d0a2-4ecf-b7a8-3557bd297601",
+      "title": "例文",
+      "parentId": "b9ad66bc-93cb-4a87-8c9b-e54aac82d532"
+    },
+    {
+      "id": "addeb352-a4f8-4bc8-8cda-1488d1759eca",
+      "title": "第六单元",
+      "parentId": ""
+    },
+    {
+      "id": "dac85019-2a44-4c59-b6c8-ae071c0f895e",
+      "title": "阅读",
+      "parentId": "addeb352-a4f8-4bc8-8cda-1488d1759eca"
+    },
+    {
+      "id": "5f01e952-8d99-4e4d-88ad-322a1151f44b",
+      "title": "16 只有一个地球",
+      "parentId": "dac85019-2a44-4c59-b6c8-ae071c0f895e"
+    },
+    {
+      "id": "3655cc6e-4fbc-46fd-8f3f-c38ef2c174fe",
+      "title": "17 青山不老",
+      "parentId": "dac85019-2a44-4c59-b6c8-ae071c0f895e"
+    },
+    {
+      "id": "506e0d1d-bc7d-44bc-b995-c18b78eb9014",
+      "title": "18 三黑和土地",
+      "parentId": "dac85019-2a44-4c59-b6c8-ae071c0f895e"
+    },
+    {
+      "id": "96df4b7e-b500-48f7-8d82-8d63c0db6574",
+      "title": "19 古诗三首",
+      "parentId": "dac85019-2a44-4c59-b6c8-ae071c0f895e"
+    },
+    {
+      "id": "03f96570-c695-481d-8b08-1993696030c2",
+      "title": "口语交际",
+      "parentId": "addeb352-a4f8-4bc8-8cda-1488d1759eca"
+    },
+    {
+      "id": "b6a7915c-ac1c-469b-be55-6ef13455438f",
+      "title": "意见不同怎么办",
+      "parentId": "03f96570-c695-481d-8b08-1993696030c2"
+    },
+    {
+      "id": "95a44288-19d0-41ff-ae4f-3de33f3c9d1c",
+      "title": "习作",
+      "parentId": "addeb352-a4f8-4bc8-8cda-1488d1759eca"
+    },
+    {
+      "id": "181fdfaf-3896-4be0-b56b-d086f0e25bf1",
+      "title": "学写倡议书",
+      "parentId": "95a44288-19d0-41ff-ae4f-3de33f3c9d1c"
+    },
+    {
+      "id": "935101d7-7405-46db-8167-f2b3e3b64a1f",
+      "title": "语文园地",
+      "parentId": "addeb352-a4f8-4bc8-8cda-1488d1759eca"
+    },
+    {
+      "id": "dce1e49d-3f41-4a71-83ea-956ab4d62b04",
+      "title": "第七单元",
+      "parentId": ""
+    },
+    {
+      "id": "bdbdd999-3a1d-424a-80d4-46ee58f0fa80",
+      "title": "阅读",
+      "parentId": "dce1e49d-3f41-4a71-83ea-956ab4d62b04"
+    },
+    {
+      "id": "6026e482-171a-445e-937e-19038003873c",
+      "title": "20 文言文二则",
+      "parentId": "bdbdd999-3a1d-424a-80d4-46ee58f0fa80"
+    },
+    {
+      "id": "c19ede8b-741d-469b-a131-b8672efde4fd",
+      "title": "21 表里的生物",
+      "parentId": "bdbdd999-3a1d-424a-80d4-46ee58f0fa80"
+    },
+    {
+      "id": "c8567ffe-842a-495b-9f68-6273bec48813",
+      "title": "22 他们那时候多有趣啊.",
+      "parentId": "bdbdd999-3a1d-424a-80d4-46ee58f0fa80"
+    },
+    {
+      "id": "d85a6ea4-e61f-4b4f-9f50-781afb2d0a27",
+      "title": "习作",
+      "parentId": "dce1e49d-3f41-4a71-83ea-956ab4d62b04"
+    },
+    {
+      "id": "b4e95913-20e6-4e4b-8d90-173e09491cc3",
+      "title": "插上科学的翅膀飞",
+      "parentId": "d85a6ea4-e61f-4b4f-9f50-781afb2d0a27"
+    },
+    {
+      "id": "f1b98cf9-c76a-44a3-a93b-d9e1bb303c9c",
+      "title": "语文园地",
+      "parentId": "dce1e49d-3f41-4a71-83ea-956ab4d62b04"
+    },
+    {
+      "id": "e4eaab18-2b68-40db-ae78-3f323e9366e6",
+      "title": "第八单元",
+      "parentId": ""
+    },
+    {
+      "id": "ee15b018-89ee-430d-8d69-04cd5aa39878",
+      "title": "阅读",
+      "parentId": "e4eaab18-2b68-40db-ae78-3f323e9366e6"
+    },
+    {
+      "id": "2906027d-2809-4849-8f16-826900bd9bc8",
+      "title": "23 少年闰土",
+      "parentId": "ee15b018-89ee-430d-8d69-04cd5aa39878"
+    },
+    {
+      "id": "077cd449-44c6-453f-9b86-c0f84e59eecb",
+      "title": "24 好的故事",
+      "parentId": "ee15b018-89ee-430d-8d69-04cd5aa39878"
+    },
+    {
+      "id": "de59cad5-bd26-4c70-9ee8-154b34e7966f",
+      "title": "25 我的伯父鲁迅先生",
+      "parentId": "ee15b018-89ee-430d-8d69-04cd5aa39878"
+    },
+    {
+      "id": "c8433522-5db7-4dab-b655-fdb6ef58b087",
+      "title": "26 有的人",
+      "parentId": "ee15b018-89ee-430d-8d69-04cd5aa39878"
+    },
+    {
+      "id": "2b6b4b87-f0c9-4bcc-a223-633cd19fa298",
+      "title": "习作",
+      "parentId": "e4eaab18-2b68-40db-ae78-3f323e9366e6"
+    },
+    {
+      "id": "3b340d2b-974c-4565-a586-7a8a31ef0b24",
+      "title": "传承好家风",
+      "parentId": "2b6b4b87-f0c9-4bcc-a223-633cd19fa298"
+    },
+    {
+      "id": "1e4a2d07-0328-4a8e-abc6-67092f5dbe26",
+      "title": "语文园地",
+      "parentId": "e4eaab18-2b68-40db-ae78-3f323e9366e6"
+    },
+    {
+      "id": "946d1cb3-a7cc-4af6-8e80-d950cd758ab5",
+      "title": "写字表",
+      "parentId": "e4eaab18-2b68-40db-ae78-3f323e9366e6"
+    },
+    {
+      "id": "9afde374-83cb-4da0-912f-93e036d999a9",
+      "title": "词语表",
+      "parentId": "e4eaab18-2b68-40db-ae78-3f323e9366e6"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "afa295a3-a5f6-b6e4-bdcb-18cefb4541a3",
+      "title": "1 草原",
+      "type": "national_lesson",
+      "chapterIds": [
+        "240d50c8-2538-47af-846d-34a8a1d41142",
+        "57d5db9c-13fe-4117-81bc-c94519f35d50",
+        "3641899e-12ec-423e-a55c-83301d0fc5d7"
+      ]
+    },
+    {
+      "id": "f2c180e2-c5b9-6a6a-d8ff-be833ce939bd",
+      "title": "2 丁香结",
+      "type": "national_lesson",
+      "chapterIds": [
+        "240d50c8-2538-47af-846d-34a8a1d41142",
+        "57d5db9c-13fe-4117-81bc-c94519f35d50",
+        "3ebf07fe-6128-42f2-aac0-7a6613a9199a"
+      ]
+    },
+    {
+      "id": "00414fea-ff36-ad91-09a6-686b1eae10d4",
+      "title": "3 古诗词三首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "240d50c8-2538-47af-846d-34a8a1d41142",
+        "57d5db9c-13fe-4117-81bc-c94519f35d50",
+        "3eb0d739-c0e5-4965-bcb9-ef480c449d7a"
+      ]
+    }
+  ]
+}

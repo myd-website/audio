@@ -1,0 +1,1 @@
+function e(t){if(!Number.isInteger(t)||t<1||t>4294967296)throw new Error("随机范围不正确");const n=Math.floor(4294967296/t)*t,r=new Uint32Array(1);do crypto.getRandomValues(r);while(r[0]>=n);return r[0]%t}function s(t){const n=[...t];for(let r=n.length-1;r>0;r--){const o=e(r+1);[n[r],n[o]]=[n[o],n[r]]}return n}export{e as r,s};

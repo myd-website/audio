@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "bookId": "371a91cf-f2dd-4e4d-b5f4-6572001102a1",
+  "chapters": [
+    {
+      "id": "a3815454-202a-3f3d-9dd5-bc7092453b50",
+      "title": "Unit 1 In China",
+      "parentId": ""
+    },
+    {
+      "id": "97af7f4d-602c-3d7f-8048-772ba40b1da6",
+      "title": "lesson 1",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "3014f0e8-5bec-3810-a998-88daafd18545",
+      "title": "lesson 2",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "cb8e4ced-3d6d-31dc-aed3-7391f7b98d10",
+      "title": "lesson 3",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "f42176b5-35b9-39d5-9849-4077e7aab8a2",
+      "title": "Let’s Spell",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "5fcb0ecd-465e-38f1-af18-e19b98d4fae2",
+      "title": "Fun Time",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "3dadf4cd-0fc9-3d55-ac6d-069a00c95b2f",
+      "title": "Let's Check",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "5aefd488-986d-3a49-a3ea-5af0b434105b",
+      "title": "Story Time",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "a10f7ec9-5ece-3fae-aeb3-8745671889f3",
+      "title": "Unit 1 In China",
+      "parentId": "a3815454-202a-3f3d-9dd5-bc7092453b50"
+    },
+    {
+      "id": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30",
+      "title": "Unit 2 Around the world",
+      "parentId": ""
+    },
+    {
+      "id": "dc50e375-9a99-3235-ba27-5f006fcb75a0",
+      "title": "lesson 1",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "b2c3dca2-b636-3782-afe8-39e97ca271eb",
+      "title": "lesson 2",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "bfa3dfd8-48a6-34ce-8f0c-1078a38e9a36",
+      "title": "lesson 3",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "d831f628-c1fb-309c-8bfe-362da6c7559d",
+      "title": "Let’s Spell",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "f9bc21d6-912e-3a9a-90f1-914d771b2d41",
+      "title": "Fun Time",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "0cf565b5-1b5e-3148-b0e5-50e13a76b152",
+      "title": "Let's Check",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "33b7da72-43df-3cb3-bf3c-6558c1cf4f59",
+      "title": "Story Time",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "0d359792-3d89-3e79-8542-f06714f463ce",
+      "title": "Unit 2 Around the World",
+      "parentId": "c1a506ba-9e45-31d7-8bfe-c83a6ec64c30"
+    },
+    {
+      "id": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0",
+      "title": "Unit 3 Animal World",
+      "parentId": ""
+    },
+    {
+      "id": "c4550755-d5bb-3a53-a520-6214a2519d08",
+      "title": "lesson 1",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "b80a41bb-dc91-371b-9dce-f1c24b1f3924",
+      "title": "lesson 2",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "0462de0d-1107-386e-a54d-a8bcdf0c4ff1",
+      "title": "lesson 3",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "2cc633d8-6fc2-3a7f-9caf-178ed0ada0ec",
+      "title": "Let’s Spell",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "9556d704-8f4d-3aa4-82b9-bdb951f65a35",
+      "title": "Fun Time",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "a74e1b9a-ed3e-3023-b5a5-c8c0ba3d4542",
+      "title": "Let's Check",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "3d67e933-51ab-341d-9510-bcf5a674aa01",
+      "title": "Story Time",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "a9d56f4d-6a77-36c5-a0f5-d0bfc89c33cf",
+      "title": "Unit 3 Animal World",
+      "parentId": "0c5bddb8-312e-3bae-a674-4ab6ed581ad0"
+    },
+    {
+      "id": "c10658e7-4132-30df-86b4-582dfaf11b64",
+      "title": "Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "d1c8c29e-c136-34ef-b1f4-e08193c661aa",
+      "title": "Let's Review",
+      "parentId": "c10658e7-4132-30df-86b4-582dfaf11b64"
+    },
+    {
+      "id": "fcc9c449-7b71-3194-a789-c6d6ff7ef4f8",
+      "title": "Let's Spell",
+      "parentId": "c10658e7-4132-30df-86b4-582dfaf11b64"
+    },
+    {
+      "id": "cab5cfd3-5099-362e-8bb5-b4ba3f65336b",
+      "title": "Story Time",
+      "parentId": "c10658e7-4132-30df-86b4-582dfaf11b64"
+    },
+    {
+      "id": "edf5a349-76dc-3bdf-9754-7f69853a8630",
+      "title": "Unit 4 Feelings",
+      "parentId": ""
+    },
+    {
+      "id": "2488c537-da12-3b46-a325-6a4e22ed76af",
+      "title": "lesson 1",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "e3f327b5-7708-318e-8b02-2ab8563f8608",
+      "title": "lesson 2",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "efbc9fac-5957-3c1b-9084-5a1b5ff9230f",
+      "title": "lesson 3",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "51975c38-c3fc-374e-9475-59db93e63f87",
+      "title": "Let’s Spell",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "8409aeec-862b-312c-9a7f-77d8aa2acadb",
+      "title": "Fun Time",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "c1e23126-4b17-34f2-b915-2c01ea5abe4f",
+      "title": "Let's Check",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "0475f03b-3f66-366a-b2b5-b5fdf239f0bd",
+      "title": "Story Time",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "865124ac-2202-32d0-89b1-48b309e5771e",
+      "title": "Unit 4 Feelings",
+      "parentId": "edf5a349-76dc-3bdf-9754-7f69853a8630"
+    },
+    {
+      "id": "381ddd62-a593-3fef-9815-df7541ec21d4",
+      "title": "Unit 5 Famous People",
+      "parentId": ""
+    },
+    {
+      "id": "5ebab104-b848-3ca3-bc10-e20028a2cd97",
+      "title": "lesson 1",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "3d32ca6c-fb90-35bb-b146-ceef18d85811",
+      "title": "lesson 2",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "7a24c615-49d4-3b2c-95cb-01dc3fdf41b4",
+      "title": "lesson 3",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "025621d6-f207-3a56-b075-7a7c2df8facf",
+      "title": "Let’s Spell",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "908e7181-e5fe-36be-9091-a0f95c5cd480",
+      "title": "Fun Time",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "000da695-f156-3fd7-8caa-2f254bf6e674",
+      "title": "Let's Check",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "a2ba00a1-26ab-3f8e-9a40-e5cb81b22486",
+      "title": "Story Time",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "f2489fe8-719d-39f8-aa8e-49745aae0c67",
+      "title": "Unit 5 Famous People",
+      "parentId": "381ddd62-a593-3fef-9815-df7541ec21d4"
+    },
+    {
+      "id": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2",
+      "title": "Unit 6 Winter Vacation",
+      "parentId": ""
+    },
+    {
+      "id": "0641c54d-8fba-3356-a6f7-4e5c9f9ff798",
+      "title": "lesson 1",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "1faa5601-2f4c-3eb6-8582-81e9529d1b7e",
+      "title": "lesson 2",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "04ef3b0a-2db6-3598-8551-a78079c5108e",
+      "title": "lesson 3",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "fd446ebf-d9ff-34b5-93c4-8dcc2c92496c",
+      "title": "Let’s Spell",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "47cd9c96-94a1-3abf-8cf6-7249f660ebc6",
+      "title": "Fun Time",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "ad28d9a9-35fd-3d68-82a7-572fa8f202f5",
+      "title": "Let's Check",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "64c6ff20-6b68-38cc-86ff-182e42e1d4bd",
+      "title": "Story Time",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "93b1e8f6-ebfc-362b-90d4-a3340b030736",
+      "title": "Unit 6 Winter Vacation",
+      "parentId": "c8cfb6cf-b925-3b48-aa7f-4828ab0cabe2"
+    },
+    {
+      "id": "08f65abb-ede6-33f1-8295-8ca138b94f60",
+      "title": "Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "e8a91a2e-6587-3767-ab8c-269bb00e20ab",
+      "title": "Let's Review",
+      "parentId": "08f65abb-ede6-33f1-8295-8ca138b94f60"
+    },
+    {
+      "id": "9373fdc3-c886-3854-b950-b736cca7699c",
+      "title": "Let's Spell",
+      "parentId": "08f65abb-ede6-33f1-8295-8ca138b94f60"
+    },
+    {
+      "id": "a6ea1263-c3b7-300f-89be-93825583a963",
+      "title": "Story Time",
+      "parentId": "08f65abb-ede6-33f1-8295-8ca138b94f60"
+    },
+    {
+      "id": "bfd11797-96a6-31e6-a414-f4b37b0fa746",
+      "title": "附录一 歌曲",
+      "parentId": ""
+    },
+    {
+      "id": "850f3ef9-703e-35e3-b4cf-6e13541a4a28",
+      "title": "附录二 单元词汇表",
+      "parentId": ""
+    },
+    {
+      "id": "7a2a13b8-e645-354d-aa06-baece58e49bd",
+      "title": "附录三 总词汇表",
+      "parentId": ""
+    },
+    {
+      "id": "71dce797-5430-3d64-86a5-82987e11d52a",
+      "title": "附录四 三~五年级Let’s Spell 主要内容",
+      "parentId": ""
+    },
+    {
+      "id": "80b60b15-e660-37ed-b259-f02dc76d6345",
+      "title": "专题课",
+      "parentId": ""
+    },
+    {
+      "id": "f1b5478c-6a67-3bef-a8e0-f9dd9a5a3e68",
+      "title": "A Special City-Xi'an",
+      "parentId": "80b60b15-e660-37ed-b259-f02dc76d6345"
+    },
+    {
+      "id": "6592f2ef-be89-30fa-8334-ce26a0b9fc6c",
+      "title": "Seven Continents",
+      "parentId": "80b60b15-e660-37ed-b259-f02dc76d6345"
+    },
+    {
+      "id": "be29a9bf-1a52-366b-aa81-aaad82ff05be",
+      "title": "Interesting Facts of Animals",
+      "parentId": "80b60b15-e660-37ed-b259-f02dc76d6345"
+    },
+    {
+      "id": "43e58eef-4ceb-38e6-9acf-e518d7893541",
+      "title": "Ways to Manage Feelings",
+      "parentId": "80b60b15-e660-37ed-b259-f02dc76d6345"
+    },
+    {
+      "id": "945b39a4-7074-3926-b34f-cc3296ff8184",
+      "title": "The Father of China's Space Program",
+      "parentId": "80b60b15-e660-37ed-b259-f02dc76d6345"
+    },
+    {
+      "id": "92a8ad36-25d3-3c52-85ff-cc23e28751a6",
+      "title": "The Vacation Time",
+      "parentId": "80b60b15-e660-37ed-b259-f02dc76d6345"
+    }
+  ],
+  "lessons": []
+}

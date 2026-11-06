@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "bookId": "31b6e70f-46d8-43b2-8ca6-2ebb6f010cbc",
+  "chapters": [
+    {
+      "id": "621c3ab0-0b66-4cb4-924e-3a08017a1c31",
+      "title": "一 确定位置",
+      "parentId": ""
+    },
+    {
+      "id": "1d291186-e113-4819-8f38-2afe407058f1",
+      "title": "用有序数对确定位置",
+      "parentId": "621c3ab0-0b66-4cb4-924e-3a08017a1c31"
+    },
+    {
+      "id": "b2d50e76-cb85-481c-a49f-6c36dbce4cae",
+      "title": "用方向和距离确定位置",
+      "parentId": "621c3ab0-0b66-4cb4-924e-3a08017a1c31"
+    },
+    {
+      "id": "39bdd554-6bb3-415a-8303-a20908775bdf",
+      "title": "描述简单的物体的运动路线",
+      "parentId": "621c3ab0-0b66-4cb4-924e-3a08017a1c31"
+    },
+    {
+      "id": "973c2c82-79ff-4574-b167-748c983ba079",
+      "title": "整理和复习",
+      "parentId": "621c3ab0-0b66-4cb4-924e-3a08017a1c31"
+    },
+    {
+      "id": "acf24f94-f977-4765-b32d-aa06ecd4ee5a",
+      "title": "二 分数乘法",
+      "parentId": ""
+    },
+    {
+      "id": "fe5192eb-269c-45d8-973a-c02947e09ff8",
+      "title": "分数乘整数（意义及计算）",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "896c1208-e18d-4929-894a-fa82bc67bf35",
+      "title": "一个数乘分数",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "c797946f-5007-4fc2-891f-2b61c8cacc7c",
+      "title": "小数乘分数",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "88688ced-87b9-4a24-9d37-2cb8ae24e15b",
+      "title": "分数混合运算及运算律",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "97d25a06-e8cb-4d13-a641-0b5b4016f2d4",
+      "title": "连续求一个数的几分之几是多少",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "43911351-3f31-4009-8078-60a547d5b4fe",
+      "title": "求比一个数多几分之几的数是多少",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "d9c391f3-4531-4e4a-8cc1-848b06d4e4d4",
+      "title": "整理和复习",
+      "parentId": "acf24f94-f977-4765-b32d-aa06ecd4ee5a"
+    },
+    {
+      "id": "309644da-959f-4eb0-9e1d-34d246a719f6",
+      "title": "三 分数除法",
+      "parentId": ""
+    },
+    {
+      "id": "2715a586-0221-44fd-a475-e37c88f85f37",
+      "title": "倒数的概念及求法",
+      "parentId": "309644da-959f-4eb0-9e1d-34d246a719f6"
+    },
+    {
+      "id": "a528ae0e-c324-4426-87a4-8b23743f9329",
+      "title": "分数除以整数",
+      "parentId": "309644da-959f-4eb0-9e1d-34d246a719f6"
+    },
+    {
+      "id": "9bfffeaa-2a9e-4e8b-ac50-7df2673e9722",
+      "title": "一个数除以分数",
+      "parentId": "309644da-959f-4eb0-9e1d-34d246a719f6"
+    },
+    {
+      "id": "52071a6f-7736-4e7b-b9f4-9f5cd67484e4",
+      "title": "涉及抽象1的工程问题",
+      "parentId": "309644da-959f-4eb0-9e1d-34d246a719f6"
+    },
+    {
+      "id": "1aee3905-a21c-4bb4-a554-154a33f4df7f",
+      "title": "整理和复习",
+      "parentId": "309644da-959f-4eb0-9e1d-34d246a719f6"
+    },
+    {
+      "id": "b13d8a25-25a9-4b9e-8d0e-d3b1a2cc4d24",
+      "title": "生活中的负数",
+      "parentId": ""
+    },
+    {
+      "id": "ec6cce61-cdd5-414b-b53e-7d0131da1bf5",
+      "title": "认识负数",
+      "parentId": "b13d8a25-25a9-4b9e-8d0e-d3b1a2cc4d24"
+    },
+    {
+      "id": "fd405fa7-b1c6-4cc0-9553-9c74879dcdfb",
+      "title": "应用负数",
+      "parentId": "b13d8a25-25a9-4b9e-8d0e-d3b1a2cc4d24"
+    },
+    {
+      "id": "5dc3906a-3aae-4acc-b375-e6abdf1e0591",
+      "title": "四 圆",
+      "parentId": ""
+    },
+    {
+      "id": "2b681d82-d102-4994-8daa-8588da873bba",
+      "title": "圆的认识",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "9cfed8c4-20f2-4e68-9b07-732f60d38261",
+      "title": "扇形的认识",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "478d7ef9-284e-4e5a-a2fe-740ca45ebd40",
+      "title": "圆的周长推导及简单应用",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "14c741e8-a7a3-41ce-acff-fd5213ea69a7",
+      "title": "圆的面积推导及简单应用",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "f4daf81e-523b-4e59-89d8-62bb72122166",
+      "title": "圆的面积的稍复杂的应用（圆环、变形）",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "e920eec9-25d1-46ad-954c-69c2e43d2aa7",
+      "title": "问题解决（圆中方、方中圆）",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "841dcf5e-de0a-454f-b0d1-5e92cd25588c",
+      "title": "*数学活动：利用圆设计图案",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "47b5c0b2-6b0d-4092-a5b5-1c249f50c5ea",
+      "title": "整理和复习",
+      "parentId": "5dc3906a-3aae-4acc-b375-e6abdf1e0591"
+    },
+    {
+      "id": "ea4b6e1c-6f30-4ae9-8fba-e8962c232670",
+      "title": "体育中的数学",
+      "parentId": ""
+    },
+    {
+      "id": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4",
+      "title": "五 百分数",
+      "parentId": ""
+    },
+    {
+      "id": "ff2b622e-6052-4840-9fa3-9e71244b6c89",
+      "title": "百分数的意义",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "ffc57e85-f867-41c8-bddc-71a143d87141",
+      "title": "求百分率（分数、小数化为百分数）",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "2f9cd24b-5414-48f1-9a20-e935e1f6c829",
+      "title": "求一个数的百分之几是多少\n（百分数化为分数、小数）",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "73c12ac1-3e9f-46dd-8854-cd2c96a1c81a",
+      "title": "折扣",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "66d24309-4463-412a-a8c0-3df36819264b",
+      "title": "利率",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "86697304-3204-4371-81c3-42b71ed89e05",
+      "title": "求增长率",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "d329fc8b-e0d4-4c7c-ba83-5427350561f2",
+      "title": "已知比一个数多百分之几的数是多少求这个数",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "30e8cb5d-848e-41d7-9e6d-9b2c87759eb3",
+      "title": "价格连续变化带来的价格变化幅度",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "8efba5f2-6a9c-4fe4-8d87-d68d03d03022",
+      "title": "确定达标线",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "8773bdf4-9e2b-4bd2-a997-3f8219c2d42f",
+      "title": "整理和复习",
+      "parentId": "7b5a01b2-d745-4cce-b8ea-7548fe3df2a4"
+    },
+    {
+      "id": "00b4886f-a0f5-41c4-8dde-538fd70a57fd",
+      "title": "水是生命之源",
+      "parentId": ""
+    },
+    {
+      "id": "7f760efa-ba70-4c75-ab6b-42e866fb3352",
+      "title": "六 复习与关联",
+      "parentId": ""
+    },
+    {
+      "id": "7a44c7c3-4f63-48d1-814c-a122b201b71d",
+      "title": "分数乘除法",
+      "parentId": "7f760efa-ba70-4c75-ab6b-42e866fb3352"
+    },
+    {
+      "id": "22bd54c1-ae89-4ecf-9b6e-7d85847c9a5a",
+      "title": "图形的认识与测量",
+      "parentId": "7f760efa-ba70-4c75-ab6b-42e866fb3352"
+    },
+    {
+      "id": "bbd345d7-d57f-454f-8905-5f185bf6ae6d",
+      "title": "图形的位置与运动",
+      "parentId": "7f760efa-ba70-4c75-ab6b-42e866fb3352"
+    },
+    {
+      "id": "42dc4723-ec95-4f4f-86d1-27d649c3f0b7",
+      "title": "数据的收集、整理与表达",
+      "parentId": "7f760efa-ba70-4c75-ab6b-42e866fb3352"
+    },
+    {
+      "id": "7f616b0d-98e9-4540-8aa0-f067f03e6d9f",
+      "title": "数学广角：鸽巢问题",
+      "parentId": "7f760efa-ba70-4c75-ab6b-42e866fb3352"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "e3a6c804-0c65-d437-2296-ace406c02e93",
+      "title": "用有序数对确定位置",
+      "type": "national_lesson",
+      "chapterIds": [
+        "621c3ab0-0b66-4cb4-924e-3a08017a1c31",
+        "1d291186-e113-4819-8f38-2afe407058f1"
+      ]
+    },
+    {
+      "id": "3ec5ccc9-876f-0b9e-5af6-a186fc822b6b",
+      "title": "用方向和距离确定位置",
+      "type": "national_lesson",
+      "chapterIds": [
+        "621c3ab0-0b66-4cb4-924e-3a08017a1c31",
+        "b2d50e76-cb85-481c-a49f-6c36dbce4cae"
+      ]
+    }
+  ]
+}

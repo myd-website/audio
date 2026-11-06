@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "bookId": "fb0308d9-2e7f-480b-8723-f48852bb2f28",
+  "chapters": [
+    {
+      "id": "05897c47-c686-4c43-9edf-99f8e9b186b2",
+      "title": "第一单元",
+      "parentId": ""
+    },
+    {
+      "id": "674b56fd-f389-4612-8ce7-4135752b7699",
+      "title": "阅读",
+      "parentId": "05897c47-c686-4c43-9edf-99f8e9b186b2"
+    },
+    {
+      "id": "6ce636db-5fc2-4f0e-904d-d594f0ba5ef0",
+      "title": "1 桂花雨",
+      "parentId": "674b56fd-f389-4612-8ce7-4135752b7699"
+    },
+    {
+      "id": "fabf4021-37bb-4a3a-a84f-c64669ddc324",
+      "title": "2 落花生",
+      "parentId": "674b56fd-f389-4612-8ce7-4135752b7699"
+    },
+    {
+      "id": "edd85c47-f642-4199-a8ca-bc0a65f6b06f",
+      "title": "3* 珍珠鸟",
+      "parentId": "674b56fd-f389-4612-8ce7-4135752b7699"
+    },
+    {
+      "id": "98f6b560-e2b1-4846-87b9-9ad13967f5ef",
+      "title": "口语交际",
+      "parentId": "05897c47-c686-4c43-9edf-99f8e9b186b2"
+    },
+    {
+      "id": "10552440-56f8-44a6-b151-465da56c65b6",
+      "title": "制定班级公约",
+      "parentId": "98f6b560-e2b1-4846-87b9-9ad13967f5ef"
+    },
+    {
+      "id": "36a34812-7314-435c-bd1f-d4f2ab33251a",
+      "title": "习作",
+      "parentId": "05897c47-c686-4c43-9edf-99f8e9b186b2"
+    },
+    {
+      "id": "8990a3c9-1dc3-41b5-b0f6-eaa17aa944a7",
+      "title": "我的心爱之物.",
+      "parentId": "36a34812-7314-435c-bd1f-d4f2ab33251a"
+    },
+    {
+      "id": "2441f9b1-0e38-45e6-a63f-416cab1da58a",
+      "title": "语文园地",
+      "parentId": "05897c47-c686-4c43-9edf-99f8e9b186b2"
+    },
+    {
+      "id": "c567d731-e919-4f40-8c3c-b9f678aaa257",
+      "title": "第二单元",
+      "parentId": ""
+    },
+    {
+      "id": "d7541c40-4963-461e-94b7-957ae91485f4",
+      "title": "阅读",
+      "parentId": "c567d731-e919-4f40-8c3c-b9f678aaa257"
+    },
+    {
+      "id": "8bd86510-0991-475f-b48d-5b075246cb3b",
+      "title": "4 冀中的地道战",
+      "parentId": "d7541c40-4963-461e-94b7-957ae91485f4"
+    },
+    {
+      "id": "5831bbab-e393-4dc0-a232-065ff585b020",
+      "title": "5 将相和",
+      "parentId": "d7541c40-4963-461e-94b7-957ae91485f4"
+    },
+    {
+      "id": "0f3615c8-5e14-4ce8-99df-f64182b5ae82",
+      "title": "6 什么比猎豹的速度更快",
+      "parentId": "d7541c40-4963-461e-94b7-957ae91485f4"
+    },
+    {
+      "id": "279c1f4b-2cd0-4362-afc0-16851cc1ac97",
+      "title": "7 “诺曼底号”遇难记",
+      "parentId": "d7541c40-4963-461e-94b7-957ae91485f4"
+    },
+    {
+      "id": "d93a713f-c9fb-4e45-afd7-c2a7b5c0031d",
+      "title": "习作",
+      "parentId": "c567d731-e919-4f40-8c3c-b9f678aaa257"
+    },
+    {
+      "id": "edc41f16-5400-4d9f-a2bf-ac372a1ec9df",
+      "title": "“漫画”老师",
+      "parentId": "d93a713f-c9fb-4e45-afd7-c2a7b5c0031d"
+    },
+    {
+      "id": "79b200f6-215e-47e3-bf7c-7f58952fc04f",
+      "title": "语文园地",
+      "parentId": "c567d731-e919-4f40-8c3c-b9f678aaa257"
+    },
+    {
+      "id": "cd5b0300-de27-43ff-9b6e-83265f2b4eeb",
+      "title": "第三单元",
+      "parentId": ""
+    },
+    {
+      "id": "dc913fb2-590f-4196-8732-3f5f5cb66cad",
+      "title": "阅读",
+      "parentId": "cd5b0300-de27-43ff-9b6e-83265f2b4eeb"
+    },
+    {
+      "id": "9571697d-2521-453f-a8f0-e4e3e3d6e658",
+      "title": "8 猎人海力布",
+      "parentId": "dc913fb2-590f-4196-8732-3f5f5cb66cad"
+    },
+    {
+      "id": "d24719bc-2718-4fc1-8ada-89b0f83c858b",
+      "title": "9 牛郎织女（一）",
+      "parentId": "dc913fb2-590f-4196-8732-3f5f5cb66cad"
+    },
+    {
+      "id": "55cecb16-8203-406c-80b4-648e72c7e9d0",
+      "title": "10* 牛郎织女（二）",
+      "parentId": "dc913fb2-590f-4196-8732-3f5f5cb66cad"
+    },
+    {
+      "id": "4be6cc33-1d5a-4424-a39b-903dc4349a87",
+      "title": "口语交际",
+      "parentId": "cd5b0300-de27-43ff-9b6e-83265f2b4eeb"
+    },
+    {
+      "id": "9351628d-05aa-4836-8477-fc7e8c17a06e",
+      "title": "讲民间故事",
+      "parentId": "4be6cc33-1d5a-4424-a39b-903dc4349a87"
+    },
+    {
+      "id": "97a1a8fd-aa47-4afa-a42e-5fe1dc000fed",
+      "title": "习作",
+      "parentId": "cd5b0300-de27-43ff-9b6e-83265f2b4eeb"
+    },
+    {
+      "id": "a4abdeb5-3e59-4bf2-bc3b-df37ff1f6316",
+      "title": "故事新编.",
+      "parentId": "97a1a8fd-aa47-4afa-a42e-5fe1dc000fed"
+    },
+    {
+      "id": "4c5160c4-7479-4329-beb0-22863c0ec824",
+      "title": "语文园地",
+      "parentId": "cd5b0300-de27-43ff-9b6e-83265f2b4eeb"
+    },
+    {
+      "id": "1872ca4b-ae03-4a5b-ba76-ea0b65afd9f9",
+      "title": "快乐读书吧",
+      "parentId": "cd5b0300-de27-43ff-9b6e-83265f2b4eeb"
+    },
+    {
+      "id": "02528ca5-72de-4443-a5ed-61bd71a5cea8",
+      "title": "从前有座山",
+      "parentId": "1872ca4b-ae03-4a5b-ba76-ea0b65afd9f9"
+    },
+    {
+      "id": "d30f3dcb-fe87-46b6-9552-495876f4d3f8",
+      "title": "第四单元",
+      "parentId": ""
+    },
+    {
+      "id": "f98afeb2-d4c1-4db5-97bb-b86febe2a198",
+      "title": "阅读",
+      "parentId": "d30f3dcb-fe87-46b6-9552-495876f4d3f8"
+    },
+    {
+      "id": "befb1ad3-87d0-47a8-8fca-4664fe8dc307",
+      "title": "11 古诗三首",
+      "parentId": "f98afeb2-d4c1-4db5-97bb-b86febe2a198"
+    },
+    {
+      "id": "946f47d0-f76e-4a99-ab35-f310582cf2cf",
+      "title": "12 少年中国说（节选）",
+      "parentId": "f98afeb2-d4c1-4db5-97bb-b86febe2a198"
+    },
+    {
+      "id": "4ffee963-c3cb-4ed4-a017-4f9a7e4a122d",
+      "title": "13 圆明园的毁灭",
+      "parentId": "f98afeb2-d4c1-4db5-97bb-b86febe2a198"
+    },
+    {
+      "id": "2ac947ab-3a82-401a-9f04-70d6188438bb",
+      "title": "14* 梅兰芳蓄须明志",
+      "parentId": "f98afeb2-d4c1-4db5-97bb-b86febe2a198"
+    },
+    {
+      "id": "1143a872-b9c1-494e-a466-94789c6a8810",
+      "title": "习作",
+      "parentId": "d30f3dcb-fe87-46b6-9552-495876f4d3f8"
+    },
+    {
+      "id": "81abeea4-35b6-48b3-9dd6-c83fd9e69187",
+      "title": "二十年后的家乡",
+      "parentId": "1143a872-b9c1-494e-a466-94789c6a8810"
+    },
+    {
+      "id": "e23922a9-a343-4930-a95f-efccd7e51853",
+      "title": "语文园地",
+      "parentId": "d30f3dcb-fe87-46b6-9552-495876f4d3f8"
+    },
+    {
+      "id": "7e905275-ea9b-4382-802e-a620cc9a519a",
+      "title": "第五单元",
+      "parentId": ""
+    },
+    {
+      "id": "d8da04bd-c144-4baa-a615-caa6d39da03e",
+      "title": "阅读",
+      "parentId": "7e905275-ea9b-4382-802e-a620cc9a519a"
+    },
+    {
+      "id": "d7eb5ff5-e76f-4e95-9897-6eec91c64cd6",
+      "title": "15 太阳",
+      "parentId": "d8da04bd-c144-4baa-a615-caa6d39da03e"
+    },
+    {
+      "id": "bc1386ba-8005-499a-b00b-79e8d6bb3535",
+      "title": "16 金字塔",
+      "parentId": "d8da04bd-c144-4baa-a615-caa6d39da03e"
+    },
+    {
+      "id": "935e0ec7-8b72-4c97-9e26-0ac9a95a2d67",
+      "title": "习作",
+      "parentId": "7e905275-ea9b-4382-802e-a620cc9a519a"
+    },
+    {
+      "id": "06381dea-5b89-4908-b5f5-d0237561fcb2",
+      "title": "介绍一种事物",
+      "parentId": "935e0ec7-8b72-4c97-9e26-0ac9a95a2d67"
+    },
+    {
+      "id": "026ea628-aa13-4e0c-9b8e-08e86fc2fa6e",
+      "title": "例文",
+      "parentId": "935e0ec7-8b72-4c97-9e26-0ac9a95a2d67"
+    },
+    {
+      "id": "68498c33-a068-4cdb-aee0-2ff71d4ee795",
+      "title": "第六单元 .",
+      "parentId": ""
+    },
+    {
+      "id": "2acc5607-5e2e-49a6-859b-4fa4481321d5",
+      "title": "阅读",
+      "parentId": "68498c33-a068-4cdb-aee0-2ff71d4ee795"
+    },
+    {
+      "id": "57c2d12d-6fd6-4e0d-bead-c9c155d71e2f",
+      "title": "17 慈母情深",
+      "parentId": "2acc5607-5e2e-49a6-859b-4fa4481321d5"
+    },
+    {
+      "id": "6da59928-adf6-4d9c-9e14-526bdac29346",
+      "title": "18 父爱之舟",
+      "parentId": "2acc5607-5e2e-49a6-859b-4fa4481321d5"
+    },
+    {
+      "id": "b1177c01-5fef-4360-a222-6e1bf83a7f08",
+      "title": "19* 航天员写给孩子的信",
+      "parentId": "2acc5607-5e2e-49a6-859b-4fa4481321d5"
+    },
+    {
+      "id": "4307890e-497e-4eca-a23b-d41eaad9b164",
+      "title": "口语交际",
+      "parentId": "68498c33-a068-4cdb-aee0-2ff71d4ee795"
+    },
+    {
+      "id": "8b633b38-d6d9-41cd-9e09-8538ebfcddb1",
+      "title": "父母之爱",
+      "parentId": "4307890e-497e-4eca-a23b-d41eaad9b164"
+    },
+    {
+      "id": "e64eb07d-74f7-4fe2-a373-14b4e06b2bb1",
+      "title": "习作",
+      "parentId": "68498c33-a068-4cdb-aee0-2ff71d4ee795"
+    },
+    {
+      "id": "f94196a1-0efe-48c9-8e5b-93ca10c6bb46",
+      "title": "我想对您说",
+      "parentId": "e64eb07d-74f7-4fe2-a373-14b4e06b2bb1"
+    },
+    {
+      "id": "78e39a54-0f2a-4019-a0a4-6c795ad61efe",
+      "title": "语文园地",
+      "parentId": "68498c33-a068-4cdb-aee0-2ff71d4ee795"
+    },
+    {
+      "id": "0b8d8cf5-e3f1-4ee0-8327-bcf03f11370e",
+      "title": "第七单元",
+      "parentId": ""
+    },
+    {
+      "id": "f7d8d27b-b51b-43d3-a857-d45b70fc82d3",
+      "title": "阅读",
+      "parentId": "0b8d8cf5-e3f1-4ee0-8327-bcf03f11370e"
+    },
+    {
+      "id": "273f7a03-bcbd-4f91-9779-0e6a4ed36afb",
+      "title": "20 古诗三首",
+      "parentId": "f7d8d27b-b51b-43d3-a857-d45b70fc82d3"
+    },
+    {
+      "id": "839544f5-d563-4b0d-8629-7a2063c648d2",
+      "title": "21 第一场雪",
+      "parentId": "f7d8d27b-b51b-43d3-a857-d45b70fc82d3"
+    },
+    {
+      "id": "9ab8c505-b083-40e8-b2b8-3a5932a62b75",
+      "title": "22 白鹭",
+      "parentId": "f7d8d27b-b51b-43d3-a857-d45b70fc82d3"
+    },
+    {
+      "id": "58c0cc31-aca8-4c47-b03d-ca4ac47ddec8",
+      "title": "习作",
+      "parentId": "0b8d8cf5-e3f1-4ee0-8327-bcf03f11370e"
+    },
+    {
+      "id": "f4c96425-4f8c-4839-ac81-0742ad092407",
+      "title": "我最喜爱的季节",
+      "parentId": "58c0cc31-aca8-4c47-b03d-ca4ac47ddec8"
+    },
+    {
+      "id": "754f4c37-9778-4881-881c-6ca5ae9acfe4",
+      "title": "语文园地",
+      "parentId": "0b8d8cf5-e3f1-4ee0-8327-bcf03f11370e"
+    },
+    {
+      "id": "db474e16-6d95-4ef7-a0ca-8b9b19d4b3db",
+      "title": "第八单元",
+      "parentId": ""
+    },
+    {
+      "id": "9a86e978-f327-42f4-a7c5-aa9b10151427",
+      "title": "阅读",
+      "parentId": "db474e16-6d95-4ef7-a0ca-8b9b19d4b3db"
+    },
+    {
+      "id": "874e4798-4822-43d1-b7d8-1bf3fdb615fd",
+      "title": "23 古人谈读书",
+      "parentId": "9a86e978-f327-42f4-a7c5-aa9b10151427"
+    },
+    {
+      "id": "c25a9da2-c219-49e3-b0a1-ed72d6f1c695",
+      "title": "24 忆读书",
+      "parentId": "9a86e978-f327-42f4-a7c5-aa9b10151427"
+    },
+    {
+      "id": "c9731833-ca1f-43a0-9d01-f71f968e688f",
+      "title": "25* 走遍天下书为侣",
+      "parentId": "9a86e978-f327-42f4-a7c5-aa9b10151427"
+    },
+    {
+      "id": "0d459e3f-ffd6-420b-a07f-9612a5f86151",
+      "title": "习作",
+      "parentId": "db474e16-6d95-4ef7-a0ca-8b9b19d4b3db"
+    },
+    {
+      "id": "3414699b-7655-4066-9537-4455b3d0d13b",
+      "title": "推荐一本书",
+      "parentId": "0d459e3f-ffd6-420b-a07f-9612a5f86151"
+    },
+    {
+      "id": "5a754f76-8ce8-4ee7-90e2-c8201a6603f2",
+      "title": "语文园地",
+      "parentId": "db474e16-6d95-4ef7-a0ca-8b9b19d4b3db"
+    },
+    {
+      "id": "02c68580-e2d6-4b19-b1f5-8087c6b6df9e",
+      "title": "识字表",
+      "parentId": ""
+    },
+    {
+      "id": "2896d85f-b37f-4d1e-8eb4-2c0a3605e74c",
+      "title": "写字表",
+      "parentId": ""
+    },
+    {
+      "id": "dd4f97a0-0da8-4067-b679-e1162ea65572",
+      "title": "词语表",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b23ab933-5113-1af8-0c82-71692956fce0",
+      "title": "1 桂花雨",
+      "type": "national_lesson",
+      "chapterIds": [
+        "05897c47-c686-4c43-9edf-99f8e9b186b2",
+        "674b56fd-f389-4612-8ce7-4135752b7699",
+        "6ce636db-5fc2-4f0e-904d-d594f0ba5ef0"
+      ]
+    },
+    {
+      "id": "fd8aee4e-cb2d-598a-2605-b4a60b285d79",
+      "title": "2 落花生",
+      "type": "national_lesson",
+      "chapterIds": [
+        "05897c47-c686-4c43-9edf-99f8e9b186b2",
+        "674b56fd-f389-4612-8ce7-4135752b7699",
+        "fabf4021-37bb-4a3a-a84f-c64669ddc324"
+      ]
+    },
+    {
+      "id": "38892478-a913-6af7-eb22-de4583910632",
+      "title": "3* 珍珠鸟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "05897c47-c686-4c43-9edf-99f8e9b186b2",
+        "674b56fd-f389-4612-8ce7-4135752b7699",
+        "edd85c47-f642-4199-a8ca-bc0a65f6b06f"
+      ]
+    },
+    {
+      "id": "9963a811-d29c-83c2-e08e-d3ccc8ecc6e3",
+      "title": "制定班级公约",
+      "type": "national_lesson",
+      "chapterIds": [
+        "05897c47-c686-4c43-9edf-99f8e9b186b2",
+        "98f6b560-e2b1-4846-87b9-9ad13967f5ef",
+        "10552440-56f8-44a6-b151-465da56c65b6"
+      ]
+    }
+  ]
+}

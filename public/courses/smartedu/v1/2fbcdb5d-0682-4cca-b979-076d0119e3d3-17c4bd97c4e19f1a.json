@@ -1,0 +1,1369 @@
+{
+  "version": 1,
+  "bookId": "2fbcdb5d-0682-4cca-b979-076d0119e3d3",
+  "chapters": [
+    {
+      "id": "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+      "title": "识字",
+      "parentId": ""
+    },
+    {
+      "id": "e664f90c-8bf6-37e9-b572-22cfe23c2b48",
+      "title": "1 春夏秋冬",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "b387d10f-4a1b-3236-907c-6cd1832384cf",
+      "title": "2 姓氏歌",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "45afb98e-9e9e-3d84-aeb9-05a2b6218fd0",
+      "title": "3 小青蛙",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "76c6fc91-063f-3c43-8aeb-7e8b01061c35",
+      "title": "4 猜字谜",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "4a606bd9-a01f-3091-97db-a2626396a510",
+      "title": "口语交际：听故事，讲故事",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "628b72eb-c6e3-369d-8939-614416a0342c",
+      "title": "语文园地一",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "d51dc441-7630-3a6b-b9da-21316e49b7a3",
+      "title": "识字加油站+书写提示+日积月累",
+      "parentId": "628b72eb-c6e3-369d-8939-614416a0342c"
+    },
+    {
+      "id": "4500ae56-cb80-366c-97a9-7f9cf134f9c1",
+      "title": "字词句运用",
+      "parentId": "628b72eb-c6e3-369d-8939-614416a0342c"
+    },
+    {
+      "id": "30d5b275-e682-3fb9-9edc-5afd887ea8b5",
+      "title": "和大人一起读：谁和谁好",
+      "parentId": "628b72eb-c6e3-369d-8939-614416a0342c"
+    },
+    {
+      "id": "f2eab366-4670-30ed-b6eb-23e499ab9761",
+      "title": "单元拓展",
+      "parentId": "628b72eb-c6e3-369d-8939-614416a0342c"
+    },
+    {
+      "id": "a4b7bc01-d330-3ca5-9894-c789509c9ffc",
+      "title": "快乐读书吧：读读童谣和儿歌",
+      "parentId": "6cd3d7b4-5a33-3f60-804f-251b72bf3302"
+    },
+    {
+      "id": "e19b4b77-2343-3799-be83-930e28431ed4",
+      "title": "课文",
+      "parentId": ""
+    },
+    {
+      "id": "b33d81ad-f428-38cb-812d-a868b95927b8",
+      "title": "1 吃水不忘挖井人",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "3417efce-ad1d-355f-ab59-9a86ec6c394f",
+      "title": "2 我多想去看看",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "1c6dedd4-5070-32c0-8330-fee4540d8181",
+      "title": "3 一个接一个",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "296bf532-19d9-3a99-a3fd-025a7f380f88",
+      "title": "3 四个太阳",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "1beaa036-acd1-32b6-954d-949bdd7f5331",
+      "title": "语文园地二",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "6e9bdfd4-1f6c-3142-aa95-6d2a71616c09",
+      "title": "识字加油站+字词句运用",
+      "parentId": "1beaa036-acd1-32b6-954d-949bdd7f5331"
+    },
+    {
+      "id": "321acf87-5fe4-35b7-adf9-71f3a229e589",
+      "title": "展示台+日积月累",
+      "parentId": "1beaa036-acd1-32b6-954d-949bdd7f5331"
+    },
+    {
+      "id": "06ec4694-9751-31d0-b903-5e6ab251195e",
+      "title": "和大人一起读：阳光",
+      "parentId": "1beaa036-acd1-32b6-954d-949bdd7f5331"
+    },
+    {
+      "id": "f5bb4522-bf32-3ee4-8753-cf4fd448c649",
+      "title": "单元拓展",
+      "parentId": "1beaa036-acd1-32b6-954d-949bdd7f5331"
+    },
+    {
+      "id": "0204f83c-2ecf-330e-a903-038dc6873b57",
+      "title": "4小公鸡和小鸭子",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "1f6b2a73-17d3-3f67-8c5c-efcc559a8857",
+      "title": "5 树和喜鹊",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "1484a1eb-b3bd-3aa2-81af-4c530be03794",
+      "title": "6 怎么都快乐",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "abe59aa0-be77-37b5-afb3-7349c4ae2c62",
+      "title": "口语交际：请你帮个忙",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "78efcd32-b95b-3756-9f65-fbc3c5468152",
+      "title": "语文园地三",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "a09b37dc-7c3d-3e1d-b242-0c68df26c5dc",
+      "title": "查字典",
+      "parentId": "78efcd32-b95b-3756-9f65-fbc3c5468152"
+    },
+    {
+      "id": "cba9225c-fdb2-3540-b319-e63debeb6e98",
+      "title": "日积月累+和大人一起读：胖乎乎的小手",
+      "parentId": "78efcd32-b95b-3756-9f65-fbc3c5468152"
+    },
+    {
+      "id": "60ce7272-09f2-3b73-8b5e-980d297f9b8d",
+      "title": "单元拓展",
+      "parentId": "78efcd32-b95b-3756-9f65-fbc3c5468152"
+    },
+    {
+      "id": "f3881152-4b96-39f7-a669-66b9e1eca82d",
+      "title": "7 静夜思",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "2234d24a-499b-37bc-aa26-213eb120465b",
+      "title": "8 夜色",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "eadf79db-b281-356d-ac33-27257e8c4b5c",
+      "title": "9 端午粽",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "eed47c42-4d9f-3eff-bcea-8c82f0a6ac3c",
+      "title": "10 彩虹",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "0eecfe2b-2a05-33fc-be57-ba5a9192467e",
+      "title": "语文园地四",
+      "parentId": "e19b4b77-2343-3799-be83-930e28431ed4"
+    },
+    {
+      "id": "2b06f87e-b497-336e-94bd-c0677a784677",
+      "title": "识字加油站+字词句运用",
+      "parentId": "0eecfe2b-2a05-33fc-be57-ba5a9192467e"
+    },
+    {
+      "id": "18b74649-c392-3a41-8a5f-57e4ca87fec8",
+      "title": "书写提示+日积月累",
+      "parentId": "0eecfe2b-2a05-33fc-be57-ba5a9192467e"
+    },
+    {
+      "id": "4e3123ea-affa-3f34-bbba-be8a76183f64",
+      "title": "和大人一起读：妞妞赶牛",
+      "parentId": "0eecfe2b-2a05-33fc-be57-ba5a9192467e"
+    },
+    {
+      "id": "9d574676-0a03-3819-9100-7e152f6b39df",
+      "title": "单元拓展",
+      "parentId": "0eecfe2b-2a05-33fc-be57-ba5a9192467e"
+    },
+    {
+      "id": "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+      "title": "识字",
+      "parentId": ""
+    },
+    {
+      "id": "26157ab6-7cc2-33fd-b741-d5ea9fef8768",
+      "title": "5 动物儿歌",
+      "parentId": "911c4ab1-e506-3eae-ac3e-cf9032adec9a"
+    },
+    {
+      "id": "9d2eb725-eae9-3e6c-8206-64ca2b529857",
+      "title": "6 古对今",
+      "parentId": "911c4ab1-e506-3eae-ac3e-cf9032adec9a"
+    },
+    {
+      "id": "c1814624-64e2-345c-b5a2-852082510e03",
+      "title": "7 操场上",
+      "parentId": "911c4ab1-e506-3eae-ac3e-cf9032adec9a"
+    },
+    {
+      "id": "11432c17-065b-374d-a576-e6af34d5c7bd",
+      "title": "8 人之初",
+      "parentId": "911c4ab1-e506-3eae-ac3e-cf9032adec9a"
+    },
+    {
+      "id": "ae75b904-818d-3221-b91b-5f786eee8a67",
+      "title": "口语交际：打电话",
+      "parentId": "911c4ab1-e506-3eae-ac3e-cf9032adec9a"
+    },
+    {
+      "id": "780cdfa8-7945-3a8b-9a87-618888989cf5",
+      "title": "语文园地五",
+      "parentId": "911c4ab1-e506-3eae-ac3e-cf9032adec9a"
+    },
+    {
+      "id": "0888c03f-bd75-3235-8221-ea5758446d70",
+      "title": "识字加油站+我的发现",
+      "parentId": "780cdfa8-7945-3a8b-9a87-618888989cf5"
+    },
+    {
+      "id": "fc54420f-c286-318f-be5c-af777dc855a9",
+      "title": "字词句运用+日积月累",
+      "parentId": "780cdfa8-7945-3a8b-9a87-618888989cf5"
+    },
+    {
+      "id": "79c49b90-7a75-3114-9659-59fc9f6551d6",
+      "title": "和大人一起读：狐狸和乌鸦",
+      "parentId": "780cdfa8-7945-3a8b-9a87-618888989cf5"
+    },
+    {
+      "id": "7e25f599-3962-36b1-9c28-2946e140c9e0",
+      "title": "单元拓展",
+      "parentId": "780cdfa8-7945-3a8b-9a87-618888989cf5"
+    },
+    {
+      "id": "d22db89d-31c8-3967-a051-2a08e7279e12",
+      "title": "课文",
+      "parentId": ""
+    },
+    {
+      "id": "545d74aa-9b9f-3f8e-92a7-582864b0daf1",
+      "title": "11 古诗二首",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "65a875f2-a6d9-39ca-89d7-c8a8dfbe4c70",
+      "title": "池上",
+      "parentId": "545d74aa-9b9f-3f8e-92a7-582864b0daf1"
+    },
+    {
+      "id": "6bbaaaf2-a78a-3abf-81b9-d41ae5c1079f",
+      "title": "小池",
+      "parentId": "545d74aa-9b9f-3f8e-92a7-582864b0daf1"
+    },
+    {
+      "id": "a3915bc4-b96b-38f4-a282-a4b7f982dc38",
+      "title": "12 荷叶圆圆",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "96ff97b2-d3e5-3cc3-b513-d18582b7778a",
+      "title": "13 要下雨了",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "30a4965e-db83-3d3b-87ee-7d068aada45c",
+      "title": "语文园地六",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "a49c7948-d02e-3ef1-8515-007215aa9e5f",
+      "title": "识字加油站+展示台",
+      "parentId": "30a4965e-db83-3d3b-87ee-7d068aada45c"
+    },
+    {
+      "id": "6fabd85f-aff2-3359-8eef-c41735b827f7",
+      "title": "字词句运用+日积月累",
+      "parentId": "30a4965e-db83-3d3b-87ee-7d068aada45c"
+    },
+    {
+      "id": "9723bb76-02b9-38c7-ba25-aa86a7c1a129",
+      "title": "和大人一起读：夏夜多美",
+      "parentId": "30a4965e-db83-3d3b-87ee-7d068aada45c"
+    },
+    {
+      "id": "fe200f9b-774c-35ee-b8b6-12887bb14159",
+      "title": "单元拓展",
+      "parentId": "30a4965e-db83-3d3b-87ee-7d068aada45c"
+    },
+    {
+      "id": "6f89131c-c4e8-3f7a-b857-e4adcd45f72e",
+      "title": "14 文具的家",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "30fd3022-7671-31aa-b6d0-f73b46ec8f90",
+      "title": "15 一分钟",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "9772d955-c856-3b13-98c0-112a67834021",
+      "title": "16 动物王国开大会",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "b1958044-4c4f-32ac-a3a4-8af6b7b9df71",
+      "title": "17 小猴子下山",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "b65e7e30-bcf6-3836-9d70-464fdfbab68c",
+      "title": "口语交际：一起做游戏",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "b6046624-9500-359b-b119-a5a1fe736ff9",
+      "title": "语文园地七",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "be453e97-1d26-3d17-a7c4-c81cc2ad512c",
+      "title": "识字加油站+字词句运用",
+      "parentId": "b6046624-9500-359b-b119-a5a1fe736ff9"
+    },
+    {
+      "id": "8ed64660-3516-3b30-9899-e0569b3bd530",
+      "title": "书写提示+日积月累",
+      "parentId": "b6046624-9500-359b-b119-a5a1fe736ff9"
+    },
+    {
+      "id": "5196ca0e-b371-36c9-964a-b9690a62dc7d",
+      "title": "和大人一起读：孙悟空打妖怪",
+      "parentId": "b6046624-9500-359b-b119-a5a1fe736ff9"
+    },
+    {
+      "id": "8b54a7a0-51a8-3563-95d3-6f99f0971c1c",
+      "title": "单元拓展",
+      "parentId": "b6046624-9500-359b-b119-a5a1fe736ff9"
+    },
+    {
+      "id": "589a3bac-9007-3db8-a339-37a6ba4b84cf",
+      "title": "18 棉花姑娘",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "c83b8846-df48-3950-a0d0-b0e0e3eb53e9",
+      "title": "19 咕咚",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "30381c4e-c4b1-3fbd-94d7-3b0b9156bbed",
+      "title": "20 小壁虎借尾巴",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2",
+      "title": "语文园地八",
+      "parentId": "d22db89d-31c8-3967-a051-2a08e7279e12"
+    },
+    {
+      "id": "4e178974-fcfc-3987-b7c2-3f00778a4c68",
+      "title": "识字加油站+我的发现",
+      "parentId": "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2"
+    },
+    {
+      "id": "d662fccb-2987-30d0-978e-cc14cf18d36f",
+      "title": "字词句运用+日积月累",
+      "parentId": "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2"
+    },
+    {
+      "id": "8cb14d68-f275-3317-8ccd-2072e368649d",
+      "title": "和大人一起读：三只白鹤",
+      "parentId": "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2"
+    },
+    {
+      "id": "f4bce44a-2d11-36f6-be1b-81b295a78313",
+      "title": "和大人一起读：小熊住山洞",
+      "parentId": "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2"
+    },
+    {
+      "id": "5e85976c-997e-3ef6-a862-c1f3aa70fa4c",
+      "title": "单元拓展",
+      "parentId": "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2"
+    },
+    {
+      "id": "e978f29c-a918-3bbc-b935-8c421d1e4c5e",
+      "title": "识字表",
+      "parentId": ""
+    },
+    {
+      "id": "61f21e55-f30b-3259-b541-3c97dedf94ca",
+      "title": "写字表",
+      "parentId": ""
+    },
+    {
+      "id": "f4e88368-7a4f-3173-ad9e-8227a633e350",
+      "title": "常用偏旁名称表",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "f4037fcd-303d-4e10-a98f-4a3537e6d567",
+      "title": "口语交际",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "4a606bd9-a01f-3091-97db-a2626396a510"
+      ]
+    },
+    {
+      "id": "981e07a9-8264-49d5-a539-15089e71d478",
+      "title": "快乐读书吧",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "a4b7bc01-d330-3ca5-9894-c789509c9ffc"
+      ]
+    },
+    {
+      "id": "2151af67-2984-4f8b-9383-2db83de10025",
+      "title": "口语交际：听故事、讲故事",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "4a606bd9-a01f-3091-97db-a2626396a510"
+      ]
+    },
+    {
+      "id": "9690c7a3-438b-43af-a57f-c117b73602b9",
+      "title": "语文园地",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "628b72eb-c6e3-369d-8939-614416a0342c",
+        "30d5b275-e682-3fb9-9edc-5afd887ea8b5"
+      ]
+    },
+    {
+      "id": "67177a8e-25c2-410f-97ee-1b7cbf3e6857",
+      "title": "快乐读书吧",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "a4b7bc01-d330-3ca5-9894-c789509c9ffc"
+      ]
+    },
+    {
+      "id": "2c67b521-f737-4034-98fe-3f0c1176e5ae",
+      "title": "单元复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "628b72eb-c6e3-369d-8939-614416a0342c",
+        "f2eab366-4670-30ed-b6eb-23e499ab9761"
+      ]
+    },
+    {
+      "id": "c3887a6e-87ea-441c-9973-9d1c7a575a9d",
+      "title": "口语交际：请你帮个忙",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "abe59aa0-be77-37b5-afb3-7349c4ae2c62"
+      ]
+    },
+    {
+      "id": "3b2f244f-7596-4331-9e0a-10551149b5eb",
+      "title": "口语交际",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "abe59aa0-be77-37b5-afb3-7349c4ae2c62"
+      ]
+    },
+    {
+      "id": "6015340a-4eec-48af-a780-cec515cbb053",
+      "title": "语文园地三",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "78efcd32-b95b-3756-9f65-fbc3c5468152",
+        "60ce7272-09f2-3b73-8b5e-980d297f9b8d"
+      ]
+    },
+    {
+      "id": "f3154132-92c9-4ba2-b528-dc9b929694a0",
+      "title": "春夏秋冬",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "e664f90c-8bf6-37e9-b572-22cfe23c2b48"
+      ]
+    },
+    {
+      "id": "34194fbd-94ee-4678-965d-c7b651354b98",
+      "title": "姓氏歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "b387d10f-4a1b-3236-907c-6cd1832384cf"
+      ]
+    },
+    {
+      "id": "9a89fabf-09d2-474d-ad77-5b652952e9e2",
+      "title": "小青蛙",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "45afb98e-9e9e-3d84-aeb9-05a2b6218fd0"
+      ]
+    },
+    {
+      "id": "ee6fa133-56fc-4793-83e1-88b843878adf",
+      "title": "猜字谜",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "76c6fc91-063f-3c43-8aeb-7e8b01061c35"
+      ]
+    },
+    {
+      "id": "b0fa0432-ac6b-4ac0-b4fa-b46677f83fda",
+      "title": "语文园地一",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "628b72eb-c6e3-369d-8939-614416a0342c",
+        "30d5b275-e682-3fb9-9edc-5afd887ea8b5"
+      ]
+    },
+    {
+      "id": "0e4a541b-9558-42c2-8625-a8093c335d57",
+      "title": "春夏秋冬",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "e664f90c-8bf6-37e9-b572-22cfe23c2b48"
+      ]
+    },
+    {
+      "id": "87f1d528-b9dd-4b9d-b986-b7ec0562d71a",
+      "title": "姓氏歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "b387d10f-4a1b-3236-907c-6cd1832384cf"
+      ]
+    },
+    {
+      "id": "f2777712-f55e-4067-88fc-462a8bd872ee",
+      "title": "小青蛙",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "45afb98e-9e9e-3d84-aeb9-05a2b6218fd0"
+      ]
+    },
+    {
+      "id": "1bb8ee5b-4481-4402-9b5f-47ee3903981a",
+      "title": "猜字谜",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "76c6fc91-063f-3c43-8aeb-7e8b01061c35"
+      ]
+    },
+    {
+      "id": "1f1fc2a8-f39d-4941-953f-75b4c00d74d7",
+      "title": "吃水不忘挖井人",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "b33d81ad-f428-38cb-812d-a868b95927b8"
+      ]
+    },
+    {
+      "id": "898d4b62-8edf-46e5-be92-06f4adb02b9d",
+      "title": "我多想去看看",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "3417efce-ad1d-355f-ab59-9a86ec6c394f"
+      ]
+    },
+    {
+      "id": "39014b5a-9bd7-48f5-a8c2-89e2f8f9bfc2",
+      "title": "一个接一个",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1c6dedd4-5070-32c0-8330-fee4540d8181"
+      ]
+    },
+    {
+      "id": "1b0866fa-8a78-4a6e-aaaf-547ae3de040e",
+      "title": "四个太阳",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "296bf532-19d9-3a99-a3fd-025a7f380f88"
+      ]
+    },
+    {
+      "id": "e0b085cb-4037-403b-9fc4-55b56f282987",
+      "title": "语文园地二",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1beaa036-acd1-32b6-954d-949bdd7f5331",
+        "f5bb4522-bf32-3ee4-8753-cf4fd448c649"
+      ]
+    },
+    {
+      "id": "827a314e-45ca-4180-b32b-430f1135467e",
+      "title": "吃水不忘挖井人",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "b33d81ad-f428-38cb-812d-a868b95927b8"
+      ]
+    },
+    {
+      "id": "242346b7-62bc-4642-a18b-1a2d690bf51f",
+      "title": "我多想去看看",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "3417efce-ad1d-355f-ab59-9a86ec6c394f"
+      ]
+    },
+    {
+      "id": "9775161c-4d59-4351-940b-ce29a04e637f",
+      "title": "一个接一个",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1c6dedd4-5070-32c0-8330-fee4540d8181"
+      ]
+    },
+    {
+      "id": "2348a6e4-2ed4-4a6c-a8f3-2e767141ad0c",
+      "title": "四个太阳",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "296bf532-19d9-3a99-a3fd-025a7f380f88"
+      ]
+    },
+    {
+      "id": "d85cb39b-ef3b-417c-b928-3b02bf7436c4",
+      "title": "小公鸡和小鸭子",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "0204f83c-2ecf-330e-a903-038dc6873b57"
+      ]
+    },
+    {
+      "id": "f98e39d2-6f97-4bed-aaf0-b9031fe04017",
+      "title": "树和喜鹊",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1f6b2a73-17d3-3f67-8c5c-efcc559a8857"
+      ]
+    },
+    {
+      "id": "10a252dc-8d14-406f-a2e1-ee454d2fba1d",
+      "title": "怎么都快乐",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1484a1eb-b3bd-3aa2-81af-4c530be03794"
+      ]
+    },
+    {
+      "id": "14eaa75e-be9e-410d-a48f-6c0c434d8247",
+      "title": "语文园地三",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "78efcd32-b95b-3756-9f65-fbc3c5468152",
+        "60ce7272-09f2-3b73-8b5e-980d297f9b8d"
+      ]
+    },
+    {
+      "id": "a63f9d0d-a376-47cc-a017-47b26b6e70f6",
+      "title": "小公鸡和小鸭子",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "0204f83c-2ecf-330e-a903-038dc6873b57"
+      ]
+    },
+    {
+      "id": "593c3782-16a8-4d38-9749-7e5b5029f985",
+      "title": "树和喜鹊",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1f6b2a73-17d3-3f67-8c5c-efcc559a8857"
+      ]
+    },
+    {
+      "id": "a3095837-8d86-40d2-a52a-9756d759d48a",
+      "title": "怎么都快乐",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1484a1eb-b3bd-3aa2-81af-4c530be03794"
+      ]
+    },
+    {
+      "id": "afb52892-6cbe-4694-8ed4-abcec58af99c",
+      "title": "静夜思",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "f3881152-4b96-39f7-a669-66b9e1eca82d"
+      ]
+    },
+    {
+      "id": "3f8b7ad6-42b1-4c0a-83b7-31e6c301da40",
+      "title": "夜色",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "2234d24a-499b-37bc-aa26-213eb120465b"
+      ]
+    },
+    {
+      "id": "dd5e11dc-b862-4268-a917-c63c3513d84f",
+      "title": "端午粽",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "eadf79db-b281-356d-ac33-27257e8c4b5c"
+      ]
+    },
+    {
+      "id": "b57e4d1b-cf35-4b88-b4f3-d7593dbc5266",
+      "title": "彩虹",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "eed47c42-4d9f-3eff-bcea-8c82f0a6ac3c"
+      ]
+    },
+    {
+      "id": "758aca2f-f89c-4dcd-b27c-57fb7efbc351",
+      "title": "语文园地四",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "0eecfe2b-2a05-33fc-be57-ba5a9192467e",
+        "9d574676-0a03-3819-9100-7e152f6b39df"
+      ]
+    },
+    {
+      "id": "744648c2-8815-47a7-928d-1d2a1343e764",
+      "title": "静夜思",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "f3881152-4b96-39f7-a669-66b9e1eca82d"
+      ]
+    },
+    {
+      "id": "e76d0033-fd7c-45ee-8d37-4df9a9ccd1ff",
+      "title": "夜色",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "2234d24a-499b-37bc-aa26-213eb120465b"
+      ]
+    },
+    {
+      "id": "b0fb2269-ff46-45e5-9a70-311b55bbcb1a",
+      "title": "端午粽",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "eadf79db-b281-356d-ac33-27257e8c4b5c"
+      ]
+    },
+    {
+      "id": "3b28a2b5-a6e9-4373-b2fc-5f9610008a34",
+      "title": "彩虹",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "eed47c42-4d9f-3eff-bcea-8c82f0a6ac3c"
+      ]
+    },
+    {
+      "id": "a8eeb5ba-8ea5-4c51-abb3-1c6fc50d04a7",
+      "title": "动物儿歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "26157ab6-7cc2-33fd-b741-d5ea9fef8768"
+      ]
+    },
+    {
+      "id": "bdc54d1b-d6bd-44a8-a16b-cb501a83e9d1",
+      "title": "古对今",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "9d2eb725-eae9-3e6c-8206-64ca2b529857"
+      ]
+    },
+    {
+      "id": "d65337e9-81f3-431d-b278-a91e190e4400",
+      "title": "操场上",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "c1814624-64e2-345c-b5a2-852082510e03"
+      ]
+    },
+    {
+      "id": "cca1d654-3066-4740-b473-2990693b9ebe",
+      "title": "人之初",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "11432c17-065b-374d-a576-e6af34d5c7bd"
+      ]
+    },
+    {
+      "id": "b9a8d8a3-f3e3-4484-b17d-401a591cd3f4",
+      "title": "语文园地",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "780cdfa8-7945-3a8b-9a87-618888989cf5",
+        "7e25f599-3962-36b1-9c28-2946e140c9e0"
+      ]
+    },
+    {
+      "id": "c4af7184-2d7a-4f99-82bb-7fd476100f9e",
+      "title": "动物儿歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "26157ab6-7cc2-33fd-b741-d5ea9fef8768"
+      ]
+    },
+    {
+      "id": "dda15a28-8d8f-4345-881f-be4b197372ac",
+      "title": "古对今",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "9d2eb725-eae9-3e6c-8206-64ca2b529857"
+      ]
+    },
+    {
+      "id": "e55360bb-101d-4bd0-836b-105439a28def",
+      "title": "操场上",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "c1814624-64e2-345c-b5a2-852082510e03"
+      ]
+    },
+    {
+      "id": "362aa2e6-6c43-40c2-a4c2-1f1b53415f76",
+      "title": "人之初",
+      "type": "national_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "11432c17-065b-374d-a576-e6af34d5c7bd"
+      ]
+    },
+    {
+      "id": "336ea202-12a1-4b39-886b-7169f387e54e",
+      "title": "古诗二首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "545d74aa-9b9f-3f8e-92a7-582864b0daf1",
+        "6bbaaaf2-a78a-3abf-81b9-d41ae5c1079f"
+      ]
+    },
+    {
+      "id": "72102be2-412e-4b5d-9877-829b2ec0d52f",
+      "title": "荷叶圆圆",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "a3915bc4-b96b-38f4-a282-a4b7f982dc38"
+      ]
+    },
+    {
+      "id": "dca74f8a-cae6-4d7b-92cd-e51914165d47",
+      "title": "要下雨了",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "96ff97b2-d3e5-3cc3-b513-d18582b7778a"
+      ]
+    },
+    {
+      "id": "2a91f5e7-427f-41d3-a691-8ccd18bcec9d",
+      "title": "语文园地六",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30a4965e-db83-3d3b-87ee-7d068aada45c",
+        "fe200f9b-774c-35ee-b8b6-12887bb14159"
+      ]
+    },
+    {
+      "id": "89644689-02fc-4543-afb0-464c089e7948",
+      "title": "古诗二首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "545d74aa-9b9f-3f8e-92a7-582864b0daf1",
+        "6bbaaaf2-a78a-3abf-81b9-d41ae5c1079f"
+      ]
+    },
+    {
+      "id": "0c6de6e6-3f88-432d-81cc-11cc3421bf33",
+      "title": "荷叶圆圆",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "a3915bc4-b96b-38f4-a282-a4b7f982dc38"
+      ]
+    },
+    {
+      "id": "3f4b853c-89aa-4564-a6b5-46afe1694d09",
+      "title": "要下雨了",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "96ff97b2-d3e5-3cc3-b513-d18582b7778a"
+      ]
+    },
+    {
+      "id": "b9a1cef2-b6ff-4363-83a7-14c69a779e41",
+      "title": "文具的家",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "6f89131c-c4e8-3f7a-b857-e4adcd45f72e"
+      ]
+    },
+    {
+      "id": "94a5e497-4684-4393-a19a-8d11a989d29b",
+      "title": "一分钟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30fd3022-7671-31aa-b6d0-f73b46ec8f90"
+      ]
+    },
+    {
+      "id": "122960ed-e5d1-43ee-96e5-115f349a17d6",
+      "title": "动物王国开大会",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "9772d955-c856-3b13-98c0-112a67834021"
+      ]
+    },
+    {
+      "id": "86cc84d6-801e-4bc9-b161-9e0e7221e087",
+      "title": "小猴子下山",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b1958044-4c4f-32ac-a3a4-8af6b7b9df71"
+      ]
+    },
+    {
+      "id": "aced42a5-45e5-4f2e-bd94-4add40af25f8",
+      "title": "语文园地七",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b6046624-9500-359b-b119-a5a1fe736ff9",
+        "8b54a7a0-51a8-3563-95d3-6f99f0971c1c"
+      ]
+    },
+    {
+      "id": "568d57a9-a04b-47c4-93f9-d66c1f0fe51a",
+      "title": "文具的家",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "6f89131c-c4e8-3f7a-b857-e4adcd45f72e"
+      ]
+    },
+    {
+      "id": "a5060b3f-85a9-4048-a570-995e0f725dec",
+      "title": "一分钟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30fd3022-7671-31aa-b6d0-f73b46ec8f90"
+      ]
+    },
+    {
+      "id": "06a139b5-8202-468f-81e4-e65651ff6b28",
+      "title": "动物王国开大会",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "9772d955-c856-3b13-98c0-112a67834021"
+      ]
+    },
+    {
+      "id": "cf303a32-3833-4a42-8645-6d82aeb45d54",
+      "title": "小猴子下山",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b1958044-4c4f-32ac-a3a4-8af6b7b9df71"
+      ]
+    },
+    {
+      "id": "8c7fb5bc-2b13-4fc7-a81f-27f9d7d92257",
+      "title": "棉花姑娘",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "589a3bac-9007-3db8-a339-37a6ba4b84cf"
+      ]
+    },
+    {
+      "id": "b16a243d-caa5-4c65-960c-bba4d597b672",
+      "title": "咕咚",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "c83b8846-df48-3950-a0d0-b0e0e3eb53e9"
+      ]
+    },
+    {
+      "id": "a1248d26-d01f-482e-bfd6-8206272dff65",
+      "title": "小壁虎借尾巴",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30381c4e-c4b1-3fbd-94d7-3b0b9156bbed"
+      ]
+    },
+    {
+      "id": "06dfd56b-a147-409e-aef6-f8ed6b905f28",
+      "title": "语文园地八",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2",
+        "5e85976c-997e-3ef6-a862-c1f3aa70fa4c"
+      ]
+    },
+    {
+      "id": "0afeb81e-c40e-4642-bfad-0a3b29b05dbf",
+      "title": "棉花姑娘",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "589a3bac-9007-3db8-a339-37a6ba4b84cf"
+      ]
+    },
+    {
+      "id": "cc6cadf9-fac3-4953-a475-d57ab33eb8f8",
+      "title": "咕咚",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "c83b8846-df48-3950-a0d0-b0e0e3eb53e9"
+      ]
+    },
+    {
+      "id": "94aea26a-9b8d-4c14-84b5-c262aef05bd8",
+      "title": "小壁虎借尾巴",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30381c4e-c4b1-3fbd-94d7-3b0b9156bbed"
+      ]
+    },
+    {
+      "id": "5533987a-2a75-4bf6-823f-e97a5941083d",
+      "title": "小猪变形记",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2",
+        "5e85976c-997e-3ef6-a862-c1f3aa70fa4c"
+      ]
+    },
+    {
+      "id": "6a5e6a34-c876-1a0f-c05d-d5e144909618",
+      "title": "一年级下册语文园地一（识字加油站+书写提示+日积月累）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "6cd3d7b4-5a33-3f60-804f-251b72bf3302",
+        "628b72eb-c6e3-369d-8939-614416a0342c",
+        "d51dc441-7630-3a6b-b9da-21316e49b7a3"
+      ]
+    },
+    {
+      "id": "9bf328d7-67a6-c353-e4e7-c995c5067437",
+      "title": "字词句运用+日积月累",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30a4965e-db83-3d3b-87ee-7d068aada45c",
+        "6fabd85f-aff2-3359-8eef-c41735b827f7"
+      ]
+    },
+    {
+      "id": "8c49c495-6da3-2153-8631-56bbd5c635b8",
+      "title": "和大人一起读：妞妞赶牛",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "0eecfe2b-2a05-33fc-be57-ba5a9192467e",
+        "4e3123ea-affa-3f34-bbba-be8a76183f64"
+      ]
+    },
+    {
+      "id": "359c7316-453d-d17c-f127-1e2c0b192ecb",
+      "title": "字词句运用+日积月累",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2",
+        "d662fccb-2987-30d0-978e-cc14cf18d36f"
+      ]
+    },
+    {
+      "id": "271f61b8-1b85-11f2-4fc0-0a278a66a033",
+      "title": "语文园地七（识字加油站+字词句运用+书写提示+日积月累+和大人一起读）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b6046624-9500-359b-b119-a5a1fe736ff9",
+        "be453e97-1d26-3d17-a7c4-c81cc2ad512c"
+      ]
+    },
+    {
+      "id": "87f4cea7-2880-37fb-9d9f-61b25c88ad04",
+      "title": "书写提示+日积月累",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "0eecfe2b-2a05-33fc-be57-ba5a9192467e",
+        "18b74649-c392-3a41-8a5f-57e4ca87fec8"
+      ]
+    },
+    {
+      "id": "ee711fd8-0cdb-0240-dfb3-435c56985167",
+      "title": "和大人一起读：夏夜多美",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30a4965e-db83-3d3b-87ee-7d068aada45c",
+        "9723bb76-02b9-38c7-ba25-aa86a7c1a129"
+      ]
+    },
+    {
+      "id": "7db5f086-e205-9952-d78e-fe7afbeceee6",
+      "title": "字词句运用+日积月累",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "780cdfa8-7945-3a8b-9a87-618888989cf5",
+        "fc54420f-c286-318f-be5c-af777dc855a9"
+      ]
+    },
+    {
+      "id": "c791880e-9714-c948-c501-299acd4bd4e7",
+      "title": "展示台+日积月累",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1beaa036-acd1-32b6-954d-949bdd7f5331",
+        "321acf87-5fe4-35b7-adf9-71f3a229e589"
+      ]
+    },
+    {
+      "id": "0927bd58-4401-4b70-c92a-309fbb90a059",
+      "title": "识字加油站+字词句运用",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "0eecfe2b-2a05-33fc-be57-ba5a9192467e",
+        "2b06f87e-b497-336e-94bd-c0677a784677"
+      ]
+    },
+    {
+      "id": "24632c69-dbbe-3c5b-6eb9-65801ea774e9",
+      "title": "和大人一起读：孙悟空打妖怪",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b6046624-9500-359b-b119-a5a1fe736ff9",
+        "5196ca0e-b371-36c9-964a-b9690a62dc7d"
+      ]
+    },
+    {
+      "id": "816864b8-ce02-5485-b54a-f4ed4c083d81",
+      "title": "查字典",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "78efcd32-b95b-3756-9f65-fbc3c5468152",
+        "a09b37dc-7c3d-3e1d-b242-0c68df26c5dc"
+      ]
+    },
+    {
+      "id": "c3b0928d-8972-52ab-8bf3-90a34d277bad",
+      "title": "查字典",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "78efcd32-b95b-3756-9f65-fbc3c5468152",
+        "a09b37dc-7c3d-3e1d-b242-0c68df26c5dc"
+      ]
+    },
+    {
+      "id": "f913edfa-501e-3ce7-1096-8c5a487d6c9b",
+      "title": "日积月累+和大人一起读：胖乎乎的小手",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "78efcd32-b95b-3756-9f65-fbc3c5468152",
+        "cba9225c-fdb2-3540-b319-e63debeb6e98"
+      ]
+    },
+    {
+      "id": "c45ea770-7df6-176c-09f0-61482090bcc2",
+      "title": "和大人一起读：夏夜多美",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30a4965e-db83-3d3b-87ee-7d068aada45c",
+        "9723bb76-02b9-38c7-ba25-aa86a7c1a129"
+      ]
+    },
+    {
+      "id": "e735117e-8160-f414-79b5-882268c3ae8f",
+      "title": "识字加油站+展示台",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "30a4965e-db83-3d3b-87ee-7d068aada45c",
+        "a49c7948-d02e-3ef1-8515-007215aa9e5f"
+      ]
+    },
+    {
+      "id": "2056974e-79e3-7587-bdaa-fd955f7ee15c",
+      "title": "识字加油站+我的发现",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "780cdfa8-7945-3a8b-9a87-618888989cf5",
+        "0888c03f-bd75-3235-8221-ea5758446d70"
+      ]
+    },
+    {
+      "id": "6ebcbd83-b251-07e9-0d62-8269fc272e7d",
+      "title": "和大人一起读：阳光",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1beaa036-acd1-32b6-954d-949bdd7f5331",
+        "06ec4694-9751-31d0-b903-5e6ab251195e"
+      ]
+    },
+    {
+      "id": "4e0c61b1-0073-1964-b46c-b205f00ac334",
+      "title": "和大人一起读：小熊住山洞",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2",
+        "f4bce44a-2d11-36f6-be1b-81b295a78313"
+      ]
+    },
+    {
+      "id": "fcca1d5d-c2a2-1b07-96e9-45d2a8a96074",
+      "title": "和大人一起读：狐狸和乌鸦",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "780cdfa8-7945-3a8b-9a87-618888989cf5",
+        "79c49b90-7a75-3114-9659-59fc9f6551d6"
+      ]
+    },
+    {
+      "id": "45931b49-035f-96d3-420f-f2385eff8751",
+      "title": "识字加油站+我的发现",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "7ce3fec1-6aa7-3883-98ff-7683b7fca0e2",
+        "4e178974-fcfc-3987-b7c2-3f00778a4c68"
+      ]
+    },
+    {
+      "id": "2c0ad53f-f0f5-8b26-aa9a-5c2d4267450a",
+      "title": "书写提示+日积月累",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b6046624-9500-359b-b119-a5a1fe736ff9",
+        "8ed64660-3516-3b30-9899-e0569b3bd530"
+      ]
+    },
+    {
+      "id": "7cacbe29-2a4b-bbeb-69f2-6a9db04c71cc",
+      "title": "识字加油站+字词句运用",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e19b4b77-2343-3799-be83-930e28431ed4",
+        "1beaa036-acd1-32b6-954d-949bdd7f5331",
+        "6e9bdfd4-1f6c-3142-aa95-6d2a71616c09"
+      ]
+    },
+    {
+      "id": "8ae7e4ad-7c7b-5b56-017c-7d6b6546042e",
+      "title": "口语交际：打电话",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "911c4ab1-e506-3eae-ac3e-cf9032adec9a",
+        "ae75b904-818d-3221-b91b-5f786eee8a67"
+      ]
+    },
+    {
+      "id": "8ae7e490-84a2-12f0-0184-a7f972cc00e7",
+      "title": "口语交际：一起做游戏",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d22db89d-31c8-3967-a051-2a08e7279e12",
+        "b65e7e30-bcf6-3836-9d70-464fdfbab68c"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1620 @@
+{
+  "version": 1,
+  "source": "https://s-file-1.ykt.cbern.com.cn/zxx/ndrs/national_lesson/teachingmaterials/version/data_version.json",
+  "syncedAt": "2026-11-05T05:51:02.818Z",
+  "sourceVersion": "1107649327",
+  "books": [
+    {
+      "id": "0e4d8960-3fb3-463c-9fa8-9649f1ede92e",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）二年级下册",
+      "subject": "english",
+      "grade": 2,
+      "volume": "lower",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "0e4d8960-3fb3-463c-9fa8-9649f1ede92e-895827c955288a7b.json",
+      "lessonCount": 0,
+      "chapterCount": 47
+    },
+    {
+      "id": "0e7fb1c6-242a-c8d9-26da-598169553bbd",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）五年级下册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "lower",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "0e7fb1c6-242a-c8d9-26da-598169553bbd-c38c05007ab2f1ed.json",
+      "lessonCount": 3,
+      "chapterCount": 50
+    },
+    {
+      "id": "0eb31453-f373-4c85-8f3c-2bff5f49552e",
+      "title": "小学语文统编版三年级上册",
+      "subject": "chinese",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "0eb31453-f373-4c85-8f3c-2bff5f49552e-40bcf5a4cf5decab.json",
+      "lessonCount": 61,
+      "chapterCount": 67
+    },
+    {
+      "id": "0f1d3cc3-831f-43a5-e742-03c7a4ffdf8d",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）三年级上册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "0f1d3cc3-831f-43a5-e742-03c7a4ffdf8d-518ac599eb5a0049.json",
+      "lessonCount": 21,
+      "chapterCount": 26
+    },
+    {
+      "id": "0ffbaa49-0a7e-400e-b83d-e8bb49b65187",
+      "title": "新教材-小学英语人教版（PEP）（三年级起点）（主编：吴欣）五年级上册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "0ffbaa49-0a7e-400e-b83d-e8bb49b65187-c8784e60c8603a88.json",
+      "lessonCount": 2,
+      "chapterCount": 29
+    },
+    {
+      "id": "117306e1-40c4-4106-bebb-b01a34927951",
+      "title": "小学语文统编版五年级下册",
+      "subject": "chinese",
+      "grade": 5,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "117306e1-40c4-4106-bebb-b01a34927951-c9e900d25899389a.json",
+      "lessonCount": 99,
+      "chapterCount": 69
+    },
+    {
+      "id": "15cd5400-b4a2-4930-9233-3b0daba13d97",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）一年级下册",
+      "subject": "english",
+      "grade": 1,
+      "volume": "lower",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "15cd5400-b4a2-4930-9233-3b0daba13d97-0213b4585a125596.json",
+      "lessonCount": 0,
+      "chapterCount": 42
+    },
+    {
+      "id": "1cea417b-ba9c-44b7-b7c1-db53a962f2d4",
+      "title": "新教材-小学语文统编版四年级上册",
+      "subject": "chinese",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "1cea417b-ba9c-44b7-b7c1-db53a962f2d4-a60b6873656aeab5.json",
+      "lessonCount": 3,
+      "chapterCount": 80
+    },
+    {
+      "id": "208f77e0-0d63-4ca2-8a4c-86af05dd72de",
+      "title": "小学数学人教版四年级上册",
+      "subject": "math",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "208f77e0-0d63-4ca2-8a4c-86af05dd72de-e40e2c7b2d312a1e.json",
+      "lessonCount": 45,
+      "chapterCount": 48
+    },
+    {
+      "id": "22707f9a-a593-44a7-89ee-3f4d78905f2e",
+      "title": "新教材-小学语文统编版三年级上册",
+      "subject": "chinese",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "22707f9a-a593-44a7-89ee-3f4d78905f2e-5b9332de958b8200.json",
+      "lessonCount": 48,
+      "chapterCount": 79
+    },
+    {
+      "id": "291dc803-4454-4374-8f31-29d7755efcd2",
+      "title": "新教材-小学英语人教版（PEP）（三年级起点）（主编：吴欣）六年级上册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "291dc803-4454-4374-8f31-29d7755efcd2-9b8f4b957e1c348e.json",
+      "lessonCount": 2,
+      "chapterCount": 30
+    },
+    {
+      "id": "2aa68399-4700-4030-8973-457cf32384dc",
+      "title": "小学语文统编版二年级上册",
+      "subject": "chinese",
+      "grade": 2,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "2aa68399-4700-4030-8973-457cf32384dc-f0484600b3c6bfea.json",
+      "lessonCount": 63,
+      "chapterCount": 50
+    },
+    {
+      "id": "2d22a5c9-80b8-46cb-8595-564f5c368f3e",
+      "title": "新教材-小学语文统编版一年级下册",
+      "subject": "chinese",
+      "grade": 1,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "2d22a5c9-80b8-46cb-8595-564f5c368f3e-1039e39e554cbe7c.json",
+      "lessonCount": 39,
+      "chapterCount": 50
+    },
+    {
+      "id": "2dbab3e2-9c23-4631-ace7-0c4d2d210fa0",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）五年级下册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "lower",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "2dbab3e2-9c23-4631-ace7-0c4d2d210fa0-f3dc8314536fb465.json",
+      "lessonCount": 0,
+      "chapterCount": 62
+    },
+    {
+      "id": "2fbcdb5d-0682-4cca-b979-076d0119e3d3",
+      "title": "小学语文统编版一年级下册",
+      "subject": "chinese",
+      "grade": 1,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "2fbcdb5d-0682-4cca-b979-076d0119e3d3-17c4bd97c4e19f1a.json",
+      "lessonCount": 101,
+      "chapterCount": 83
+    },
+    {
+      "id": "31b6e70f-46d8-43b2-8ca6-2ebb6f010cbc",
+      "title": "新教材-人教版小学数学六年级上册目录",
+      "subject": "math",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "31b6e70f-46d8-43b2-8ca6-2ebb6f010cbc-0e94d7d286f03eab.json",
+      "lessonCount": 2,
+      "chapterCount": 50
+    },
+    {
+      "id": "367ca4b2-f092-4297-82b1-81e3c1a108b0",
+      "title": "小学数学人教版二年级上册",
+      "subject": "math",
+      "grade": 2,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "367ca4b2-f092-4297-82b1-81e3c1a108b0-e441a42242de1c5f.json",
+      "lessonCount": 45,
+      "chapterCount": 47
+    },
+    {
+      "id": "371a91cf-f2dd-4e4d-b5f4-6572001102a1",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）六年级上册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "371a91cf-f2dd-4e4d-b5f4-6572001102a1-0e4bc658240eff79.json",
+      "lessonCount": 0,
+      "chapterCount": 73
+    },
+    {
+      "id": "397e9ca4-1930-4f30-8698-8244f870d9eb",
+      "title": "新教材-小学数学人教版二年级下册",
+      "subject": "math",
+      "grade": 2,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "397e9ca4-1930-4f30-8698-8244f870d9eb-482e11a25c98c27c.json",
+      "lessonCount": 42,
+      "chapterCount": 49
+    },
+    {
+      "id": "39d25324-a03d-4c79-94ca-1d45f3282f65",
+      "title": "小学数学人教版五年级上册",
+      "subject": "math",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "39d25324-a03d-4c79-94ca-1d45f3282f65-5e4ad0453d87be96.json",
+      "lessonCount": 44,
+      "chapterCount": 55
+    },
+    {
+      "id": "3dd0836b-749b-fe34-588c-29e553010f49",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）六年级上册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "3dd0836b-749b-fe34-588c-29e553010f49-c625c1a15487804c.json",
+      "lessonCount": 22,
+      "chapterCount": 26
+    },
+    {
+      "id": "428980b8-b8f2-424d-8666-2305ee46fef5",
+      "title": "小学数学人教版二年级下册",
+      "subject": "math",
+      "grade": 2,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "428980b8-b8f2-424d-8666-2305ee46fef5-4660192f097efe07.json",
+      "lessonCount": 46,
+      "chapterCount": 50
+    },
+    {
+      "id": "42ffa88d-2543-40d0-d69c-e5b5f065eae3",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）四年级上册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "42ffa88d-2543-40d0-d69c-e5b5f065eae3-8b3f1874e3221810.json",
+      "lessonCount": 20,
+      "chapterCount": 26
+    },
+    {
+      "id": "44da418d-5d84-9a9d-9090-cbb7b1ea790e",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）五年级上册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "44da418d-5d84-9a9d-9090-cbb7b1ea790e-ba2bef0ea782a266.json",
+      "lessonCount": 4,
+      "chapterCount": 50
+    },
+    {
+      "id": "46fcb680-0486-4d3c-8d25-073bdf922c8e",
+      "title": "小学语文统编版六年级下册",
+      "subject": "chinese",
+      "grade": 6,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "46fcb680-0486-4d3c-8d25-073bdf922c8e-31dfa3cae803cc40.json",
+      "lessonCount": 88,
+      "chapterCount": 78
+    },
+    {
+      "id": "4901535c-9ae2-458e-bc0e-e5ed3f7a081d",
+      "title": "新教材-小学英语人教版（PEP）（三年级起点）（主编：吴欣）四年级下册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "4901535c-9ae2-458e-bc0e-e5ed3f7a081d-6ef0c6071383bb85.json",
+      "lessonCount": 12,
+      "chapterCount": 30
+    },
+    {
+      "id": "4a0caeb0-f541-7081-04a9-5966ccbd94a3",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）六年级上册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "4a0caeb0-f541-7081-04a9-5966ccbd94a3-5b953479be96717a.json",
+      "lessonCount": 1,
+      "chapterCount": 50
+    },
+    {
+      "id": "4bf136c9-43cc-4005-8c8b-b21d21bad96f",
+      "title": "新教材-小学语文统编版二年级上册",
+      "subject": "chinese",
+      "grade": 2,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "4bf136c9-43cc-4005-8c8b-b21d21bad96f-9f26f1594fed2d17.json",
+      "lessonCount": 37,
+      "chapterCount": 45
+    },
+    {
+      "id": "4d2e2415-46d3-47f4-8393-30707820123c",
+      "title": "小学语文统编版六年级上册",
+      "subject": "chinese",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "4d2e2415-46d3-47f4-8393-30707820123c-372c93c4382480aa.json",
+      "lessonCount": 66,
+      "chapterCount": 69
+    },
+    {
+      "id": "513c534a-9f5d-4880-8a6b-2bbb069040fe",
+      "title": "新教材-人教版小学数学五年级上册目录",
+      "subject": "math",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "513c534a-9f5d-4880-8a6b-2bbb069040fe-2f80547f784094d0.json",
+      "lessonCount": 2,
+      "chapterCount": 61
+    },
+    {
+      "id": "5b6fbe7a-4448-4855-88ee-9f1a63b5487a",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）三年级上册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "5b6fbe7a-4448-4855-88ee-9f1a63b5487a-c71152cea8655c10.json",
+      "lessonCount": 0,
+      "chapterCount": 70
+    },
+    {
+      "id": "5ce96672-f52f-4c2f-9c3d-016ed1415278",
+      "title": "小学语文统编版一年级上册",
+      "subject": "chinese",
+      "grade": 1,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "5ce96672-f52f-4c2f-9c3d-016ed1415278-8a76eeba816951a6.json",
+      "lessonCount": 80,
+      "chapterCount": 87
+    },
+    {
+      "id": "5f6d405e-32a8-41b0-b5b0-276f8f8b862b",
+      "title": "新教材-小学英语人教版（精通）（主编：苗兴伟）四年级上册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版（主编：苗兴伟）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "12dc75c0-2724-47a9-b556-209d442aafe1",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "5f6d405e-32a8-41b0-b5b0-276f8f8b862b-effb64b499b720fb.json",
+      "lessonCount": 32,
+      "chapterCount": 41
+    },
+    {
+      "id": "6042ef62-a820-41aa-858d-1d6f1d6e3aa7",
+      "title": "新教材-小学语文统编版三年级下册",
+      "subject": "chinese",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "6042ef62-a820-41aa-858d-1d6f1d6e3aa7-81d9fa552cbad91b.json",
+      "lessonCount": 39,
+      "chapterCount": 86
+    },
+    {
+      "id": "635052fa-6d03-4420-9d43-0a01fa569480",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）三年级下册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "635052fa-6d03-4420-9d43-0a01fa569480-38d1f5c1eefeb6b7.json",
+      "lessonCount": 0,
+      "chapterCount": 63
+    },
+    {
+      "id": "638a0cc9-69a5-4369-8472-69148c719583",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）六年级下册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "lower",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "638a0cc9-69a5-4369-8472-69148c719583-8dca1acd1037c29b.json",
+      "lessonCount": 20,
+      "chapterCount": 26
+    },
+    {
+      "id": "64c94746-a923-43d6-899d-3897506bc42e",
+      "title": "小学数学人教版一年级上册",
+      "subject": "math",
+      "grade": 1,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "64c94746-a923-43d6-899d-3897506bc42e-b808b391cd6571c0.json",
+      "lessonCount": 49,
+      "chapterCount": 49
+    },
+    {
+      "id": "66c72d68-4daf-9d6d-b6d3-06c3ffb3c7c2",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）六年级下册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "lower",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "66c72d68-4daf-9d6d-b6d3-06c3ffb3c7c2-13203453c7f37d40.json",
+      "lessonCount": 4,
+      "chapterCount": 46
+    },
+    {
+      "id": "6bb0e5b1-fffa-4600-801d-e812e22a5c83",
+      "title": "小学数学人教版三年级下册",
+      "subject": "math",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "6bb0e5b1-fffa-4600-801d-e812e22a5c83-e2f27683405727cc.json",
+      "lessonCount": 55,
+      "chapterCount": 46
+    },
+    {
+      "id": "6cf7fb4b-70f7-4b5c-891e-70fd11ef4537",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）四年级上册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "6cf7fb4b-70f7-4b5c-891e-70fd11ef4537-ff81580e2b790838.json",
+      "lessonCount": 0,
+      "chapterCount": 72
+    },
+    {
+      "id": "755ed193-6bd9-b5a4-7022-df5ccfd38a1f",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）五年级上册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "755ed193-6bd9-b5a4-7022-df5ccfd38a1f-5c3ed459543378d8.json",
+      "lessonCount": 20,
+      "chapterCount": 26
+    },
+    {
+      "id": "89ad4d7b-facf-4b17-93d6-00b1e32362db",
+      "title": "新教材-小学数学人教版三年级下册",
+      "subject": "math",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "89ad4d7b-facf-4b17-93d6-00b1e32362db-c5a546c2a0fa13dc.json",
+      "lessonCount": 47,
+      "chapterCount": 55
+    },
+    {
+      "id": "8dabed50-6eed-40dd-8bea-c70f0718114d",
+      "title": "新教材-小学英语人教版（PEP）（主编：吴欣）三年级上册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "8dabed50-6eed-40dd-8bea-c70f0718114d-4b74f06b510964bd.json",
+      "lessonCount": 25,
+      "chapterCount": 31
+    },
+    {
+      "id": "92a82135-2748-4ec2-9bc4-e3fae0fb80f9",
+      "title": "小学数学人教版三年级上册",
+      "subject": "math",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "92a82135-2748-4ec2-9bc4-e3fae0fb80f9-7a7af242f90e13ad.json",
+      "lessonCount": 55,
+      "chapterCount": 59
+    },
+    {
+      "id": "948ac1e5-1586-4ca7-b0d5-14f6e52583b9",
+      "title": "小学数学人教版六年级上册",
+      "subject": "math",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "948ac1e5-1586-4ca7-b0d5-14f6e52583b9-23a891986cb0cde7.json",
+      "lessonCount": 39,
+      "chapterCount": 46
+    },
+    {
+      "id": "94cadb99-b206-4954-8dab-62505dd266ca",
+      "title": "新教材-小学英语人教版（PEP）（主编：吴欣）四年级上册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "94cadb99-b206-4954-8dab-62505dd266ca-2896b813f2a3894a.json",
+      "lessonCount": 22,
+      "chapterCount": 35
+    },
+    {
+      "id": "98eb897d-bf26-4485-92bc-029da36cd18d",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）四年级下册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "98eb897d-bf26-4485-92bc-029da36cd18d-2a335bba931ecc0f.json",
+      "lessonCount": 0,
+      "chapterCount": 60
+    },
+    {
+      "id": "9bb0d002-e58e-4bd7-89b8-9ddd7b7abbca",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）二年级上册",
+      "subject": "english",
+      "grade": 2,
+      "volume": "upper",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "9bb0d002-e58e-4bd7-89b8-9ddd7b7abbca-1449ad3cfdc17ff2.json",
+      "lessonCount": 0,
+      "chapterCount": 49
+    },
+    {
+      "id": "a0bd25a0-6a56-4235-8225-eab16c04e217",
+      "title": "小学数学人教版四年级下册",
+      "subject": "math",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "a0bd25a0-6a56-4235-8225-eab16c04e217-3fb8b96c04781b65.json",
+      "lessonCount": 39,
+      "chapterCount": 46
+    },
+    {
+      "id": "a6de91b7-4b52-475e-aa05-a508af43f4c2",
+      "title": "新教材-小学数学人教版三年级上册",
+      "subject": "math",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "a6de91b7-4b52-475e-aa05-a508af43f4c2-65dd95683c78a330.json",
+      "lessonCount": 48,
+      "chapterCount": 57
+    },
+    {
+      "id": "a880af33-242a-40a6-9a4d-f6c9bc279758",
+      "title": "新教材-小学英语人教版（精通）（主编：苗兴伟）五年级上册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版（主编：苗兴伟）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "12dc75c0-2724-47a9-b556-209d442aafe1",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "a880af33-242a-40a6-9a4d-f6c9bc279758-72f1c473f17c7d36.json",
+      "lessonCount": 5,
+      "chapterCount": 41
+    },
+    {
+      "id": "abe330bf-61ad-4f20-a51c-cebc4c1f6ae6",
+      "title": "新教材-小学英语人教版（精通）（主编：苗兴伟）六年级上册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "人教版（主编：苗兴伟）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "12dc75c0-2724-47a9-b556-209d442aafe1",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "abe330bf-61ad-4f20-a51c-cebc4c1f6ae6-d37f8746f9652a56.json",
+      "lessonCount": 5,
+      "chapterCount": 42
+    },
+    {
+      "id": "ac9ba3ad-c2ab-4736-b347-dabae34c6b80",
+      "title": "新教材-小学语文统编版二年级下册",
+      "subject": "chinese",
+      "grade": 2,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "ac9ba3ad-c2ab-4736-b347-dabae34c6b80-3f7e05b1a7f2a653.json",
+      "lessonCount": 37,
+      "chapterCount": 52
+    },
+    {
+      "id": "b4dae36a-0d48-4149-820e-f532dad7607b",
+      "title": "新教材-小学数学人教版一年级下册",
+      "subject": "math",
+      "grade": 1,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "b4dae36a-0d48-4149-820e-f532dad7607b-914ed9ec66cf0f93.json",
+      "lessonCount": 37,
+      "chapterCount": 45
+    },
+    {
+      "id": "b5018cd6-3354-c0eb-784e-b573954ec15b",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）四年级上册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "b5018cd6-3354-c0eb-784e-b573954ec15b-735656e2043a40cd.json",
+      "lessonCount": 3,
+      "chapterCount": 50
+    },
+    {
+      "id": "b7062df1-f929-458e-964c-d778f89ca255",
+      "title": "新教材-小学语文统编版一年级上册",
+      "subject": "chinese",
+      "grade": 1,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "b7062df1-f929-458e-964c-d778f89ca255-a011ad311363e224.json",
+      "lessonCount": 45,
+      "chapterCount": 54
+    },
+    {
+      "id": "b7084be4-6fec-4073-86bc-9a2eafed88e0",
+      "title": "小学数学人教版六年级下册",
+      "subject": "math",
+      "grade": 6,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "b7084be4-6fec-4073-86bc-9a2eafed88e0-f8aabf99241eda96.json",
+      "lessonCount": 50,
+      "chapterCount": 51
+    },
+    {
+      "id": "ba9d9c0b-2c1c-4bba-84d7-369fb405bb13",
+      "title": "新教材-小学数学人教版一年级上册",
+      "subject": "math",
+      "grade": 1,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "ba9d9c0b-2c1c-4bba-84d7-369fb405bb13-f87d9898f0946b5d.json",
+      "lessonCount": 42,
+      "chapterCount": 49
+    },
+    {
+      "id": "c3c26e8e-eb50-4c9b-9144-16ac9fed35ea",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）三年级下册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "c3c26e8e-eb50-4c9b-9144-16ac9fed35ea-7848531ccc6a3522.json",
+      "lessonCount": 24,
+      "chapterCount": 26
+    },
+    {
+      "id": "c86543a9-4b6a-4d79-8353-c805af23273c",
+      "title": "小学语文统编版四年级上册",
+      "subject": "chinese",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "c86543a9-4b6a-4d79-8353-c805af23273c-7e89b9819beeb036.json",
+      "lessonCount": 66,
+      "chapterCount": 71
+    },
+    {
+      "id": "c876ecfb-d605-99dc-553b-2726cb162562",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）三年级下册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "c876ecfb-d605-99dc-553b-2726cb162562-7f66d31d8fd0dd68.json",
+      "lessonCount": 0,
+      "chapterCount": 50
+    },
+    {
+      "id": "caa00dba-86b5-a12f-cccc-8e023e6c02a3",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）三年级上册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "caa00dba-86b5-a12f-cccc-8e023e6c02a3-c2b21a38b870d978.json",
+      "lessonCount": 0,
+      "chapterCount": 50
+    },
+    {
+      "id": "cb26c613-b227-41c1-bd10-1e2022e46387",
+      "title": "新教材-小学英语人教版（PEP）（主编：吴欣）三年级下册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "cb26c613-b227-41c1-bd10-1e2022e46387-87ae049007d6630b.json",
+      "lessonCount": 21,
+      "chapterCount": 31
+    },
+    {
+      "id": "cc50d870-115f-43f9-b330-308e138297c0",
+      "title": "小学数学人教版一年级下册",
+      "subject": "math",
+      "grade": 1,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "cc50d870-115f-43f9-b330-308e138297c0-80789b6fc240ef68.json",
+      "lessonCount": 33,
+      "chapterCount": 35
+    },
+    {
+      "id": "ce032a22-7d96-4c36-b19c-f5cb8548a10e",
+      "title": "新教材-人教版小学数学四年级上册目录",
+      "subject": "math",
+      "grade": 4,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "ce032a22-7d96-4c36-b19c-f5cb8548a10e-644956dee2659960.json",
+      "lessonCount": 14,
+      "chapterCount": 57
+    },
+    {
+      "id": "cec38514-a1b4-40ff-b7bb-e443b56a1dbd",
+      "title": "新教材-小学语文统编版六年级上册",
+      "subject": "chinese",
+      "grade": 6,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "cec38514-a1b4-40ff-b7bb-e443b56a1dbd-286b9a36f6d08ee2.json",
+      "lessonCount": 3,
+      "chapterCount": 76
+    },
+    {
+      "id": "d23f2856-629f-47e8-8d7c-e338c8da48f6",
+      "title": "新教材-小学英语人教版（精通）（主编：苗兴伟）三年级下册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "人教版（主编：苗兴伟）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "12dc75c0-2724-47a9-b556-209d442aafe1",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "d23f2856-629f-47e8-8d7c-e338c8da48f6-f54d8439ee075013.json",
+      "lessonCount": 32,
+      "chapterCount": 40
+    },
+    {
+      "id": "d8e2c62e-7e48-4ec0-97e3-513665dfea4b",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）六年级下册",
+      "subject": "english",
+      "grade": 6,
+      "volume": "lower",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbecae-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "d8e2c62e-7e48-4ec0-97e3-513665dfea4b-01108aeab7d3cd2a.json",
+      "lessonCount": 0,
+      "chapterCount": 44
+    },
+    {
+      "id": "e7442cf6-4b94-4c62-9ec3-0ad79b32d400",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）一年级上册",
+      "subject": "english",
+      "grade": 1,
+      "volume": "upper",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd296-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "e7442cf6-4b94-4c62-9ec3-0ad79b32d400-446a142d09d8a23c.json",
+      "lessonCount": 0,
+      "chapterCount": 49
+    },
+    {
+      "id": "e7fe7400-72c0-4e8c-84f8-aaeeb176a693",
+      "title": "小学英语人教版（一年级起点）（主编：吴欣）五年级上册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "人教版（一年级起点）（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44bece04-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453"
+      ],
+      "file": "e7fe7400-72c0-4e8c-84f8-aaeeb176a693-25d74ecbf2a9b261.json",
+      "lessonCount": 0,
+      "chapterCount": 71
+    },
+    {
+      "id": "e8c04d9e-0328-4a3c-8401-01dc71981297",
+      "title": "新教材-小学英语人教版（精通）（主编：苗兴伟）四年级下册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "人教版（主编：苗兴伟）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "12dc75c0-2724-47a9-b556-209d442aafe1",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342961"
+      ],
+      "file": "e8c04d9e-0328-4a3c-8401-01dc71981297-3a9c4e3db2a3bbcd.json",
+      "lessonCount": 35,
+      "chapterCount": 41
+    },
+    {
+      "id": "eb0a886b-b6e6-25f4-14b7-8d792eafa560",
+      "title": "小学英语人教版（精通）三年级起点（主编：郝建平）四年级下册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "人教版（精通）（主编：郝建平）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "502036371562",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "eb0a886b-b6e6-25f4-14b7-8d792eafa560-e7643843445a103d.json",
+      "lessonCount": 1,
+      "chapterCount": 50
+    },
+    {
+      "id": "ebe4220f-93eb-45ed-bf5a-f04dd79a01ad",
+      "title": "新教材-小学英语人教版（精通）（主编：苗兴伟）三年级上册",
+      "subject": "english",
+      "grade": 3,
+      "volume": "upper",
+      "edition": "人教版（主编：苗兴伟）",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "12dc75c0-2724-47a9-b556-209d442aafe1",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "ebe4220f-93eb-45ed-bf5a-f04dd79a01ad-a7fcd0d61ba97898.json",
+      "lessonCount": 32,
+      "chapterCount": 40
+    },
+    {
+      "id": "ecc10b88-9661-451f-b9c1-b6dd5fd9a72d",
+      "title": "小学语文统编版三年级下册",
+      "subject": "chinese",
+      "grade": 3,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd372-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "ecc10b88-9661-451f-b9c1-b6dd5fd9a72d-8285159d84eaf5ef.json",
+      "lessonCount": 95,
+      "chapterCount": 70
+    },
+    {
+      "id": "edbd7846-7206-42ec-8be5-f690e9d873aa",
+      "title": "小学语文统编版五年级上册",
+      "subject": "chinese",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342960"
+      ],
+      "file": "edbd7846-7206-42ec-8be5-f690e9d873aa-9c58ddd4100706a3.json",
+      "lessonCount": 64,
+      "chapterCount": 66
+    },
+    {
+      "id": "f4184328-83db-4a43-8dab-bb9df75597a6",
+      "title": "小学数学人教版五年级下册",
+      "subject": "math",
+      "grade": 5,
+      "volume": "lower",
+      "edition": "人教版",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "f4184328-83db-4a43-8dab-bb9df75597a6-0f203cfaaa830871.json",
+      "lessonCount": 37,
+      "chapterCount": 45
+    },
+    {
+      "id": "f547036d-8c1a-4dca-b8ef-b148a180bac8",
+      "title": "新教材-小学数学人教版二年级上册",
+      "subject": "math",
+      "grade": 2,
+      "volume": "upper",
+      "edition": "人教版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbcf80-0590-11ed-9c79-92fc3b3249d5",
+        "ff8080814371757b01437c363a187b0a",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "f547036d-8c1a-4dca-b8ef-b148a180bac8-82b104e5b5f04635.json",
+      "lessonCount": 40,
+      "chapterCount": 48
+    },
+    {
+      "id": "f76bb763-3652-46b0-8674-0d4e529ecc55",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）五年级下册",
+      "subject": "english",
+      "grade": 5,
+      "volume": "lower",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "f76bb763-3652-46b0-8674-0d4e529ecc55-cdc8fdd5c8783d9e.json",
+      "lessonCount": 27,
+      "chapterCount": 31
+    },
+    {
+      "id": "f863fdd1-e34d-4aa6-8c6d-7dab5afa66b9",
+      "title": "小学语文统编版二年级下册",
+      "subject": "chinese",
+      "grade": 2,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd304-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "f863fdd1-e34d-4aa6-8c6d-7dab5afa66b9-8efcfe6f9d251e43.json",
+      "lessonCount": 85,
+      "chapterCount": 53
+    },
+    {
+      "id": "f978773f-2b18-49a1-b86c-7f0bbb892a07",
+      "title": "小学英语人教版（PEP）（三年级起点）（主编：吴欣）四年级下册",
+      "subject": "english",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "人教版（主编：吴欣）",
+      "revision": "旧教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a7495dc-0772-11ed-ac74-092ab92074e6",
+        "44becd82-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd",
+        "5136342960"
+      ],
+      "file": "f978773f-2b18-49a1-b86c-7f0bbb892a07-04ef0deb2ab5031d.json",
+      "lessonCount": 23,
+      "chapterCount": 26
+    },
+    {
+      "id": "fafb7ff0-f6bb-4fe4-bc6c-362380b28735",
+      "title": "小学语文统编版四年级下册",
+      "subject": "chinese",
+      "grade": 4,
+      "volume": "lower",
+      "edition": "统编版",
+      "revision": "未标注新旧",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbd3ea-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390fcdce504bd"
+      ],
+      "file": "fafb7ff0-f6bb-4fe4-bc6c-362380b28735-e6ea26b59cc84189.json",
+      "lessonCount": 91,
+      "chapterCount": 71
+    },
+    {
+      "id": "fb0308d9-2e7f-480b-8723-f48852bb2f28",
+      "title": "新教材-小学语文统编版五年级上册",
+      "subject": "chinese",
+      "grade": 5,
+      "volume": "upper",
+      "edition": "统编版",
+      "revision": "新教材",
+      "tagPath": [
+        "e7bbb2de-0590-11ed-9c79-92fc3b3249d5",
+        "e7bbebc8-0590-11ed-9c79-92fc3b3249d5",
+        "6a749654-0772-11ed-ac74-092ab92074e6",
+        "44bee8bc-54e6-11ed-9c34-850ba61fa9f4",
+        "ff8080814371757b014390f883db0453",
+        "5136342961"
+      ],
+      "file": "fb0308d9-2e7f-480b-8723-f48852bb2f28-3d298062d1c755f5.json",
+      "lessonCount": 4,
+      "chapterCount": 76
+    }
+  ]
+}

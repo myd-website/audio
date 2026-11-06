@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 静态写在 HTML 中，爬虫无需执行脚本即可读取禁止收录声明。 -->
+    <meta name="robots" content="noindex, nofollow, nosnippet, noimageindex" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content"
+    />
+    <meta name="theme-color" content="#22765d" />
+    <meta
+      name="description"
+      content="小伴助手：小学语数英练习、音乐、日历待办与日常小工具。"
+    />
+    <title>小伴助手 · 学习与生活</title>
+    <style>
+      .max640 {
+        max-width: 640px;
+        margin: auto;
+      }
+    </style>
+    <script type="text/javascript">
+      //简化压缩版 flexible.min.js ，根据实际情况决定是否使用
+      !(function (e, t) {
+        function n() {
+          var n = s.getBoundingClientRect().width;
+          ((t = t || 540), n > t && (n = t));
+          var i = (100 * n) / e;
+          s.style.fontSize = i + "px";
+        }
+        var i,
+          o = document,
+          d = window,
+          s = o.documentElement;
+        (n(),
+          d.addEventListener(
+            "resize",
+            function () {
+              (clearTimeout(i), (i = setTimeout(n, 300)));
+            },
+            !1,
+          ),
+          d.addEventListener(
+            "pageshow",
+            function (e) {
+              e.persisted && (clearTimeout(i), (i = setTimeout(n, 300)));
+            },
+            !1,
+          ),
+          d.addEventListener(
+            "DOMContentLoaded",
+            function () {
+              ((o.body.style.position = "relative"),
+                (o.body.style.fontSize = "16px"),
+                (o.body.style.margin = "0 auto"),
+                (o.body.style.maxWidth = t + "px"));
+            },
+            !1,
+          ));
+      })(720, 640);
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

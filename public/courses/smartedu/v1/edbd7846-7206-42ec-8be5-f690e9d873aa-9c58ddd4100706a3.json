@@ -1,0 +1,926 @@
+{
+  "version": 1,
+  "bookId": "edbd7846-7206-42ec-8be5-f690e9d873aa",
+  "chapters": [
+    {
+      "id": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+      "title": "第一单元",
+      "parentId": ""
+    },
+    {
+      "id": "c8eec2ac-52c1-330b-acc6-edb3b12c85e9",
+      "title": "1 白鹭",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "e4841894-6bbc-3cfc-a526-7c8b85800164",
+      "title": "2 落花生",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "36aa26e2-0843-3257-b02e-e936e5d60675",
+      "title": "3 桂花雨",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "8953e6c6-2b95-3380-a0ba-c13da1f43236",
+      "title": "4* 珍珠鸟",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "ddc35adb-ea80-3391-bd64-0cb6f9de35ad",
+      "title": "口语交际：制定班级公约",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "24387e3b-bb5b-3d4a-8f20-b7f48eb3440c",
+      "title": "习作：我的心爱之物",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "88ecece4-bbb3-326e-9017-374a58b08164",
+      "title": "语文园地",
+      "parentId": "5826e6d6-86c3-3406-a286-c6e0d7bf3b67"
+    },
+    {
+      "id": "712471a9-080d-333f-a046-c76a9c0f8ca6",
+      "title": "第二单元",
+      "parentId": ""
+    },
+    {
+      "id": "354bfd0d-602c-37fc-8391-e6a53e725758",
+      "title": "5 搭石",
+      "parentId": "712471a9-080d-333f-a046-c76a9c0f8ca6"
+    },
+    {
+      "id": "df8abbdb-134c-3909-8a60-c5568bb96063",
+      "title": "6 将相和",
+      "parentId": "712471a9-080d-333f-a046-c76a9c0f8ca6"
+    },
+    {
+      "id": "92251d6b-02dd-3c99-9f70-4453a0c713cf",
+      "title": "7 什么比猎豹的速度更快",
+      "parentId": "712471a9-080d-333f-a046-c76a9c0f8ca6"
+    },
+    {
+      "id": "53b80f7d-09f5-3c7e-a328-df69259f971f",
+      "title": "8 冀中的地道战",
+      "parentId": "712471a9-080d-333f-a046-c76a9c0f8ca6"
+    },
+    {
+      "id": "e9e5189e-ec60-3b37-b8da-6239c1e8fbf5",
+      "title": "习作：“漫画”老师",
+      "parentId": "712471a9-080d-333f-a046-c76a9c0f8ca6"
+    },
+    {
+      "id": "b6513954-6491-388f-8be0-c29adea2cecc",
+      "title": "语文园地",
+      "parentId": "712471a9-080d-333f-a046-c76a9c0f8ca6"
+    },
+    {
+      "id": "b7099975-e70b-3183-bb1f-07d8604e8651",
+      "title": "第三单元",
+      "parentId": ""
+    },
+    {
+      "id": "747535b7-6df1-3d08-a058-9232eab4683c",
+      "title": "9 猎人海力布",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "391a658b-cce2-3687-a86c-f6d2f0b26f92",
+      "title": "10 牛郎织女（一）",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "1d2ce52c-2c7e-34b3-9e4a-2fd563b13919",
+      "title": "11* 牛郎织女（二）",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "c7ef243e-0d7a-3274-82e3-9bc468558c10",
+      "title": "口语交际：讲民间故事",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "bc62a63f-5eea-3403-aff3-cd03eee270f0",
+      "title": "习作：缩写故事",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "b4c8bcdc-eb81-318f-93ec-7e56db5f42d4",
+      "title": "语文园地",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "acfacc74-3dd6-3d01-8d9c-af7fcf6bfe56",
+      "title": "快乐读书吧：从前有座山",
+      "parentId": "b7099975-e70b-3183-bb1f-07d8604e8651"
+    },
+    {
+      "id": "d1aaa78d-a2eb-3683-b794-270d489da47f",
+      "title": "第四单元",
+      "parentId": ""
+    },
+    {
+      "id": "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+      "title": "12 古诗三首",
+      "parentId": "d1aaa78d-a2eb-3683-b794-270d489da47f"
+    },
+    {
+      "id": "c90958c0-c05a-3fbb-aa71-7ca78350cba3",
+      "title": "示儿",
+      "parentId": "30702b6f-0dae-38ac-992b-5a92dd1fb608"
+    },
+    {
+      "id": "c7a144be-c481-3315-9fa3-0b9d6dca71a9",
+      "title": "题临安邸",
+      "parentId": "30702b6f-0dae-38ac-992b-5a92dd1fb608"
+    },
+    {
+      "id": "ffa79fde-531b-3db1-997a-c4335de9be4b",
+      "title": "己亥杂诗",
+      "parentId": "30702b6f-0dae-38ac-992b-5a92dd1fb608"
+    },
+    {
+      "id": "6bc47427-7e9f-3e30-81a7-2964b79e8bc7",
+      "title": "13 少年中国说（节选）",
+      "parentId": "d1aaa78d-a2eb-3683-b794-270d489da47f"
+    },
+    {
+      "id": "054d1db0-053b-34c0-9a94-f3da7af7703e",
+      "title": "14 圆明园的毁灭",
+      "parentId": "d1aaa78d-a2eb-3683-b794-270d489da47f"
+    },
+    {
+      "id": "135b4ef1-2e48-3123-80f9-3ff0ce1fc366",
+      "title": "15* 小岛",
+      "parentId": "d1aaa78d-a2eb-3683-b794-270d489da47f"
+    },
+    {
+      "id": "97228764-c6bc-347a-828f-920b5734d9cb",
+      "title": "习作：二十年后的家乡",
+      "parentId": "d1aaa78d-a2eb-3683-b794-270d489da47f"
+    },
+    {
+      "id": "37f5d3ee-c9b7-3aee-9284-3f1fca30de1c",
+      "title": "语文园地",
+      "parentId": "d1aaa78d-a2eb-3683-b794-270d489da47f"
+    },
+    {
+      "id": "7115bbf7-e019-3050-bdb0-6caa91e7e35b",
+      "title": "第五单元",
+      "parentId": ""
+    },
+    {
+      "id": "b203b4fb-2842-3aa2-8037-d28979a40ab3",
+      "title": "16 太阳",
+      "parentId": "7115bbf7-e019-3050-bdb0-6caa91e7e35b"
+    },
+    {
+      "id": "a9758cdd-daf2-370f-9f3f-651e56500aa4",
+      "title": "17 松鼠",
+      "parentId": "7115bbf7-e019-3050-bdb0-6caa91e7e35b"
+    },
+    {
+      "id": "fd669d64-f868-38e5-b46d-c81f4f2e5447",
+      "title": "习作例文：",
+      "parentId": "7115bbf7-e019-3050-bdb0-6caa91e7e35b"
+    },
+    {
+      "id": "e73a81b3-8ab1-3414-88d0-6636f38940e6",
+      "title": "鲸",
+      "parentId": "fd669d64-f868-38e5-b46d-c81f4f2e5447"
+    },
+    {
+      "id": "9699a532-7a35-3168-b9c2-5ce9e04e610e",
+      "title": "风向袋的制作",
+      "parentId": "fd669d64-f868-38e5-b46d-c81f4f2e5447"
+    },
+    {
+      "id": "7c0775bc-b283-339f-85fe-7625bcc86c52",
+      "title": "习作：介绍一种事物",
+      "parentId": "7115bbf7-e019-3050-bdb0-6caa91e7e35b"
+    },
+    {
+      "id": "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+      "title": "第六单元",
+      "parentId": ""
+    },
+    {
+      "id": "86cb3440-da26-3238-ba8f-e1ead89c0211",
+      "title": "18 慈母情深",
+      "parentId": "604f4654-9aa3-3cb9-8652-7c4c55690bd3"
+    },
+    {
+      "id": "1c174382-fddc-32c3-a9d2-1b03cc489c4f",
+      "title": "19 父爱之舟",
+      "parentId": "604f4654-9aa3-3cb9-8652-7c4c55690bd3"
+    },
+    {
+      "id": "09fce019-b95a-3dd4-bafb-f20d235a63a9",
+      "title": "20*“精彩极了”和“糟糕透了”",
+      "parentId": "604f4654-9aa3-3cb9-8652-7c4c55690bd3"
+    },
+    {
+      "id": "ec7fb14d-41a8-3134-b71b-9d0651c15843",
+      "title": "口语交际：父母之爱",
+      "parentId": "604f4654-9aa3-3cb9-8652-7c4c55690bd3"
+    },
+    {
+      "id": "17657b88-d499-385d-bd09-853016f9eaba",
+      "title": "习作：我想对您说",
+      "parentId": "604f4654-9aa3-3cb9-8652-7c4c55690bd3"
+    },
+    {
+      "id": "edac44eb-072d-30f5-be28-f54e0f9bb31f",
+      "title": "语文园地",
+      "parentId": "604f4654-9aa3-3cb9-8652-7c4c55690bd3"
+    },
+    {
+      "id": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+      "title": "第七单元",
+      "parentId": ""
+    },
+    {
+      "id": "6ff4acc6-769c-33b4-bfc8-64d3819252a5",
+      "title": "21 古诗词三首",
+      "parentId": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6"
+    },
+    {
+      "id": "496fd106-53a0-30ea-ae6c-ef8f14af6bcc",
+      "title": "山居秋暝",
+      "parentId": "6ff4acc6-769c-33b4-bfc8-64d3819252a5"
+    },
+    {
+      "id": "89d423c1-28a7-3389-98c4-6702f3db20fa",
+      "title": "枫桥夜泊",
+      "parentId": "6ff4acc6-769c-33b4-bfc8-64d3819252a5"
+    },
+    {
+      "id": "6d44f5a4-7a7a-35d0-bfb7-81d42a2089eb",
+      "title": "长相思",
+      "parentId": "6ff4acc6-769c-33b4-bfc8-64d3819252a5"
+    },
+    {
+      "id": "144e4237-e09e-35a4-8142-ccd0f762e71b",
+      "title": "22 四季之美",
+      "parentId": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6"
+    },
+    {
+      "id": "9d9f7376-1b7d-3e42-a3b3-c938eb4cd31e",
+      "title": "23 鸟的天堂",
+      "parentId": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6"
+    },
+    {
+      "id": "50f081f1-5413-3209-8984-c2c885f0c69c",
+      "title": "24* 月迹",
+      "parentId": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6"
+    },
+    {
+      "id": "f5785cfa-9b48-3d69-be2e-afbfc9de3a0b",
+      "title": "习作：____即景",
+      "parentId": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6"
+    },
+    {
+      "id": "0166f77e-ddbe-3df9-ae25-0c56dfac7162",
+      "title": "语文园地",
+      "parentId": "2a542660-9737-3d4c-86ca-e5bd3fec2cc6"
+    },
+    {
+      "id": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+      "title": "第八单元",
+      "parentId": ""
+    },
+    {
+      "id": "a0f25bdb-fa98-3605-a0ac-51ecf0fe7417",
+      "title": "25 古人谈读书",
+      "parentId": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7"
+    },
+    {
+      "id": "39e77502-8bde-35db-b86e-70b3750094a6",
+      "title": "26 忆读书",
+      "parentId": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7"
+    },
+    {
+      "id": "2df6dc44-d51c-3cab-9357-4339f85a9eb9",
+      "title": "27* 我的“长生果”",
+      "parentId": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7"
+    },
+    {
+      "id": "088d9f40-e775-313d-a2fe-b4a5355d9711",
+      "title": "口语交际：我最喜欢的人物形象",
+      "parentId": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7"
+    },
+    {
+      "id": "a6a02749-e8bf-3cef-ac82-5aee49a83cd6",
+      "title": "习作：推荐一本书",
+      "parentId": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7"
+    },
+    {
+      "id": "6b5fbb95-e7fd-301a-abab-554e4b0bb79a",
+      "title": "语文园地",
+      "parentId": "013d37d5-7c46-3ce3-adc2-19e9f2079ad7"
+    },
+    {
+      "id": "827e946e-c330-475a-80f3-13160099284a",
+      "title": "其他",
+      "parentId": ""
+    },
+    {
+      "id": "a365ac85-1768-30aa-8069-18f5079478e2",
+      "title": "交流平台和初试身手",
+      "parentId": "827e946e-c330-475a-80f3-13160099284a"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1a405c2-b607-44eb-9b71-7ba9952344b0",
+      "title": "五年级上册学习导引",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "c8eec2ac-52c1-330b-acc6-edb3b12c85e9"
+      ]
+    },
+    {
+      "id": "aa475913-def7-424b-9f5f-2e069d9c2077",
+      "title": "珍珠鸟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "8953e6c6-2b95-3380-a0ba-c13da1f43236"
+      ]
+    },
+    {
+      "id": "4c97382b-eb32-4f20-8f98-4dc8afdfb24d",
+      "title": "口语交际：制定班级公约",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "ddc35adb-ea80-3391-bd64-0cb6f9de35ad"
+      ]
+    },
+    {
+      "id": "ee902e49-bba7-493d-94b8-473f518e4489",
+      "title": "习作：我的心爱之物",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "24387e3b-bb5b-3d4a-8f20-b7f48eb3440c"
+      ]
+    },
+    {
+      "id": "889be13c-1eb9-4068-8d83-fa7053fddbe2",
+      "title": "赏名篇 表真情",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "88ecece4-bbb3-326e-9017-374a58b08164"
+      ]
+    },
+    {
+      "id": "09ffea2f-1d63-4956-961d-b15022ab9e7b",
+      "title": "语文园地二",
+      "type": "national_lesson",
+      "chapterIds": [
+        "712471a9-080d-333f-a046-c76a9c0f8ca6",
+        "b6513954-6491-388f-8be0-c29adea2cecc"
+      ]
+    },
+    {
+      "id": "94b66b83-85d8-40b8-bf78-675773a409c4",
+      "title": "牛郎织女（二）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "1d2ce52c-2c7e-34b3-9e4a-2fd563b13919"
+      ]
+    },
+    {
+      "id": "38b935fc-d71c-4036-8344-04a67bd40b4a",
+      "title": "口语交际《讲民间故事》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "c7ef243e-0d7a-3274-82e3-9bc468558c10"
+      ]
+    },
+    {
+      "id": "8dc4ac93-8d5b-4aec-9330-abdfd28082a9",
+      "title": "习作：缩写故事",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "bc62a63f-5eea-3403-aff3-cd03eee270f0"
+      ]
+    },
+    {
+      "id": "aac1c846-00de-4642-bcc8-085c21450f79",
+      "title": "快乐读书吧",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "acfacc74-3dd6-3d01-8d9c-af7fcf6bfe56"
+      ]
+    },
+    {
+      "id": "1281aae6-866b-4106-b619-8f63ca63b027",
+      "title": "小岛",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "135b4ef1-2e48-3123-80f9-3ff0ce1fc366"
+      ]
+    },
+    {
+      "id": "c0a712b6-2e58-4d72-a1e2-85033c497876",
+      "title": "语文园地四",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "37f5d3ee-c9b7-3aee-9284-3f1fca30de1c"
+      ]
+    },
+    {
+      "id": "4e92e010-73b5-4c77-840f-b74354a975ef",
+      "title": "交流平台 初试身手",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7115bbf7-e019-3050-bdb0-6caa91e7e35b"
+      ]
+    },
+    {
+      "id": "41bdacfe-2800-4e27-8d0b-0921419a33a2",
+      "title": "习作《介绍一种事物》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7115bbf7-e019-3050-bdb0-6caa91e7e35b",
+        "7c0775bc-b283-339f-85fe-7625bcc86c52"
+      ]
+    },
+    {
+      "id": "2bcb37a2-77ee-4fe2-a549-7ffdc4354e42",
+      "title": "“精彩极了“和“糟糕透了”",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "09fce019-b95a-3dd4-bafb-f20d235a63a9"
+      ]
+    },
+    {
+      "id": "e357e6b6-bbee-44a3-b7e7-5437c5cc28ea",
+      "title": "口语交际《父母之爱》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "ec7fb14d-41a8-3134-b71b-9d0651c15843"
+      ]
+    },
+    {
+      "id": "608bc456-6ee5-4f26-ae07-4f29a9915a58",
+      "title": "语文园地六",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "edac44eb-072d-30f5-be28-f54e0f9bb31f"
+      ]
+    },
+    {
+      "id": "7694f170-1dcc-493d-b6f3-24965e2a596f",
+      "title": "名家笔下的舐犊情深",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "edac44eb-072d-30f5-be28-f54e0f9bb31f"
+      ]
+    },
+    {
+      "id": "d0e5fded-bdd3-4d16-accf-dbec82a051db",
+      "title": "月迹",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "50f081f1-5413-3209-8984-c2c885f0c69c"
+      ]
+    },
+    {
+      "id": "82af3814-43c4-4b61-b16d-3a12bbe03146",
+      "title": "语文园地七",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "0166f77e-ddbe-3df9-ae25-0c56dfac7162"
+      ]
+    },
+    {
+      "id": "430ec659-6529-4e50-99b5-9a3b5726bcb1",
+      "title": "第八单元学习导引",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "a0f25bdb-fa98-3605-a0ac-51ecf0fe7417"
+      ]
+    },
+    {
+      "id": "a38a782d-2bd0-47e3-a34a-a2143d4fbfa1",
+      "title": "我的“长生果”",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "2df6dc44-d51c-3cab-9357-4339f85a9eb9"
+      ]
+    },
+    {
+      "id": "8797bf86-3a26-4f62-8669-b6a109cd2536",
+      "title": "口语交际《我最喜欢的人物形象》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "088d9f40-e775-313d-a2fe-b4a5355d9711"
+      ]
+    },
+    {
+      "id": "bd1c84d3-4d85-451f-b343-e08a935f1173",
+      "title": "语文园地八",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "6b5fbb95-e7fd-301a-abab-554e4b0bb79a"
+      ]
+    },
+    {
+      "id": "b719b023-a49e-4b19-a4da-cc65e09a097e",
+      "title": "白鹭",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "c8eec2ac-52c1-330b-acc6-edb3b12c85e9"
+      ]
+    },
+    {
+      "id": "029686e2-7afe-4fb2-b35c-95b2fff43b4d",
+      "title": "落花生",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "e4841894-6bbc-3cfc-a526-7c8b85800164"
+      ]
+    },
+    {
+      "id": "beef0ee6-877d-41ae-a4c1-89e277ebdba3",
+      "title": "桂花雨",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5826e6d6-86c3-3406-a286-c6e0d7bf3b67",
+        "36aa26e2-0843-3257-b02e-e936e5d60675"
+      ]
+    },
+    {
+      "id": "cc3d7b06-ecf5-4dc5-8764-33cc0f7ec7ed",
+      "title": "搭石",
+      "type": "national_lesson",
+      "chapterIds": [
+        "712471a9-080d-333f-a046-c76a9c0f8ca6",
+        "354bfd0d-602c-37fc-8391-e6a53e725758"
+      ]
+    },
+    {
+      "id": "847fe96f-38e4-47a7-a52d-463c21a3f2cb",
+      "title": "将相和",
+      "type": "national_lesson",
+      "chapterIds": [
+        "712471a9-080d-333f-a046-c76a9c0f8ca6",
+        "df8abbdb-134c-3909-8a60-c5568bb96063"
+      ]
+    },
+    {
+      "id": "3d88679c-33d8-4ada-a9b3-c5ee63f3c1ea",
+      "title": "什么比猎豹的速度更快",
+      "type": "national_lesson",
+      "chapterIds": [
+        "712471a9-080d-333f-a046-c76a9c0f8ca6",
+        "92251d6b-02dd-3c99-9f70-4453a0c713cf"
+      ]
+    },
+    {
+      "id": "0a58f2e7-b8c6-4b8d-897e-1e17755eb9d8",
+      "title": "冀中的地道战",
+      "type": "national_lesson",
+      "chapterIds": [
+        "712471a9-080d-333f-a046-c76a9c0f8ca6",
+        "53b80f7d-09f5-3c7e-a328-df69259f971f"
+      ]
+    },
+    {
+      "id": "4290be4a-51da-4a25-804c-a8dfdf7bb0c1",
+      "title": "习作《“漫画”老师》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "712471a9-080d-333f-a046-c76a9c0f8ca6",
+        "e9e5189e-ec60-3b37-b8da-6239c1e8fbf5"
+      ]
+    },
+    {
+      "id": "6e53a491-dacf-4926-9596-f92f41fa21a6",
+      "title": "猎人海力布",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "747535b7-6df1-3d08-a058-9232eab4683c"
+      ]
+    },
+    {
+      "id": "63ccd227-6a2e-4699-99cc-b97391077158",
+      "title": "牛郎织女（一）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "1d2ce52c-2c7e-34b3-9e4a-2fd563b13919"
+      ]
+    },
+    {
+      "id": "de3afd57-ae1c-42ca-9128-bf8562e8d8b9",
+      "title": "阅读中国民间故事",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "acfacc74-3dd6-3d01-8d9c-af7fcf6bfe56"
+      ]
+    },
+    {
+      "id": "5194e3c1-36ba-4a06-96cf-4a39a98e43bf",
+      "title": "古诗三首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+        "ffa79fde-531b-3db1-997a-c4335de9be4b"
+      ]
+    },
+    {
+      "id": "fad266fc-94f2-4ce4-af15-6541fe6f7ace",
+      "title": "少年中国说（节选）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "6bc47427-7e9f-3e30-81a7-2964b79e8bc7"
+      ]
+    },
+    {
+      "id": "83b16c61-e252-4abd-9c9b-464ef6f237df",
+      "title": "圆明园的毁灭",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "054d1db0-053b-34c0-9a94-f3da7af7703e"
+      ]
+    },
+    {
+      "id": "649d1b08-3b43-433d-8544-bad795f86080",
+      "title": "习作《二十年后的家乡》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "97228764-c6bc-347a-828f-920b5734d9cb"
+      ]
+    },
+    {
+      "id": "57eb9b76-b619-45fa-8cb3-77dfbab2b74b",
+      "title": "太阳",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7115bbf7-e019-3050-bdb0-6caa91e7e35b",
+        "b203b4fb-2842-3aa2-8037-d28979a40ab3"
+      ]
+    },
+    {
+      "id": "eb75fad3-ba01-468d-938a-c6f9564ccf04",
+      "title": "松鼠",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7115bbf7-e019-3050-bdb0-6caa91e7e35b",
+        "a9758cdd-daf2-370f-9f3f-651e56500aa4"
+      ]
+    },
+    {
+      "id": "61f85d26-1872-41aa-8d08-9024e254708c",
+      "title": "习作例文",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7115bbf7-e019-3050-bdb0-6caa91e7e35b",
+        "fd669d64-f868-38e5-b46d-c81f4f2e5447",
+        "9699a532-7a35-3168-b9c2-5ce9e04e610e"
+      ]
+    },
+    {
+      "id": "60fb2e7d-85f9-4d9a-863e-a72ac7e81882",
+      "title": "慈母情深",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "86cb3440-da26-3238-ba8f-e1ead89c0211"
+      ]
+    },
+    {
+      "id": "f6ecb9a9-1203-4550-af48-f51581cef4f0",
+      "title": "父爱之舟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "1c174382-fddc-32c3-a9d2-1b03cc489c4f"
+      ]
+    },
+    {
+      "id": "8f1c3721-b6be-451c-8ab0-d9013637ad9a",
+      "title": "习作《我想对您说》",
+      "type": "national_lesson",
+      "chapterIds": [
+        "604f4654-9aa3-3cb9-8652-7c4c55690bd3",
+        "17657b88-d499-385d-bd09-853016f9eaba"
+      ]
+    },
+    {
+      "id": "840ac221-cda9-4c8d-817b-c41923c3fad3",
+      "title": "古诗词三首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "6ff4acc6-769c-33b4-bfc8-64d3819252a5",
+        "6d44f5a4-7a7a-35d0-bfb7-81d42a2089eb"
+      ]
+    },
+    {
+      "id": "1218b626-3ed9-4363-b9af-5139ae150216",
+      "title": "四季之美",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "144e4237-e09e-35a4-8142-ccd0f762e71b"
+      ]
+    },
+    {
+      "id": "b00bbdfd-e358-492e-ba1f-b48243643e9f",
+      "title": "鸟的天堂",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "9d9f7376-1b7d-3e42-a3b3-c938eb4cd31e"
+      ]
+    },
+    {
+      "id": "4d12ab49-d975-4a0f-a16e-32a43cd033c3",
+      "title": "习作：即景",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "f5785cfa-9b48-3d69-be2e-afbfc9de3a0b"
+      ]
+    },
+    {
+      "id": "2b76aba0-4e5b-400f-9de3-f9066b5106b8",
+      "title": "古人谈读书",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "a0f25bdb-fa98-3605-a0ac-51ecf0fe7417"
+      ]
+    },
+    {
+      "id": "b2ffdd44-c01d-44a0-b420-03c5340d600e",
+      "title": "忆读书",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "39e77502-8bde-35db-b86e-70b3750094a6"
+      ]
+    },
+    {
+      "id": "230fc6eb-489a-4e45-9863-38e2ad5c2b8b",
+      "title": "习作：推荐一本书",
+      "type": "national_lesson",
+      "chapterIds": [
+        "013d37d5-7c46-3ce3-adc2-19e9f2079ad7",
+        "a6a02749-e8bf-3cef-ac82-5aee49a83cd6"
+      ]
+    },
+    {
+      "id": "3e5f118c-547c-3da2-cb01-06d934ccebd9",
+      "title": "鲸",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "7115bbf7-e019-3050-bdb0-6caa91e7e35b",
+        "fd669d64-f868-38e5-b46d-c81f4f2e5447",
+        "e73a81b3-8ab1-3414-88d0-6636f38940e6"
+      ]
+    },
+    {
+      "id": "6ca8701f-2090-400a-1238-91467c38e897",
+      "title": "山居秋暝",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "6ff4acc6-769c-33b4-bfc8-64d3819252a5",
+        "496fd106-53a0-30ea-ae6c-ef8f14af6bcc"
+      ]
+    },
+    {
+      "id": "e422243e-e4b2-edfd-8575-943502b7441d",
+      "title": "题临安邸",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+        "c7a144be-c481-3315-9fa3-0b9d6dca71a9"
+      ]
+    },
+    {
+      "id": "4a87a345-2cf8-47ad-662a-79b1fe15c7f3",
+      "title": "示儿",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+        "c90958c0-c05a-3fbb-aa71-7ca78350cba3"
+      ]
+    },
+    {
+      "id": "4b028ab5-75e0-3391-ad07-62674aa3e45b",
+      "title": "枫桥夜泊",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "6ff4acc6-769c-33b4-bfc8-64d3819252a5",
+        "89d423c1-28a7-3389-98c4-6702f3db20fa"
+      ]
+    },
+    {
+      "id": "f8142a3c-6dac-5065-77c5-a07bf5e2ee39",
+      "title": "枫桥夜泊",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "6ff4acc6-769c-33b4-bfc8-64d3819252a5",
+        "89d423c1-28a7-3389-98c4-6702f3db20fa"
+      ]
+    },
+    {
+      "id": "eb91d20a-43a8-1a03-f15b-6c2540732b8e",
+      "title": "山居秋暝",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2a542660-9737-3d4c-86ca-e5bd3fec2cc6",
+        "6ff4acc6-769c-33b4-bfc8-64d3819252a5",
+        "496fd106-53a0-30ea-ae6c-ef8f14af6bcc"
+      ]
+    },
+    {
+      "id": "840e8a6d-2e77-cee2-d024-ba33b0c20a3d",
+      "title": "示儿",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+        "c90958c0-c05a-3fbb-aa71-7ca78350cba3"
+      ]
+    },
+    {
+      "id": "34ee9f3e-3d79-5d7f-c4ef-6ce79c2a4f8f",
+      "title": "示儿",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+        "c90958c0-c05a-3fbb-aa71-7ca78350cba3"
+      ]
+    },
+    {
+      "id": "d46c8e35-e527-72a7-26d2-5dcaf6613934",
+      "title": "题临安邸",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "d1aaa78d-a2eb-3683-b794-270d489da47f",
+        "30702b6f-0dae-38ac-992b-5a92dd1fb608",
+        "c7a144be-c481-3315-9fa3-0b9d6dca71a9"
+      ]
+    },
+    {
+      "id": "8ae7e4ab-7c85-a84a-017c-884bc5c2031d",
+      "title": "10 牛郎织女（一）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "391a658b-cce2-3687-a86c-f6d2f0b26f92"
+      ]
+    },
+    {
+      "id": "8ae7e4b3-83f9-d174-0184-0525c2ce1428",
+      "title": "语文园地",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "b7099975-e70b-3183-bb1f-07d8604e8651",
+        "b4c8bcdc-eb81-318f-93ec-7e56db5f42d4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "version": 1,
+  "bookId": "d23f2856-629f-47e8-8d7c-e338c8da48f6",
+  "chapters": [
+    {
+      "id": "a2fbadff-1a69-4670-9cf6-0326a36d21a8",
+      "title": "Unit 1 My classroom",
+      "parentId": ""
+    },
+    {
+      "id": "5d7256ba-5e39-46e0-8468-437078dcd07a",
+      "title": "Lesson 1",
+      "parentId": "a2fbadff-1a69-4670-9cf6-0326a36d21a8"
+    },
+    {
+      "id": "f7d1a7f9-432a-49dd-a209-e98389a8c928",
+      "title": "Lesson 2",
+      "parentId": "a2fbadff-1a69-4670-9cf6-0326a36d21a8"
+    },
+    {
+      "id": "f2e0a235-c72a-4b9e-a8bf-9e987abcb267",
+      "title": "Lesson 3",
+      "parentId": "a2fbadff-1a69-4670-9cf6-0326a36d21a8"
+    },
+    {
+      "id": "745d0b56-0bf9-4858-a7d7-e8133810805b",
+      "title": "Fun time",
+      "parentId": "a2fbadff-1a69-4670-9cf6-0326a36d21a8"
+    },
+    {
+      "id": "043f710e-d469-481b-bcff-129ae2b0e62c",
+      "title": "Story time",
+      "parentId": "a2fbadff-1a69-4670-9cf6-0326a36d21a8"
+    },
+    {
+      "id": "93110bdd-d286-4279-8e86-f27cb7ce6b6b",
+      "title": "Unit 2 My class",
+      "parentId": ""
+    },
+    {
+      "id": "83b967c1-b51d-4ed6-bee7-3768383e5b3f",
+      "title": "Lesson 1",
+      "parentId": "93110bdd-d286-4279-8e86-f27cb7ce6b6b"
+    },
+    {
+      "id": "63c9232f-b684-441a-a472-efe07adf3874",
+      "title": "Lesson 2",
+      "parentId": "93110bdd-d286-4279-8e86-f27cb7ce6b6b"
+    },
+    {
+      "id": "ef162060-6e5f-410b-82aa-c013402f11c7",
+      "title": "Lesson 3",
+      "parentId": "93110bdd-d286-4279-8e86-f27cb7ce6b6b"
+    },
+    {
+      "id": "80a42821-eb03-4dc8-b05c-d625ed721f49",
+      "title": "Fun time",
+      "parentId": "93110bdd-d286-4279-8e86-f27cb7ce6b6b"
+    },
+    {
+      "id": "50d081a2-968c-4f9c-b2b9-220a6d37f223",
+      "title": "Story time",
+      "parentId": "93110bdd-d286-4279-8e86-f27cb7ce6b6b"
+    },
+    {
+      "id": "9b1bc673-f8f0-4b4f-a569-a912e73817f4",
+      "title": "Unit 3 My family",
+      "parentId": ""
+    },
+    {
+      "id": "a493b736-95e6-4bdd-bd70-0662f51e0fa2",
+      "title": "Lesson 1",
+      "parentId": "9b1bc673-f8f0-4b4f-a569-a912e73817f4"
+    },
+    {
+      "id": "153358e9-f31b-45eb-8bef-9f3c51ed5f33",
+      "title": "Lesson 2",
+      "parentId": "9b1bc673-f8f0-4b4f-a569-a912e73817f4"
+    },
+    {
+      "id": "6bd4b400-4bed-4c9f-9798-bf3aff7e9705",
+      "title": "Lesson 3",
+      "parentId": "9b1bc673-f8f0-4b4f-a569-a912e73817f4"
+    },
+    {
+      "id": "0e8e2e7f-44f2-479b-9365-c76e23cca227",
+      "title": "Fun time",
+      "parentId": "9b1bc673-f8f0-4b4f-a569-a912e73817f4"
+    },
+    {
+      "id": "e985a973-f891-4ae3-b87c-0e6751c9a191",
+      "title": "Story time",
+      "parentId": "9b1bc673-f8f0-4b4f-a569-a912e73817f4"
+    },
+    {
+      "id": "7ba8126c-7574-449e-94d2-eed686d6a8c3",
+      "title": "Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "7f9df43c-931d-4c3e-a73d-3e50f3e74abb",
+      "title": "Review of Units 1-3",
+      "parentId": "7ba8126c-7574-449e-94d2-eed686d6a8c3"
+    },
+    {
+      "id": "0ce1f293-7951-4c29-b45c-858f3e10568a",
+      "title": "Unit 4 Clothes",
+      "parentId": ""
+    },
+    {
+      "id": "b6928e8a-6080-4767-88a9-156316e06f4a",
+      "title": "Lesson 1",
+      "parentId": "0ce1f293-7951-4c29-b45c-858f3e10568a"
+    },
+    {
+      "id": "61ce53ba-2904-401f-bbd7-a997995caf76",
+      "title": "Lesson 2",
+      "parentId": "0ce1f293-7951-4c29-b45c-858f3e10568a"
+    },
+    {
+      "id": "47078480-901c-4e3a-88ce-112ea1d8888b",
+      "title": "Lesson 3",
+      "parentId": "0ce1f293-7951-4c29-b45c-858f3e10568a"
+    },
+    {
+      "id": "d19a5800-6db9-4b6a-b55d-4971119c59ea",
+      "title": "Fun time",
+      "parentId": "0ce1f293-7951-4c29-b45c-858f3e10568a"
+    },
+    {
+      "id": "07465b29-8399-4715-8a0d-c732e4418427",
+      "title": "Story time",
+      "parentId": "0ce1f293-7951-4c29-b45c-858f3e10568a"
+    },
+    {
+      "id": "f573aad1-7855-428b-a27d-e6078bb9bacb",
+      "title": "Unit 5 Animals",
+      "parentId": ""
+    },
+    {
+      "id": "6744318b-a845-45ec-8193-9472897de3c9",
+      "title": "Lesson 1",
+      "parentId": "f573aad1-7855-428b-a27d-e6078bb9bacb"
+    },
+    {
+      "id": "00d6f498-d33c-4d1f-b8de-4f31dc764279",
+      "title": "Lesson 2",
+      "parentId": "f573aad1-7855-428b-a27d-e6078bb9bacb"
+    },
+    {
+      "id": "8a8d7aea-f19a-4c5e-975e-1d1484378a10",
+      "title": "Lesson 3",
+      "parentId": "f573aad1-7855-428b-a27d-e6078bb9bacb"
+    },
+    {
+      "id": "2df31556-95b4-437b-980d-1deccf9b2d25",
+      "title": "Fun time",
+      "parentId": "f573aad1-7855-428b-a27d-e6078bb9bacb"
+    },
+    {
+      "id": "2d7ee5a8-b531-442c-9307-dafdbb2055c2",
+      "title": "Story time",
+      "parentId": "f573aad1-7855-428b-a27d-e6078bb9bacb"
+    },
+    {
+      "id": "9454a94b-440f-4716-92ff-320a396ad155",
+      "title": "Unit 6 Colours",
+      "parentId": ""
+    },
+    {
+      "id": "0c2956ef-a8cf-43d4-a44f-e7bd8ec98d40",
+      "title": "Lesson 1",
+      "parentId": "9454a94b-440f-4716-92ff-320a396ad155"
+    },
+    {
+      "id": "f8badb3b-9713-433d-a84e-9138ebc6dc91",
+      "title": "Lesson 2",
+      "parentId": "9454a94b-440f-4716-92ff-320a396ad155"
+    },
+    {
+      "id": "262687c4-759a-48dc-82ee-9215b5795b22",
+      "title": "Lesson 3",
+      "parentId": "9454a94b-440f-4716-92ff-320a396ad155"
+    },
+    {
+      "id": "f363c301-e207-4f4b-a126-4bee60409ea0",
+      "title": "Fun time",
+      "parentId": "9454a94b-440f-4716-92ff-320a396ad155"
+    },
+    {
+      "id": "7789eaa9-2d3e-4264-8885-9397080c2d29",
+      "title": "Story time",
+      "parentId": "9454a94b-440f-4716-92ff-320a396ad155"
+    },
+    {
+      "id": "d083526e-3c5d-4f78-98aa-f6cfad81a02d",
+      "title": "Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "f300a1f2-5f02-400f-aac0-81c2a97a3271",
+      "title": "Review of Units 4-6",
+      "parentId": "d083526e-3c5d-4f78-98aa-f6cfad81a02d"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "5ca1be39-3293-5eb7-cb64-d6b8d3ca5f8e",
+      "title": "Unit 1 My classroom （Lesson 1）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a2fbadff-1a69-4670-9cf6-0326a36d21a8",
+        "5d7256ba-5e39-46e0-8468-437078dcd07a"
+      ]
+    },
+    {
+      "id": "2d91f1d8-2608-fa78-ee6e-17a0f6aab496",
+      "title": "Unit 1 My classroom （Lesson 2）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a2fbadff-1a69-4670-9cf6-0326a36d21a8",
+        "f7d1a7f9-432a-49dd-a209-e98389a8c928"
+      ]
+    },
+    {
+      "id": "4ed331f4-f28f-c5e3-d576-1dacb43879a2",
+      "title": "Unit 1 My classroom （Lesson 3）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a2fbadff-1a69-4670-9cf6-0326a36d21a8",
+        "f2e0a235-c72a-4b9e-a8bf-9e987abcb267"
+      ]
+    },
+    {
+      "id": "e629f96c-f59f-deeb-340c-087bef67d9c0",
+      "title": "Unit 1 My classroom （Fun time）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a2fbadff-1a69-4670-9cf6-0326a36d21a8",
+        "745d0b56-0bf9-4858-a7d7-e8133810805b"
+      ]
+    },
+    {
+      "id": "4fc000b4-71b8-9a10-16b7-6d76c856dd0b",
+      "title": "Unit 1 My classroom （Story time）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a2fbadff-1a69-4670-9cf6-0326a36d21a8",
+        "043f710e-d469-481b-bcff-129ae2b0e62c"
+      ]
+    },
+    {
+      "id": "177b6084-3bea-0b44-6f6f-9f244e6d8bf7",
+      "title": "Unit 2 My class (Lesson 1)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "93110bdd-d286-4279-8e86-f27cb7ce6b6b",
+        "83b967c1-b51d-4ed6-bee7-3768383e5b3f"
+      ]
+    },
+    {
+      "id": "87cb0ae4-58f3-caf7-8d57-8d14daea7863",
+      "title": "Unit 2 My class (Lesson 2)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "93110bdd-d286-4279-8e86-f27cb7ce6b6b",
+        "63c9232f-b684-441a-a472-efe07adf3874"
+      ]
+    },
+    {
+      "id": "12c1fff8-619e-e7a5-4c5a-083ec34d327c",
+      "title": "Unit 2 My class (Lesson 3)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "93110bdd-d286-4279-8e86-f27cb7ce6b6b",
+        "ef162060-6e5f-410b-82aa-c013402f11c7"
+      ]
+    },
+    {
+      "id": "470779f7-612b-9ba6-dabb-eb2550bb9160",
+      "title": "Unit 2 My class (Fun time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "93110bdd-d286-4279-8e86-f27cb7ce6b6b",
+        "80a42821-eb03-4dc8-b05c-d625ed721f49"
+      ]
+    },
+    {
+      "id": "03ad8ccb-1de1-7f3c-cee6-e64d6954aa2c",
+      "title": "Unit 2 My class (Story time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "93110bdd-d286-4279-8e86-f27cb7ce6b6b",
+        "50d081a2-968c-4f9c-b2b9-220a6d37f223"
+      ]
+    },
+    {
+      "id": "61e1b93a-53ba-a736-5306-6f6b180ed5dc",
+      "title": "Unit 3 My family (Lesson 1)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9b1bc673-f8f0-4b4f-a569-a912e73817f4",
+        "a493b736-95e6-4bdd-bd70-0662f51e0fa2"
+      ]
+    },
+    {
+      "id": "c7decba4-55aa-3eb3-889a-0e918c538925",
+      "title": "Unit 3 My family (Lesson 2)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9b1bc673-f8f0-4b4f-a569-a912e73817f4",
+        "153358e9-f31b-45eb-8bef-9f3c51ed5f33"
+      ]
+    },
+    {
+      "id": "28c05b5e-4e4c-8d0d-0f15-abca1212ad59",
+      "title": "Unit 3 My family (Lesson 3)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9b1bc673-f8f0-4b4f-a569-a912e73817f4",
+        "6bd4b400-4bed-4c9f-9798-bf3aff7e9705"
+      ]
+    },
+    {
+      "id": "9ffc4c81-a624-6580-803b-88df4277a5e7",
+      "title": "Unit 3 My family (Fun time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9b1bc673-f8f0-4b4f-a569-a912e73817f4",
+        "0e8e2e7f-44f2-479b-9365-c76e23cca227"
+      ]
+    },
+    {
+      "id": "328e1f4d-14c3-f9bc-64ae-a0fdd2128d84",
+      "title": "Unit 3 My family (Story time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9b1bc673-f8f0-4b4f-a569-a912e73817f4",
+        "e985a973-f891-4ae3-b87c-0e6751c9a191"
+      ]
+    },
+    {
+      "id": "8312b2ca-8da1-9f45-2109-61062c6886f6",
+      "title": "Revision 1",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7ba8126c-7574-449e-94d2-eed686d6a8c3",
+        "7f9df43c-931d-4c3e-a73d-3e50f3e74abb"
+      ]
+    },
+    {
+      "id": "4697f84f-eeb4-706a-e0a0-b7961bea7568",
+      "title": "Unit 4 Clothes (Lesson 1)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0ce1f293-7951-4c29-b45c-858f3e10568a",
+        "b6928e8a-6080-4767-88a9-156316e06f4a"
+      ]
+    },
+    {
+      "id": "2b118110-a589-0a68-0d48-bfd3de8fcf3c",
+      "title": "Unit 4 Clothes (Lesson 2)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0ce1f293-7951-4c29-b45c-858f3e10568a",
+        "61ce53ba-2904-401f-bbd7-a997995caf76"
+      ]
+    },
+    {
+      "id": "f756c2a7-4e55-59d3-69c0-465b36c48d07",
+      "title": "Unit 4 Clothes (Lesson 3)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0ce1f293-7951-4c29-b45c-858f3e10568a",
+        "47078480-901c-4e3a-88ce-112ea1d8888b"
+      ]
+    },
+    {
+      "id": "1ad5171f-8ed9-b22c-37e7-868346d374e9",
+      "title": "Unit 4 Clothes (Fun time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0ce1f293-7951-4c29-b45c-858f3e10568a",
+        "d19a5800-6db9-4b6a-b55d-4971119c59ea"
+      ]
+    },
+    {
+      "id": "89de0ab1-d585-fdac-bb09-7a3a5328b6de",
+      "title": "Unit 4 Clothes (Story time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0ce1f293-7951-4c29-b45c-858f3e10568a",
+        "07465b29-8399-4715-8a0d-c732e4418427"
+      ]
+    },
+    {
+      "id": "6215c3a8-f5df-4107-b437-88f3a150e54e",
+      "title": "Unit 5 Animals (Lesson 1)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f573aad1-7855-428b-a27d-e6078bb9bacb",
+        "6744318b-a845-45ec-8193-9472897de3c9"
+      ]
+    },
+    {
+      "id": "dc77fa68-eb1b-5e47-f94e-1615e32f90b7",
+      "title": "Unit 5 Animals (Lesson 2)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f573aad1-7855-428b-a27d-e6078bb9bacb",
+        "00d6f498-d33c-4d1f-b8de-4f31dc764279"
+      ]
+    },
+    {
+      "id": "147d8484-f0d4-7e01-2266-28f6639709eb",
+      "title": "Unit 5 Animals (Lesson 3)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f573aad1-7855-428b-a27d-e6078bb9bacb",
+        "8a8d7aea-f19a-4c5e-975e-1d1484378a10"
+      ]
+    },
+    {
+      "id": "440d5aa5-8507-e020-0906-c0f1f5349da8",
+      "title": "Unit 5 Animals (Fun time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f573aad1-7855-428b-a27d-e6078bb9bacb",
+        "2df31556-95b4-437b-980d-1deccf9b2d25"
+      ]
+    },
+    {
+      "id": "466cdc96-ced0-e6c5-bcf6-7a24d9c0d5ec",
+      "title": "Unit 5 Animals(Story time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f573aad1-7855-428b-a27d-e6078bb9bacb",
+        "2d7ee5a8-b531-442c-9307-dafdbb2055c2"
+      ]
+    },
+    {
+      "id": "61d93d91-6dec-8e9a-d435-ba22e7e0624b",
+      "title": "Unit 6 Colours (Lesson 1)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9454a94b-440f-4716-92ff-320a396ad155",
+        "0c2956ef-a8cf-43d4-a44f-e7bd8ec98d40"
+      ]
+    },
+    {
+      "id": "611f5370-2cf3-f5f2-a551-2a0f04fd70b1",
+      "title": "Unit 6 Colours (Lesson 2)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9454a94b-440f-4716-92ff-320a396ad155",
+        "f8badb3b-9713-433d-a84e-9138ebc6dc91"
+      ]
+    },
+    {
+      "id": "c0c85719-6859-5c8c-9f12-ee6c4384edf7",
+      "title": "Unit 6 Colours (Lesson 3)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9454a94b-440f-4716-92ff-320a396ad155",
+        "262687c4-759a-48dc-82ee-9215b5795b22"
+      ]
+    },
+    {
+      "id": "d952ba85-e213-2f46-b51d-874a9a95faf3",
+      "title": "Unit 6 Colours (Fun time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9454a94b-440f-4716-92ff-320a396ad155",
+        "f363c301-e207-4f4b-a126-4bee60409ea0"
+      ]
+    },
+    {
+      "id": "5a1a7280-5df8-d281-69fe-1014eaffac13",
+      "title": "Unit 6 Colours (Story time)",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9454a94b-440f-4716-92ff-320a396ad155",
+        "7789eaa9-2d3e-4264-8885-9397080c2d29"
+      ]
+    },
+    {
+      "id": "c253ea1f-5964-bd23-f99a-6c3af5084a19",
+      "title": "Revision 2",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d083526e-3c5d-4f78-98aa-f6cfad81a02d",
+        "f300a1f2-5f02-400f-aac0-81c2a97a3271"
+      ]
+    }
+  ]
+}

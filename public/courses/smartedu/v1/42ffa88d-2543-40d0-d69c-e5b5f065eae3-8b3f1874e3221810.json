@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "bookId": "42ffa88d-2543-40d0-d69c-e5b5f065eae3",
+  "chapters": [
+    {
+      "id": "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68",
+      "title": "Unit 1 My classroom",
+      "parentId": ""
+    },
+    {
+      "id": "ea41e1ce-6984-3af3-bbe5-412eee2b77ee",
+      "title": "A",
+      "parentId": "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68"
+    },
+    {
+      "id": "3dcf6500-1f0f-399b-af37-01d71ab2de2b",
+      "title": "B",
+      "parentId": "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68"
+    },
+    {
+      "id": "d6e6e5f4-5f5c-317b-8700-a621433464bf",
+      "title": "C",
+      "parentId": "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68"
+    },
+    {
+      "id": "8359540b-8aeb-34b4-906f-8df719847536",
+      "title": "Unit 2 My schoolbag",
+      "parentId": ""
+    },
+    {
+      "id": "444cbb8e-8edb-38d0-94ee-a40f4403dcf8",
+      "title": "A",
+      "parentId": "8359540b-8aeb-34b4-906f-8df719847536"
+    },
+    {
+      "id": "8c2993ff-4b8c-34d1-81d1-63fe9a3d014f",
+      "title": "B",
+      "parentId": "8359540b-8aeb-34b4-906f-8df719847536"
+    },
+    {
+      "id": "e121fb59-0238-3274-9122-336d08165a75",
+      "title": "C",
+      "parentId": "8359540b-8aeb-34b4-906f-8df719847536"
+    },
+    {
+      "id": "836e7df8-14bb-3906-acb5-823b87ecea9e",
+      "title": "Unit 3 My friends",
+      "parentId": ""
+    },
+    {
+      "id": "c16d8bc7-9c53-332d-99e9-06757ebf8391",
+      "title": "A",
+      "parentId": "836e7df8-14bb-3906-acb5-823b87ecea9e"
+    },
+    {
+      "id": "722392df-e722-3384-908c-b5200982794a",
+      "title": "B",
+      "parentId": "836e7df8-14bb-3906-acb5-823b87ecea9e"
+    },
+    {
+      "id": "98a85c36-0096-3389-8b19-4815871f90b4",
+      "title": "C",
+      "parentId": "836e7df8-14bb-3906-acb5-823b87ecea9e"
+    },
+    {
+      "id": "27fc272a-60dd-3aba-850d-af04eb847f92",
+      "title": "Recycle 1",
+      "parentId": ""
+    },
+    {
+      "id": "62e80226-7a4a-347f-a609-fbecac137b06",
+      "title": "Unit 4 My home",
+      "parentId": ""
+    },
+    {
+      "id": "9f7e56c7-303f-3982-a1af-a07e2884e4c1",
+      "title": "A",
+      "parentId": "62e80226-7a4a-347f-a609-fbecac137b06"
+    },
+    {
+      "id": "c32c61db-6805-379c-93a5-01a22e4d6ade",
+      "title": "B",
+      "parentId": "62e80226-7a4a-347f-a609-fbecac137b06"
+    },
+    {
+      "id": "0f9d79ec-5ff0-33f1-918e-9b6db0b5e7a6",
+      "title": "C",
+      "parentId": "62e80226-7a4a-347f-a609-fbecac137b06"
+    },
+    {
+      "id": "96431f3f-b1c0-3469-8864-616b731dca06",
+      "title": "Unit 5 Dinner's ready",
+      "parentId": ""
+    },
+    {
+      "id": "4046ba90-40ed-3416-bfd9-d5ad1d6cc524",
+      "title": "A",
+      "parentId": "96431f3f-b1c0-3469-8864-616b731dca06"
+    },
+    {
+      "id": "767ee55c-5a7f-3628-b4ef-315bb8d1b834",
+      "title": "B",
+      "parentId": "96431f3f-b1c0-3469-8864-616b731dca06"
+    },
+    {
+      "id": "9bf19de5-7bc5-371a-b6eb-51e0c0dfdec7",
+      "title": "C",
+      "parentId": "96431f3f-b1c0-3469-8864-616b731dca06"
+    },
+    {
+      "id": "a031e41d-718e-364e-a820-8d89650eaa98",
+      "title": "Unit 6 Meet my family!",
+      "parentId": ""
+    },
+    {
+      "id": "91240e13-7e81-3169-8fe9-7b14f3cfd521",
+      "title": "A",
+      "parentId": "a031e41d-718e-364e-a820-8d89650eaa98"
+    },
+    {
+      "id": "1baa1b95-aacb-3b76-945d-cf9b99cffe48",
+      "title": "B",
+      "parentId": "a031e41d-718e-364e-a820-8d89650eaa98"
+    },
+    {
+      "id": "11db56a7-3cd4-3562-af93-c8ceb482099d",
+      "title": "C",
+      "parentId": "a031e41d-718e-364e-a820-8d89650eaa98"
+    },
+    {
+      "id": "c7fdca32-ba53-34fd-b705-e9c7ffaf8124",
+      "title": "Recycle 2",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "8ae7e4b2-7c7b-5b57-017c-7eed74800a0e",
+      "title": "A",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68",
+        "ea41e1ce-6984-3af3-bbe5-412eee2b77ee"
+      ]
+    },
+    {
+      "id": "8ae7e4b3-83d5-d035-0183-ebb9cc684822",
+      "title": "C",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68",
+        "d6e6e5f4-5f5c-317b-8700-a621433464bf"
+      ]
+    },
+    {
+      "id": "8ae7e493-8422-f898-0184-2878408601aa",
+      "title": "A",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "62e80226-7a4a-347f-a609-fbecac137b06",
+        "9f7e56c7-303f-3982-a1af-a07e2884e4c1"
+      ]
+    },
+    {
+      "id": "a69eedc0-1e43-3bc0-6672-119a0f93584f",
+      "title": "Recycle 1",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "27fc272a-60dd-3aba-850d-af04eb847f92"
+      ]
+    },
+    {
+      "id": "43124a85-0998-49d7-cbec-1af7f0819289",
+      "title": "My Classroom(Part B)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "9e7f0e7c-9e3f-3d62-af28-bcc3b3853e68",
+        "3dcf6500-1f0f-399b-af37-01d71ab2de2b"
+      ]
+    },
+    {
+      "id": "0765bea0-6470-b713-47c4-1d791a009271",
+      "title": "B",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "836e7df8-14bb-3906-acb5-823b87ecea9e",
+        "722392df-e722-3384-908c-b5200982794a"
+      ]
+    },
+    {
+      "id": "8ae7e4a4-7c66-c177-017c-6a7f3cde0678",
+      "title": "B",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "8359540b-8aeb-34b4-906f-8df719847536",
+        "8c2993ff-4b8c-34d1-81d1-63fe9a3d014f"
+      ]
+    },
+    {
+      "id": "8ae7e4a1-7c82-fb4f-017c-84fecf6a0655",
+      "title": "A",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "836e7df8-14bb-3906-acb5-823b87ecea9e",
+        "c16d8bc7-9c53-332d-99e9-06757ebf8391"
+      ]
+    },
+    {
+      "id": "8ae7e495-7c77-77d8-017c-7808c9e50218",
+      "title": "C",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "836e7df8-14bb-3906-acb5-823b87ecea9e",
+        "98a85c36-0096-3389-8b19-4815871f90b4"
+      ]
+    },
+    {
+      "id": "8ae7e49d-7c6b-e709-017c-6d2f573e0103",
+      "title": "A",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "96431f3f-b1c0-3469-8864-616b731dca06",
+        "4046ba90-40ed-3416-bfd9-d5ad1d6cc524"
+      ]
+    },
+    {
+      "id": "8ae7e49a-7c24-dc4d-017c-25124c96007e",
+      "title": "B",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "96431f3f-b1c0-3469-8864-616b731dca06",
+        "767ee55c-5a7f-3628-b4ef-315bb8d1b834"
+      ]
+    },
+    {
+      "id": "8ae7e4ab-7c8f-f538-017c-90f532cd00e2",
+      "title": "B",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a031e41d-718e-364e-a820-8d89650eaa98",
+        "1baa1b95-aacb-3b76-945d-cf9b99cffe48"
+      ]
+    },
+    {
+      "id": "8ae7e4ac-7cb9-2903-017c-bb5692470133",
+      "title": "C",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a031e41d-718e-364e-a820-8d89650eaa98",
+        "11db56a7-3cd4-3562-af93-c8ceb482099d"
+      ]
+    },
+    {
+      "id": "8ae7e490-7c42-b41c-017c-43e27a84002a",
+      "title": "Recycle 2",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "c7fdca32-ba53-34fd-b705-e9c7ffaf8124"
+      ]
+    },
+    {
+      "id": "8ae7e499-8388-6a20-0183-d1d11d1236ab",
+      "title": "A",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "8359540b-8aeb-34b4-906f-8df719847536",
+        "444cbb8e-8edb-38d0-94ee-a40f4403dcf8"
+      ]
+    },
+    {
+      "id": "8ae7e4a4-83f9-d175-0184-0e68d15825a6",
+      "title": "C",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "8359540b-8aeb-34b4-906f-8df719847536",
+        "e121fb59-0238-3274-9122-336d08165a75"
+      ]
+    },
+    {
+      "id": "8ae7e496-83f9-d06d-0184-0a92888d1ce9",
+      "title": "B",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "62e80226-7a4a-347f-a609-fbecac137b06",
+        "c32c61db-6805-379c-93a5-01a22e4d6ade"
+      ]
+    },
+    {
+      "id": "8ae7e48e-83f9-d063-0184-21324796369e",
+      "title": "C",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "62e80226-7a4a-347f-a609-fbecac137b06",
+        "0f9d79ec-5ff0-33f1-918e-9b6db0b5e7a6"
+      ]
+    },
+    {
+      "id": "8ae7e4b5-83f9-d194-0183-fe71aa6606ef",
+      "title": "C",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "96431f3f-b1c0-3469-8864-616b731dca06",
+        "9bf19de5-7bc5-371a-b6eb-51e0c0dfdec7"
+      ]
+    },
+    {
+      "id": "8ae7e4aa-83f9-d18e-0184-21dce7c62b1f",
+      "title": "A",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a031e41d-718e-364e-a820-8d89650eaa98",
+        "91240e13-7e81-3169-8fe9-7b14f3cfd521"
+      ]
+    }
+  ]
+}

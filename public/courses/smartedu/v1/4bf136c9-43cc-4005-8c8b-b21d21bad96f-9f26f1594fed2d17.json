@@ -1,0 +1,568 @@
+{
+  "version": 1,
+  "bookId": "4bf136c9-43cc-4005-8c8b-b21d21bad96f",
+  "chapters": [
+    {
+      "id": "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+      "title": "第一单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "1bdd8b35-aad8-49cf-9e16-8e3ae3683639",
+      "title": "1 小蝌蚪找妈妈",
+      "parentId": "cd80bbcc-6a73-40f6-bfb3-b16a3229987c"
+    },
+    {
+      "id": "0b33bf93-b7f4-4ddc-8050-032c6de220fb",
+      "title": "2 我是什么",
+      "parentId": "cd80bbcc-6a73-40f6-bfb3-b16a3229987c"
+    },
+    {
+      "id": "6f6c975a-63de-439c-a35d-90e243457e94",
+      "title": "3 植物妈妈有办法",
+      "parentId": "cd80bbcc-6a73-40f6-bfb3-b16a3229987c"
+    },
+    {
+      "id": "231cd96a-fba7-46ef-bcad-285f75fb0ad8",
+      "title": "语文园地一",
+      "parentId": "cd80bbcc-6a73-40f6-bfb3-b16a3229987c"
+    },
+    {
+      "id": "8f92c5af-2c93-4e61-9f14-7ede2521a55d",
+      "title": "快乐读书吧",
+      "parentId": "cd80bbcc-6a73-40f6-bfb3-b16a3229987c"
+    },
+    {
+      "id": "ae39ef3d-d338-4186-bc2d-84d0ded3a2ee",
+      "title": "读读童话故事",
+      "parentId": "8f92c5af-2c93-4e61-9f14-7ede2521a55d"
+    },
+    {
+      "id": "40850b46-c039-45b7-8614-7d6f7922e894",
+      "title": "第二单元·识字",
+      "parentId": ""
+    },
+    {
+      "id": "9784b243-13b1-46fd-8c11-0de3885415ea",
+      "title": "1 场景歌",
+      "parentId": "40850b46-c039-45b7-8614-7d6f7922e894"
+    },
+    {
+      "id": "d9b76d3b-b666-4d85-bde9-abf97be23424",
+      "title": "2 树之歌",
+      "parentId": "40850b46-c039-45b7-8614-7d6f7922e894"
+    },
+    {
+      "id": "c8419f11-556a-4c07-80f3-fb21e8a465d5",
+      "title": "3 拍手歌",
+      "parentId": "40850b46-c039-45b7-8614-7d6f7922e894"
+    },
+    {
+      "id": "60474a62-652a-4eea-9ea4-e17b504a30e2",
+      "title": "4 田家四季歌",
+      "parentId": "40850b46-c039-45b7-8614-7d6f7922e894"
+    },
+    {
+      "id": "eb54387f-fc59-46c8-823a-1e93714b8422",
+      "title": "语文园地二",
+      "parentId": "40850b46-c039-45b7-8614-7d6f7922e894"
+    },
+    {
+      "id": "ec671c09-1d16-469a-9e62-d3e092110238",
+      "title": "第三单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "bb8420a6-eb91-4c8b-869e-625ec43d6af2",
+      "title": "4 彩虹",
+      "parentId": "ec671c09-1d16-469a-9e62-d3e092110238"
+    },
+    {
+      "id": "e66df667-cbf8-4605-a2eb-c9c631623d56",
+      "title": "5 去外婆家",
+      "parentId": "ec671c09-1d16-469a-9e62-d3e092110238"
+    },
+    {
+      "id": "91875921-6e5d-4f28-9af1-825aa94d2df9",
+      "title": "6 数星星的孩子",
+      "parentId": "ec671c09-1d16-469a-9e62-d3e092110238"
+    },
+    {
+      "id": "e3e0578c-de75-4941-bfc8-86a4c744f9fa",
+      "title": "语文园地三",
+      "parentId": "ec671c09-1d16-469a-9e62-d3e092110238"
+    },
+    {
+      "id": "9d75adee-ef08-4c6f-82c6-72cd21af0e6a",
+      "title": "第四单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "1fcfe469-096f-4ce9-ae80-f726ab32a656",
+      "title": "7 古诗二首",
+      "parentId": "9d75adee-ef08-4c6f-82c6-72cd21af0e6a"
+    },
+    {
+      "id": "b8f2017e-4736-4aa2-a374-9dcf945d3c12",
+      "title": "8 黄山奇石",
+      "parentId": "9d75adee-ef08-4c6f-82c6-72cd21af0e6a"
+    },
+    {
+      "id": "93b6fda7-a5ba-4cea-ac73-37d460efa5cc",
+      "title": "9 日月潭",
+      "parentId": "9d75adee-ef08-4c6f-82c6-72cd21af0e6a"
+    },
+    {
+      "id": "f174e78c-4ff5-4c0e-b36c-9c00d335243f",
+      "title": "10 葡萄沟",
+      "parentId": "9d75adee-ef08-4c6f-82c6-72cd21af0e6a"
+    },
+    {
+      "id": "47664930-aae2-4b3b-b89f-f025beb620bc",
+      "title": "语文园地四",
+      "parentId": "9d75adee-ef08-4c6f-82c6-72cd21af0e6a"
+    },
+    {
+      "id": "53506ca3-0c56-437f-8459-3a6b96c85a97",
+      "title": "第五单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "22b146f8-3238-4cb0-952b-9103fed12de2",
+      "title": "11 坐井观天",
+      "parentId": "53506ca3-0c56-437f-8459-3a6b96c85a97"
+    },
+    {
+      "id": "a582d89b-6afc-430a-9dba-ff83fd467471",
+      "title": "12 寒号鸟",
+      "parentId": "53506ca3-0c56-437f-8459-3a6b96c85a97"
+    },
+    {
+      "id": "0633a1b4-dd4d-45e6-b6c9-e14149fca976",
+      "title": "13 我要的是葫芦",
+      "parentId": "53506ca3-0c56-437f-8459-3a6b96c85a97"
+    },
+    {
+      "id": "ab550e54-403d-4753-aa89-57f135ee9830",
+      "title": "语文园地五",
+      "parentId": "53506ca3-0c56-437f-8459-3a6b96c85a97"
+    },
+    {
+      "id": "aa3ff381-dede-4044-a93f-f2bff7a132fe",
+      "title": "第六单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "6a2b1b61-2fe5-4e2c-89ed-fd9c238ad45a",
+      "title": "14 八角楼上",
+      "parentId": "aa3ff381-dede-4044-a93f-f2bff7a132fe"
+    },
+    {
+      "id": "9d9e4072-5d51-4bd6-9b29-0c4e8c9cd9bb",
+      "title": "15 朱德的扁担",
+      "parentId": "aa3ff381-dede-4044-a93f-f2bff7a132fe"
+    },
+    {
+      "id": "2a6c307b-2274-40ab-b9e0-725061005d0d",
+      "title": "16 难忘的泼水节",
+      "parentId": "aa3ff381-dede-4044-a93f-f2bff7a132fe"
+    },
+    {
+      "id": "7d68215d-3562-4fc4-a241-13ba7c1efc31",
+      "title": "17 刘胡兰",
+      "parentId": "aa3ff381-dede-4044-a93f-f2bff7a132fe"
+    },
+    {
+      "id": "629e4651-983a-4b2a-9abb-97cef5c17790",
+      "title": "语文园地六",
+      "parentId": "aa3ff381-dede-4044-a93f-f2bff7a132fe"
+    },
+    {
+      "id": "344d436d-6c5c-4568-9943-98e6041f8e92",
+      "title": "第七单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "bc86bb65-f1b6-4bf9-9fe2-bcbbdfc459ce",
+      "title": "18 古诗二首",
+      "parentId": "344d436d-6c5c-4568-9943-98e6041f8e92"
+    },
+    {
+      "id": "50516d01-4450-4372-917f-fb38dddddd78",
+      "title": "19 雾在哪里",
+      "parentId": "344d436d-6c5c-4568-9943-98e6041f8e92"
+    },
+    {
+      "id": "24ffbc12-3b3e-4fef-93a9-32442fcb8754",
+      "title": "20 雪孩子",
+      "parentId": "344d436d-6c5c-4568-9943-98e6041f8e92"
+    },
+    {
+      "id": "e460ce1d-1d2b-4d7c-aa69-7250c7d3a095",
+      "title": "语文园地七",
+      "parentId": "344d436d-6c5c-4568-9943-98e6041f8e92"
+    },
+    {
+      "id": "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38",
+      "title": "第八单元·阅读",
+      "parentId": ""
+    },
+    {
+      "id": "1bbf6c9c-c1a7-4b06-8e07-a22f61b04c68",
+      "title": "21 称赞",
+      "parentId": "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38"
+    },
+    {
+      "id": "ce392a7c-f10c-47c4-9644-3f2fc925bbdf",
+      "title": "22 纸船和风筝",
+      "parentId": "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38"
+    },
+    {
+      "id": "df818346-4901-47ef-b25a-efbbc3422bf5",
+      "title": "23 快乐的小河",
+      "parentId": "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38"
+    },
+    {
+      "id": "e0fc32b7-95e5-411c-a9fc-0faa01277c74",
+      "title": "语文园地八",
+      "parentId": "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "92e99e4d-4a30-0d9f-b869-3538b301f1d4",
+      "title": "2 我是什么",
+      "type": "national_lesson",
+      "chapterIds": [
+        "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+        "0b33bf93-b7f4-4ddc-8050-032c6de220fb"
+      ]
+    },
+    {
+      "id": "1a2017e5-d513-2ab0-5ce5-0498d8104468",
+      "title": "3 植物妈妈有办法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+        "6f6c975a-63de-439c-a35d-90e243457e94"
+      ]
+    },
+    {
+      "id": "dbe76153-fcd0-a19b-f0a6-6c97818f4d66",
+      "title": "1 小蝌蚪找妈妈",
+      "type": "national_lesson",
+      "chapterIds": [
+        "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+        "1bdd8b35-aad8-49cf-9e16-8e3ae3683639"
+      ]
+    },
+    {
+      "id": "0a89aebe-5f3d-5db6-0efc-2e7ef9eec92d",
+      "title": "语文园地一",
+      "type": "national_lesson",
+      "chapterIds": [
+        "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+        "231cd96a-fba7-46ef-bcad-285f75fb0ad8"
+      ]
+    },
+    {
+      "id": "d953c5d5-958b-fbcb-f966-9200f2a9d78b",
+      "title": "4 彩虹",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ec671c09-1d16-469a-9e62-d3e092110238",
+        "bb8420a6-eb91-4c8b-869e-625ec43d6af2"
+      ]
+    },
+    {
+      "id": "7b8e29b9-b464-14fe-5a2f-cef60f7abd9a",
+      "title": "5 去外婆家",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ec671c09-1d16-469a-9e62-d3e092110238",
+        "e66df667-cbf8-4605-a2eb-c9c631623d56"
+      ]
+    },
+    {
+      "id": "a65b48a3-ff48-bfbd-306f-a29c0014212b",
+      "title": "6 数星星的孩子",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ec671c09-1d16-469a-9e62-d3e092110238",
+        "91875921-6e5d-4f28-9af1-825aa94d2df9"
+      ]
+    },
+    {
+      "id": "268227a8-dd4d-1740-a3ac-15c87ece5c70",
+      "title": "语文园地三",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ec671c09-1d16-469a-9e62-d3e092110238",
+        "e3e0578c-de75-4941-bfc8-86a4c744f9fa"
+      ]
+    },
+    {
+      "id": "40cfa619-afa6-462e-1dd2-6062f236fc81",
+      "title": "10 葡萄沟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9d75adee-ef08-4c6f-82c6-72cd21af0e6a",
+        "f174e78c-4ff5-4c0e-b36c-9c00d335243f"
+      ]
+    },
+    {
+      "id": "a06bdf41-1b8c-397b-5a20-f5f00d2950c3",
+      "title": "7 古诗二首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9d75adee-ef08-4c6f-82c6-72cd21af0e6a",
+        "1fcfe469-096f-4ce9-ae80-f726ab32a656"
+      ]
+    },
+    {
+      "id": "d84a200e-e365-5c60-a942-7178610712c3",
+      "title": "8 黄山奇石",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9d75adee-ef08-4c6f-82c6-72cd21af0e6a",
+        "b8f2017e-4736-4aa2-a374-9dcf945d3c12"
+      ]
+    },
+    {
+      "id": "35bdc985-64b1-feb0-d6ae-f104ce43e650",
+      "title": "9 日月潭",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9d75adee-ef08-4c6f-82c6-72cd21af0e6a",
+        "93b6fda7-a5ba-4cea-ac73-37d460efa5cc"
+      ]
+    },
+    {
+      "id": "6c0fc5c3-2a73-bc12-372b-565f7250be25",
+      "title": "语文园地四",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9d75adee-ef08-4c6f-82c6-72cd21af0e6a",
+        "47664930-aae2-4b3b-b89f-f025beb620bc"
+      ]
+    },
+    {
+      "id": "bb69c166-bfa8-b608-712d-9d4d47ab6e3c",
+      "title": "语文园地二",
+      "type": "national_lesson",
+      "chapterIds": [
+        "40850b46-c039-45b7-8614-7d6f7922e894",
+        "eb54387f-fc59-46c8-823a-1e93714b8422"
+      ]
+    },
+    {
+      "id": "0f505369-b470-91e0-6501-2846bfecdf79",
+      "title": "1 场景歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "40850b46-c039-45b7-8614-7d6f7922e894",
+        "9784b243-13b1-46fd-8c11-0de3885415ea"
+      ]
+    },
+    {
+      "id": "74589b7c-ad49-fa85-965a-7d2db7753445",
+      "title": "2 树之歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "40850b46-c039-45b7-8614-7d6f7922e894",
+        "d9b76d3b-b666-4d85-bde9-abf97be23424"
+      ]
+    },
+    {
+      "id": "ba233874-910c-b224-48ff-5c618714285e",
+      "title": "3 拍手歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "40850b46-c039-45b7-8614-7d6f7922e894",
+        "c8419f11-556a-4c07-80f3-fb21e8a465d5"
+      ]
+    },
+    {
+      "id": "aa88439d-4f27-e3d2-fd60-0f67b1029e8d",
+      "title": "4 田家四季歌",
+      "type": "national_lesson",
+      "chapterIds": [
+        "40850b46-c039-45b7-8614-7d6f7922e894",
+        "60474a62-652a-4eea-9ea4-e17b504a30e2"
+      ]
+    },
+    {
+      "id": "f676ca97-e41a-be13-8f96-6763ec8d4fa8",
+      "title": "11 坐井观天",
+      "type": "national_lesson",
+      "chapterIds": [
+        "53506ca3-0c56-437f-8459-3a6b96c85a97",
+        "22b146f8-3238-4cb0-952b-9103fed12de2"
+      ]
+    },
+    {
+      "id": "fd810f83-c252-c472-223f-9422091304e1",
+      "title": "12 寒号鸟",
+      "type": "national_lesson",
+      "chapterIds": [
+        "53506ca3-0c56-437f-8459-3a6b96c85a97",
+        "a582d89b-6afc-430a-9dba-ff83fd467471"
+      ]
+    },
+    {
+      "id": "7941404e-9731-2402-de1f-41f4c4f916da",
+      "title": "13 我要的是葫芦",
+      "type": "national_lesson",
+      "chapterIds": [
+        "53506ca3-0c56-437f-8459-3a6b96c85a97",
+        "0633a1b4-dd4d-45e6-b6c9-e14149fca976"
+      ]
+    },
+    {
+      "id": "cf4600e0-7820-6017-723d-07b9abe4800f",
+      "title": "语文园地五",
+      "type": "national_lesson",
+      "chapterIds": [
+        "53506ca3-0c56-437f-8459-3a6b96c85a97",
+        "ab550e54-403d-4753-aa89-57f135ee9830"
+      ]
+    },
+    {
+      "id": "9eec8954-0b33-abed-44b7-e6daf9a17d34",
+      "title": "14 八角楼上",
+      "type": "national_lesson",
+      "chapterIds": [
+        "aa3ff381-dede-4044-a93f-f2bff7a132fe",
+        "6a2b1b61-2fe5-4e2c-89ed-fd9c238ad45a"
+      ]
+    },
+    {
+      "id": "adaab60c-5681-f909-f6a3-7b4ca9438156",
+      "title": "15 朱德的扁担",
+      "type": "national_lesson",
+      "chapterIds": [
+        "aa3ff381-dede-4044-a93f-f2bff7a132fe",
+        "9d9e4072-5d51-4bd6-9b29-0c4e8c9cd9bb"
+      ]
+    },
+    {
+      "id": "9e7d5bd1-1a06-75e0-2841-1f4d1fb6f2e3",
+      "title": "16 难忘的泼水节",
+      "type": "national_lesson",
+      "chapterIds": [
+        "aa3ff381-dede-4044-a93f-f2bff7a132fe",
+        "2a6c307b-2274-40ab-b9e0-725061005d0d"
+      ]
+    },
+    {
+      "id": "3b7d167e-765d-a704-4412-2bbe7ecd77cd",
+      "title": "17 刘胡兰",
+      "type": "national_lesson",
+      "chapterIds": [
+        "aa3ff381-dede-4044-a93f-f2bff7a132fe",
+        "7d68215d-3562-4fc4-a241-13ba7c1efc31"
+      ]
+    },
+    {
+      "id": "d2b1d4ec-2382-9e5a-2434-8b057a934fa1",
+      "title": "语文园地六",
+      "type": "national_lesson",
+      "chapterIds": [
+        "aa3ff381-dede-4044-a93f-f2bff7a132fe",
+        "629e4651-983a-4b2a-9abb-97cef5c17790"
+      ]
+    },
+    {
+      "id": "d86bf7ac-fdcb-0484-8976-3ab563585d1a",
+      "title": "18 古诗二首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "344d436d-6c5c-4568-9943-98e6041f8e92",
+        "bc86bb65-f1b6-4bf9-9fe2-bcbbdfc459ce"
+      ]
+    },
+    {
+      "id": "12c08b34-3305-bb25-6057-625b8f591d24",
+      "title": "19 雾在哪里",
+      "type": "national_lesson",
+      "chapterIds": [
+        "344d436d-6c5c-4568-9943-98e6041f8e92",
+        "50516d01-4450-4372-917f-fb38dddddd78"
+      ]
+    },
+    {
+      "id": "6f4c2c16-adae-18d8-16b9-67982b4ac2b2",
+      "title": "20 雪孩子",
+      "type": "national_lesson",
+      "chapterIds": [
+        "344d436d-6c5c-4568-9943-98e6041f8e92",
+        "24ffbc12-3b3e-4fef-93a9-32442fcb8754"
+      ]
+    },
+    {
+      "id": "a42c6e7d-1e08-34dd-ceb7-f885770d6aad",
+      "title": "语文园地七",
+      "type": "national_lesson",
+      "chapterIds": [
+        "344d436d-6c5c-4568-9943-98e6041f8e92",
+        "e460ce1d-1d2b-4d7c-aa69-7250c7d3a095"
+      ]
+    },
+    {
+      "id": "c14733c8-37c7-e92c-2847-3136ca227439",
+      "title": "21 称赞",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38",
+        "1bbf6c9c-c1a7-4b06-8e07-a22f61b04c68"
+      ]
+    },
+    {
+      "id": "a918f32c-ee36-690c-365b-519e1ca9ad2a",
+      "title": "22 纸船和风筝",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38",
+        "ce392a7c-f10c-47c4-9644-3f2fc925bbdf"
+      ]
+    },
+    {
+      "id": "080688fc-d84e-7086-99fe-f422e103b049",
+      "title": "23 快乐的小河",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38",
+        "df818346-4901-47ef-b25a-efbbc3422bf5"
+      ]
+    },
+    {
+      "id": "2c6e7301-6148-23a0-7361-7c9ebb00fc83",
+      "title": "语文园地八",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8ca4a9ff-c1e4-4d1d-9b4a-46e80eb23d38",
+        "e0fc32b7-95e5-411c-a9fc-0faa01277c74"
+      ]
+    },
+    {
+      "id": "5e4407ce-53ba-16a5-d23f-5f567a1ab2c8",
+      "title": "读读童话故事",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+        "8f92c5af-2c93-4e61-9f14-7ede2521a55d",
+        "ae39ef3d-d338-4186-bc2d-84d0ded3a2ee"
+      ]
+    },
+    {
+      "id": "645b491e-9f19-fe64-8966-19ccfbad5831",
+      "title": "读读童话故事",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "cd80bbcc-6a73-40f6-bfb3-b16a3229987c",
+        "8f92c5af-2c93-4e61-9f14-7ede2521a55d",
+        "ae39ef3d-d338-4186-bc2d-84d0ded3a2ee"
+      ]
+    }
+  ]
+}

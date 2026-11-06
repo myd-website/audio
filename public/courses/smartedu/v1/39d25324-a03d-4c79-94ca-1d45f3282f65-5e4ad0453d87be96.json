@@ -1,0 +1,692 @@
+{
+  "version": 1,
+  "bookId": "39d25324-a03d-4c79-94ca-1d45f3282f65",
+  "chapters": [
+    {
+      "id": "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+      "title": "1　小数乘法",
+      "parentId": ""
+    },
+    {
+      "id": "76aec381-e9dd-3062-873a-bbb347efe492",
+      "title": "小数乘整数",
+      "parentId": "e04c5d0c-371e-347b-87d5-73d39a387fd0"
+    },
+    {
+      "id": "d0b6d590-2424-314d-93d8-bf689a3ae521",
+      "title": "小数乘小数",
+      "parentId": "e04c5d0c-371e-347b-87d5-73d39a387fd0"
+    },
+    {
+      "id": "090bf8c0-e4ce-3cc9-9f2d-45e0faa7e8b0",
+      "title": "积的近似数",
+      "parentId": "e04c5d0c-371e-347b-87d5-73d39a387fd0"
+    },
+    {
+      "id": "7e5bd59f-ad90-3cc6-a857-38572e165ba6",
+      "title": "整数乘法运算定律推广到小数",
+      "parentId": "e04c5d0c-371e-347b-87d5-73d39a387fd0"
+    },
+    {
+      "id": "e89ba7c5-0087-3739-bc3f-10061574f612",
+      "title": "解决问题",
+      "parentId": "e04c5d0c-371e-347b-87d5-73d39a387fd0"
+    },
+    {
+      "id": "a22fc689-3d7a-37f3-ace8-9eb2531e367e",
+      "title": "解决问题（估算）",
+      "parentId": "e89ba7c5-0087-3739-bc3f-10061574f612"
+    },
+    {
+      "id": "a094a7ee-0076-3f35-90c1-d1ddb73937c3",
+      "title": "解决问题（分段计费）",
+      "parentId": "e89ba7c5-0087-3739-bc3f-10061574f612"
+    },
+    {
+      "id": "1c90ddee-2959-3169-b15f-3843d81b733f",
+      "title": "2　位置",
+      "parentId": ""
+    },
+    {
+      "id": "74b89ca7-3aa9-3399-9107-aa06fee434bf",
+      "title": "确定位置",
+      "parentId": "1c90ddee-2959-3169-b15f-3843d81b733f"
+    },
+    {
+      "id": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+      "title": "3　小数除法",
+      "parentId": ""
+    },
+    {
+      "id": "d0df14e2-4ffc-3906-b305-68cffc0f0ccb",
+      "title": "除数是整数的小数除法",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "73d2d39d-2d1b-3dc8-9cce-fe4819503f4c",
+      "title": "一个数除以小数",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "a99fefe7-08cf-36ae-8942-10f72d47fe6f",
+      "title": "商的近似数",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "fa59898c-0e51-371d-ab1f-ced5106751ab",
+      "title": "循环小数",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "5f720a06-fb84-3bcd-befd-8d208d9d25c6",
+      "title": "用计算器探索规律",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "760f4656-f71a-3d17-bf11-b80fa47949cc",
+      "title": "解决问题",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "c09eaca8-a9ee-37fc-aa23-5c8004aac078",
+      "title": "整理和复习",
+      "parentId": "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663"
+    },
+    {
+      "id": "452de8a4-31b3-3fac-b4c6-504479218002",
+      "title": "4　可能性",
+      "parentId": ""
+    },
+    {
+      "id": "9f0be259-bfa6-372d-9eae-03181e5c27fd",
+      "title": "★掷一掷",
+      "parentId": ""
+    },
+    {
+      "id": "2de68ac4-f122-3de5-b51b-697992c70d8a",
+      "title": "5　简易方程",
+      "parentId": ""
+    },
+    {
+      "id": "6083ebf8-25df-334c-b996-10df9d5512b9",
+      "title": "用字母表示数",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "b4ce6f67-d267-3412-aa40-5dd43ef550d4",
+      "title": "用字母表示数（例1）",
+      "parentId": "6083ebf8-25df-334c-b996-10df9d5512b9"
+    },
+    {
+      "id": "fe1be839-fc14-3618-9e38-b59713cade91",
+      "title": "用字母表示数（例2）",
+      "parentId": "6083ebf8-25df-334c-b996-10df9d5512b9"
+    },
+    {
+      "id": "270951d8-78f8-32aa-8b48-9108ae3f80e6",
+      "title": "用字母表示数（例3）",
+      "parentId": "6083ebf8-25df-334c-b996-10df9d5512b9"
+    },
+    {
+      "id": "4c24972e-1b7f-38b0-b668-4aa7669c6700",
+      "title": "用字母表示数（例4）",
+      "parentId": "6083ebf8-25df-334c-b996-10df9d5512b9"
+    },
+    {
+      "id": "e6e99da9-77c5-3227-85be-4ac616a65572",
+      "title": "用字母表示数（例5）",
+      "parentId": "6083ebf8-25df-334c-b996-10df9d5512b9"
+    },
+    {
+      "id": "24adbb9c-678a-3fdc-b406-30902aab79cb",
+      "title": "方程的意义",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "51a2a19e-b312-3006-a077-c1bcf2b2c640",
+      "title": "等式的性质",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc",
+      "title": "解方程",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "2d247f34-8081-32cd-855c-43ef185fe2ea",
+      "title": "解方程（例1）",
+      "parentId": "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc"
+    },
+    {
+      "id": "96c6849a-87e5-3bf8-90eb-f248607fbd00",
+      "title": "解方程（例2）",
+      "parentId": "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc"
+    },
+    {
+      "id": "02315f5c-d52e-3998-b3b7-b4dcde7bd68e",
+      "title": "解方程（例3）",
+      "parentId": "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc"
+    },
+    {
+      "id": "6601ab2a-b697-39cf-900c-fdb94a226bb2",
+      "title": "解方程（例4）",
+      "parentId": "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc"
+    },
+    {
+      "id": "713342b0-9d39-321e-b958-e231ce449161",
+      "title": "解方程（例5）",
+      "parentId": "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc"
+    },
+    {
+      "id": "c55d4763-64de-3684-b1ee-411d30b44ed7",
+      "title": "实际问题与方程",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "217ac5e8-6d8a-32bf-9eeb-01007d7af766",
+      "title": "实际问题与方程（例6）",
+      "parentId": "c55d4763-64de-3684-b1ee-411d30b44ed7"
+    },
+    {
+      "id": "3320ed60-4810-3806-998f-f644ca489457",
+      "title": "实际问题与方程（例7）",
+      "parentId": "c55d4763-64de-3684-b1ee-411d30b44ed7"
+    },
+    {
+      "id": "9e7ea4d0-e8c3-33aa-9c2b-05a7945ae3d6",
+      "title": "实际问题与方程（例8）",
+      "parentId": "c55d4763-64de-3684-b1ee-411d30b44ed7"
+    },
+    {
+      "id": "7a56b7c1-89a0-362e-83eb-caa30e05e727",
+      "title": "实际问题与方程（例9）",
+      "parentId": "c55d4763-64de-3684-b1ee-411d30b44ed7"
+    },
+    {
+      "id": "0e688092-9988-3e3d-aa9c-55c83aa7e239",
+      "title": "解决问题（例10）",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "6dc129cc-11d3-3f70-a2d5-566ee29d75fd",
+      "title": "整理和复习",
+      "parentId": "2de68ac4-f122-3de5-b51b-697992c70d8a"
+    },
+    {
+      "id": "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+      "title": "6　多边形的面积",
+      "parentId": ""
+    },
+    {
+      "id": "c36ce8ec-0e55-311a-b15b-6dfbcb6dfe32",
+      "title": "平行四边形的面积",
+      "parentId": "3637b87d-3d66-36e0-98a1-d1d67f052be5"
+    },
+    {
+      "id": "b0284e35-7ea5-381b-9a05-4ee8fed65f16",
+      "title": "三角形的面积",
+      "parentId": "3637b87d-3d66-36e0-98a1-d1d67f052be5"
+    },
+    {
+      "id": "925cde0c-c599-3f6d-ae4b-da901e723876",
+      "title": "梯形的面积",
+      "parentId": "3637b87d-3d66-36e0-98a1-d1d67f052be5"
+    },
+    {
+      "id": "4351cba2-d3f8-3ef3-b53c-9c23401b5403",
+      "title": "组合图形的面积",
+      "parentId": "3637b87d-3d66-36e0-98a1-d1d67f052be5"
+    },
+    {
+      "id": "96ae1030-4550-3f25-b6b3-9884fa9c4cc0",
+      "title": "解决问题（不规则图形的面积）",
+      "parentId": "3637b87d-3d66-36e0-98a1-d1d67f052be5"
+    },
+    {
+      "id": "32180fae-3303-337d-8aea-d1410f2b4fc6",
+      "title": "整理和复习",
+      "parentId": "3637b87d-3d66-36e0-98a1-d1d67f052be5"
+    },
+    {
+      "id": "fd871745-a783-3fb3-b774-5d5349dbf15a",
+      "title": "7　数学广角──植树问题",
+      "parentId": ""
+    },
+    {
+      "id": "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9",
+      "title": "8　总复习",
+      "parentId": ""
+    },
+    {
+      "id": "36b13310-d05c-3bd3-8e3f-2f54c89446ea",
+      "title": "小数乘除法",
+      "parentId": "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9"
+    },
+    {
+      "id": "84cd1e71-147e-31ad-b0c1-26cec3832feb",
+      "title": "式与方程",
+      "parentId": "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9"
+    },
+    {
+      "id": "9a1c99b1-ca3c-3c67-a829-f4d6a26e4372",
+      "title": "多边形的面积及可能性",
+      "parentId": "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9"
+    },
+    {
+      "id": "a26b71cb-e122-3788-901e-199d44cfe134",
+      "title": "综合练习",
+      "parentId": "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "4b1c2cdf-3312-44aa-9698-a6df671d64cb",
+      "title": "积的近似数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+        "090bf8c0-e4ce-3cc9-9f2d-45e0faa7e8b0"
+      ]
+    },
+    {
+      "id": "8814c7dc-3b5f-44c4-9db0-52a6903dbb1c",
+      "title": "整数乘法运算定律推广到小数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+        "7e5bd59f-ad90-3cc6-a857-38572e165ba6"
+      ]
+    },
+    {
+      "id": "85961024-0398-4289-b946-128cb006ad71",
+      "title": "商的近似数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "a99fefe7-08cf-36ae-8942-10f72d47fe6f"
+      ]
+    },
+    {
+      "id": "b5085877-b9e9-426a-adab-f89e3434daeb",
+      "title": "循环小数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "fa59898c-0e51-371d-ab1f-ced5106751ab"
+      ]
+    },
+    {
+      "id": "bf57d09e-39d5-42e4-bc89-3517efe27bfc",
+      "title": "用计算器探索规律",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "5f720a06-fb84-3bcd-befd-8d208d9d25c6"
+      ]
+    },
+    {
+      "id": "e3caaab8-d210-41dc-ab85-5ba5e9e07408",
+      "title": "解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "760f4656-f71a-3d17-bf11-b80fa47949cc"
+      ]
+    },
+    {
+      "id": "d1a59df4-c52b-4c35-a817-9ebb167bdb36",
+      "title": "小数乘除法的整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "c09eaca8-a9ee-37fc-aa23-5c8004aac078"
+      ]
+    },
+    {
+      "id": "b62b283c-daa2-492f-bd44-925179f0a2ed",
+      "title": "掷一掷",
+      "type": "national_lesson",
+      "chapterIds": [
+        "9f0be259-bfa6-372d-9eae-03181e5c27fd"
+      ]
+    },
+    {
+      "id": "dcacd1f3-89ab-4a2c-92b7-9a4101dc5eaa",
+      "title": "方程的意义",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "24adbb9c-678a-3fdc-b406-30902aab79cb"
+      ]
+    },
+    {
+      "id": "4b4574af-3bff-466f-b8a1-113691217a50",
+      "title": "等式的性质",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "51a2a19e-b312-3006-a077-c1bcf2b2c640"
+      ]
+    },
+    {
+      "id": "80ab9d9e-1b62-4480-be16-e9e42e2a4d62",
+      "title": "简易方程整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "6dc129cc-11d3-3f70-a2d5-566ee29d75fd"
+      ]
+    },
+    {
+      "id": "ec242cde-e975-4b7d-85ab-3f926ca5c4bf",
+      "title": "组合图形的面积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+        "4351cba2-d3f8-3ef3-b53c-9c23401b5403"
+      ]
+    },
+    {
+      "id": "8ab21204-a58f-44b1-862f-c62b5011cefa",
+      "title": "解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+        "96ae1030-4550-3f25-b6b3-9884fa9c4cc0"
+      ]
+    },
+    {
+      "id": "8f2dfe3b-ab2c-4b6d-9c0e-c2da5c892a83",
+      "title": "多边形的面积整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+        "32180fae-3303-337d-8aea-d1410f2b4fc6"
+      ]
+    },
+    {
+      "id": "12b3206d-c2a5-42ab-b572-3b763886b477",
+      "title": "小数乘整数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+        "76aec381-e9dd-3062-873a-bbb347efe492"
+      ]
+    },
+    {
+      "id": "6bdcfbb5-1e77-4e05-83e5-955ba7d47e6f",
+      "title": "小数乘小数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+        "d0b6d590-2424-314d-93d8-bf689a3ae521"
+      ]
+    },
+    {
+      "id": "2ccc01d3-ed81-47f6-b9e6-d20be4f0f793",
+      "title": "解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+        "e89ba7c5-0087-3739-bc3f-10061574f612",
+        "a22fc689-3d7a-37f3-ace8-9eb2531e367e"
+      ]
+    },
+    {
+      "id": "f9bdd6c4-7fd3-42d6-9ea4-5e8c2876ebf5",
+      "title": "位置",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1c90ddee-2959-3169-b15f-3843d81b733f",
+        "74b89ca7-3aa9-3399-9107-aa06fee434bf"
+      ]
+    },
+    {
+      "id": "9a77ffb0-9b1a-451e-b1b8-01cf8e5f0ac6",
+      "title": "除数是整数的小数除法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "d0df14e2-4ffc-3906-b305-68cffc0f0ccb"
+      ]
+    },
+    {
+      "id": "3a30b504-9a79-4ae7-824d-6e307f573983",
+      "title": "一个数除以小数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ccc6ed72-8c37-3f9a-9bd6-88ad760c6663",
+        "73d2d39d-2d1b-3dc8-9cce-fe4819503f4c"
+      ]
+    },
+    {
+      "id": "c6d03265-9867-4040-a190-4cb66892bdde",
+      "title": "可能性",
+      "type": "national_lesson",
+      "chapterIds": [
+        "452de8a4-31b3-3fac-b4c6-504479218002"
+      ]
+    },
+    {
+      "id": "7dc26415-5563-40a8-b749-f0f1e20710ee",
+      "title": "用字母表示数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "6083ebf8-25df-334c-b996-10df9d5512b9",
+        "b4ce6f67-d267-3412-aa40-5dd43ef550d4"
+      ]
+    },
+    {
+      "id": "3fd818ed-5d6e-4c1c-bcab-9fda71fdbe33",
+      "title": "解方程",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc",
+        "2d247f34-8081-32cd-855c-43ef185fe2ea"
+      ]
+    },
+    {
+      "id": "13c35088-ee5a-4f9e-9c8a-52b4d3bf4dff",
+      "title": "实际问题与方程",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "c55d4763-64de-3684-b1ee-411d30b44ed7",
+        "217ac5e8-6d8a-32bf-9eeb-01007d7af766"
+      ]
+    },
+    {
+      "id": "7c46fa69-80ef-4aee-a43d-efe01366a73b",
+      "title": "平行四边形的面积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+        "c36ce8ec-0e55-311a-b15b-6dfbcb6dfe32"
+      ]
+    },
+    {
+      "id": "11262e08-b436-42ad-8c94-fd983c847cf0",
+      "title": "三角形的面积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+        "b0284e35-7ea5-381b-9a05-4ee8fed65f16"
+      ]
+    },
+    {
+      "id": "f5615639-226d-42f7-b1ca-a16cce9fcfcb",
+      "title": "梯形的面积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3637b87d-3d66-36e0-98a1-d1d67f052be5",
+        "925cde0c-c599-3f6d-ae4b-da901e723876"
+      ]
+    },
+    {
+      "id": "b5152234-fa65-4043-b100-7f7997685767",
+      "title": "植树问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fd871745-a783-3fb3-b774-5d5349dbf15a"
+      ]
+    },
+    {
+      "id": "a88aa456-4123-73ac-7796-271fb7eb112e",
+      "title": "实际问题与方程（例9）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "c55d4763-64de-3684-b1ee-411d30b44ed7",
+        "7a56b7c1-89a0-362e-83eb-caa30e05e727"
+      ]
+    },
+    {
+      "id": "905dde65-4bee-83bd-8ed6-bca8278603f2",
+      "title": "小数乘除法复习",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9",
+        "36b13310-d05c-3bd3-8e3f-2f54c89446ea"
+      ]
+    },
+    {
+      "id": "527ae959-b36f-f480-a28b-d5ffeb0e3b10",
+      "title": "式与方程",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9",
+        "84cd1e71-147e-31ad-b0c1-26cec3832feb"
+      ]
+    },
+    {
+      "id": "af3c5bb1-2b80-6f76-4828-bef4484adf1e",
+      "title": "解决问题（分段计费）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e04c5d0c-371e-347b-87d5-73d39a387fd0",
+        "e89ba7c5-0087-3739-bc3f-10061574f612",
+        "a094a7ee-0076-3f35-90c1-d1ddb73937c3"
+      ]
+    },
+    {
+      "id": "1dca458c-e4de-52c9-6276-e81717f5aea7",
+      "title": "用字母表示数（例3）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "6083ebf8-25df-334c-b996-10df9d5512b9",
+        "270951d8-78f8-32aa-8b48-9108ae3f80e6"
+      ]
+    },
+    {
+      "id": "545a4b48-176c-da6f-8d62-c64849726158",
+      "title": "解方程（例5）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc",
+        "713342b0-9d39-321e-b958-e231ce449161"
+      ]
+    },
+    {
+      "id": "2af75e2c-a732-ac37-d1a5-d34bd7d632cd",
+      "title": "用字母表示数（例2）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "6083ebf8-25df-334c-b996-10df9d5512b9",
+        "fe1be839-fc14-3618-9e38-b59713cade91"
+      ]
+    },
+    {
+      "id": "3fcab25b-d747-084c-cb48-e18267718bf5",
+      "title": "解方程（例4）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc",
+        "6601ab2a-b697-39cf-900c-fdb94a226bb2"
+      ]
+    },
+    {
+      "id": "bb6bc075-332e-25ab-8ac2-26e9f0d54023",
+      "title": "用字母表示数（例5）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "6083ebf8-25df-334c-b996-10df9d5512b9",
+        "e6e99da9-77c5-3227-85be-4ac616a65572"
+      ]
+    },
+    {
+      "id": "864f4abc-d07a-54b4-2170-30e60af21d22",
+      "title": "解决问题（例10）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "0e688092-9988-3e3d-aa9c-55c83aa7e239"
+      ]
+    },
+    {
+      "id": "5e188133-c291-b11a-5eec-5caacb03d24c",
+      "title": "实际问题与方程（例8）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "c55d4763-64de-3684-b1ee-411d30b44ed7",
+        "9e7ea4d0-e8c3-33aa-9c2b-05a7945ae3d6"
+      ]
+    },
+    {
+      "id": "dc2baedc-316d-3ca7-7245-09d73e857615",
+      "title": "实际问题与方程（例8）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "c55d4763-64de-3684-b1ee-411d30b44ed7",
+        "9e7ea4d0-e8c3-33aa-9c2b-05a7945ae3d6"
+      ]
+    },
+    {
+      "id": "8ae7e49f-83f9-d06c-0184-0f4fb1e722a4",
+      "title": "用字母表示数（例4）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "6083ebf8-25df-334c-b996-10df9d5512b9",
+        "4c24972e-1b7f-38b0-b668-4aa7669c6700"
+      ]
+    },
+    {
+      "id": "8ae7e4a1-83f9-d08f-0184-0f551ce622f2",
+      "title": "解方程（例2）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "d4e07d19-73bd-34a4-9fbe-e1fd9c0044cc",
+        "96c6849a-87e5-3bf8-90eb-f248607fbd00"
+      ]
+    },
+    {
+      "id": "8ae7e4a7-83d5-d04d-0183-d672129002d4",
+      "title": "实际问题与方程（例7）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2de68ac4-f122-3de5-b51b-697992c70d8a",
+        "c55d4763-64de-3684-b1ee-411d30b44ed7",
+        "3320ed60-4810-3806-998f-f644ca489457"
+      ]
+    },
+    {
+      "id": "8ae7e4a0-8460-ac4d-0184-7a17d66d039e",
+      "title": "多边形的面积及可能性",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e8c09aad-0dd9-3afd-abfe-4fd68ce92fa9",
+        "9a1c99b1-ca3c-3c67-a829-f4d6a26e4372"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "version": 1,
+  "bookId": "a6de91b7-4b52-475e-aa05-a508af43f4c2",
+  "chapters": [
+    {
+      "id": "bfb88c28-6d32-48cc-ae55-c92c35483965",
+      "title": "一、观察物体",
+      "parentId": ""
+    },
+    {
+      "id": "b343437b-190e-4cdc-9c22-74af12a618b0",
+      "title": "观察简单的立体积木",
+      "parentId": "bfb88c28-6d32-48cc-ae55-c92c35483965"
+    },
+    {
+      "id": "d63d88fe-16a5-4fb8-b6ad-97b2679279ac",
+      "title": "根据直观图猜测积木形状",
+      "parentId": "bfb88c28-6d32-48cc-ae55-c92c35483965"
+    },
+    {
+      "id": "09e0fe08-1bdc-4e7a-bd5a-88d6b7494b86",
+      "title": "长方体纸盒的展开",
+      "parentId": "bfb88c28-6d32-48cc-ae55-c92c35483965"
+    },
+    {
+      "id": "fe97473b-b42a-4215-8030-d35435e8d5b8",
+      "title": "二、混合运算",
+      "parentId": ""
+    },
+    {
+      "id": "959794d9-4d43-4df2-beac-0c92a1d356ca",
+      "title": "同级运算",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "02a6c547-4e66-43f4-ba29-0a1403c4448e",
+      "title": "两级运算",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "0d943438-c66f-469f-90e2-aec1a7a79bba",
+      "title": "含有小括号的两级运算",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "1fb94698-c437-4ea5-a81f-fc7bab17c49f",
+      "title": "解决问题(同级运算)",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "0b1585ce-ee8a-4097-bbb3-85414c02449b",
+      "title": "解决问题(两级计算)",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "f42f81bd-fe23-4b68-978a-82b211d9b73f",
+      "title": "解决问题(两种思路)",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "60fde8a4-fcaa-4d0b-859e-76772f312a4a",
+      "title": "整理和复习",
+      "parentId": "fe97473b-b42a-4215-8030-d35435e8d5b8"
+    },
+    {
+      "id": "bd1021ba-872e-47c0-9598-8a166eb7527d",
+      "title": "三、毫米、分米和千米",
+      "parentId": ""
+    },
+    {
+      "id": "3a9d2b83-0f6e-495a-b665-07b5d152e66c",
+      "title": "毫米的认识",
+      "parentId": "bd1021ba-872e-47c0-9598-8a166eb7527d"
+    },
+    {
+      "id": "bce37ee0-274e-42b1-a76e-a17221c66b2a",
+      "title": "分米的认识及单位换算",
+      "parentId": "bd1021ba-872e-47c0-9598-8a166eb7527d"
+    },
+    {
+      "id": "83ea5d7c-d898-4bae-9ce3-20ab8b4af2ef",
+      "title": "千米的认识及单位换算",
+      "parentId": "bd1021ba-872e-47c0-9598-8a166eb7527d"
+    },
+    {
+      "id": "a41fd212-b712-4531-bb43-bbf24aad4546",
+      "title": "问题解决（估测距离）",
+      "parentId": "bd1021ba-872e-47c0-9598-8a166eb7527d"
+    },
+    {
+      "id": "8e8d099d-9903-439b-b103-e26a78394cfc",
+      "title": "整理和复习",
+      "parentId": "bd1021ba-872e-47c0-9598-8a166eb7527d"
+    },
+    {
+      "id": "12a2edad-b41e-4eac-a7ec-b1af73de528f",
+      "title": "曹冲称象的故事",
+      "parentId": ""
+    },
+    {
+      "id": "d7f1b721-a355-4679-87b2-b1268c578648",
+      "title": "曹冲称象的故事（等量代换）",
+      "parentId": "12a2edad-b41e-4eac-a7ec-b1af73de528f"
+    },
+    {
+      "id": "a4143015-b0b4-4c15-aae0-b1a090abdcd3",
+      "title": "认识质量单位",
+      "parentId": "12a2edad-b41e-4eac-a7ec-b1af73de528f"
+    },
+    {
+      "id": "0dbfee57-071a-4d20-81d7-57141ae05e30",
+      "title": "称重我很行",
+      "parentId": "12a2edad-b41e-4eac-a7ec-b1af73de528f"
+    },
+    {
+      "id": "681b311c-07e8-4e71-afd1-e1b10393eb44",
+      "title": "称重大挑战",
+      "parentId": "12a2edad-b41e-4eac-a7ec-b1af73de528f"
+    },
+    {
+      "id": "958a047f-37b0-4b7d-a4fe-ec19d7ee93e3",
+      "title": "小讲堂",
+      "parentId": "12a2edad-b41e-4eac-a7ec-b1af73de528f"
+    },
+    {
+      "id": "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+      "title": "四、多位数乘一位数",
+      "parentId": ""
+    },
+    {
+      "id": "2b8becff-b628-4837-8a96-0638af57a64e",
+      "title": "口算乘法",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "f4e3ee1e-e45e-490b-834f-116274c8c441",
+      "title": "笔算乘法(不进位)",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "9c089826-6171-49f8-8efd-60db15603ca5",
+      "title": "笔算乘法(进位)",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "99d1bdd2-4507-46e6-8e65-9db721855547",
+      "title": "笔算乘法(连续进位)",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "551de6b3-d2ef-4ee4-b948-4c3bd2470aa2",
+      "title": "笔算乘法(0的乘法)",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "9e722ed2-4511-4f8c-b292-688fbee13a10",
+      "title": "笔算乘法(数位中间或末尾有0)",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "2bbb0729-60c5-449d-8bee-34ce45a7cd98",
+      "title": "乘法估算",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "efbda663-60a1-4a5d-9d9b-7d136452d4fa",
+      "title": "整理和复习",
+      "parentId": "5a37f979-4bdc-491e-b8b9-a26c153c2912"
+    },
+    {
+      "id": "fb9e425e-348e-4d81-9430-70c049989491",
+      "title": "数字编码",
+      "parentId": ""
+    },
+    {
+      "id": "015430b7-b6f7-4ea6-8295-23a8798b06af",
+      "title": "认识数字编码",
+      "parentId": "fb9e425e-348e-4d81-9430-70c049989491"
+    },
+    {
+      "id": "0086b333-2bf4-4239-9783-7076152431eb",
+      "title": "编制学号",
+      "parentId": "fb9e425e-348e-4d81-9430-70c049989491"
+    },
+    {
+      "id": "1210eb5e-1f77-45e4-a538-3c41c6230fe6",
+      "title": "五、线和角",
+      "parentId": ""
+    },
+    {
+      "id": "2e95e0fd-5285-47d0-8255-8ecce33f6683",
+      "title": "线段、射线、直线的概念",
+      "parentId": "1210eb5e-1f77-45e4-a538-3c41c6230fe6"
+    },
+    {
+      "id": "ed21318c-6a8c-4cf9-84e8-1f95bfe8300e",
+      "title": "用圆规比较线段的长短",
+      "parentId": "1210eb5e-1f77-45e4-a538-3c41c6230fe6"
+    },
+    {
+      "id": "87f84d44-1e5d-43dc-b9e1-6897191c231a",
+      "title": "角的认识",
+      "parentId": "1210eb5e-1f77-45e4-a538-3c41c6230fe6"
+    },
+    {
+      "id": "2e70646f-68a2-46a1-b4eb-b80aca53a5f0",
+      "title": "直角、锐角、钝角",
+      "parentId": "1210eb5e-1f77-45e4-a538-3c41c6230fe6"
+    },
+    {
+      "id": "667c1ecb-bb5d-4c2d-ab22-9555b6da199d",
+      "title": "整理和复习",
+      "parentId": "1210eb5e-1f77-45e4-a538-3c41c6230fe6"
+    },
+    {
+      "id": "89a34333-0e42-409b-8259-d09f4bcf97c9",
+      "title": "六、分数的初步认识",
+      "parentId": ""
+    },
+    {
+      "id": "273b1e66-eb5d-4c55-b6fa-b4f21323fed8",
+      "title": "认识二分之一",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "32135d6a-241e-4c04-b84b-57786dd7781d",
+      "title": "认识几分之一",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "87cbf5bb-4e02-4eec-9820-2df3e1c75c76",
+      "title": "认识几分之几",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "f3515a32-4845-4995-97e6-d454ec47c302",
+      "title": "简单的分数大小比较",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "3d1e22f9-389d-48c9-a188-9971aec0d70b",
+      "title": "同分母分数的加减法",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "bf41ce47-a956-46a7-8213-7619fa75170e",
+      "title": "分数的简单计算",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "c26db42e-5605-4df4-b720-d349eb102149",
+      "title": "进一步认识分数",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "781bfd7e-74d3-44e4-bed6-7bcfbaab1ca5",
+      "title": "问题解决",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "02158316-79d8-46a5-8903-18c551be37c1",
+      "title": "整理和复习",
+      "parentId": "89a34333-0e42-409b-8259-d09f4bcf97c9"
+    },
+    {
+      "id": "d52a54e7-52d6-41bd-9f80-1a22f07e9100",
+      "title": "七、复习与关联",
+      "parentId": ""
+    },
+    {
+      "id": "a2b5c399-8c71-4b8d-91e3-9bf0b9aa18b5",
+      "title": "数与运算",
+      "parentId": "d52a54e7-52d6-41bd-9f80-1a22f07e9100"
+    },
+    {
+      "id": "5747d406-f171-4ed6-937f-5d9364b5d219",
+      "title": "数量关系",
+      "parentId": "d52a54e7-52d6-41bd-9f80-1a22f07e9100"
+    },
+    {
+      "id": "29ad4bfa-087a-488d-b7f8-b8d906a6abe6",
+      "title": "图形的认识与测量",
+      "parentId": "d52a54e7-52d6-41bd-9f80-1a22f07e9100"
+    },
+    {
+      "id": "b0b466b4-3ced-4d5d-9b46-54e1e882c4cd",
+      "title": "数学广角：搭配问题",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "caa07407-7aa0-a808-5782-ebda16345229",
+      "title": "根据直观图猜测积木形状",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bfb88c28-6d32-48cc-ae55-c92c35483965",
+        "d63d88fe-16a5-4fb8-b6ad-97b2679279ac"
+      ]
+    },
+    {
+      "id": "3a71b671-2ab3-920e-1ea7-ceb797aa32a3",
+      "title": "观察简单的立体积木",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bfb88c28-6d32-48cc-ae55-c92c35483965",
+        "b343437b-190e-4cdc-9c22-74af12a618b0"
+      ]
+    },
+    {
+      "id": "0d849f56-b6d8-c5f6-5dc9-1385c8ad2ed7",
+      "title": "长方体纸盒的展开",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bfb88c28-6d32-48cc-ae55-c92c35483965",
+        "09e0fe08-1bdc-4e7a-bd5a-88d6b7494b86"
+      ]
+    },
+    {
+      "id": "beeb5a1c-c268-7aee-8964-e6ad52d52fd5",
+      "title": "混合运算（同级运算）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "959794d9-4d43-4df2-beac-0c92a1d356ca"
+      ]
+    },
+    {
+      "id": "795d62e7-74cd-4318-d49e-dea20216636d",
+      "title": "混合运算（两级运算）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "02a6c547-4e66-43f4-ba29-0a1403c4448e"
+      ]
+    },
+    {
+      "id": "76314b78-41b1-04c9-2e4f-5def04e5bf56",
+      "title": "混合运算（含有括号的混合运算）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "0d943438-c66f-469f-90e2-aec1a7a79bba"
+      ]
+    },
+    {
+      "id": "85aeb25e-47c7-b851-c769-dc3c9d096717",
+      "title": "解决问题（同级运算）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "1fb94698-c437-4ea5-a81f-fc7bab17c49f"
+      ]
+    },
+    {
+      "id": "b7c07872-80fd-3193-5e54-7de226c0d280",
+      "title": "解决问题（两级计算）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "0b1585ce-ee8a-4097-bbb3-85414c02449b"
+      ]
+    },
+    {
+      "id": "f061f663-7f5a-4a3e-8afb-eb455531927c",
+      "title": "解决问题（两种思路）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "f42f81bd-fe23-4b68-978a-82b211d9b73f"
+      ]
+    },
+    {
+      "id": "3c0640ca-7e7c-9d16-fbed-8e925da3c256",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fe97473b-b42a-4215-8030-d35435e8d5b8",
+        "60fde8a4-fcaa-4d0b-859e-76772f312a4a"
+      ]
+    },
+    {
+      "id": "00b449df-086e-2d5d-49f8-564be6196f15",
+      "title": "毫米的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd1021ba-872e-47c0-9598-8a166eb7527d",
+        "3a9d2b83-0f6e-495a-b665-07b5d152e66c"
+      ]
+    },
+    {
+      "id": "72e98438-ec47-e585-d7af-8c6a6595a38d",
+      "title": "分米的认识及单位换算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd1021ba-872e-47c0-9598-8a166eb7527d",
+        "bce37ee0-274e-42b1-a76e-a17221c66b2a"
+      ]
+    },
+    {
+      "id": "22702544-f090-86ce-dbd5-fc2241f3041b",
+      "title": "千米的认识及单位换算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd1021ba-872e-47c0-9598-8a166eb7527d",
+        "83ea5d7c-d898-4bae-9ce3-20ab8b4af2ef"
+      ]
+    },
+    {
+      "id": "1581a706-63ac-322a-d7bf-079275e45a23",
+      "title": "问题解决（估测距离）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd1021ba-872e-47c0-9598-8a166eb7527d",
+        "a41fd212-b712-4531-bb43-bbf24aad4546"
+      ]
+    },
+    {
+      "id": "e1be6312-eec2-c00e-10c0-cdb56ae6992f",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd1021ba-872e-47c0-9598-8a166eb7527d",
+        "8e8d099d-9903-439b-b103-e26a78394cfc"
+      ]
+    },
+    {
+      "id": "f572f6cd-a45d-942f-66a2-8d713c7df100",
+      "title": "曹冲称象的故事（等量代换）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "12a2edad-b41e-4eac-a7ec-b1af73de528f",
+        "d7f1b721-a355-4679-87b2-b1268c578648"
+      ]
+    },
+    {
+      "id": "f9bd2529-b44e-0406-df57-53e858a510a7",
+      "title": "认识质量单位",
+      "type": "national_lesson",
+      "chapterIds": [
+        "12a2edad-b41e-4eac-a7ec-b1af73de528f",
+        "a4143015-b0b4-4c15-aae0-b1a090abdcd3"
+      ]
+    },
+    {
+      "id": "0a465815-7203-0c7c-fd90-59e7ee01c5a5",
+      "title": "称重我很行",
+      "type": "national_lesson",
+      "chapterIds": [
+        "12a2edad-b41e-4eac-a7ec-b1af73de528f",
+        "0dbfee57-071a-4d20-81d7-57141ae05e30"
+      ]
+    },
+    {
+      "id": "3a8e7100-c431-76f1-977e-bbb4c28624a5",
+      "title": "称重大挑战",
+      "type": "national_lesson",
+      "chapterIds": [
+        "12a2edad-b41e-4eac-a7ec-b1af73de528f",
+        "681b311c-07e8-4e71-afd1-e1b10393eb44"
+      ]
+    },
+    {
+      "id": "2d18d3c3-0c73-5f3a-05d7-90578ed2dc5a",
+      "title": "小讲堂",
+      "type": "national_lesson",
+      "chapterIds": [
+        "12a2edad-b41e-4eac-a7ec-b1af73de528f",
+        "958a047f-37b0-4b7d-a4fe-ec19d7ee93e3"
+      ]
+    },
+    {
+      "id": "7d54be2f-2ddf-2422-42bf-a4fece6902ce",
+      "title": "口算乘法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "2b8becff-b628-4837-8a96-0638af57a64e"
+      ]
+    },
+    {
+      "id": "1946cec5-ab9f-502a-b9a6-629dd3c43e34",
+      "title": "笔算乘法（不进位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "f4e3ee1e-e45e-490b-834f-116274c8c441"
+      ]
+    },
+    {
+      "id": "770edf40-f71d-3e82-7242-1532c20aea9a",
+      "title": "笔算乘法（进位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "9c089826-6171-49f8-8efd-60db15603ca5"
+      ]
+    },
+    {
+      "id": "66a20b56-dce9-bf23-09c8-47bf1429f892",
+      "title": "笔算乘法（连续进位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "99d1bdd2-4507-46e6-8e65-9db721855547"
+      ]
+    },
+    {
+      "id": "c3804eae-3108-a371-9174-38dcd495bc98",
+      "title": "笔算乘法（0的乘法）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "551de6b3-d2ef-4ee4-b948-4c3bd2470aa2"
+      ]
+    },
+    {
+      "id": "09d13d99-f93f-3c29-7986-08706c7f6077",
+      "title": "笔算乘法（中间或末尾有0）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "9e722ed2-4511-4f8c-b292-688fbee13a10"
+      ]
+    },
+    {
+      "id": "2ede56f5-0412-6616-3e89-eef393a13d4e",
+      "title": "乘法估算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "2bbb0729-60c5-449d-8bee-34ce45a7cd98"
+      ]
+    },
+    {
+      "id": "6ee474d8-0685-f787-7546-e1828f41a325",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "5a37f979-4bdc-491e-b8b9-a26c153c2912",
+        "efbda663-60a1-4a5d-9d9b-7d136452d4fa"
+      ]
+    },
+    {
+      "id": "475e83c2-a2b0-910d-40b5-454933729fb7",
+      "title": "认识数字编码",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fb9e425e-348e-4d81-9430-70c049989491",
+        "015430b7-b6f7-4ea6-8295-23a8798b06af"
+      ]
+    },
+    {
+      "id": "736d4873-49ae-56c0-7bcd-38f48bdaa047",
+      "title": "数字编码（编制学号）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fb9e425e-348e-4d81-9430-70c049989491",
+        "0086b333-2bf4-4239-9783-7076152431eb"
+      ]
+    },
+    {
+      "id": "d2141786-bdc9-0eab-0abd-c9cd7d199e4d",
+      "title": "线段、射线、直线的概念",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1210eb5e-1f77-45e4-a538-3c41c6230fe6",
+        "2e95e0fd-5285-47d0-8255-8ecce33f6683"
+      ]
+    },
+    {
+      "id": "5185fd6f-d2a5-66fd-605d-9ee6b6c9b07b",
+      "title": "用圆规比较线段的长短",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1210eb5e-1f77-45e4-a538-3c41c6230fe6",
+        "ed21318c-6a8c-4cf9-84e8-1f95bfe8300e"
+      ]
+    },
+    {
+      "id": "3a2e2aa6-8b39-12c7-10f4-9693903b063c",
+      "title": "角的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1210eb5e-1f77-45e4-a538-3c41c6230fe6",
+        "87f84d44-1e5d-43dc-b9e1-6897191c231a"
+      ]
+    },
+    {
+      "id": "cebf4b75-f5f4-3fe8-6ae6-4ecfbe82a37c",
+      "title": "直角、锐角、钝角",
+      "type": "national_lesson",
+      "chapterIds": [
+        "1210eb5e-1f77-45e4-a538-3c41c6230fe6",
+        "2e70646f-68a2-46a1-b4eb-b80aca53a5f0"
+      ]
+    },
+    {
+      "id": "241b8946-fdd5-c91b-2547-8aada7b3bc80",
+      "title": "认识二分之一",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "273b1e66-eb5d-4c55-b6fa-b4f21323fed8"
+      ]
+    },
+    {
+      "id": "8c84a565-624e-1d17-a7c5-94bfdfacaf3d",
+      "title": "认识几分之一",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "32135d6a-241e-4c04-b84b-57786dd7781d"
+      ]
+    },
+    {
+      "id": "faaae238-46dc-ae5b-fd00-eb7d87d0f729",
+      "title": "认识几分之几",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "87cbf5bb-4e02-4eec-9820-2df3e1c75c76"
+      ]
+    },
+    {
+      "id": "69792add-3af6-cddc-e6b2-2bdc797b4ca1",
+      "title": "简单的分数大小比较",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "f3515a32-4845-4995-97e6-d454ec47c302"
+      ]
+    },
+    {
+      "id": "4a99d765-ad89-fde5-2d1e-8bf0f519e07d",
+      "title": "同分母分数的加减法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "3d1e22f9-389d-48c9-a188-9971aec0d70b"
+      ]
+    },
+    {
+      "id": "84ba46e8-f7bc-2df3-6125-f6881ddea52e",
+      "title": "分数的简单计算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "bf41ce47-a956-46a7-8213-7619fa75170e"
+      ]
+    },
+    {
+      "id": "16e046a5-6d9b-faa4-c47e-b4c1bf31f2d3",
+      "title": "进一步认识分数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "c26db42e-5605-4df4-b720-d349eb102149"
+      ]
+    },
+    {
+      "id": "2aae6c6e-2595-8efc-2d7a-137d6fe8bc1a",
+      "title": "问题解决",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "781bfd7e-74d3-44e4-bed6-7bcfbaab1ca5"
+      ]
+    },
+    {
+      "id": "ae377846-23d4-c68a-be1d-ebf8f2484671",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "89a34333-0e42-409b-8259-d09f4bcf97c9",
+        "02158316-79d8-46a5-8903-18c551be37c1"
+      ]
+    },
+    {
+      "id": "ef1d81be-855a-ff0a-08ee-26ea9feb9ae7",
+      "title": "数与运算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d52a54e7-52d6-41bd-9f80-1a22f07e9100",
+        "a2b5c399-8c71-4b8d-91e3-9bf0b9aa18b5"
+      ]
+    },
+    {
+      "id": "5a2dbecc-6bfc-f8b9-f250-fce9858d301a",
+      "title": "数量关系",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d52a54e7-52d6-41bd-9f80-1a22f07e9100",
+        "5747d406-f171-4ed6-937f-5d9364b5d219"
+      ]
+    },
+    {
+      "id": "3d5c14d5-8541-809e-955a-2a8d682a5c2b",
+      "title": "图形的认识与测量",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d52a54e7-52d6-41bd-9f80-1a22f07e9100",
+        "29ad4bfa-087a-488d-b7f8-b8d906a6abe6"
+      ]
+    },
+    {
+      "id": "b1e9df56-7060-f144-c64b-6d2bdf438971",
+      "title": "选学数学广角（搭配问题）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "b0b466b4-3ced-4d5d-9b46-54e1e882c4cd"
+      ]
+    },
+    {
+      "id": "bdb7b3b9-5c0b-2d2f-f4e8-0b95f3c1a388",
+      "title": "整理和复习",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "1210eb5e-1f77-45e4-a538-3c41c6230fe6",
+        "667c1ecb-bb5d-4c2d-ab22-9555b6da199d"
+      ]
+    }
+  ]
+}

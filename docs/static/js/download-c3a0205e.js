@@ -1,0 +1,1 @@
+function n(c,t){const o=URL.createObjectURL(c),e=document.createElement("a");e.href=o,e.download=t.replace(/[\\/:*?"<>|\u0000-\u001f]/g,"_").slice(0,160),document.body.appendChild(e),e.click(),e.remove(),window.setTimeout(()=>URL.revokeObjectURL(o),6e4)}export{n as d};

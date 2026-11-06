@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "buckets": 128,
+  "sources": {
+    "chinese": {
+      "repository": "pwxcoo/chinese-xinhua",
+      "revision": "fe6d6c2e8baa82187f4c96bbe042e43f96c05666"
+    },
+    "english": {
+      "repository": "skywind3000/ECDICT",
+      "revision": "39cfb9672c0906b63569e0453c2e6abfb9ab182a"
+    }
+  },
+  "datasets": {
+    "character": {
+      "entries": 16142,
+      "bytes": 6415207,
+      "maxShardBytes": 62730,
+      "sourceSha256": "8ae3453eacc5b0f3fdfba47eac8bb686cd73914d278e8b851ae6ef81082f80e7"
+    },
+    "word": {
+      "entries": 264414,
+      "bytes": 30365351,
+      "maxShardBytes": 573015,
+      "sourceSha256": "739e086d61dc9b95cd1df92095720e6391f952a41c476d3281ef95ebed869a09"
+    },
+    "idiom": {
+      "entries": 30895,
+      "bytes": 9333530,
+      "maxShardBytes": 321452,
+      "sourceSha256": "1d4b4f454ce1c416d6a1ab2369d6e66c0ff99e04390172eef70790499e21ce19"
+    },
+    "english": {
+      "entries": 36646,
+      "bytes": 8751854,
+      "maxShardBytes": 998401,
+      "sourceSha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc"
+    }
+  }
+}

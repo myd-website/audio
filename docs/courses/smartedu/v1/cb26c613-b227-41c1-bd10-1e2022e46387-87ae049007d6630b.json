@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "bookId": "cb26c613-b227-41c1-bd10-1e2022e46387",
+  "chapters": [
+    {
+      "id": "6df8370b-20e2-4780-9545-7dda2a5e0580",
+      "title": "Unit 1 Meeting new people",
+      "parentId": ""
+    },
+    {
+      "id": "3f40299e-008b-45b2-967c-0d9666a5e72d",
+      "title": "Part A How do we greet new people?",
+      "parentId": "6df8370b-20e2-4780-9545-7dda2a5e0580"
+    },
+    {
+      "id": "269e5e98-6785-459e-b18a-f814bb1a31f0",
+      "title": "Part B How can we be polite?",
+      "parentId": "6df8370b-20e2-4780-9545-7dda2a5e0580"
+    },
+    {
+      "id": "8a761d8b-3a35-4a2a-b0f4-cc34ccefe3cc",
+      "title": "Part C (optional)",
+      "parentId": "6df8370b-20e2-4780-9545-7dda2a5e0580"
+    },
+    {
+      "id": "14f6623a-dcac-4ddf-851f-3e12fb2641b1",
+      "title": "Grammar",
+      "parentId": "6df8370b-20e2-4780-9545-7dda2a5e0580"
+    },
+    {
+      "id": "ad82a016-5c65-4716-992c-2a1000535a5c",
+      "title": "Unit 2 Expressing yourself",
+      "parentId": ""
+    },
+    {
+      "id": "d3d5e76b-2654-4b92-97d2-95753ad63b00",
+      "title": "Part A How do we describe things?",
+      "parentId": "ad82a016-5c65-4716-992c-2a1000535a5c"
+    },
+    {
+      "id": "872ac23c-5e3d-494e-ba0a-d83bc29c7640",
+      "title": "Part B How do we express our feelings?",
+      "parentId": "ad82a016-5c65-4716-992c-2a1000535a5c"
+    },
+    {
+      "id": "8f1e0ddc-3982-4c4b-a5d7-4eee9bba66b6",
+      "title": "Part C (optional)",
+      "parentId": "ad82a016-5c65-4716-992c-2a1000535a5c"
+    },
+    {
+      "id": "564a9b68-f994-4398-8133-a030e4defa0f",
+      "title": "Grammar",
+      "parentId": "ad82a016-5c65-4716-992c-2a1000535a5c"
+    },
+    {
+      "id": "19e0feb9-a090-4b6f-b3aa-2d151ecafecc",
+      "title": "Unit 3 Learning better",
+      "parentId": ""
+    },
+    {
+      "id": "a3e75d89-ff83-48e8-a75e-8559d70ba903",
+      "title": "Part A What tools help us learn?",
+      "parentId": "19e0feb9-a090-4b6f-b3aa-2d151ecafecc"
+    },
+    {
+      "id": "a9f8addc-6248-483f-9026-43721d7cb012",
+      "title": "Part B How do our senses help us learn?",
+      "parentId": "19e0feb9-a090-4b6f-b3aa-2d151ecafecc"
+    },
+    {
+      "id": "bacdda6c-b00a-4dd3-9296-00e28e0acbc6",
+      "title": "Part C (optional)",
+      "parentId": "19e0feb9-a090-4b6f-b3aa-2d151ecafecc"
+    },
+    {
+      "id": "2b251ab1-8afb-41ef-9975-9642ea459753",
+      "title": "Grammar",
+      "parentId": "19e0feb9-a090-4b6f-b3aa-2d151ecafecc"
+    },
+    {
+      "id": "c18e70ae-e8fd-4e85-ac40-2c22577f788f",
+      "title": "Unit 4 Healthy food",
+      "parentId": ""
+    },
+    {
+      "id": "00e440c1-3728-44e6-95da-dc77319e730c",
+      "title": "Part A What do we eat?",
+      "parentId": "c18e70ae-e8fd-4e85-ac40-2c22577f788f"
+    },
+    {
+      "id": "d6ad9e5c-ddf7-4a9d-b3a8-e8fe44901580",
+      "title": "Part B What shall we eat?",
+      "parentId": "c18e70ae-e8fd-4e85-ac40-2c22577f788f"
+    },
+    {
+      "id": "c3de3420-b8c9-4e59-a48b-cc6abfeaffd6",
+      "title": "Part C (optional)",
+      "parentId": "c18e70ae-e8fd-4e85-ac40-2c22577f788f"
+    },
+    {
+      "id": "086ceb3b-9e83-483b-99f8-aa31f4a9c46a",
+      "title": "Grammar",
+      "parentId": "c18e70ae-e8fd-4e85-ac40-2c22577f788f"
+    },
+    {
+      "id": "fb283d08-9874-4d33-b19a-d595a9b3114c",
+      "title": "Unit 5 Old toys",
+      "parentId": ""
+    },
+    {
+      "id": "253764b7-6323-4469-a526-37e0e50141be",
+      "title": "Part A What kinds of old things do you have?",
+      "parentId": "fb283d08-9874-4d33-b19a-d595a9b3114c"
+    },
+    {
+      "id": "ddec553f-682c-4370-b5eb-d11546049550",
+      "title": "Part B How can old things be reused?",
+      "parentId": "fb283d08-9874-4d33-b19a-d595a9b3114c"
+    },
+    {
+      "id": "24d6e280-086a-4596-a728-407702e7ab75",
+      "title": "Part C (optional)",
+      "parentId": "fb283d08-9874-4d33-b19a-d595a9b3114c"
+    },
+    {
+      "id": "e47caec4-7b4b-45f2-9471-3826d47fe646",
+      "title": "Grammar",
+      "parentId": "fb283d08-9874-4d33-b19a-d595a9b3114c"
+    },
+    {
+      "id": "3ef44678-5c6a-43e4-9111-ec2bcce35da7",
+      "title": "Unit 6 Numbers in life",
+      "parentId": ""
+    },
+    {
+      "id": "8c15fb15-0077-4a98-b8d6-6b534f8b6f2f",
+      "title": "Part A How do numbers help us count and sort?",
+      "parentId": "3ef44678-5c6a-43e4-9111-ec2bcce35da7"
+    },
+    {
+      "id": "c04ac53d-ba72-413e-ba0a-ac68cd6e3071",
+      "title": "Part B How do numbers help us make decisions?",
+      "parentId": "3ef44678-5c6a-43e4-9111-ec2bcce35da7"
+    },
+    {
+      "id": "8cdd7ac5-985c-45a0-8796-c983b1802f1e",
+      "title": "Part C (optional)",
+      "parentId": "3ef44678-5c6a-43e4-9111-ec2bcce35da7"
+    },
+    {
+      "id": "d77a1f01-ee84-4002-b8d7-3ab21148d6c3",
+      "title": "Grammar",
+      "parentId": "3ef44678-5c6a-43e4-9111-ec2bcce35da7"
+    },
+    {
+      "id": "d94790a8-f7c7-4255-acdc-a0b4ef999582",
+      "title": "Revision Going to a school fair",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "116814bf-e8bb-3a2a-7faa-e6c29e4db407",
+      "title": "Unit 1 Part A How do we greet new people?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6df8370b-20e2-4780-9545-7dda2a5e0580",
+        "3f40299e-008b-45b2-967c-0d9666a5e72d"
+      ]
+    },
+    {
+      "id": "b96b1baf-3b1b-3763-d31e-239cf58ec028",
+      "title": "Unit 1 Part B How can we be polite?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6df8370b-20e2-4780-9545-7dda2a5e0580",
+        "269e5e98-6785-459e-b18a-f814bb1a31f0"
+      ]
+    },
+    {
+      "id": "ed9b9a55-1282-8861-c4f7-03b345e96688",
+      "title": "Unit 3 Part A What tools help us learn?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "19e0feb9-a090-4b6f-b3aa-2d151ecafecc",
+        "a3e75d89-ff83-48e8-a75e-8559d70ba903"
+      ]
+    },
+    {
+      "id": "285f2713-948f-5c38-c285-405d8629769a",
+      "title": "Unit 3 Part B How do our senses help us learn?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "19e0feb9-a090-4b6f-b3aa-2d151ecafecc",
+        "a9f8addc-6248-483f-9026-43721d7cb012"
+      ]
+    },
+    {
+      "id": "2ecace19-b31b-e543-7aee-5bc2f97d3d95",
+      "title": "Unit 2 Part A How do we describe things?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ad82a016-5c65-4716-992c-2a1000535a5c",
+        "d3d5e76b-2654-4b92-97d2-95753ad63b00"
+      ]
+    },
+    {
+      "id": "fa742dbe-59e7-c987-2493-0721f287c023",
+      "title": "Unit 2 Part B How do we express our feelings?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ad82a016-5c65-4716-992c-2a1000535a5c",
+        "872ac23c-5e3d-494e-ba0a-d83bc29c7640"
+      ]
+    },
+    {
+      "id": "9dce7c03-533b-c075-f1af-a5314e5c0a61",
+      "title": "Unit 4 Part A What do we eat?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c18e70ae-e8fd-4e85-ac40-2c22577f788f",
+        "00e440c1-3728-44e6-95da-dc77319e730c"
+      ]
+    },
+    {
+      "id": "f1560e5f-cd48-09b7-c9ab-dc0e7707f0e3",
+      "title": "Unit 4 Part B What shall we eat?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c18e70ae-e8fd-4e85-ac40-2c22577f788f",
+        "d6ad9e5c-ddf7-4a9d-b3a8-e8fe44901580"
+      ]
+    },
+    {
+      "id": "6e60cd05-c002-055e-76eb-8ad3a76389ea",
+      "title": "Unit 5 Old toys（Part A What kinds of old things do you have?）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fb283d08-9874-4d33-b19a-d595a9b3114c",
+        "253764b7-6323-4469-a526-37e0e50141be"
+      ]
+    },
+    {
+      "id": "fb0eee49-43be-f428-f0ff-b93b9d6c9c8f",
+      "title": "Unit 5 Old toys（Part B How can old things be reused?）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fb283d08-9874-4d33-b19a-d595a9b3114c",
+        "ddec553f-682c-4370-b5eb-d11546049550"
+      ]
+    },
+    {
+      "id": "62e1eaf2-dd22-3cab-4f65-24efba0b9c89",
+      "title": "Unit 6 Part A How do numbers help us count and sort?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3ef44678-5c6a-43e4-9111-ec2bcce35da7",
+        "8c15fb15-0077-4a98-b8d6-6b534f8b6f2f"
+      ]
+    },
+    {
+      "id": "22795ff0-761e-1282-6217-08f24da3cb07",
+      "title": "Unit 6 Part B How do numbers help us make decisions?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3ef44678-5c6a-43e4-9111-ec2bcce35da7",
+        "c04ac53d-ba72-413e-ba0a-ac68cd6e3071"
+      ]
+    },
+    {
+      "id": "d27f818c-c642-59d5-2936-a8cf0963f3ec",
+      "title": "Part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "6df8370b-20e2-4780-9545-7dda2a5e0580",
+        "8a761d8b-3a35-4a2a-b0f4-cc34ccefe3cc"
+      ]
+    },
+    {
+      "id": "027017a6-aa26-5608-04af-abcc42cd17d8",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "c18e70ae-e8fd-4e85-ac40-2c22577f788f",
+        "086ceb3b-9e83-483b-99f8-aa31f4a9c46a"
+      ]
+    },
+    {
+      "id": "d982053a-8606-f131-5b7a-86982f226b6f",
+      "title": "Part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "19e0feb9-a090-4b6f-b3aa-2d151ecafecc",
+        "bacdda6c-b00a-4dd3-9296-00e28e0acbc6"
+      ]
+    },
+    {
+      "id": "e6b382f9-0227-8442-044f-5a7f52a7c246",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "c18e70ae-e8fd-4e85-ac40-2c22577f788f",
+        "086ceb3b-9e83-483b-99f8-aa31f4a9c46a"
+      ]
+    },
+    {
+      "id": "c0d54001-2ae4-d865-9265-9efe712fe76b",
+      "title": "Part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "c18e70ae-e8fd-4e85-ac40-2c22577f788f",
+        "c3de3420-b8c9-4e59-a48b-cc6abfeaffd6"
+      ]
+    },
+    {
+      "id": "1e5f781a-b915-7b1c-0296-ec39b24deb39",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "fb283d08-9874-4d33-b19a-d595a9b3114c",
+        "e47caec4-7b4b-45f2-9471-3826d47fe646"
+      ]
+    },
+    {
+      "id": "bf53afc6-df8a-a5a4-7b0b-0d1478de97f4",
+      "title": "Part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "fb283d08-9874-4d33-b19a-d595a9b3114c",
+        "24d6e280-086a-4596-a728-407702e7ab75"
+      ]
+    },
+    {
+      "id": "47165761-17d1-112f-4825-e40c27cd2066",
+      "title": "Grammar",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "3ef44678-5c6a-43e4-9111-ec2bcce35da7",
+        "d77a1f01-ee84-4002-b8d7-3ab21148d6c3"
+      ]
+    },
+    {
+      "id": "47613f39-e867-0f9d-6716-547af8475fb9",
+      "title": "Part C (optional)",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "3ef44678-5c6a-43e4-9111-ec2bcce35da7",
+        "8cdd7ac5-985c-45a0-8796-c983b1802f1e"
+      ]
+    }
+  ]
+}

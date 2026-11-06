@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "bookId": "0ffbaa49-0a7e-400e-b83d-e8bb49b65187",
+  "chapters": [
+    {
+      "id": "8789ae60-7130-4639-a8ae-3a7a70b19162",
+      "title": "Unit 1 Different friends",
+      "parentId": ""
+    },
+    {
+      "id": "088dd6ba-693a-465a-9b1f-bf674044e103",
+      "title": "Part A How are your friends different?",
+      "parentId": "8789ae60-7130-4639-a8ae-3a7a70b19162"
+    },
+    {
+      "id": "7aec6677-4885-4ec6-b1e7-0d17b534a31b",
+      "title": "Part B What can you do?",
+      "parentId": "8789ae60-7130-4639-a8ae-3a7a70b19162"
+    },
+    {
+      "id": "12582fb3-d595-4fd8-be54-1ca7f09037ae",
+      "title": "Part C Project: Make an album of your friends",
+      "parentId": "8789ae60-7130-4639-a8ae-3a7a70b19162"
+    },
+    {
+      "id": "200e9857-c48a-4b9d-a170-19f41b9032a0",
+      "title": "Unit 2 My feelings",
+      "parentId": ""
+    },
+    {
+      "id": "3861f93c-79b9-4671-b826-1420aaeeadd8",
+      "title": "Part A How do we express our feelings?",
+      "parentId": "200e9857-c48a-4b9d-a170-19f41b9032a0"
+    },
+    {
+      "id": "be853fae-78b3-4705-9698-1c5c184d3299",
+      "title": "Part B How can we understand each other better?",
+      "parentId": "200e9857-c48a-4b9d-a170-19f41b9032a0"
+    },
+    {
+      "id": "4eea7008-3654-4a5f-9284-e0f8b202a413",
+      "title": "Part C Project:Make a feelings book",
+      "parentId": "200e9857-c48a-4b9d-a170-19f41b9032a0"
+    },
+    {
+      "id": "9a100692-de32-4490-8b19-cf1726c120a4",
+      "title": "Unit 3 Work and play",
+      "parentId": ""
+    },
+    {
+      "id": "66521aa9-3ab4-472b-ba34-8dfd20fe4309",
+      "title": "Part A What do you learn at school?",
+      "parentId": "9a100692-de32-4490-8b19-cf1726c120a4"
+    },
+    {
+      "id": "ab4f9509-a47a-4dba-a13b-259a96885340",
+      "title": "Part B What do you do at the weekend?",
+      "parentId": "9a100692-de32-4490-8b19-cf1726c120a4"
+    },
+    {
+      "id": "0ef1acbc-d402-4c2d-9151-e55d27ed15f4",
+      "title": "Part C Project: Make a chart about work-play balance",
+      "parentId": "9a100692-de32-4490-8b19-cf1726c120a4"
+    },
+    {
+      "id": "263c6410-5bfa-4ec7-a684-1836ba1f012b",
+      "title": "Unit 4 Healthy habits",
+      "parentId": ""
+    },
+    {
+      "id": "34945e7b-22f4-4a36-b84e-0fa23b7fe05e",
+      "title": "Part A How can we stay healthy?",
+      "parentId": "263c6410-5bfa-4ec7-a684-1836ba1f012b"
+    },
+    {
+      "id": "8eb8faf2-b351-4f7d-b0a2-461a8b80f627",
+      "title": "Part B How can good habits help us?",
+      "parentId": "263c6410-5bfa-4ec7-a684-1836ba1f012b"
+    },
+    {
+      "id": "36f3e136-ef01-4d46-b933-8d07c19449a5",
+      "title": "Part C Project: Make a healthy habits checklist",
+      "parentId": "263c6410-5bfa-4ec7-a684-1836ba1f012b"
+    },
+    {
+      "id": "7631cfe2-c818-4aee-9935-23afa6777db7",
+      "title": "Unit 5 Food we eat",
+      "parentId": ""
+    },
+    {
+      "id": "88eea0ac-0d2c-4568-ad1c-16fa35567fd1",
+      "title": "Part A What do we eat?",
+      "parentId": "7631cfe2-c818-4aee-9935-23afa6777db7"
+    },
+    {
+      "id": "48c8f47a-f8b8-4693-833f-5a40b87eb22e",
+      "title": "Part B Where does our food come from?",
+      "parentId": "7631cfe2-c818-4aee-9935-23afa6777db7"
+    },
+    {
+      "id": "76b8c1c4-7901-46a4-99a5-bf1b33bef947",
+      "title": "Part C Project: Make a presentation about how a plant grows",
+      "parentId": "7631cfe2-c818-4aee-9935-23afa6777db7"
+    },
+    {
+      "id": "188f6849-089c-46cd-96d4-3fd55913060d",
+      "title": "Unit 6 Nature and us",
+      "parentId": ""
+    },
+    {
+      "id": "c7b70ef1-8c7c-436d-a04a-a8cceafb963a",
+      "title": "Part A What is exciting about nature?",
+      "parentId": "188f6849-089c-46cd-96d4-3fd55913060d"
+    },
+    {
+      "id": "74979de6-482d-4a40-b276-142bcfcd76c6",
+      "title": "Part B What happens in bad weather?",
+      "parentId": "188f6849-089c-46cd-96d4-3fd55913060d"
+    },
+    {
+      "id": "c2af0071-8c90-4a25-b564-e8f6ce44217f",
+      "title": "Part C Project: Write a welcome letter for a nature park",
+      "parentId": "188f6849-089c-46cd-96d4-3fd55913060d"
+    },
+    {
+      "id": "8cdfffba-11eb-460d-89fe-1af90502515f",
+      "title": "Revision New Year's party",
+      "parentId": ""
+    },
+    {
+      "id": "94d69303-035a-47dd-9a78-cef0725a5e34",
+      "title": "Appendix l Songs",
+      "parentId": ""
+    },
+    {
+      "id": "206d0b2f-b858-4521-b61b-76c4a98635de",
+      "title": "Appendix 2 Words in each unit",
+      "parentId": ""
+    },
+    {
+      "id": "345ebe5b-7d27-4e0c-8a85-9b94ff604803",
+      "title": "Appendix 3 Vocabulary",
+      "parentId": ""
+    },
+    {
+      "id": "0b0cf722-5105-4bf8-aeca-bac71d7b7db7",
+      "title": "Appendix 4 Useful expressions",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "6106c965-51d7-6184-35db-796b0c291439",
+      "title": "Part A How are your friends different?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8789ae60-7130-4639-a8ae-3a7a70b19162",
+        "088dd6ba-693a-465a-9b1f-bf674044e103"
+      ]
+    },
+    {
+      "id": "c31e00f5-342a-12f6-6302-ca1e8255fd56",
+      "title": "Part B What can you do?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8789ae60-7130-4639-a8ae-3a7a70b19162",
+        "7aec6677-4885-4ec6-b1e7-0d17b534a31b"
+      ]
+    }
+  ]
+}

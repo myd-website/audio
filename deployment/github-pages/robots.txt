@@ -1,0 +1,7 @@
+# Place this at https://myd-website.github.io/robots.txt in the user-site repository.
+# /audio/robots.txt is NOT read as an origin-level robots policy.
+# Keep the HTML entry crawlable so search engines can read its noindex meta tag.
+User-agent: *
+Disallow: /audio/dictionaries/
+Disallow: /audio/static/
+Disallow: /audio/assets/

@@ -1,0 +1,571 @@
+{
+  "version": 1,
+  "bookId": "f4184328-83db-4a43-8dab-bb9df75597a6",
+  "chapters": [
+    {
+      "id": "a7b3ea70-7247-315a-8a2f-748d0b0e2871",
+      "title": "1 观察物体（三）",
+      "parentId": ""
+    },
+    {
+      "id": "55aef272-8665-385f-93aa-37c12e890b6c",
+      "title": "2 因数与倍数",
+      "parentId": ""
+    },
+    {
+      "id": "852ca31b-be96-3291-bd9d-fdc921038bde",
+      "title": "因数和倍数的认识",
+      "parentId": "55aef272-8665-385f-93aa-37c12e890b6c"
+    },
+    {
+      "id": "08fc6382-c5a4-3755-8279-668fed7d07df",
+      "title": "2、5、3的倍数的特征",
+      "parentId": "55aef272-8665-385f-93aa-37c12e890b6c"
+    },
+    {
+      "id": "c32545b4-dae2-3fd7-a723-6b52ef6c06c6",
+      "title": "2、5的倍数的特征",
+      "parentId": "08fc6382-c5a4-3755-8279-668fed7d07df"
+    },
+    {
+      "id": "996a4324-e948-3845-86f1-37708aae27a0",
+      "title": "3的倍数的特征",
+      "parentId": "08fc6382-c5a4-3755-8279-668fed7d07df"
+    },
+    {
+      "id": "7ad23c26-ee90-3ff2-8da3-8996f81f89c6",
+      "title": "质数和合数",
+      "parentId": "55aef272-8665-385f-93aa-37c12e890b6c"
+    },
+    {
+      "id": "a24c9863-f34e-3273-aee3-da0a301942f3",
+      "title": "解决问题（探索和的奇偶性）",
+      "parentId": "55aef272-8665-385f-93aa-37c12e890b6c"
+    },
+    {
+      "id": "e22239ff-7183-3833-8fce-98f0d39b582a",
+      "title": "3 长方体和正方体",
+      "parentId": ""
+    },
+    {
+      "id": "5ab888ed-91aa-3d70-8ba0-5244f0e9a946",
+      "title": "长方体和正方体的认识",
+      "parentId": "e22239ff-7183-3833-8fce-98f0d39b582a"
+    },
+    {
+      "id": "132c042e-8f1e-382c-8f0e-45116d5ad17d",
+      "title": "长方体和正方体的表面积",
+      "parentId": "e22239ff-7183-3833-8fce-98f0d39b582a"
+    },
+    {
+      "id": "8f867ec4-071f-3a24-9da9-077a99480d48",
+      "title": "长方体和正方体的体积",
+      "parentId": "e22239ff-7183-3833-8fce-98f0d39b582a"
+    },
+    {
+      "id": "acfc9c8c-d0a5-3044-8372-3fb531cd2919",
+      "title": "体积和体积单位",
+      "parentId": "8f867ec4-071f-3a24-9da9-077a99480d48"
+    },
+    {
+      "id": "85271896-acd2-36bf-a31d-114dc491b333",
+      "title": "体积单位间的进率",
+      "parentId": "8f867ec4-071f-3a24-9da9-077a99480d48"
+    },
+    {
+      "id": "670a720f-8aa1-33f2-84dc-e5a9c906ed76",
+      "title": "容积和容积单位",
+      "parentId": "8f867ec4-071f-3a24-9da9-077a99480d48"
+    },
+    {
+      "id": "8c1e3344-be44-318a-bab6-305b787237ac",
+      "title": "解决问题（不规则物体的体积）",
+      "parentId": "e22239ff-7183-3833-8fce-98f0d39b582a"
+    },
+    {
+      "id": "9ddcdb61-bd90-351d-aeab-b1842dd03c17",
+      "title": "整理和复习",
+      "parentId": "e22239ff-7183-3833-8fce-98f0d39b582a"
+    },
+    {
+      "id": "4fa31fe3-483d-38e3-b613-a8baaaa9cbb8",
+      "title": "★ 探索图形",
+      "parentId": ""
+    },
+    {
+      "id": "3c975493-33c6-355f-b685-37959edf6175",
+      "title": "4 分数的意义和性质",
+      "parentId": ""
+    },
+    {
+      "id": "e305af0f-3e27-3e59-ae8a-724afe86ddb5",
+      "title": "分数的产生、意义",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "d5ecf805-baf3-3832-a748-fe08f8aa9271",
+      "title": "分数与除法",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "77ab9781-0219-35de-bf21-7bf28e413950",
+      "title": "真分数和假分数",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "4b988e76-46db-3f28-8c3f-8a0bcb1d6509",
+      "title": "分数的基本性质",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "b4558b69-5702-37dd-8a7f-660e479a3526",
+      "title": "约分",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "e5afcf6e-739a-363a-a6b1-25e3f1dc1f09",
+      "title": "最大公因数",
+      "parentId": "b4558b69-5702-37dd-8a7f-660e479a3526"
+    },
+    {
+      "id": "3bbdf725-7800-36c7-9658-63b95ee14a78",
+      "title": "约分",
+      "parentId": "b4558b69-5702-37dd-8a7f-660e479a3526"
+    },
+    {
+      "id": "98918bc1-6cc7-34f1-a44b-72a2465a2c1c",
+      "title": "通分",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "1c7d4ed8-1702-3eaf-81c9-c17227e7f1d1",
+      "title": "最小公倍数",
+      "parentId": "98918bc1-6cc7-34f1-a44b-72a2465a2c1c"
+    },
+    {
+      "id": "46aa43ae-26d8-3da5-aa9b-bd8668a5fec7",
+      "title": "通分",
+      "parentId": "98918bc1-6cc7-34f1-a44b-72a2465a2c1c"
+    },
+    {
+      "id": "6021d277-8983-3164-945a-2f414aa41e36",
+      "title": "分数和小数互化",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "8b5dab82-a358-3ff5-8dd0-b8d6778acb21",
+      "title": "整理和复习",
+      "parentId": "3c975493-33c6-355f-b685-37959edf6175"
+    },
+    {
+      "id": "e0aed311-0162-30e7-8313-86a47a863446",
+      "title": "5 图形的运动（三）",
+      "parentId": ""
+    },
+    {
+      "id": "16003441-d9ab-374c-8243-9e5bb001e248",
+      "title": "旋转",
+      "parentId": "e0aed311-0162-30e7-8313-86a47a863446"
+    },
+    {
+      "id": "731eec3b-b2f6-328f-a874-5d3956f94fc0",
+      "title": "解决问题",
+      "parentId": "e0aed311-0162-30e7-8313-86a47a863446"
+    },
+    {
+      "id": "00de7f8f-8c98-3231-afa3-4dc38c0448b4",
+      "title": "6 分数的加法和减法",
+      "parentId": ""
+    },
+    {
+      "id": "b0703186-078f-38cd-afad-9392beeddc3c",
+      "title": "同分母分数加、减法",
+      "parentId": "00de7f8f-8c98-3231-afa3-4dc38c0448b4"
+    },
+    {
+      "id": "cc3b4cb3-adec-34b9-8999-566e034c34c0",
+      "title": "异分母分数加、减法",
+      "parentId": "00de7f8f-8c98-3231-afa3-4dc38c0448b4"
+    },
+    {
+      "id": "41487093-b4dd-3927-a5a1-e5060fc665ed",
+      "title": "分数加减混合运算",
+      "parentId": "00de7f8f-8c98-3231-afa3-4dc38c0448b4"
+    },
+    {
+      "id": "c21a4558-5935-3b2f-a5d9-47d50d2c38ef",
+      "title": "解决问题",
+      "parentId": "00de7f8f-8c98-3231-afa3-4dc38c0448b4"
+    },
+    {
+      "id": "c5ce1ae0-2520-3a7d-a767-3b8cc256c55f",
+      "title": "★ 怎样通知最快",
+      "parentId": ""
+    },
+    {
+      "id": "f8416186-48e8-3e5e-b2f2-ed3da82c929b",
+      "title": "7 折线统计图",
+      "parentId": ""
+    },
+    {
+      "id": "be983a5b-0f0b-38b0-935e-ca3ed0382522",
+      "title": "单式折线统计图",
+      "parentId": "f8416186-48e8-3e5e-b2f2-ed3da82c929b"
+    },
+    {
+      "id": "4854996f-288b-3301-af2d-28a218957425",
+      "title": "复式折线统计图",
+      "parentId": "f8416186-48e8-3e5e-b2f2-ed3da82c929b"
+    },
+    {
+      "id": "c7247472-8b9a-3aad-9972-0e4c1e6af733",
+      "title": "8 数学广角——找次品",
+      "parentId": ""
+    },
+    {
+      "id": "92de469c-9c26-3058-aaac-42eb2e9fea2e",
+      "title": "9 总复习",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "883acb72-9faa-437a-8c9d-5128a85d98aa",
+      "title": "体积和体积单位",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "8f867ec4-071f-3a24-9da9-077a99480d48",
+        "acfc9c8c-d0a5-3044-8372-3fb531cd2919"
+      ]
+    },
+    {
+      "id": "3ab99bd2-2060-4e86-88a4-04f8e5cd0557",
+      "title": "最小公倍数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "98918bc1-6cc7-34f1-a44b-72a2465a2c1c",
+        "1c7d4ed8-1702-3eaf-81c9-c17227e7f1d1"
+      ]
+    },
+    {
+      "id": "5ab3c75b-dc15-d3b4-b141-978b821bf9a8",
+      "title": "约分",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "b4558b69-5702-37dd-8a7f-660e479a3526",
+        "3bbdf725-7800-36c7-9658-63b95ee14a78"
+      ]
+    },
+    {
+      "id": "935998d3-1dab-d8c9-2538-6be1973d8ccd",
+      "title": "分数和小数的互化",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "6021d277-8983-3164-945a-2f414aa41e36"
+      ]
+    },
+    {
+      "id": "2f3ab60e-b301-5387-4d49-d99dd49fd8ca",
+      "title": "分数的意义和性质整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "8b5dab82-a358-3ff5-8dd0-b8d6778acb21"
+      ]
+    },
+    {
+      "id": "9c30f720-eb79-ae6d-c354-682c294634f6",
+      "title": "图形的运动（三）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e0aed311-0162-30e7-8313-86a47a863446",
+        "16003441-d9ab-374c-8243-9e5bb001e248"
+      ]
+    },
+    {
+      "id": "054c7c3f-afbf-7d5b-de91-f990d2787d4f",
+      "title": "分数的加法和减法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "00de7f8f-8c98-3231-afa3-4dc38c0448b4",
+        "b0703186-078f-38cd-afad-9392beeddc3c"
+      ]
+    },
+    {
+      "id": "ec2bef16-c164-97b2-d5c5-3b44214a2de2",
+      "title": "分数的加法和减法复习和整理",
+      "type": "national_lesson",
+      "chapterIds": [
+        "00de7f8f-8c98-3231-afa3-4dc38c0448b4",
+        "c21a4558-5935-3b2f-a5d9-47d50d2c38ef"
+      ]
+    },
+    {
+      "id": "c14bec7b-0cf6-05aa-1c6a-2b274727d879",
+      "title": "怎样通知最快",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c5ce1ae0-2520-3a7d-a767-3b8cc256c55f"
+      ]
+    },
+    {
+      "id": "1eb0f934-7016-d6ca-68de-1db853e7af31",
+      "title": "折线统计图",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f8416186-48e8-3e5e-b2f2-ed3da82c929b",
+        "4854996f-288b-3301-af2d-28a218957425"
+      ]
+    },
+    {
+      "id": "bc764338-7db4-be08-f075-98dd3298e905",
+      "title": "长方体和正方体的体积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "8f867ec4-071f-3a24-9da9-077a99480d48"
+      ]
+    },
+    {
+      "id": "6430a195-6310-1300-0a95-b48a4d2d29b6",
+      "title": "解决问题（不规则物体的体积）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "8c1e3344-be44-318a-bab6-305b787237ac"
+      ]
+    },
+    {
+      "id": "7800fe71-aad8-48df-9899-1f74cf0945ef",
+      "title": "因数和倍数的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "55aef272-8665-385f-93aa-37c12e890b6c",
+        "852ca31b-be96-3291-bd9d-fdc921038bde"
+      ]
+    },
+    {
+      "id": "8be922ec-2a4e-46a5-ac6d-3ce44a7cf697",
+      "title": "质数和合数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "55aef272-8665-385f-93aa-37c12e890b6c",
+        "7ad23c26-ee90-3ff2-8da3-8996f81f89c6"
+      ]
+    },
+    {
+      "id": "197940b8-b5f2-477f-a387-94bf063c0808",
+      "title": "奇偶性",
+      "type": "national_lesson",
+      "chapterIds": [
+        "55aef272-8665-385f-93aa-37c12e890b6c",
+        "a24c9863-f34e-3273-aee3-da0a301942f3"
+      ]
+    },
+    {
+      "id": "24ea3e7f-0759-4f40-a391-a20defdb52e4",
+      "title": "因数和倍数整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "55aef272-8665-385f-93aa-37c12e890b6c",
+        "a24c9863-f34e-3273-aee3-da0a301942f3"
+      ]
+    },
+    {
+      "id": "6fcd374a-4147-4873-83af-9c571dd51dec",
+      "title": "体积单位间的进率",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "8f867ec4-071f-3a24-9da9-077a99480d48",
+        "85271896-acd2-36bf-a31d-114dc491b333"
+      ]
+    },
+    {
+      "id": "e1546273-bffe-451d-8c05-7420b234bc50",
+      "title": "长方体和正方体整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "9ddcdb61-bd90-351d-aeab-b1842dd03c17"
+      ]
+    },
+    {
+      "id": "9d03adb0-e927-43bc-b993-e188bd062f3c",
+      "title": "探索图形",
+      "type": "national_lesson",
+      "chapterIds": [
+        "4fa31fe3-483d-38e3-b613-a8baaaa9cbb8"
+      ]
+    },
+    {
+      "id": "f609d22e-6036-46b0-8f20-3d87cd27da72",
+      "title": "找次品",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c7247472-8b9a-3aad-9972-0e4c1e6af733"
+      ]
+    },
+    {
+      "id": "3e7ca3cb-0411-4dfe-aeb8-200ac1fedb84",
+      "title": "观察物体（三）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a7b3ea70-7247-315a-8a2f-748d0b0e2871"
+      ]
+    },
+    {
+      "id": "fe029057-f1a9-4e7f-a94d-1c54ff797111",
+      "title": "2、5、3的倍数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "55aef272-8665-385f-93aa-37c12e890b6c",
+        "08fc6382-c5a4-3755-8279-668fed7d07df",
+        "c32545b4-dae2-3fd7-a723-6b52ef6c06c6"
+      ]
+    },
+    {
+      "id": "086d9874-a2b0-476a-b718-31ce9818f4e6",
+      "title": "长方体和正方体的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "5ab888ed-91aa-3d70-8ba0-5244f0e9a946"
+      ]
+    },
+    {
+      "id": "ec390e40-1445-4024-be13-dc0522c2d838",
+      "title": "长方体和正方体的表面积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "132c042e-8f1e-382c-8f0e-45116d5ad17d"
+      ]
+    },
+    {
+      "id": "13b76c31-8885-4e3e-9842-727ae51cb6d6",
+      "title": "容积和容积单位",
+      "type": "national_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "8f867ec4-071f-3a24-9da9-077a99480d48",
+        "670a720f-8aa1-33f2-84dc-e5a9c906ed76"
+      ]
+    },
+    {
+      "id": "332f7681-4f98-4ea9-ac3c-2f2849df2cdc",
+      "title": "分数的意义",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "e305af0f-3e27-3e59-ae8a-724afe86ddb5"
+      ]
+    },
+    {
+      "id": "fc44df16-651a-405f-806c-76d8f2716e77",
+      "title": "分数与除法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "d5ecf805-baf3-3832-a748-fe08f8aa9271"
+      ]
+    },
+    {
+      "id": "66221857-3606-424e-aaef-b6910e89b9cf",
+      "title": "真分数和假分数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "77ab9781-0219-35de-bf21-7bf28e413950"
+      ]
+    },
+    {
+      "id": "9158d483-13f0-49b7-89ea-1aeddfb25f65",
+      "title": "分数的基本性质",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "4b988e76-46db-3f28-8c3f-8a0bcb1d6509"
+      ]
+    },
+    {
+      "id": "942424a3-d6b5-4669-8b47-1f6ba62f6b8e",
+      "title": "最大公因数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "b4558b69-5702-37dd-8a7f-660e479a3526",
+        "e5afcf6e-739a-363a-a6b1-25e3f1dc1f09"
+      ]
+    },
+    {
+      "id": "52bd3752-5604-4ee8-9105-6250c023d28d",
+      "title": "通分",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3c975493-33c6-355f-b685-37959edf6175",
+        "98918bc1-6cc7-34f1-a44b-72a2465a2c1c",
+        "46aa43ae-26d8-3da5-aa9b-bd8668a5fec7"
+      ]
+    },
+    {
+      "id": "573330a5-68ee-9672-bff2-fd2858dc1099",
+      "title": "3的倍数的特征",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "55aef272-8665-385f-93aa-37c12e890b6c",
+        "08fc6382-c5a4-3755-8279-668fed7d07df",
+        "996a4324-e948-3845-86f1-37708aae27a0"
+      ]
+    },
+    {
+      "id": "9c576712-4d29-460e-85ad-617d55b71266",
+      "title": "异分母分数加、减法",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "00de7f8f-8c98-3231-afa3-4dc38c0448b4",
+        "cc3b4cb3-adec-34b9-8999-566e034c34c0"
+      ]
+    },
+    {
+      "id": "763181ee-9db3-ea6d-c080-e8934f402abd",
+      "title": "单式折线统计图",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "f8416186-48e8-3e5e-b2f2-ed3da82c929b",
+        "be983a5b-0f0b-38b0-935e-ca3ed0382522"
+      ]
+    },
+    {
+      "id": "62e34bcc-09d7-20b7-9283-2531cc14e357",
+      "title": "解决问题（不规则物体的体积）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e22239ff-7183-3833-8fce-98f0d39b582a",
+        "8c1e3344-be44-318a-bab6-305b787237ac"
+      ]
+    },
+    {
+      "id": "56cadff1-3ee9-e487-b8e1-ecc1da0acb3a",
+      "title": "分数加减混合运算",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "00de7f8f-8c98-3231-afa3-4dc38c0448b4",
+        "41487093-b4dd-3927-a5a1-e5060fc665ed"
+      ]
+    },
+    {
+      "id": "13f5b673-b67e-c379-9bd5-bee53176d390",
+      "title": "解决问题",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "e0aed311-0162-30e7-8313-86a47a863446",
+        "731eec3b-b2f6-328f-a874-5d3956f94fc0"
+      ]
+    }
+  ]
+}

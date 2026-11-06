@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "bookId": "291dc803-4454-4374-8f31-29d7755efcd2",
+  "chapters": [
+    {
+      "id": "c0fd04e4-328d-404d-8692-7d6a64886033",
+      "title": "Unit 1 Amazing places",
+      "parentId": ""
+    },
+    {
+      "id": "7a5f1bf5-9f09-48ac-af11-ecace3030992",
+      "title": "Part A What famous places do you know?",
+      "parentId": "c0fd04e4-328d-404d-8692-7d6a64886033"
+    },
+    {
+      "id": "574aecd1-65a9-488c-927b-4d71f7baa7cb",
+      "title": "Part B What makes a trip special?",
+      "parentId": "c0fd04e4-328d-404d-8692-7d6a64886033"
+    },
+    {
+      "id": "c4fba5d6-2373-4a84-8961-85c0e2c80385",
+      "title": "Part C Project: Make a holiday scrapbook",
+      "parentId": "c0fd04e4-328d-404d-8692-7d6a64886033"
+    },
+    {
+      "id": "c11d209a-6d1c-4c6e-9a5e-c965b617d51e",
+      "title": "Unit 2 Getting together",
+      "parentId": ""
+    },
+    {
+      "id": "4362b2f1-dc4d-4ef0-b750-803a6ee2e6b0",
+      "title": "Part A How can festivals bring us together?",
+      "parentId": "c11d209a-6d1c-4c6e-9a5e-c965b617d51e"
+    },
+    {
+      "id": "2e0b4beb-bc0f-42e4-901a-b1f92f41ed10",
+      "title": "Part B How can big events bring us together?",
+      "parentId": "c11d209a-6d1c-4c6e-9a5e-c965b617d51e"
+    },
+    {
+      "id": "b66a2928-0f7d-4b75-803a-ce0c18798348",
+      "title": "Part C Project: Present photos from school events",
+      "parentId": "c11d209a-6d1c-4c6e-9a5e-c965b617d51e"
+    },
+    {
+      "id": "34e9ec2e-7b57-4d44-84b5-c0aae34d2daf",
+      "title": "Unit 3 Healthy life",
+      "parentId": ""
+    },
+    {
+      "id": "9971475e-b690-45b8-bc36-4b75105e9014",
+      "title": "Part A How do we know we are ill?",
+      "parentId": "34e9ec2e-7b57-4d44-84b5-c0aae34d2daf"
+    },
+    {
+      "id": "cd1953a2-144a-4e87-aac2-f0f4877caeb9",
+      "title": "Part B How can we stay healthy?",
+      "parentId": "34e9ec2e-7b57-4d44-84b5-c0aae34d2daf"
+    },
+    {
+      "id": "d1dca834-b724-482f-a2cc-6991fae5c1da",
+      "title": "Part C Project: Make a healthy lifestyle guide",
+      "parentId": "34e9ec2e-7b57-4d44-84b5-c0aae34d2daf"
+    },
+    {
+      "id": "51231095-f403-41dd-81b4-bc74af6fea28",
+      "title": "Unit 4 Managing money well",
+      "parentId": ""
+    },
+    {
+      "id": "efddd335-aa30-4eb3-818b-6d8b80f4be91",
+      "title": "Part A Why do we use money?",
+      "parentId": "51231095-f403-41dd-81b4-bc74af6fea28"
+    },
+    {
+      "id": "dbd460c3-2322-4fc2-b052-4076062dd1ec",
+      "title": "Part B How can we use money wisely?",
+      "parentId": "51231095-f403-41dd-81b4-bc74af6fea28"
+    },
+    {
+      "id": "b4dbff43-ca58-46ba-8a99-2c859a435136",
+      "title": "Part C Project: Make a spending plan",
+      "parentId": "51231095-f403-41dd-81b4-bc74af6fea28"
+    },
+    {
+      "id": "6a2a62b6-7ccc-415d-9098-f7dcfcfc17fc",
+      "title": "Unit 5 Exploring space",
+      "parentId": ""
+    },
+    {
+      "id": "97b1da2c-3548-4917-86c5-1df1d0ecf369",
+      "title": "Part A What can we see in the sky?",
+      "parentId": "6a2a62b6-7ccc-415d-9098-f7dcfcfc17fc"
+    },
+    {
+      "id": "6aadd970-6b89-4455-918d-27faf9378fd4",
+      "title": "Part B What do we know about Earth and its neighbours?",
+      "parentId": "6a2a62b6-7ccc-415d-9098-f7dcfcfc17fc"
+    },
+    {
+      "id": "d412327f-41d6-453f-99eb-a09263e8d214",
+      "title": "Part C Project: Share facts about Earth, the Sun and the Moon",
+      "parentId": "6a2a62b6-7ccc-415d-9098-f7dcfcfc17fc"
+    },
+    {
+      "id": "e07df1d0-4def-4567-a22a-011d6b6cf7a2",
+      "title": "Unit 6 Energy, nature and us",
+      "parentId": ""
+    },
+    {
+      "id": "cbf03280-5104-48c0-8ed1-4ec426b2d0be",
+      "title": "Part A Where do we get energy?",
+      "parentId": "e07df1d0-4def-4567-a22a-011d6b6cf7a2"
+    },
+    {
+      "id": "b4d97c1f-8598-4147-a867-e2e22bcc2a17",
+      "title": "Part B How do we save energy?",
+      "parentId": "e07df1d0-4def-4567-a22a-011d6b6cf7a2"
+    },
+    {
+      "id": "4cae0239-318b-479f-9cc3-94165f41e74b",
+      "title": "Part C Project: Give a presentation about green energy",
+      "parentId": "e07df1d0-4def-4567-a22a-011d6b6cf7a2"
+    },
+    {
+      "id": "800dddf7-8dc4-4624-bf1b-6b7721a10df1",
+      "title": "Revision Learning in museums",
+      "parentId": ""
+    },
+    {
+      "id": "99201638-aaba-4dbc-98cf-014c0812849b",
+      "title": "Appendix l Songs",
+      "parentId": ""
+    },
+    {
+      "id": "14d726a6-b64d-4f53-ba1d-c99690bc74c7",
+      "title": "Appendix 2 Words in each unit",
+      "parentId": ""
+    },
+    {
+      "id": "49ad2340-262d-47d9-97b5-00e7d808d6db",
+      "title": "Appendix 3 Vocabulary",
+      "parentId": ""
+    },
+    {
+      "id": "be87a94e-4377-4d47-bcc1-21ee44cace31",
+      "title": "Appendix 4 Useful expressions",
+      "parentId": ""
+    },
+    {
+      "id": "6e1b0a15-2e0f-47f7-9aa5-96d3648698c5",
+      "title": "Appendix 5 Irregular verbs",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "e2cb507a-3f87-b027-e1f8-dd6230a783f4",
+      "title": "Part A What famous places do you know?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c0fd04e4-328d-404d-8692-7d6a64886033",
+        "7a5f1bf5-9f09-48ac-af11-ecace3030992"
+      ]
+    },
+    {
+      "id": "ae83a870-b92a-4053-803e-e7012afe5f81",
+      "title": "Part B What makes a trip special?",
+      "type": "national_lesson",
+      "chapterIds": [
+        "c0fd04e4-328d-404d-8692-7d6a64886033",
+        "574aecd1-65a9-488c-927b-4d71f7baa7cb"
+      ]
+    }
+  ]
+}

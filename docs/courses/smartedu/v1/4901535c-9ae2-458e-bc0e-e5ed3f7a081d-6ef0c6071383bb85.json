@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "bookId": "4901535c-9ae2-458e-bc0e-e5ed3f7a081d",
+  "chapters": [
+    {
+      "id": "a66e07a3-e38d-4d4c-bc4e-100626726b55",
+      "title": "Unit 1 Class rules",
+      "parentId": ""
+    },
+    {
+      "id": "ae85940e-f4d6-4fe4-868d-b07652fea5a6",
+      "title": "Part A What are your class rules?",
+      "parentId": "a66e07a3-e38d-4d4c-bc4e-100626726b55"
+    },
+    {
+      "id": "13b00b49-6bd4-40d4-8eaf-8c314c1c8e9b",
+      "title": "Part B Why do we follow class rules?",
+      "parentId": "a66e07a3-e38d-4d4c-bc4e-100626726b55"
+    },
+    {
+      "id": "38b440e2-febc-4ec2-9b0c-c2b0b66dea9b",
+      "title": "Part C Project: Make signs for class rules",
+      "parentId": "a66e07a3-e38d-4d4c-bc4e-100626726b55"
+    },
+    {
+      "id": "6762fd90-c341-4b3f-a933-2235b5d1b560",
+      "title": "Unit 2 Family rules",
+      "parentId": ""
+    },
+    {
+      "id": "c1f4ad2d-2aef-447b-8479-6b281fde2683",
+      "title": "Part A What are your family  rules?",
+      "parentId": "6762fd90-c341-4b3f-a933-2235b5d1b560"
+    },
+    {
+      "id": "c9754cb8-5551-4d52-9613-a9fd4b7df691",
+      "title": "Part B How do family rules help us?",
+      "parentId": "6762fd90-c341-4b3f-a933-2235b5d1b560"
+    },
+    {
+      "id": "670408a8-df59-4b77-9238-d8eb02a46589",
+      "title": "Part C Project: Make family rules",
+      "parentId": "6762fd90-c341-4b3f-a933-2235b5d1b560"
+    },
+    {
+      "id": "940d5518-0fb6-4ccb-83db-04009a852fb7",
+      "title": "Unit 3 Time for school",
+      "parentId": ""
+    },
+    {
+      "id": "759c214b-75d3-4e79-9cce-bc4febd5da9d",
+      "title": "Part A What is your schedule?",
+      "parentId": "940d5518-0fb6-4ccb-83db-04009a852fb7"
+    },
+    {
+      "id": "a6f3c4e1-2cfa-44c9-aa18-18758a7c3e47",
+      "title": "Part B How can a good schedule help us?",
+      "parentId": "940d5518-0fb6-4ccb-83db-04009a852fb7"
+    },
+    {
+      "id": "1e5dff46-9e2f-4123-8d17-fea4e8ee8e8e",
+      "title": "Part C Project: Make a weekend schedule",
+      "parentId": "940d5518-0fb6-4ccb-83db-04009a852fb7"
+    },
+    {
+      "id": "bd52de35-57fb-44ab-987f-9a0255ff09d8",
+      "title": "Unit 4 Going shopping",
+      "parentId": ""
+    },
+    {
+      "id": "97ca2e24-d0c3-4e76-b273-93e0a7bae673",
+      "title": "Part A What do we need to buy?",
+      "parentId": "bd52de35-57fb-44ab-987f-9a0255ff09d8"
+    },
+    {
+      "id": "f60f59e3-5cfb-456b-82d5-6269cbaaecc8",
+      "title": "Part B How do we decide what to buy?",
+      "parentId": "bd52de35-57fb-44ab-987f-9a0255ff09d8"
+    },
+    {
+      "id": "d0ad7908-6e33-4de3-98e6-8472cb422f79",
+      "title": "Part C Project: Choose clothes for a singing contest",
+      "parentId": "bd52de35-57fb-44ab-987f-9a0255ff09d8"
+    },
+    {
+      "id": "bdd27cee-fd38-4bdb-be47-a458cf77bcf0",
+      "title": "Unit 5 Farms and us",
+      "parentId": ""
+    },
+    {
+      "id": "ece3a535-31aa-4223-97b1-01d787a20c6e",
+      "title": "Part A What farm animals do you know?",
+      "parentId": "bdd27cee-fd38-4bdb-be47-a458cf77bcf0"
+    },
+    {
+      "id": "ec898b03-6870-40a5-b883-f2d9e7a4b577",
+      "title": "Part B What can we learn on a farm?",
+      "parentId": "bdd27cee-fd38-4bdb-be47-a458cf77bcf0"
+    },
+    {
+      "id": "05b36d78-52a7-4e4c-8e11-38c9d2f34845",
+      "title": "Part C Project: Make a \"farm-to-table\" flow chart",
+      "parentId": "bdd27cee-fd38-4bdb-be47-a458cf77bcf0"
+    },
+    {
+      "id": "67500962-6f01-442c-90f2-4ec2b0ef99f1",
+      "title": "Unit 6 From farm to table",
+      "parentId": ""
+    },
+    {
+      "id": "fdbfd743-f9e0-4f83-92f5-6e6dbb9f6eba",
+      "title": "Part A What can we do on a farm?",
+      "parentId": "67500962-6f01-442c-90f2-4ec2b0ef99f1"
+    },
+    {
+      "id": "2f8bb4b6-a6af-41c1-9e40-3e1999d06c30",
+      "title": "Part B How should we eat?",
+      "parentId": "67500962-6f01-442c-90f2-4ec2b0ef99f1"
+    },
+    {
+      "id": "f4883725-bada-4873-b530-d2d317496d13",
+      "title": "Part C Project: Design a Family Farm Day ad",
+      "parentId": "67500962-6f01-442c-90f2-4ec2b0ef99f1"
+    },
+    {
+      "id": "da3c0fc7-9b87-42ec-aacc-58712cf6f9eb",
+      "title": "Revision A great weekend plan",
+      "parentId": ""
+    },
+    {
+      "id": "4c0ee5d3-a3a2-40cc-b24e-df7f6a892ac5",
+      "title": "Appendix l Songs",
+      "parentId": ""
+    },
+    {
+      "id": "f9a0e654-ddea-4225-9531-1877503ef556",
+      "title": "Appendix 2 Words in each unit",
+      "parentId": ""
+    },
+    {
+      "id": "cb327aa0-260d-40d2-9e81-e8318a763ae5",
+      "title": "Appendix 3 Vocabulary",
+      "parentId": ""
+    },
+    {
+      "id": "25370714-21c3-418c-961a-cfbe2e6409b5",
+      "title": "Appendix 4 Useful expressions",
+      "parentId": ""
+    },
+    {
+      "id": "bbb1acbb-66de-494f-b3de-690d2147ac1d",
+      "title": "Appendix 5 Pronunciation",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "4814b221-7957-210e-43d2-28707627b131",
+      "title": "Unit 1 Class rules Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a66e07a3-e38d-4d4c-bc4e-100626726b55",
+        "ae85940e-f4d6-4fe4-868d-b07652fea5a6"
+      ]
+    },
+    {
+      "id": "42842ade-8fb0-a278-3602-4f14a50b1fc9",
+      "title": "Unit 1 Class rules Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a66e07a3-e38d-4d4c-bc4e-100626726b55",
+        "13b00b49-6bd4-40d4-8eaf-8c314c1c8e9b"
+      ]
+    },
+    {
+      "id": "4fff5f03-8068-99aa-e0c2-7092da8fb59c",
+      "title": "Unit 2 Family rules Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6762fd90-c341-4b3f-a933-2235b5d1b560"
+      ]
+    },
+    {
+      "id": "67680260-97b0-c544-2249-197e0b11dc99",
+      "title": "Unit 2 Family rules Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "6762fd90-c341-4b3f-a933-2235b5d1b560"
+      ]
+    },
+    {
+      "id": "280ffdc3-41d8-a254-0c48-0bb84d764143",
+      "title": "Unit 3 Time for school Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "940d5518-0fb6-4ccb-83db-04009a852fb7"
+      ]
+    },
+    {
+      "id": "d6453c78-0917-2b95-7e53-2680329f2aa7",
+      "title": "Unit 3 Time for school Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "940d5518-0fb6-4ccb-83db-04009a852fb7"
+      ]
+    },
+    {
+      "id": "fe814b81-a289-25e7-4b3d-983fbf5b8af4",
+      "title": "Unit 4 Going shopping Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd52de35-57fb-44ab-987f-9a0255ff09d8",
+        "97ca2e24-d0c3-4e76-b273-93e0a7bae673"
+      ]
+    },
+    {
+      "id": "a25838c0-078e-20df-6350-291d6e11b2d8",
+      "title": "Unit 4 Going shopping Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd52de35-57fb-44ab-987f-9a0255ff09d8",
+        "f60f59e3-5cfb-456b-82d5-6269cbaaecc8"
+      ]
+    },
+    {
+      "id": "6e6f0b07-d28f-8baa-1ebc-a0d0ca94d185",
+      "title": "Unit 5 Farms and us Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bdd27cee-fd38-4bdb-be47-a458cf77bcf0",
+        "ece3a535-31aa-4223-97b1-01d787a20c6e"
+      ]
+    },
+    {
+      "id": "07960cc1-dc29-4271-500b-0da3fc4241c2",
+      "title": "Unit 5 Farms and us Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bdd27cee-fd38-4bdb-be47-a458cf77bcf0",
+        "ec898b03-6870-40a5-b883-f2d9e7a4b577"
+      ]
+    },
+    {
+      "id": "51bad1ae-6a54-5b56-8345-23c371809567",
+      "title": "Unit 6 From farm to table Part A",
+      "type": "national_lesson",
+      "chapterIds": [
+        "67500962-6f01-442c-90f2-4ec2b0ef99f1",
+        "fdbfd743-f9e0-4f83-92f5-6e6dbb9f6eba"
+      ]
+    },
+    {
+      "id": "fb09db19-88f0-bb84-1f19-bacefd0f48c4",
+      "title": "Unit 6 From farm to table Part B",
+      "type": "national_lesson",
+      "chapterIds": [
+        "67500962-6f01-442c-90f2-4ec2b0ef99f1",
+        "2f8bb4b6-a6af-41c1-9e40-3e1999d06c30"
+      ]
+    }
+  ]
+}

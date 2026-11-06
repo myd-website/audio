@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "bookId": "eb0a886b-b6e6-25f4-14b7-8d792eafa560",
+  "chapters": [
+    {
+      "id": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b",
+      "title": "Unit 1 Welcome to my new home!",
+      "parentId": ""
+    },
+    {
+      "id": "519ffc06-4d01-3aee-9bee-73d5240d2329",
+      "title": "Lesson 1",
+      "parentId": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b"
+    },
+    {
+      "id": "a6b45d32-708b-3310-8634-66cd616ec09a",
+      "title": "Lesson 2",
+      "parentId": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b"
+    },
+    {
+      "id": "e2a4e283-4db7-3705-88eb-26e1a794c712",
+      "title": "Lesson 3",
+      "parentId": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b"
+    },
+    {
+      "id": "92f6aa53-ea2b-3e34-9b61-afc1bf642297",
+      "title": "Lesson 4",
+      "parentId": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b"
+    },
+    {
+      "id": "5efae0fb-bb7f-3046-8acb-d5ab7cad965b",
+      "title": "Lesson 5",
+      "parentId": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b"
+    },
+    {
+      "id": "a586f1c0-f854-36d6-bcc5-a34afe93757d",
+      "title": "Lesson 6",
+      "parentId": "ac559e4d-3eb0-398e-b67c-0a3ba6417a7b"
+    },
+    {
+      "id": "b81b4a0f-5078-3d08-884d-c9eadfce4c19",
+      "title": "Unit 2 There are forty students in our class.",
+      "parentId": ""
+    },
+    {
+      "id": "e6ae8b8b-a221-34c1-9987-9b4824c78b9b",
+      "title": "Lesson 7",
+      "parentId": "b81b4a0f-5078-3d08-884d-c9eadfce4c19"
+    },
+    {
+      "id": "371fb9c3-3c58-3e14-a666-02dbf9436cea",
+      "title": "Lesson 8",
+      "parentId": "b81b4a0f-5078-3d08-884d-c9eadfce4c19"
+    },
+    {
+      "id": "89c0551f-a28a-3155-bcdd-eac8332698f1",
+      "title": "Lesson 9",
+      "parentId": "b81b4a0f-5078-3d08-884d-c9eadfce4c19"
+    },
+    {
+      "id": "d7319791-855a-3df9-a60b-6d031cd96a82",
+      "title": "Lesson 10",
+      "parentId": "b81b4a0f-5078-3d08-884d-c9eadfce4c19"
+    },
+    {
+      "id": "7f5bf80b-eb80-319b-94aa-337bf688addb",
+      "title": "Lesson 11",
+      "parentId": "b81b4a0f-5078-3d08-884d-c9eadfce4c19"
+    },
+    {
+      "id": "15ee6d22-cc4e-388d-bbd6-c8346e3aff08",
+      "title": "Lesson 12",
+      "parentId": "b81b4a0f-5078-3d08-884d-c9eadfce4c19"
+    },
+    {
+      "id": "69711de5-1c5b-3981-82a3-f4d5b3dcebba",
+      "title": "Unit 3 What subject do you like best?",
+      "parentId": ""
+    },
+    {
+      "id": "2a95800d-dc40-3c3c-9ee5-dd17ec307570",
+      "title": "Lesson 13",
+      "parentId": "69711de5-1c5b-3981-82a3-f4d5b3dcebba"
+    },
+    {
+      "id": "20779ca4-71ff-3974-9fc7-7e8a93d640f6",
+      "title": "Lesson 14",
+      "parentId": "69711de5-1c5b-3981-82a3-f4d5b3dcebba"
+    },
+    {
+      "id": "25334c68-50b9-397a-82ca-f7258ce26bb4",
+      "title": "Lesson 15",
+      "parentId": "69711de5-1c5b-3981-82a3-f4d5b3dcebba"
+    },
+    {
+      "id": "e9715d98-7a80-3741-bef6-4701c6c7eee6",
+      "title": "Lesson 16",
+      "parentId": "69711de5-1c5b-3981-82a3-f4d5b3dcebba"
+    },
+    {
+      "id": "cd35cebe-05d0-37a7-b541-8ec1b66431bb",
+      "title": "Lesson 17",
+      "parentId": "69711de5-1c5b-3981-82a3-f4d5b3dcebba"
+    },
+    {
+      "id": "6c982ccb-6022-39a7-bd9e-f8a4d4fd233a",
+      "title": "Lesson 18",
+      "parentId": "69711de5-1c5b-3981-82a3-f4d5b3dcebba"
+    },
+    {
+      "id": "3bbcf4ff-322a-35b6-87e1-23e16daac653",
+      "title": "Fun Time 1",
+      "parentId": ""
+    },
+    {
+      "id": "667f3b3b-5f8c-3a09-b405-ac37ea3085ef",
+      "title": "Fun time 1 Recycle 1",
+      "parentId": "3bbcf4ff-322a-35b6-87e1-23e16daac653"
+    },
+    {
+      "id": "cda90ee4-71a4-3f44-a992-102a0a180b71",
+      "title": "Fun time 1 Recycle 2",
+      "parentId": "3bbcf4ff-322a-35b6-87e1-23e16daac653"
+    },
+    {
+      "id": "c4738d77-f24e-331b-8942-8349c1c6c0c1",
+      "title": "Fun time 1 Project",
+      "parentId": "3bbcf4ff-322a-35b6-87e1-23e16daac653"
+    },
+    {
+      "id": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c",
+      "title": "Unit 4 There are seven days in a week.",
+      "parentId": ""
+    },
+    {
+      "id": "566d82c2-fb35-3276-b9a0-9882d39afcd7",
+      "title": "Lesson 19",
+      "parentId": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c"
+    },
+    {
+      "id": "a491b398-7c3b-3d0a-8ae7-e4f050871185",
+      "title": "Lesson 20",
+      "parentId": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c"
+    },
+    {
+      "id": "e533f506-ae57-3f40-a8f4-603aeb351faf",
+      "title": "Lesson 21",
+      "parentId": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c"
+    },
+    {
+      "id": "16843fdc-5543-3af5-8463-ecaafdb3f4ca",
+      "title": "Lesson 22",
+      "parentId": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c"
+    },
+    {
+      "id": "76a24ab2-2376-38dc-9f6f-b8237128c46f",
+      "title": "Lesson 23",
+      "parentId": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c"
+    },
+    {
+      "id": "a7051714-3ac9-3984-b7fc-872c6a8f08c9",
+      "title": "Lesson 24",
+      "parentId": "176be9e2-95c9-3bd6-bb67-f65fb15ab07c"
+    },
+    {
+      "id": "2ce81429-1292-3225-991b-d2160b3517db",
+      "title": "Unit 5 What will you do this weekend?",
+      "parentId": ""
+    },
+    {
+      "id": "0fec856f-2a22-31e9-9061-5db13644e132",
+      "title": "Lesson 25",
+      "parentId": "2ce81429-1292-3225-991b-d2160b3517db"
+    },
+    {
+      "id": "51c6a693-cebc-3d9a-9121-276d4ec19037",
+      "title": "Lesson 26",
+      "parentId": "2ce81429-1292-3225-991b-d2160b3517db"
+    },
+    {
+      "id": "f508a52b-cb7b-3763-95bc-c61035661c90",
+      "title": "Lesson 27",
+      "parentId": "2ce81429-1292-3225-991b-d2160b3517db"
+    },
+    {
+      "id": "8fb5a40a-3242-3fe0-8306-a66f9ceb3b69",
+      "title": "Lesson 28",
+      "parentId": "2ce81429-1292-3225-991b-d2160b3517db"
+    },
+    {
+      "id": "742cdd72-df6c-3aab-a984-370006904316",
+      "title": "Lesson 29",
+      "parentId": "2ce81429-1292-3225-991b-d2160b3517db"
+    },
+    {
+      "id": "d70f8cdc-64a2-36d5-87ea-952a2417f0db",
+      "title": "Lesson 30",
+      "parentId": "2ce81429-1292-3225-991b-d2160b3517db"
+    },
+    {
+      "id": "b96fc101-dce9-3d68-9eb7-321d4a71e962",
+      "title": "Unit 6 Would you like to take a trip?",
+      "parentId": ""
+    },
+    {
+      "id": "613782bc-9537-375a-bc53-070d9ea7b888",
+      "title": "Lesson 31",
+      "parentId": "b96fc101-dce9-3d68-9eb7-321d4a71e962"
+    },
+    {
+      "id": "cd98ca26-6e06-32cb-a6e0-d8d6a0249021",
+      "title": "Lesson 32",
+      "parentId": "b96fc101-dce9-3d68-9eb7-321d4a71e962"
+    },
+    {
+      "id": "e40cf626-30e9-3d6f-a6e6-174f777ce7d7",
+      "title": "Lesson 33",
+      "parentId": "b96fc101-dce9-3d68-9eb7-321d4a71e962"
+    },
+    {
+      "id": "f57881e5-4c19-33b5-b30e-9cae464050ea",
+      "title": "Lesson 34",
+      "parentId": "b96fc101-dce9-3d68-9eb7-321d4a71e962"
+    },
+    {
+      "id": "fe98090e-6819-3cba-9190-1cd62123be70",
+      "title": "Lesson 35",
+      "parentId": "b96fc101-dce9-3d68-9eb7-321d4a71e962"
+    },
+    {
+      "id": "7269a921-06aa-3032-a9bf-d37a537bf551",
+      "title": "Lesson 36",
+      "parentId": "b96fc101-dce9-3d68-9eb7-321d4a71e962"
+    },
+    {
+      "id": "c378faa2-c939-348e-8e69-848ccae37083",
+      "title": "Fun Time 2",
+      "parentId": ""
+    },
+    {
+      "id": "4e80d6f6-9d4d-3a7d-b14f-361bacde7f82",
+      "title": "Fun time 2 Recycle 1",
+      "parentId": "c378faa2-c939-348e-8e69-848ccae37083"
+    },
+    {
+      "id": "d105660d-e138-31af-9d12-a04b3d5715ca",
+      "title": "Fun time 2 Recycle 2",
+      "parentId": "c378faa2-c939-348e-8e69-848ccae37083"
+    },
+    {
+      "id": "f9ea6f50-e5e2-3aaf-b474-3b61a729aed2",
+      "title": "Fun time 2 Project",
+      "parentId": "c378faa2-c939-348e-8e69-848ccae37083"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "2eceac29-68dc-17cc-1968-828dc7b4f264",
+      "title": "Lesson 25",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "2ce81429-1292-3225-991b-d2160b3517db",
+        "0fec856f-2a22-31e9-9061-5db13644e132"
+      ]
+    }
+  ]
+}

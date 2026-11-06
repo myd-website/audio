@@ -1,0 +1,566 @@
+{
+  "version": 1,
+  "bookId": "b4dae36a-0d48-4149-820e-f532dad7607b",
+  "chapters": [
+    {
+      "id": "00dd71f6-4bed-412c-951d-dc049bd461b4",
+      "title": "一、认识平面图形",
+      "parentId": ""
+    },
+    {
+      "id": "064c0399-e09b-462b-956f-f2165f0b3b54",
+      "title": "认识平面图形",
+      "parentId": "00dd71f6-4bed-412c-951d-dc049bd461b4"
+    },
+    {
+      "id": "43c58aab-3f26-4ee6-b49d-29086a5ff85f",
+      "title": "图形的拼组",
+      "parentId": "00dd71f6-4bed-412c-951d-dc049bd461b4"
+    },
+    {
+      "id": "ba08a10c-649d-41fd-9bfc-faca1497585f",
+      "title": "解决问题",
+      "parentId": "00dd71f6-4bed-412c-951d-dc049bd461b4"
+    },
+    {
+      "id": "59aa1e2b-5ed0-44f9-b420-e22573cada98",
+      "title": "整理和复习",
+      "parentId": "00dd71f6-4bed-412c-951d-dc049bd461b4"
+    },
+    {
+      "id": "2eeba665-272f-4a55-b064-2be484fc77e4",
+      "title": "二、20以内的退位减法",
+      "parentId": ""
+    },
+    {
+      "id": "ef1b990a-ea75-4d0a-a2ea-703a87c4e6b4",
+      "title": "十几减9",
+      "parentId": "2eeba665-272f-4a55-b064-2be484fc77e4"
+    },
+    {
+      "id": "db87c960-19b1-4a11-9ed1-52af170c31fa",
+      "title": "十几减8、7、6",
+      "parentId": "2eeba665-272f-4a55-b064-2be484fc77e4"
+    },
+    {
+      "id": "090d7805-fe17-41f0-8352-73c079fe6ac4",
+      "title": "十几减5、4、3、2",
+      "parentId": "2eeba665-272f-4a55-b064-2be484fc77e4"
+    },
+    {
+      "id": "f8a0cc09-7003-4abc-a346-aef8c7fc5223",
+      "title": "解决问题",
+      "parentId": "2eeba665-272f-4a55-b064-2be484fc77e4"
+    },
+    {
+      "id": "080af136-a527-42a5-8367-b6855c2b2935",
+      "title": "整理和复习",
+      "parentId": "2eeba665-272f-4a55-b064-2be484fc77e4"
+    },
+    {
+      "id": "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+      "title": "三、100以内数的认识",
+      "parentId": ""
+    },
+    {
+      "id": "752c43ba-9465-4170-8d05-ec407c8e6ae8",
+      "title": "数数、数的组成-不超过100的数数、数的组成",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "e0fe1ec3-dc6a-4da3-8f94-d868461a40c0",
+      "title": "读法和写法",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "0f10564d-e8e4-4b43-9c72-97cd8d16a341",
+      "title": "100的认识和写法",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "2f7b0931-670f-4664-af31-876f2693654e",
+      "title": "数的顺序",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "ba1db695-94ad-4c0f-9faf-fff92c93f0b3",
+      "title": "比大小",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "c0a1512b-d857-4b19-8aba-4f0bc17bb924",
+      "title": "用“大得多” “大一些” 说一说",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "4e9dd59b-d90f-4bb8-8325-26888009fea8",
+      "title": "100以内简单的加、减法（整十数加减整十数、整十数加一位数和相应的减法）",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "a4be94a0-e10f-465f-bcd7-a2cbe1feeb5e",
+      "title": "数学活动（选学）-摆一摆 想一想",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "7ea3da90-af66-4293-8fde-02c4e3f62fc6",
+      "title": "整理和复习",
+      "parentId": "acfb0386-a55f-4542-9d5d-619a3e2d9023"
+    },
+    {
+      "id": "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+      "title": "四、100以内的口算加、减法",
+      "parentId": ""
+    },
+    {
+      "id": "574798d6-d2cc-4b85-82c9-81c477081bc4",
+      "title": "口算加法-两位数加一位数和整十数（不进位）",
+      "parentId": "ac9164b9-5eba-4c7e-9436-214fc2df042b"
+    },
+    {
+      "id": "8aa04122-1fbe-46b5-928c-55f28db3ce41",
+      "title": "口算加法-两位数加一位数（进位）",
+      "parentId": "ac9164b9-5eba-4c7e-9436-214fc2df042b"
+    },
+    {
+      "id": "9823a8e5-a56c-45c8-9a93-7297fb92ee00",
+      "title": "口算减法-两位数减一位数和整十数（不退位）",
+      "parentId": "ac9164b9-5eba-4c7e-9436-214fc2df042b"
+    },
+    {
+      "id": "fb5fd7b6-9672-482d-8e79-7e168894cc3c",
+      "title": "口算减法-两位数减一位数（退位）",
+      "parentId": "ac9164b9-5eba-4c7e-9436-214fc2df042b"
+    },
+    {
+      "id": "c701e49c-7639-485b-836e-7b89b07524b2",
+      "title": "用连减解决问题",
+      "parentId": "ac9164b9-5eba-4c7e-9436-214fc2df042b"
+    },
+    {
+      "id": "f760f10e-29b3-4677-bde4-621cfbe06702",
+      "title": "整理和复习",
+      "parentId": "ac9164b9-5eba-4c7e-9436-214fc2df042b"
+    },
+    {
+      "id": "f91c81c2-d62f-4a5d-b55e-dd42ef644a88",
+      "title": "五、100以内的笔算加、减法",
+      "parentId": ""
+    },
+    {
+      "id": "e4b610b5-b310-48f5-829c-965ba6e83264",
+      "title": "笔算加法",
+      "parentId": "f91c81c2-d62f-4a5d-b55e-dd42ef644a88"
+    },
+    {
+      "id": "45773dbd-7ba8-4925-807d-d560fb09ab8a",
+      "title": "笔算减法",
+      "parentId": "f91c81c2-d62f-4a5d-b55e-dd42ef644a88"
+    },
+    {
+      "id": "846e5732-8c47-4cd9-b556-43ded0475a58",
+      "title": "整理和复习",
+      "parentId": "f91c81c2-d62f-4a5d-b55e-dd42ef644a88"
+    },
+    {
+      "id": "bd8045fb-fd3d-42d3-95ed-a1ca984c5126",
+      "title": "六、数量间的加减关系",
+      "parentId": ""
+    },
+    {
+      "id": "64427552-7aab-4c06-b420-3264d18512fa",
+      "title": "解决求两数相差几的实际问题",
+      "parentId": "bd8045fb-fd3d-42d3-95ed-a1ca984c5126"
+    },
+    {
+      "id": "d4e172c0-2755-4816-8684-2b1ccf656788",
+      "title": "求比一个数多（或少）几的数是多少",
+      "parentId": "bd8045fb-fd3d-42d3-95ed-a1ca984c5126"
+    },
+    {
+      "id": "38016e4f-ff5a-49b2-b3e7-b067846c7d6a",
+      "title": "含相差数量关系的连续两问的问题",
+      "parentId": "bd8045fb-fd3d-42d3-95ed-a1ca984c5126"
+    },
+    {
+      "id": "fae44590-aee0-44f3-a913-10128360d603",
+      "title": "整理和复习",
+      "parentId": "bd8045fb-fd3d-42d3-95ed-a1ca984c5126"
+    },
+    {
+      "id": "fdc950af-3aa4-4c77-a95f-fe523b226262",
+      "title": "欢乐购物街",
+      "parentId": ""
+    },
+    {
+      "id": "2a535411-8f67-4b89-abe2-626d93b3bb5a",
+      "title": "认识人民币-认一认、换一换",
+      "parentId": "fdc950af-3aa4-4c77-a95f-fe523b226262"
+    },
+    {
+      "id": "66072519-5aa1-49ce-b4fc-921bdbc6f6c0",
+      "title": "买卖我做主",
+      "parentId": "fdc950af-3aa4-4c77-a95f-fe523b226262"
+    },
+    {
+      "id": "5171f545-27ad-41da-9a7c-19f941d1ebd3",
+      "title": "小讲堂",
+      "parentId": "fdc950af-3aa4-4c77-a95f-fe523b226262"
+    },
+    {
+      "id": "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5",
+      "title": "七、复习与关联",
+      "parentId": ""
+    },
+    {
+      "id": "50b6d028-968b-449b-bd4c-f29b04919156",
+      "title": "数与运算",
+      "parentId": "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5"
+    },
+    {
+      "id": "609b84ce-34f1-42d6-9b70-872f882efdd3",
+      "title": "数量关系",
+      "parentId": "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5"
+    },
+    {
+      "id": "9a1947b2-0ff5-4b28-aa41-5d478a4d93a4",
+      "title": "图形的认识",
+      "parentId": "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "86bdd6c7-ad71-d131-1019-173a9ac88e76",
+      "title": "认识平面图形",
+      "type": "national_lesson",
+      "chapterIds": [
+        "00dd71f6-4bed-412c-951d-dc049bd461b4",
+        "064c0399-e09b-462b-956f-f2165f0b3b54"
+      ]
+    },
+    {
+      "id": "a0cc7c58-08ee-a303-9c6b-319ed1004377",
+      "title": "图形的拼组",
+      "type": "national_lesson",
+      "chapterIds": [
+        "00dd71f6-4bed-412c-951d-dc049bd461b4",
+        "43c58aab-3f26-4ee6-b49d-29086a5ff85f"
+      ]
+    },
+    {
+      "id": "e52545f6-aab7-587e-731b-82235387a598",
+      "title": "解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "00dd71f6-4bed-412c-951d-dc049bd461b4",
+        "ba08a10c-649d-41fd-9bfc-faca1497585f"
+      ]
+    },
+    {
+      "id": "c6599a51-8d7b-31de-6eed-e7d22678175c",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "00dd71f6-4bed-412c-951d-dc049bd461b4",
+        "59aa1e2b-5ed0-44f9-b420-e22573cada98"
+      ]
+    },
+    {
+      "id": "4a3fa8a5-dfa4-ead7-6f2e-a65ca29840c5",
+      "title": "十几减9",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2eeba665-272f-4a55-b064-2be484fc77e4",
+        "ef1b990a-ea75-4d0a-a2ea-703a87c4e6b4"
+      ]
+    },
+    {
+      "id": "fcaa4a75-5a56-9dea-6db9-6c173b3ad168",
+      "title": "十几减8、7、6",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2eeba665-272f-4a55-b064-2be484fc77e4",
+        "db87c960-19b1-4a11-9ed1-52af170c31fa"
+      ]
+    },
+    {
+      "id": "3bdb2177-6515-2e62-a6b8-b15b8a9c6ac9",
+      "title": "十几减5、4、3、2",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2eeba665-272f-4a55-b064-2be484fc77e4",
+        "090d7805-fe17-41f0-8352-73c079fe6ac4"
+      ]
+    },
+    {
+      "id": "5c98d77d-9255-fca5-2335-c5e4882438f2",
+      "title": "解决问题-求另一个加数的有多余条件的问题解决",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2eeba665-272f-4a55-b064-2be484fc77e4",
+        "f8a0cc09-7003-4abc-a346-aef8c7fc5223"
+      ]
+    },
+    {
+      "id": "0c2c7bd6-2068-0312-c903-67732615ffe7",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "2eeba665-272f-4a55-b064-2be484fc77e4",
+        "080af136-a527-42a5-8367-b6855c2b2935"
+      ]
+    },
+    {
+      "id": "5800cc87-943f-9517-e536-ea375588fa4f",
+      "title": "数数、数的组成",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "752c43ba-9465-4170-8d05-ec407c8e6ae8"
+      ]
+    },
+    {
+      "id": "f329c604-4fdb-a2c1-400e-5448cde940db",
+      "title": "读法和写法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "e0fe1ec3-dc6a-4da3-8f94-d868461a40c0"
+      ]
+    },
+    {
+      "id": "a1f73b37-19f8-4d20-8c34-d8782fc00879",
+      "title": "100的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "0f10564d-e8e4-4b43-9c72-97cd8d16a341"
+      ]
+    },
+    {
+      "id": "2dcdc27a-6ac2-09b7-fea8-218dab100586",
+      "title": "数的顺序",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "2f7b0931-670f-4664-af31-876f2693654e"
+      ]
+    },
+    {
+      "id": "e1c3ce66-ccd3-11f5-306d-d8b7585278fd",
+      "title": "比大小",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "ba1db695-94ad-4c0f-9faf-fff92c93f0b3"
+      ]
+    },
+    {
+      "id": "12c819ce-95f9-5075-9beb-0d97b66edcb1",
+      "title": "用“大得多” “大一些” 说一说",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "c0a1512b-d857-4b19-8aba-4f0bc17bb924"
+      ]
+    },
+    {
+      "id": "e6f26aa6-80a3-ded7-bd04-e61a5282e916",
+      "title": "100以内简单的加、减法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "4e9dd59b-d90f-4bb8-8325-26888009fea8"
+      ]
+    },
+    {
+      "id": "c8fbe691-d399-63df-bdfd-71f21875704a",
+      "title": "摆一摆 想一想",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "a4be94a0-e10f-465f-bcd7-a2cbe1feeb5e"
+      ]
+    },
+    {
+      "id": "57615bc9-aa05-9667-6fe2-565113c1d222",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "acfb0386-a55f-4542-9d5d-619a3e2d9023",
+        "7ea3da90-af66-4293-8fde-02c4e3f62fc6"
+      ]
+    },
+    {
+      "id": "2c31deaf-01fd-3df9-2d3b-258a91ab629a",
+      "title": "口算加法-两位数加一位数和整十数（不进位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+        "574798d6-d2cc-4b85-82c9-81c477081bc4"
+      ]
+    },
+    {
+      "id": "2c8fe2e9-cb78-af6d-bbfd-32281f78b9dd",
+      "title": "口算加法-两位数加一位数（进位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+        "8aa04122-1fbe-46b5-928c-55f28db3ce41"
+      ]
+    },
+    {
+      "id": "76f1acd4-1865-08ef-90a2-8c3561d32249",
+      "title": "口算减法-两位数减一位数和整十数（不退位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+        "9823a8e5-a56c-45c8-9a93-7297fb92ee00"
+      ]
+    },
+    {
+      "id": "7d9f2b10-050a-3f3a-38ef-8852a233d846",
+      "title": "口算减法-两位数减一位数（退位）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+        "fb5fd7b6-9672-482d-8e79-7e168894cc3c"
+      ]
+    },
+    {
+      "id": "68689500-df5c-d883-311e-9ad39bef1c6e",
+      "title": "用连减解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+        "c701e49c-7639-485b-836e-7b89b07524b2"
+      ]
+    },
+    {
+      "id": "2288704a-be3b-6bf7-7ae2-a2a60f461bc5",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "ac9164b9-5eba-4c7e-9436-214fc2df042b",
+        "f760f10e-29b3-4677-bde4-621cfbe06702"
+      ]
+    },
+    {
+      "id": "766388da-630c-44bc-dbc4-c644f6eef097",
+      "title": "笔算加法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f91c81c2-d62f-4a5d-b55e-dd42ef644a88",
+        "e4b610b5-b310-48f5-829c-965ba6e83264"
+      ]
+    },
+    {
+      "id": "7a1e2578-2993-8f1a-53fe-b6ccf1d90ebe",
+      "title": "笔算减法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f91c81c2-d62f-4a5d-b55e-dd42ef644a88",
+        "45773dbd-7ba8-4925-807d-d560fb09ab8a"
+      ]
+    },
+    {
+      "id": "05fdf449-90ce-826b-de47-49e0b59e9861",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "f91c81c2-d62f-4a5d-b55e-dd42ef644a88",
+        "846e5732-8c47-4cd9-b556-43ded0475a58"
+      ]
+    },
+    {
+      "id": "78c27027-4dd1-8795-27ab-0aa24483193f",
+      "title": "解决求两数相差几的实际问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd8045fb-fd3d-42d3-95ed-a1ca984c5126",
+        "64427552-7aab-4c06-b420-3264d18512fa"
+      ]
+    },
+    {
+      "id": "fc8b94a3-5a69-c42b-ea8e-ff4274f77f41",
+      "title": "求比一个数多（或少）几的数是多少",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd8045fb-fd3d-42d3-95ed-a1ca984c5126",
+        "d4e172c0-2755-4816-8684-2b1ccf656788"
+      ]
+    },
+    {
+      "id": "f64695c0-e556-6393-c55a-e7c1775d2906",
+      "title": "含相差数量关系的连续两问的问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd8045fb-fd3d-42d3-95ed-a1ca984c5126",
+        "38016e4f-ff5a-49b2-b3e7-b067846c7d6a"
+      ]
+    },
+    {
+      "id": "65e3dca1-14f7-70e2-0cba-2ef46ef20d03",
+      "title": "整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "bd8045fb-fd3d-42d3-95ed-a1ca984c5126",
+        "fae44590-aee0-44f3-a913-10128360d603"
+      ]
+    },
+    {
+      "id": "fae1e2f3-6061-06f9-4984-269d404d79fb",
+      "title": "认识人民币-认一认、换一换",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fdc950af-3aa4-4c77-a95f-fe523b226262",
+        "2a535411-8f67-4b89-abe2-626d93b3bb5a"
+      ]
+    },
+    {
+      "id": "aff5ef8d-5196-3d78-bd55-d17c2e8bab3e",
+      "title": "买卖我做主",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fdc950af-3aa4-4c77-a95f-fe523b226262",
+        "66072519-5aa1-49ce-b4fc-921bdbc6f6c0"
+      ]
+    },
+    {
+      "id": "ee9a45b5-b72f-6d69-470c-6ac3f649c24f",
+      "title": "小讲堂",
+      "type": "national_lesson",
+      "chapterIds": [
+        "fdc950af-3aa4-4c77-a95f-fe523b226262",
+        "5171f545-27ad-41da-9a7c-19f941d1ebd3"
+      ]
+    },
+    {
+      "id": "65341bfd-219f-82c0-4f1c-76f0887b205c",
+      "title": "数与运算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5",
+        "50b6d028-968b-449b-bd4c-f29b04919156"
+      ]
+    },
+    {
+      "id": "22f54a6b-8710-7589-0914-26c6b81b4b15",
+      "title": "数量关系",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5",
+        "609b84ce-34f1-42d6-9b70-872f882efdd3"
+      ]
+    },
+    {
+      "id": "45fe309f-367b-9374-7c6f-5768a517800c",
+      "title": "图形的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3118eaa6-4e44-470a-b7ec-dab2ae9b29b5",
+        "9a1947b2-0ff5-4b28-aa41-5d478a4d93a4"
+      ]
+    }
+  ]
+}

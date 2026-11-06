@@ -1,0 +1,438 @@
+{
+  "version": 1,
+  "bookId": "1cea417b-ba9c-44b7-b7c1-db53a962f2d4",
+  "chapters": [
+    {
+      "id": "d5737137-54d6-4a5b-b95b-04fb5fd1479d",
+      "title": "第一单元",
+      "parentId": ""
+    },
+    {
+      "id": "a2ccf276-efa8-4eb3-89cb-7819644f96ab",
+      "title": "阅读",
+      "parentId": "d5737137-54d6-4a5b-b95b-04fb5fd1479d"
+    },
+    {
+      "id": "ed89a9d5-f8bc-4918-b7bc-cde0c1633ef3",
+      "title": "1 观潮",
+      "parentId": "a2ccf276-efa8-4eb3-89cb-7819644f96ab"
+    },
+    {
+      "id": "140361f5-2ae6-4fae-9db5-f75566eee4d5",
+      "title": "2 繁星",
+      "parentId": "a2ccf276-efa8-4eb3-89cb-7819644f96ab"
+    },
+    {
+      "id": "7e3660ed-f972-44c6-900d-b4dff07f247a",
+      "title": "3* 现代诗二首",
+      "parentId": "a2ccf276-efa8-4eb3-89cb-7819644f96ab"
+    },
+    {
+      "id": "922467e8-4a1c-456f-84f2-171c8c5a8e6e",
+      "title": "口语交际",
+      "parentId": "d5737137-54d6-4a5b-b95b-04fb5fd1479d"
+    },
+    {
+      "id": "23074533-7cc5-44b5-b6dc-c30dfcca1113",
+      "title": "我们与环境",
+      "parentId": "922467e8-4a1c-456f-84f2-171c8c5a8e6e"
+    },
+    {
+      "id": "0862aef1-5d07-495c-95c3-d262fd70361f",
+      "title": "习作",
+      "parentId": "d5737137-54d6-4a5b-b95b-04fb5fd1479d"
+    },
+    {
+      "id": "866a3431-a9bb-4d06-826a-09b61c36abc1",
+      "title": "推荐一个好地方..",
+      "parentId": "0862aef1-5d07-495c-95c3-d262fd70361f"
+    },
+    {
+      "id": "2f91fe2b-54e0-459f-a180-61de316dfd0f",
+      "title": "语文园地",
+      "parentId": "d5737137-54d6-4a5b-b95b-04fb5fd1479d"
+    },
+    {
+      "id": "78b67eca-5e50-4d5d-8af1-26ff23c95eba",
+      "title": "第二单元",
+      "parentId": ""
+    },
+    {
+      "id": "f183f83a-e922-44d1-b0d8-331ded691dfe",
+      "title": "阅读",
+      "parentId": "78b67eca-5e50-4d5d-8af1-26ff23c95eba"
+    },
+    {
+      "id": "20280b5b-2116-4397-a5e3-833836c17625",
+      "title": "4 一个豆荚里的五粒豆",
+      "parentId": "f183f83a-e922-44d1-b0d8-331ded691dfe"
+    },
+    {
+      "id": "aea5ab8d-c0eb-47c7-b331-2f3d1ab0c001",
+      "title": "5 夜间飞行的秘密",
+      "parentId": "f183f83a-e922-44d1-b0d8-331ded691dfe"
+    },
+    {
+      "id": "e97f134d-28cc-4f6a-aa2c-ebf3dbde0f23",
+      "title": "6 方帽子店.",
+      "parentId": "f183f83a-e922-44d1-b0d8-331ded691dfe"
+    },
+    {
+      "id": "e84f8a0f-ae2a-4fd2-9b02-71b0aac02aa8",
+      "title": "7* 田忌赛马.",
+      "parentId": "f183f83a-e922-44d1-b0d8-331ded691dfe"
+    },
+    {
+      "id": "871c524e-942e-4034-88f5-042f3a1464ad",
+      "title": "习作",
+      "parentId": "78b67eca-5e50-4d5d-8af1-26ff23c95eba"
+    },
+    {
+      "id": "56d62a11-14cb-4aba-90cd-e36dd16cfa4f",
+      "title": "我的家人",
+      "parentId": "871c524e-942e-4034-88f5-042f3a1464ad"
+    },
+    {
+      "id": "76442c2a-6635-4915-9f32-92c283414728",
+      "title": "语文园地",
+      "parentId": "78b67eca-5e50-4d5d-8af1-26ff23c95eba"
+    },
+    {
+      "id": "58a82e59-879f-469a-a442-71da8a90a6aa",
+      "title": "第三单元",
+      "parentId": ""
+    },
+    {
+      "id": "7b2fcc23-5a5a-4794-a274-c8bc596ac8b9",
+      "title": "阅读",
+      "parentId": "58a82e59-879f-469a-a442-71da8a90a6aa"
+    },
+    {
+      "id": "027b145e-ddc4-4bc4-8fe3-3263f8154131",
+      "title": "8 古诗三首.",
+      "parentId": "7b2fcc23-5a5a-4794-a274-c8bc596ac8b9"
+    },
+    {
+      "id": "535ff5a9-c60d-4f29-8485-008c541f1146",
+      "title": "9 爬山虎的脚",
+      "parentId": "7b2fcc23-5a5a-4794-a274-c8bc596ac8b9"
+    },
+    {
+      "id": "989a1bb4-f375-479b-b67e-d0f4aa433cf1",
+      "title": "10 蟋蟀的住宅 .",
+      "parentId": "7b2fcc23-5a5a-4794-a274-c8bc596ac8b9"
+    },
+    {
+      "id": "eb27fd52-93c3-48ab-913f-14454d2f8573",
+      "title": "口语交际",
+      "parentId": "58a82e59-879f-469a-a442-71da8a90a6aa"
+    },
+    {
+      "id": "fe9c5f58-b272-4ac9-93ff-dd43c41b2310",
+      "title": "爱护眼睛，保护视力.",
+      "parentId": "eb27fd52-93c3-48ab-913f-14454d2f8573"
+    },
+    {
+      "id": "f883b65a-21e4-473d-9f8e-ef107f10a2b8",
+      "title": "习作",
+      "parentId": "58a82e59-879f-469a-a442-71da8a90a6aa"
+    },
+    {
+      "id": "747f72ec-8f4b-4a5c-9030-72ba45eaecd9",
+      "title": "写观察日记",
+      "parentId": "f883b65a-21e4-473d-9f8e-ef107f10a2b8"
+    },
+    {
+      "id": "1e722147-99f1-4143-a2e1-af1fd6983190",
+      "title": "语文园地 .",
+      "parentId": "58a82e59-879f-469a-a442-71da8a90a6aa"
+    },
+    {
+      "id": "f5c7812b-74a0-425c-bb48-cd6eea7c8977",
+      "title": "第四单元",
+      "parentId": ""
+    },
+    {
+      "id": "6b8ac254-4e91-46b8-bba3-2a48a007175b",
+      "title": "阅读",
+      "parentId": "f5c7812b-74a0-425c-bb48-cd6eea7c8977"
+    },
+    {
+      "id": "e564fccd-8759-443c-a0d5-3226a869c60c",
+      "title": "11 盘古开天地",
+      "parentId": "6b8ac254-4e91-46b8-bba3-2a48a007175b"
+    },
+    {
+      "id": "74a7926a-1d12-4609-a46c-58fd815a025d",
+      "title": "12 精卫填海",
+      "parentId": "6b8ac254-4e91-46b8-bba3-2a48a007175b"
+    },
+    {
+      "id": "f26f8a15-f70a-4613-8a7f-24400af7b1d4",
+      "title": "13 普罗米修斯",
+      "parentId": "6b8ac254-4e91-46b8-bba3-2a48a007175b"
+    },
+    {
+      "id": "cd6c7baa-e242-4f07-aa66-7b55c7fd91f7",
+      "title": "14* 女娲补天",
+      "parentId": "6b8ac254-4e91-46b8-bba3-2a48a007175b"
+    },
+    {
+      "id": "c2d36518-60e9-43bd-a5f6-1c84f176178b",
+      "title": "习作",
+      "parentId": "f5c7812b-74a0-425c-bb48-cd6eea7c8977"
+    },
+    {
+      "id": "991ef64a-9469-42f7-afcf-cde1cd544755",
+      "title": "我和____过一天",
+      "parentId": "c2d36518-60e9-43bd-a5f6-1c84f176178b"
+    },
+    {
+      "id": "374062f3-32c4-4073-a82a-f40f10e3227a",
+      "title": "语文园地",
+      "parentId": "f5c7812b-74a0-425c-bb48-cd6eea7c8977"
+    },
+    {
+      "id": "2fc44e94-9d5d-4560-b043-7d9cbada185f",
+      "title": "快乐读书吧",
+      "parentId": "f5c7812b-74a0-425c-bb48-cd6eea7c8977"
+    },
+    {
+      "id": "09bfb753-cff9-4d0b-a5e4-a66a65d7492a",
+      "title": "很久很久以前",
+      "parentId": "2fc44e94-9d5d-4560-b043-7d9cbada185f"
+    },
+    {
+      "id": "c48e09ae-e2fb-48a1-abd9-fcda25930ee1",
+      "title": "第五单元",
+      "parentId": ""
+    },
+    {
+      "id": "b209dfe3-c432-4af3-9592-304c03e3c313",
+      "title": "阅读",
+      "parentId": "c48e09ae-e2fb-48a1-abd9-fcda25930ee1"
+    },
+    {
+      "id": "83b4c7cc-7f94-4f61-b5fc-578fa560b107",
+      "title": "15 麻雀.",
+      "parentId": "b209dfe3-c432-4af3-9592-304c03e3c313"
+    },
+    {
+      "id": "b8dd100c-04a3-4570-ad9a-ac715663f63d",
+      "title": "16 爬天都峰",
+      "parentId": "b209dfe3-c432-4af3-9592-304c03e3c313"
+    },
+    {
+      "id": "8f6b8d7e-56e1-4d32-916b-7f4bc7a6bab5",
+      "title": "习作",
+      "parentId": "c48e09ae-e2fb-48a1-abd9-fcda25930ee1"
+    },
+    {
+      "id": "2a29164b-3e59-4c20-9d58-7e3eccee5cf8",
+      "title": "生活万花筒..",
+      "parentId": "8f6b8d7e-56e1-4d32-916b-7f4bc7a6bab5"
+    },
+    {
+      "id": "509401f8-ce80-40f7-8529-ac58c6aad229",
+      "title": "例文",
+      "parentId": "8f6b8d7e-56e1-4d32-916b-7f4bc7a6bab5"
+    },
+    {
+      "id": "0fe2be0f-4595-4968-a72e-b0580f018113",
+      "title": "第六单元",
+      "parentId": ""
+    },
+    {
+      "id": "d922f04a-002a-4a83-a297-e2f6e86e11ac",
+      "title": "阅读",
+      "parentId": "0fe2be0f-4595-4968-a72e-b0580f018113"
+    },
+    {
+      "id": "13954f5f-4ba6-41b8-abb4-68757c21c375",
+      "title": "17 长城.",
+      "parentId": "d922f04a-002a-4a83-a297-e2f6e86e11ac"
+    },
+    {
+      "id": "c2644c7c-fad4-47d0-942f-6471e56d6e49",
+      "title": "18 颐和园.",
+      "parentId": "d922f04a-002a-4a83-a297-e2f6e86e11ac"
+    },
+    {
+      "id": "3f72fd1e-701a-4337-bc05-6c30a3ee9577",
+      "title": "19* 秦兵马俑.",
+      "parentId": "d922f04a-002a-4a83-a297-e2f6e86e11ac"
+    },
+    {
+      "id": "b463bda3-f991-42c9-a3f6-a8001d4b7238",
+      "title": "口语交际",
+      "parentId": "0fe2be0f-4595-4968-a72e-b0580f018113"
+    },
+    {
+      "id": "efa3e6ff-3085-4d76-8e7e-0bcf98ca3d41",
+      "title": "我是小小讲解员",
+      "parentId": "b463bda3-f991-42c9-a3f6-a8001d4b7238"
+    },
+    {
+      "id": "ad7bf42d-f6e2-43d4-859c-d07aa1216982",
+      "title": "习作",
+      "parentId": "0fe2be0f-4595-4968-a72e-b0580f018113"
+    },
+    {
+      "id": "6e176faa-7917-45d4-9460-527554060cb4",
+      "title": "中国的世界文化遗产",
+      "parentId": "ad7bf42d-f6e2-43d4-859c-d07aa1216982"
+    },
+    {
+      "id": "2e5e733c-a9d9-4d0a-9693-65f07c47e73c",
+      "title": "语文园地",
+      "parentId": "0fe2be0f-4595-4968-a72e-b0580f018113"
+    },
+    {
+      "id": "65a3d2e5-4261-4eff-ac3f-98ecab9df284",
+      "title": "第七单元",
+      "parentId": ""
+    },
+    {
+      "id": "3d68fa9e-75dd-4949-8d46-806c00415872",
+      "title": "阅读",
+      "parentId": "65a3d2e5-4261-4eff-ac3f-98ecab9df284"
+    },
+    {
+      "id": "2b397dd4-8fc2-4757-9199-a87a95d374d2",
+      "title": "20 牛和鹅",
+      "parentId": "3d68fa9e-75dd-4949-8d46-806c00415872"
+    },
+    {
+      "id": "65bd66c5-236f-4861-855b-8fe07f4e8ccc",
+      "title": "21 一只窝囊的大老虎.",
+      "parentId": "3d68fa9e-75dd-4949-8d46-806c00415872"
+    },
+    {
+      "id": "fdf3a10b-5dd8-4616-bf2b-941ac0f484a9",
+      "title": "22* 陀螺.",
+      "parentId": "3d68fa9e-75dd-4949-8d46-806c00415872"
+    },
+    {
+      "id": "7add1004-69e6-4009-b7c5-d8e5502bdc78",
+      "title": "23 王戎不取道旁李.",
+      "parentId": "3d68fa9e-75dd-4949-8d46-806c00415872"
+    },
+    {
+      "id": "8e693a65-2cc6-453f-bee6-045694a32150",
+      "title": "口语交际",
+      "parentId": "65a3d2e5-4261-4eff-ac3f-98ecab9df284"
+    },
+    {
+      "id": "577684ce-a5ec-42f8-b45f-d41b495cd4bf",
+      "title": "安慰..",
+      "parentId": "8e693a65-2cc6-453f-bee6-045694a32150"
+    },
+    {
+      "id": "bea890d7-fef2-43a4-b207-94e582f63faf",
+      "title": "习作",
+      "parentId": "65a3d2e5-4261-4eff-ac3f-98ecab9df284"
+    },
+    {
+      "id": "63127e5b-faff-4142-8b43-2e3dc7ae855a",
+      "title": "我的心儿怦怦跳",
+      "parentId": "bea890d7-fef2-43a4-b207-94e582f63faf"
+    },
+    {
+      "id": "07163039-9579-48c1-8f43-9369b81aa50a",
+      "title": "语文园地",
+      "parentId": "65a3d2e5-4261-4eff-ac3f-98ecab9df284"
+    },
+    {
+      "id": "d8bc29d3-cedf-4da5-adcf-baa5b71b9260",
+      "title": "第八单元",
+      "parentId": ""
+    },
+    {
+      "id": "d99100fa-7c20-449f-89e2-c1dbc7802286",
+      "title": "阅读",
+      "parentId": "d8bc29d3-cedf-4da5-adcf-baa5b71b9260"
+    },
+    {
+      "id": "694ce84a-b7b5-44bc-b35f-87d5b509d67d",
+      "title": "24 我将无我，不负人民.",
+      "parentId": "d99100fa-7c20-449f-89e2-c1dbc7802286"
+    },
+    {
+      "id": "85b5cc7d-5448-4819-acc5-107cdd0d2be6",
+      "title": "25 为中华之崛起而读书",
+      "parentId": "d99100fa-7c20-449f-89e2-c1dbc7802286"
+    },
+    {
+      "id": "b6448c81-2f0f-490a-bd29-f0dff2cdd2e5",
+      "title": "26* 延安，我把你追寻",
+      "parentId": "d99100fa-7c20-449f-89e2-c1dbc7802286"
+    },
+    {
+      "id": "7f30900f-82bc-4564-9c63-93d40adb61f3",
+      "title": "27 古诗三首",
+      "parentId": "d99100fa-7c20-449f-89e2-c1dbc7802286"
+    },
+    {
+      "id": "942959dc-1559-4008-a6c4-a5ed99e8b5c8",
+      "title": "习作",
+      "parentId": "d8bc29d3-cedf-4da5-adcf-baa5b71b9260"
+    },
+    {
+      "id": "dbea25fd-486c-404f-81e1-a8f0eb4ca895",
+      "title": "写信.",
+      "parentId": "942959dc-1559-4008-a6c4-a5ed99e8b5c8"
+    },
+    {
+      "id": "174fcc7b-bdc0-487d-8db6-7883003e0c6e",
+      "title": "语文园地",
+      "parentId": "d8bc29d3-cedf-4da5-adcf-baa5b71b9260"
+    },
+    {
+      "id": "fef1a750-4e0e-4524-ab22-c9589b4dab62",
+      "title": "识字表",
+      "parentId": ""
+    },
+    {
+      "id": "25e2cfd1-13ed-4f09-9944-8bcb746aabdd",
+      "title": "写字表",
+      "parentId": ""
+    },
+    {
+      "id": "00e5cd28-d402-4569-85f0-40fca66a7dc2",
+      "title": "词语表",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "06197810-967b-fa4f-1983-a1fe003449b0",
+      "title": "1 观潮",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d5737137-54d6-4a5b-b95b-04fb5fd1479d",
+        "a2ccf276-efa8-4eb3-89cb-7819644f96ab",
+        "ed89a9d5-f8bc-4918-b7bc-cde0c1633ef3"
+      ]
+    },
+    {
+      "id": "d80c864f-b758-c862-32ea-d6fe0a655a60",
+      "title": "2 繁星",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d5737137-54d6-4a5b-b95b-04fb5fd1479d",
+        "a2ccf276-efa8-4eb3-89cb-7819644f96ab",
+        "140361f5-2ae6-4fae-9db5-f75566eee4d5"
+      ]
+    },
+    {
+      "id": "e4b10e36-f09e-60d6-b5b6-c2dc0f32e62f",
+      "title": "3* 现代诗二首",
+      "type": "national_lesson",
+      "chapterIds": [
+        "d5737137-54d6-4a5b-b95b-04fb5fd1479d",
+        "a2ccf276-efa8-4eb3-89cb-7819644f96ab",
+        "7e3660ed-f972-44c6-900d-b4dff07f247a"
+      ]
+    }
+  ]
+}

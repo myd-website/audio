@@ -1,0 +1,592 @@
+{
+  "version": 1,
+  "bookId": "948ac1e5-1586-4ca7-b0d5-14f6e52583b9",
+  "chapters": [
+    {
+      "id": "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+      "title": "1　分数乘法",
+      "parentId": ""
+    },
+    {
+      "id": "1ddbbbab-60e9-35e6-8646-82d47f7000a1",
+      "title": "分数乘整数",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "f1c1bf09-cfb6-392f-80d7-89c1d59a5b2f",
+      "title": "分数乘分数",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "371f886c-386f-3990-bc49-d29d5219e194",
+      "title": "分数乘小数",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "84c003ae-b778-34a6-8e94-25f01fd4fcf0",
+      "title": "分数四则混合运算",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "cf1b5385-f53a-3deb-a663-d2f455dc67e6",
+      "title": "整数乘法运算定律推广到分数",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "31833463-81e3-347f-a2d1-1a8b6a498c9e",
+      "title": "解决问题",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "cd24f4a6-e39c-326d-871f-0b3c8d0710eb",
+      "title": "整理和复习",
+      "parentId": "03060bc3-54cc-38c1-91ec-9b9159e42e4c"
+    },
+    {
+      "id": "a09ee0e2-aec4-3022-b0b4-37803ca53b18",
+      "title": "2　位置与方向（二）",
+      "parentId": ""
+    },
+    {
+      "id": "d56bf13b-0b31-32de-98fc-2c145fbe04c3",
+      "title": "用方向和距离描述位置（例1）",
+      "parentId": "a09ee0e2-aec4-3022-b0b4-37803ca53b18"
+    },
+    {
+      "id": "1cf28df3-3ab0-3fcd-a2ad-5fb1006f7c88",
+      "title": "根据方向和距离确定点的位置（例2）",
+      "parentId": "a09ee0e2-aec4-3022-b0b4-37803ca53b18"
+    },
+    {
+      "id": "600df9c1-d9a1-3e92-9909-e5d77fa0f746",
+      "title": "描述简单的路线图（例3）",
+      "parentId": "a09ee0e2-aec4-3022-b0b4-37803ca53b18"
+    },
+    {
+      "id": "0180b74d-36a0-3f85-a3c2-66878cab2315",
+      "title": "3　分数除法",
+      "parentId": ""
+    },
+    {
+      "id": "4f8c837b-194a-3a4b-a6ef-730730e7aba7",
+      "title": "倒数的认识",
+      "parentId": "0180b74d-36a0-3f85-a3c2-66878cab2315"
+    },
+    {
+      "id": "08f7a58a-065c-394a-bc32-5f90554b827d",
+      "title": "分数除法",
+      "parentId": "0180b74d-36a0-3f85-a3c2-66878cab2315"
+    },
+    {
+      "id": "88e89085-87d3-3d74-9e5a-84c6710bb15f",
+      "title": "分数混合运算",
+      "parentId": "0180b74d-36a0-3f85-a3c2-66878cab2315"
+    },
+    {
+      "id": "42514425-c82b-3476-8a12-261769582c2b",
+      "title": "解决问题",
+      "parentId": "0180b74d-36a0-3f85-a3c2-66878cab2315"
+    },
+    {
+      "id": "12a5e902-3bfb-3268-b4d6-a1425d70a050",
+      "title": "已知一个数的几分之几是多少，求这个数（例4）",
+      "parentId": "42514425-c82b-3476-8a12-261769582c2b"
+    },
+    {
+      "id": "7dd4da1d-e949-363c-ad75-fbe8365b57c5",
+      "title": "已知比一个数多（少）几分之几的数是多少，求这个数（例5）",
+      "parentId": "42514425-c82b-3476-8a12-261769582c2b"
+    },
+    {
+      "id": "3dc1e7f7-6ab4-3d17-9075-fe309eaddf44",
+      "title": "已知两个量的和（差），其中一个量是另一个量的几分之几，求这两个量（例6）",
+      "parentId": "42514425-c82b-3476-8a12-261769582c2b"
+    },
+    {
+      "id": "1b13a601-6114-3e19-8646-5e3c97cdd123",
+      "title": "解决问题（利用抽象的“1”解决实际问题）",
+      "parentId": "0180b74d-36a0-3f85-a3c2-66878cab2315"
+    },
+    {
+      "id": "2b2cabb1-4f77-3f6e-8d9f-c26e8b5bd6cc",
+      "title": "整理和复习",
+      "parentId": "0180b74d-36a0-3f85-a3c2-66878cab2315"
+    },
+    {
+      "id": "8bf19e41-df17-3987-b183-bd647505ce51",
+      "title": "4　比",
+      "parentId": ""
+    },
+    {
+      "id": "9b6324b6-0571-3f3b-87e9-7f1abb665f2f",
+      "title": "比的意义",
+      "parentId": "8bf19e41-df17-3987-b183-bd647505ce51"
+    },
+    {
+      "id": "548a2f3e-dc64-3471-9ff6-405d7a384c44",
+      "title": "比的基本性质",
+      "parentId": "8bf19e41-df17-3987-b183-bd647505ce51"
+    },
+    {
+      "id": "c94b6721-148b-37f5-9ea8-3cf33fe802bb",
+      "title": "比的应用（按比分配）",
+      "parentId": "8bf19e41-df17-3987-b183-bd647505ce51"
+    },
+    {
+      "id": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+      "title": "5　圆",
+      "parentId": ""
+    },
+    {
+      "id": "88dbf04e-9d79-3e9f-bf14-021ba8d4257c",
+      "title": "圆的认识",
+      "parentId": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92"
+    },
+    {
+      "id": "baa86d6e-7f60-379a-b234-b8914ed95b93",
+      "title": "圆的周长",
+      "parentId": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92"
+    },
+    {
+      "id": "0c4f95d3-6c79-30c6-856b-20aa91d85a21",
+      "title": "圆的面积",
+      "parentId": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92"
+    },
+    {
+      "id": "bdbf63d2-6ecf-37b6-82a9-efb66ae8c7ad",
+      "title": "解决问题",
+      "parentId": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92"
+    },
+    {
+      "id": "0a2c133a-b694-31b2-86ac-d205e0033f7f",
+      "title": "扇形",
+      "parentId": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92"
+    },
+    {
+      "id": "eb87cf33-0460-3a8d-9a24-e5a7138e3f89",
+      "title": "整理和复习",
+      "parentId": "3d87d111-e794-38fd-ab0b-c5d6a9f57a92"
+    },
+    {
+      "id": "7ed99a6c-eb34-3979-867d-b43d48e77b23",
+      "title": "★确定起跑线",
+      "parentId": ""
+    },
+    {
+      "id": "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+      "title": "6　百分数（一）",
+      "parentId": ""
+    },
+    {
+      "id": "84161d07-4f29-3073-883d-9f4a18a0c777",
+      "title": "百分数的意义",
+      "parentId": "368c3bea-20ef-34cc-b568-9988f5e7bc34"
+    },
+    {
+      "id": "d9ec1882-c466-3aff-b8f7-2ea78b0e55b5",
+      "title": "百分数和分数、小数的互化",
+      "parentId": "368c3bea-20ef-34cc-b568-9988f5e7bc34"
+    },
+    {
+      "id": "d8eb860a-089d-3240-9955-00c2169b9e91",
+      "title": "用百分数解决问题",
+      "parentId": "368c3bea-20ef-34cc-b568-9988f5e7bc34"
+    },
+    {
+      "id": "22279abd-2a6f-3d1b-8dac-85d20b222033",
+      "title": "求一个数比另一个数多（少）百分之几（例3）",
+      "parentId": "d8eb860a-089d-3240-9955-00c2169b9e91"
+    },
+    {
+      "id": "717c1ac4-3f70-32cd-bfbc-57ca3ee599b7",
+      "title": "求比一个数多百分之几的数是多少（例4）",
+      "parentId": "d8eb860a-089d-3240-9955-00c2169b9e91"
+    },
+    {
+      "id": "be9b9362-d71e-3164-8c76-7ff1b48f74b7",
+      "title": "求比一个数连续多（或）少百分之几的数是多少（例5）",
+      "parentId": "d8eb860a-089d-3240-9955-00c2169b9e91"
+    },
+    {
+      "id": "94e48e22-d513-3483-a404-7d4e4dbce471",
+      "title": "整理和复习",
+      "parentId": "368c3bea-20ef-34cc-b568-9988f5e7bc34"
+    },
+    {
+      "id": "aa276a19-7001-33ca-b20c-a93d6a6bdb08",
+      "title": "7 扇形统计图",
+      "parentId": ""
+    },
+    {
+      "id": "97e7de3b-5795-3735-baed-a09b57217fe6",
+      "title": "★节约用水",
+      "parentId": ""
+    },
+    {
+      "id": "94b5a2d9-857b-3db5-9250-77129e2c95f5",
+      "title": "8 数学广角——数与形",
+      "parentId": ""
+    },
+    {
+      "id": "b7eeb337-f153-381d-bfbb-4370e0d42511",
+      "title": "9 总复习",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "3419d22c-deef-41e1-b730-5653939dfa1b",
+      "title": "分数和小数相乘",
+      "type": "national_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "371f886c-386f-3990-bc49-d29d5219e194"
+      ]
+    },
+    {
+      "id": "d2d396ad-01b7-4c2a-bc0b-cc870cdb0a6d",
+      "title": "分数乘法的整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "cd24f4a6-e39c-326d-871f-0b3c8d0710eb"
+      ]
+    },
+    {
+      "id": "b5b8290d-0678-4408-ae98-1154b1b8425b",
+      "title": "倒数的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "4f8c837b-194a-3a4b-a6ef-730730e7aba7"
+      ]
+    },
+    {
+      "id": "692c2743-7504-4f8c-82f9-8fd5e24ab703",
+      "title": "分数混合运算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "88e89085-87d3-3d74-9e5a-84c6710bb15f"
+      ]
+    },
+    {
+      "id": "6000323c-3511-48d2-b58e-55297e491d71",
+      "title": "分数除法的整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "2b2cabb1-4f77-3f6e-8d9f-c26e8b5bd6cc"
+      ]
+    },
+    {
+      "id": "fb53195c-7b98-4d80-8ddd-8a03226f2855",
+      "title": "比的基本性质",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8bf19e41-df17-3987-b183-bd647505ce51",
+        "548a2f3e-dc64-3471-9ff6-405d7a384c44"
+      ]
+    },
+    {
+      "id": "5076297b-1124-4c39-972b-38c95d0ce07e",
+      "title": "比的应用",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8bf19e41-df17-3987-b183-bd647505ce51",
+        "c94b6721-148b-37f5-9ea8-3cf33fe802bb"
+      ]
+    },
+    {
+      "id": "71848eab-baaa-4212-9957-755e356d3a07",
+      "title": "扇形",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "0a2c133a-b694-31b2-86ac-d205e0033f7f"
+      ]
+    },
+    {
+      "id": "958dc1be-a04e-4107-a409-8a56701a9533",
+      "title": "综合与实践：确定起跑线",
+      "type": "national_lesson",
+      "chapterIds": [
+        "7ed99a6c-eb34-3979-867d-b43d48e77b23"
+      ]
+    },
+    {
+      "id": "e4794bab-85e1-428a-95cf-a381af9ae37b",
+      "title": "百分数的整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "94e48e22-d513-3483-a404-7d4e4dbce471"
+      ]
+    },
+    {
+      "id": "8b7961ba-362b-42be-938f-b40e203f9c33",
+      "title": "综合与实践：节约用水",
+      "type": "national_lesson",
+      "chapterIds": [
+        "97e7de3b-5795-3735-baed-a09b57217fe6"
+      ]
+    },
+    {
+      "id": "077ef535-771d-4e9b-ad65-dd764da6d69d",
+      "title": "分数乘整数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "1ddbbbab-60e9-35e6-8646-82d47f7000a1"
+      ]
+    },
+    {
+      "id": "f11b3df3-4757-4140-8e11-d70d5d3af087",
+      "title": "分数乘分数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "f1c1bf09-cfb6-392f-80d7-89c1d59a5b2f"
+      ]
+    },
+    {
+      "id": "77704779-84a0-4001-b59a-27a24ffdc137",
+      "title": "分数混合运算",
+      "type": "national_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "84c003ae-b778-34a6-8e94-25f01fd4fcf0"
+      ]
+    },
+    {
+      "id": "c18d09fd-5851-469c-8cfb-8bf4e8477023",
+      "title": "解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "31833463-81e3-347f-a2d1-1a8b6a498c9e"
+      ]
+    },
+    {
+      "id": "713d4809-e590-4f80-bc11-270dc87d01f5",
+      "title": "位置与方向（二）",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a09ee0e2-aec4-3022-b0b4-37803ca53b18",
+        "600df9c1-d9a1-3e92-9909-e5d77fa0f746"
+      ]
+    },
+    {
+      "id": "a3ea124d-81e2-4ad5-a4f8-ecfd18b7e138",
+      "title": "分数除法",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "08f7a58a-065c-394a-bc32-5f90554b827d"
+      ]
+    },
+    {
+      "id": "8ed351bd-0f57-402e-9f71-e76817a51dad",
+      "title": "解决实际问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "42514425-c82b-3476-8a12-261769582c2b",
+        "3dc1e7f7-6ab4-3d17-9075-fe309eaddf44"
+      ]
+    },
+    {
+      "id": "4b7d007f-3d15-44dd-ba6e-d89108186099",
+      "title": "比的意义",
+      "type": "national_lesson",
+      "chapterIds": [
+        "8bf19e41-df17-3987-b183-bd647505ce51",
+        "9b6324b6-0571-3f3b-87e9-7f1abb665f2f"
+      ]
+    },
+    {
+      "id": "4685370f-5a90-4b18-a46e-617ac5013819",
+      "title": "圆的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "88dbf04e-9d79-3e9f-bf14-021ba8d4257c"
+      ]
+    },
+    {
+      "id": "e9f30f49-1094-43be-a4f8-dd474aaf4248",
+      "title": "圆的周长",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "baa86d6e-7f60-379a-b234-b8914ed95b93"
+      ]
+    },
+    {
+      "id": "b6fc3464-80dd-4c6c-80d9-56e5be60d73a",
+      "title": "圆的面积",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "0c4f95d3-6c79-30c6-856b-20aa91d85a21"
+      ]
+    },
+    {
+      "id": "0e88e0d0-4624-4182-8a55-0bb956c80f91",
+      "title": "圆的整理和复习",
+      "type": "national_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "eb87cf33-0460-3a8d-9a24-e5a7138e3f89"
+      ]
+    },
+    {
+      "id": "4329574c-b6f8-4342-aef2-fef47fff5a6a",
+      "title": "认识百分数",
+      "type": "national_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "84161d07-4f29-3073-883d-9f4a18a0c777"
+      ]
+    },
+    {
+      "id": "08bc98d3-3510-4bf9-9bf9-f898883cf6d8",
+      "title": "用百分数解决问题",
+      "type": "national_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "d8eb860a-089d-3240-9955-00c2169b9e91",
+        "be9b9362-d71e-3164-8c76-7ff1b48f74b7"
+      ]
+    },
+    {
+      "id": "ec071bd1-cb2d-4eda-96f3-2cf589ecd971",
+      "title": "扇形统计图的认识",
+      "type": "national_lesson",
+      "chapterIds": [
+        "aa276a19-7001-33ca-b20c-a93d6a6bdb08"
+      ]
+    },
+    {
+      "id": "b4969dc2-78c4-461e-9914-ac6028634200",
+      "title": "数学广角：数与形",
+      "type": "national_lesson",
+      "chapterIds": [
+        "94b5a2d9-857b-3db5-9250-77129e2c95f5"
+      ]
+    },
+    {
+      "id": "ede0641d-d5b9-a72d-f2db-100a2bf392fa",
+      "title": "整数乘法运算定律推广到分数",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "03060bc3-54cc-38c1-91ec-9b9159e42e4c",
+        "cf1b5385-f53a-3deb-a663-d2f455dc67e6"
+      ]
+    },
+    {
+      "id": "f65e7d90-1ea5-04c2-03dc-d588fcfdd347",
+      "title": "用方向和距离描述位置（例1）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a09ee0e2-aec4-3022-b0b4-37803ca53b18",
+        "d56bf13b-0b31-32de-98fc-2c145fbe04c3"
+      ]
+    },
+    {
+      "id": "54c52508-bf4d-e839-eef2-028ab21ef289",
+      "title": "解决问题（利用抽象的“1”解决实际问题）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "1b13a601-6114-3e19-8646-5e3c97cdd123"
+      ]
+    },
+    {
+      "id": "63861c1c-0d8a-28ec-0ef6-aa3c1b5ad8f7",
+      "title": "求比一个数多百分之几的数是多少？（例4）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "d8eb860a-089d-3240-9955-00c2169b9e91",
+        "717c1ac4-3f70-32cd-bfbc-57ca3ee599b7"
+      ]
+    },
+    {
+      "id": "0860683c-e824-646b-68bf-1d6052c6f496",
+      "title": "解决问题",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "bdbf63d2-6ecf-37b6-82a9-efb66ae8c7ad"
+      ]
+    },
+    {
+      "id": "4bde9c0c-10b3-1844-36b4-4b5da32ea9b7",
+      "title": "解决问题",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "3d87d111-e794-38fd-ab0b-c5d6a9f57a92",
+        "bdbf63d2-6ecf-37b6-82a9-efb66ae8c7ad"
+      ]
+    },
+    {
+      "id": "2abd40b7-caab-b1e1-7fb5-7b694cb4df4e",
+      "title": "求一个数比另一个数多（少）百分之几（例3）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "d8eb860a-089d-3240-9955-00c2169b9e91",
+        "22279abd-2a6f-3d1b-8dac-85d20b222033"
+      ]
+    },
+    {
+      "id": "6ab545bf-d0b0-9b88-43df-abc1ba67a629",
+      "title": "求一个数比另一个数多（少）百分之几（例3）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "d8eb860a-089d-3240-9955-00c2169b9e91",
+        "22279abd-2a6f-3d1b-8dac-85d20b222033"
+      ]
+    },
+    {
+      "id": "d1be6d3c-645c-69d4-223f-e7f73cbded00",
+      "title": "根据方向和距离确定点的位置（例2）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "a09ee0e2-aec4-3022-b0b4-37803ca53b18",
+        "1cf28df3-3ab0-3fcd-a2ad-5fb1006f7c88"
+      ]
+    },
+    {
+      "id": "8ae7e495-84a2-1319-0184-b894f57802a5",
+      "title": "已知一个数的几分之几是多少，求这个数（例4）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "42514425-c82b-3476-8a12-261769582c2b",
+        "12a5e902-3bfb-3268-b4d6-a1425d70a050"
+      ]
+    },
+    {
+      "id": "8ae7e4ab-83d5-d033-0183-db432f4e11ae",
+      "title": "已知比一个数多（少）几分之几的数是多少，求这个数（例5）",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "0180b74d-36a0-3f85-a3c2-66878cab2315",
+        "42514425-c82b-3476-8a12-261769582c2b",
+        "7dd4da1d-e949-363c-ad75-fbe8365b57c5"
+      ]
+    },
+    {
+      "id": "8ae7e4b5-83d5-d03a-0183-de945f7d15c1",
+      "title": "百分数和分数、小数的互化",
+      "type": "elite_lesson",
+      "chapterIds": [
+        "368c3bea-20ef-34cc-b568-9988f5e7bc34",
+        "d9ec1882-c466-3aff-b8f7-2ea78b0e55b5"
+      ]
+    }
+  ]
+}

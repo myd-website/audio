@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "bookId": "98eb897d-bf26-4485-92bc-029da36cd18d",
+  "chapters": [
+    {
+      "id": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e",
+      "title": "Unit 1 My neighbourhood",
+      "parentId": ""
+    },
+    {
+      "id": "ac1da713-079d-33b7-bebd-333a04ad0340",
+      "title": "Lesson 1",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "ecdac67c-6a13-3ce1-9708-030eb7923186",
+      "title": "Lesson 2",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "85afcce4-1f42-30c0-a832-e18cf4e0f6d7",
+      "title": "Lesson 3",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "1d3f3c35-554f-3f41-a2f0-d4247e7bd4fd",
+      "title": "Let's Spell",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "c50a9cac-97b7-35c2-ab7e-328db7491ced",
+      "title": "Let's Check",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "be53a095-184e-35a3-86eb-165b5419e167",
+      "title": "Fun Time",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "65af5333-ffaf-3c46-9db0-f11310ecb8ae",
+      "title": "Story Time",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "26847bbe-5595-3ce5-9cea-9b01f4a37978",
+      "title": "Unit 1 My Neighbourhood",
+      "parentId": "1c53cb62-1e3b-3cfa-ac4d-d9127f79935e"
+    },
+    {
+      "id": "c64d647c-01e8-3919-9c3b-dc74b032380a",
+      "title": "Unit 2 Cities",
+      "parentId": ""
+    },
+    {
+      "id": "af464b78-a12d-3016-9cab-acf4810263ee",
+      "title": "Lesson 1",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "74da1b95-136a-3b9f-aaec-efd996825df0",
+      "title": "Lesson 2",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "754dc331-0e0c-3bff-aca2-0f2a12698dc9",
+      "title": "Lesson 3",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "a92740ec-f089-305b-8539-2a8b14b39766",
+      "title": "Let's Spell",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "d0512c22-9ba6-3075-bb53-8b9a1fc9d246",
+      "title": "Let's Check",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "059f1740-271f-3883-89d5-26a2fcb41195",
+      "title": "Fun Time",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "b45dd16e-b82f-31e4-ba3d-6a0d109eb7fd",
+      "title": "Story Time",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "44590bca-202c-300d-861a-0a5817137860",
+      "title": "Unit 2 Cities",
+      "parentId": "c64d647c-01e8-3919-9c3b-dc74b032380a"
+    },
+    {
+      "id": "46731710-7a25-305c-a634-dc26fc25f77c",
+      "title": "Unit 3 Travel Plans",
+      "parentId": ""
+    },
+    {
+      "id": "5157c37f-77af-346b-9a9c-2007c5f396d3",
+      "title": "Lesson 1",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "0ba36f85-4089-3d7e-be8d-d8bf508de420",
+      "title": "Lesson 2",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "c289f579-887a-3a21-bdca-d3e5bd75cb86",
+      "title": "Lesson 3",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "6d7fc9f9-3f5f-322a-a834-072c59b13c50",
+      "title": "Let's Spell",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "4474214a-ceba-3798-951d-a3b679d8edd0",
+      "title": "Let's Check",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "036efd99-1876-34fe-81db-2ef3bd11916b",
+      "title": "Fun Time",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "5ac95ff7-9180-3a21-bfe6-b3b72071848f",
+      "title": "Story Time",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "011269cd-eadc-34f2-85db-1dedce965d07",
+      "title": "Unit 3 Travel Plans",
+      "parentId": "46731710-7a25-305c-a634-dc26fc25f77c"
+    },
+    {
+      "id": "ca40a96e-9480-37e8-9086-00c49b7adc0b",
+      "title": "Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628",
+      "title": "Unit 4 Hobbies",
+      "parentId": ""
+    },
+    {
+      "id": "6d271987-6968-39a3-87c8-4b3f70cb7332",
+      "title": "Lesson 1",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "cfed36d2-39eb-3194-82a2-58a0f6b810e2",
+      "title": "Lesson 2",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "b4651012-2e4b-3337-b734-69d6ffccecf7",
+      "title": "Lesson 3",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "581aa83b-d94f-33ae-adf3-52b9d4f949e5",
+      "title": "Let's Spell",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "68afc848-b722-3dd1-a7f0-8654841617e8",
+      "title": "Let's Check",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "e4844158-61bb-353b-b473-1d93d553c831",
+      "title": "Fun Time",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "1f72e129-346d-3d8c-b106-f3ab3a04c8d7",
+      "title": "Story Time",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "1861bac5-48e2-35e5-bd2e-d698035d3313",
+      "title": "Unit 4 Hobbies",
+      "parentId": "31f0d41b-cbe5-3b3d-9d2f-1c97c5ee2628"
+    },
+    {
+      "id": "d40444a4-a245-3ebc-8707-2b4f17ea5759",
+      "title": "Unit 5 Free Time",
+      "parentId": ""
+    },
+    {
+      "id": "2699bf45-ebda-3d6b-8d03-a9ebef776e49",
+      "title": "Lesson 1",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "e12edbc9-0e6f-3341-a9b3-fbb093fca4b9",
+      "title": "Lesson 2",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "fac1a4e8-8c48-331b-ba0c-b64cdc7de625",
+      "title": "Lesson 3",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "b230218f-1c8c-30c0-b8cb-5ff27122c7ff",
+      "title": "Let's Spell",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "3dc97779-dbde-3269-8c92-52ffd6ad6d14",
+      "title": "Let's Check",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "e8230e3f-e9a2-383e-8014-8c21a6b4fc3b",
+      "title": "Fun Time",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "f1195803-b654-361e-9d1f-bb6d7841a0ce",
+      "title": "Story Time",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "1394b48d-c872-38ad-b24f-6247a17a958b",
+      "title": "Unit 5 Free Time",
+      "parentId": "d40444a4-a245-3ebc-8707-2b4f17ea5759"
+    },
+    {
+      "id": "70e2f732-ce06-3484-a119-eea2518ec9f8",
+      "title": "Unit 6 Countries",
+      "parentId": ""
+    },
+    {
+      "id": "bb2e2a95-0096-36a7-891a-7b64157dfd90",
+      "title": "Lesson 1",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "5d4e92b3-6229-34f8-bea7-a0dd5b592599",
+      "title": "Lesson 2",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "4e54de2f-519b-3f9d-9e51-672e1cedd014",
+      "title": "Lesson 3",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "efc322af-2b0b-3d2e-888c-ef5308d0e85b",
+      "title": "Let's Spell",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "a6d007eb-aba4-3631-88f3-bb2ca712c465",
+      "title": "Let's Check",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "096ddeb9-3174-3acc-b100-34c0f98394cd",
+      "title": "Fun Time",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "cd2fbe5c-9373-3677-a368-509930c682a0",
+      "title": "Story Time",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "8b627b1f-71ac-3283-bf70-e607724d067d",
+      "title": "Unit 6 Countries",
+      "parentId": "70e2f732-ce06-3484-a119-eea2518ec9f8"
+    },
+    {
+      "id": "de6dc70a-a556-38b4-89b3-7cf0cd394c6c",
+      "title": "Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "650e63e0-c81b-37c6-a379-7faaf58a7105",
+      "title": "附录一 歌曲",
+      "parentId": ""
+    },
+    {
+      "id": "bc5d0c4d-7962-302b-b75d-2ea0f06b76c2",
+      "title": "附录二 自我评价表",
+      "parentId": ""
+    },
+    {
+      "id": "e9632c31-eada-3049-9720-23c729a743ad",
+      "title": "附录三 单元词汇表",
+      "parentId": ""
+    },
+    {
+      "id": "c7609632-3d86-3562-b83e-18aefd95ed2d",
+      "title": "附录四 总词汇表",
+      "parentId": ""
+    }
+  ],
+  "lessons": []
+}

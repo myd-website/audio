@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "bookId": "a880af33-242a-40a6-9a4d-f6c9bc279758",
+  "chapters": [
+    {
+      "id": "a61b4c85-b631-427a-a082-e8121e5f1936",
+      "title": "Unit l Around the world",
+      "parentId": ""
+    },
+    {
+      "id": "99615823-83d4-4c9f-9393-07966ca33d93",
+      "title": "Lesson 1",
+      "parentId": "a61b4c85-b631-427a-a082-e8121e5f1936"
+    },
+    {
+      "id": "d22456d2-e507-4ba2-a9f3-5f2cb7797ca4",
+      "title": "Lesson 2",
+      "parentId": "a61b4c85-b631-427a-a082-e8121e5f1936"
+    },
+    {
+      "id": "2aa192f1-7151-4df8-b8c9-8788891d0f9c",
+      "title": "Lesson 3",
+      "parentId": "a61b4c85-b631-427a-a082-e8121e5f1936"
+    },
+    {
+      "id": "24d8a0f4-c74d-4834-a284-a09dce797667",
+      "title": "Fun time",
+      "parentId": "a61b4c85-b631-427a-a082-e8121e5f1936"
+    },
+    {
+      "id": "469fac92-eb05-49a1-8a4d-5640319ce8bd",
+      "title": "Story time",
+      "parentId": "a61b4c85-b631-427a-a082-e8121e5f1936"
+    },
+    {
+      "id": "71dffb73-3e11-406a-981f-fd48ef88a02a",
+      "title": "Unit 2 Jobs",
+      "parentId": ""
+    },
+    {
+      "id": "278c166e-ccad-4181-85e3-9bbf1b4a0736",
+      "title": "Lesson 1",
+      "parentId": "71dffb73-3e11-406a-981f-fd48ef88a02a"
+    },
+    {
+      "id": "d441e6e7-22ed-4470-a7b5-bc1bb8a99cc8",
+      "title": "Lesson 2",
+      "parentId": "71dffb73-3e11-406a-981f-fd48ef88a02a"
+    },
+    {
+      "id": "154e627b-1d12-4c4a-a765-f936d9aae921",
+      "title": "Lesson 3",
+      "parentId": "71dffb73-3e11-406a-981f-fd48ef88a02a"
+    },
+    {
+      "id": "4d789f29-1318-4060-8ab6-49de4b0c6d1e",
+      "title": "Fun time",
+      "parentId": "71dffb73-3e11-406a-981f-fd48ef88a02a"
+    },
+    {
+      "id": "d85ab2fc-6515-48bc-b7ca-ee7808278e83",
+      "title": "Story time",
+      "parentId": "71dffb73-3e11-406a-981f-fd48ef88a02a"
+    },
+    {
+      "id": "6b5f4df4-3936-4941-9d00-939bb86dbfa2",
+      "title": "Unit 3 Workplaces",
+      "parentId": ""
+    },
+    {
+      "id": "44da6fdd-01b4-4297-979a-a0b57460ac7e",
+      "title": "Lesson 1",
+      "parentId": "6b5f4df4-3936-4941-9d00-939bb86dbfa2"
+    },
+    {
+      "id": "55f05ba6-70f9-4d4c-89fd-afe2edd84c93",
+      "title": "Lesson 2",
+      "parentId": "6b5f4df4-3936-4941-9d00-939bb86dbfa2"
+    },
+    {
+      "id": "5f211f2e-7712-464b-9378-fbf0522fae0a",
+      "title": "Lesson 3",
+      "parentId": "6b5f4df4-3936-4941-9d00-939bb86dbfa2"
+    },
+    {
+      "id": "92d03131-521c-4c38-bca0-9d18764d4441",
+      "title": "Fun time",
+      "parentId": "6b5f4df4-3936-4941-9d00-939bb86dbfa2"
+    },
+    {
+      "id": "34a9d4b8-6cc6-4ae7-9475-133aa7e152d4",
+      "title": "Story time",
+      "parentId": "6b5f4df4-3936-4941-9d00-939bb86dbfa2"
+    },
+    {
+      "id": "dade0769-dc6f-4683-a7d8-27f547381f22",
+      "title": "Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "bf3b943a-a9af-4438-8f96-37b9e16d53dd",
+      "title": "Unit 4 Putting things in order",
+      "parentId": ""
+    },
+    {
+      "id": "3c31e4be-5a1f-43c2-86b4-66a14ba5da44",
+      "title": "Lesson 1",
+      "parentId": "bf3b943a-a9af-4438-8f96-37b9e16d53dd"
+    },
+    {
+      "id": "7f8aa09a-a5c1-4bf4-9be7-164b7cdf706d",
+      "title": "Lesson 2",
+      "parentId": "bf3b943a-a9af-4438-8f96-37b9e16d53dd"
+    },
+    {
+      "id": "92765d16-aada-4608-8648-a10d6d5f43c0",
+      "title": "Lesson 3",
+      "parentId": "bf3b943a-a9af-4438-8f96-37b9e16d53dd"
+    },
+    {
+      "id": "43144be2-5423-4a67-a2e4-66efae05fe57",
+      "title": "Fun time",
+      "parentId": "bf3b943a-a9af-4438-8f96-37b9e16d53dd"
+    },
+    {
+      "id": "141f7e01-d3c0-4eb8-84fe-487ae2c94c8f",
+      "title": "Story time",
+      "parentId": "bf3b943a-a9af-4438-8f96-37b9e16d53dd"
+    },
+    {
+      "id": "83921aec-6761-45b5-83d7-7bee178fd741",
+      "title": "Unit 5 A tidy house",
+      "parentId": ""
+    },
+    {
+      "id": "18941191-b619-428c-adda-b97a18b097d1",
+      "title": "Lesson 1",
+      "parentId": "83921aec-6761-45b5-83d7-7bee178fd741"
+    },
+    {
+      "id": "08171b2e-cf64-4335-a7af-ea08b7fdf07f",
+      "title": "Lesson 2",
+      "parentId": "83921aec-6761-45b5-83d7-7bee178fd741"
+    },
+    {
+      "id": "5158e0ee-e4ec-4839-8fc7-d22db23aa8e3",
+      "title": "Lesson 3",
+      "parentId": "83921aec-6761-45b5-83d7-7bee178fd741"
+    },
+    {
+      "id": "00a54dcf-1cb1-4a40-8a4d-66d76f9022ac",
+      "title": "Fun time",
+      "parentId": "83921aec-6761-45b5-83d7-7bee178fd741"
+    },
+    {
+      "id": "e8d2e994-bb2b-42ec-8c28-521c5ef4be9c",
+      "title": "Story time",
+      "parentId": "83921aec-6761-45b5-83d7-7bee178fd741"
+    },
+    {
+      "id": "49dc902a-0e9a-4ec2-b11f-e49683b776b9",
+      "title": "Unit 6 Be yourself",
+      "parentId": ""
+    },
+    {
+      "id": "938b5c1f-6ed1-4e24-9094-a6e5f14e8ae3",
+      "title": "Lesson 1",
+      "parentId": "49dc902a-0e9a-4ec2-b11f-e49683b776b9"
+    },
+    {
+      "id": "b0b346e5-b9c5-449e-847f-16990d811b9d",
+      "title": "Lesson 2",
+      "parentId": "49dc902a-0e9a-4ec2-b11f-e49683b776b9"
+    },
+    {
+      "id": "c270e87d-56b4-496d-8711-9953d0953d94",
+      "title": "Lesson 3",
+      "parentId": "49dc902a-0e9a-4ec2-b11f-e49683b776b9"
+    },
+    {
+      "id": "964b1e76-a2c5-4776-8f74-812162973561",
+      "title": "Fun time",
+      "parentId": "49dc902a-0e9a-4ec2-b11f-e49683b776b9"
+    },
+    {
+      "id": "745c4702-5e9b-43f3-9a63-1c62ccfb183d",
+      "title": "Story time",
+      "parentId": "49dc902a-0e9a-4ec2-b11f-e49683b776b9"
+    },
+    {
+      "id": "4ecee485-a336-4932-b58a-6d6c5f9c373b",
+      "title": "Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "080d7de7-54f1-4d5c-bc08-98fb8ebebfeb",
+      "title": "Appendix 1 Chants and songs in each unit",
+      "parentId": ""
+    },
+    {
+      "id": "3f968025-2752-4490-91f3-61549b9a09ac",
+      "title": "Appendix 2 Vocabulary in each unit",
+      "parentId": ""
+    },
+    {
+      "id": "228091bd-a41b-4552-8fb3-d73ad21175fa",
+      "title": "Appendix 3 Vocabulary A-Z",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "41be8956-530a-9629-3106-3a308c1a6cb3",
+      "title": "Unit 1 Lesson 1",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a61b4c85-b631-427a-a082-e8121e5f1936",
+        "99615823-83d4-4c9f-9393-07966ca33d93"
+      ]
+    },
+    {
+      "id": "0f33445b-d077-6003-120a-dc9763312cfa",
+      "title": "Unit 1 Lesson 2",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a61b4c85-b631-427a-a082-e8121e5f1936",
+        "d22456d2-e507-4ba2-a9f3-5f2cb7797ca4"
+      ]
+    },
+    {
+      "id": "d00af1b5-0505-9dcf-58de-8652df690115",
+      "title": "Unit 1 Around the world",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a61b4c85-b631-427a-a082-e8121e5f1936",
+        "2aa192f1-7151-4df8-b8c9-8788891d0f9c"
+      ]
+    },
+    {
+      "id": "728d237c-be8d-fe1e-e594-6f1c8fdac88f",
+      "title": "Unit 1 Fun time",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a61b4c85-b631-427a-a082-e8121e5f1936",
+        "24d8a0f4-c74d-4834-a284-a09dce797667"
+      ]
+    },
+    {
+      "id": "8940b9b9-5e69-bc0e-5517-2ae13ebde593",
+      "title": "Unit 1 Story time",
+      "type": "national_lesson",
+      "chapterIds": [
+        "a61b4c85-b631-427a-a082-e8121e5f1936",
+        "469fac92-eb05-49a1-8a4d-5640319ce8bd"
+      ]
+    }
+  ]
+}

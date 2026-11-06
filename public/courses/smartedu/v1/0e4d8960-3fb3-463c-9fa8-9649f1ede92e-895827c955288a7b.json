@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "bookId": "0e4d8960-3fb3-463c-9fa8-9649f1ede92e",
+  "chapters": [
+    {
+      "id": "de14d7b6-a8cb-3ba1-a84b-091e266106fc",
+      "title": "Unit 1 Playtime",
+      "parentId": ""
+    },
+    {
+      "id": "e9971396-9e40-3128-bc6f-2ab1bbab85bf",
+      "title": "lesson 1",
+      "parentId": "de14d7b6-a8cb-3ba1-a84b-091e266106fc"
+    },
+    {
+      "id": "d621b583-a09e-3405-b10d-56101b5924b7",
+      "title": "lesson 2",
+      "parentId": "de14d7b6-a8cb-3ba1-a84b-091e266106fc"
+    },
+    {
+      "id": "b70d55ea-94a7-358b-9325-f5046ad1171f",
+      "title": "lesson 3",
+      "parentId": "de14d7b6-a8cb-3ba1-a84b-091e266106fc"
+    },
+    {
+      "id": "934b0cda-7947-349e-8d9c-1703c4d872b3",
+      "title": "Review & Rewards",
+      "parentId": "de14d7b6-a8cb-3ba1-a84b-091e266106fc"
+    },
+    {
+      "id": "f71e65de-cc72-3c0b-b885-7596d934471d",
+      "title": "Story Time",
+      "parentId": "de14d7b6-a8cb-3ba1-a84b-091e266106fc"
+    },
+    {
+      "id": "fed4b7d2-6439-34c7-9663-f1810d4ad946",
+      "title": "Unit 1 Playtime",
+      "parentId": "de14d7b6-a8cb-3ba1-a84b-091e266106fc"
+    },
+    {
+      "id": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4",
+      "title": "Unit 2 Weather",
+      "parentId": ""
+    },
+    {
+      "id": "9be0dfcf-2fb9-3616-b469-92a5ed6b60bd",
+      "title": "lesson 1",
+      "parentId": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4"
+    },
+    {
+      "id": "32feb57d-0b4a-32ad-abc4-d31921b4be79",
+      "title": "lesson 2",
+      "parentId": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4"
+    },
+    {
+      "id": "9f479877-4070-36d3-8612-445a8b9a9815",
+      "title": "lesson 3",
+      "parentId": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4"
+    },
+    {
+      "id": "24cf0ca5-ee38-309e-a766-bac32eda169c",
+      "title": "Review & Rewards",
+      "parentId": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4"
+    },
+    {
+      "id": "502b79c5-187b-3cca-9972-6d99fa6f5271",
+      "title": "Story Time",
+      "parentId": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4"
+    },
+    {
+      "id": "515e9be7-3a56-3159-a9b3-1c12011dad13",
+      "title": "Unit 2 Weather",
+      "parentId": "ceda50f4-a6a5-3a45-9dc5-f0ef4efe2da4"
+    },
+    {
+      "id": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39",
+      "title": "Unit 3 Seasons",
+      "parentId": ""
+    },
+    {
+      "id": "2f980667-eac0-3967-90eb-ed90b7ee0150",
+      "title": "lesson 1",
+      "parentId": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39"
+    },
+    {
+      "id": "894af905-6855-3dd9-98c9-6d73d1987d6f",
+      "title": "lesson 2",
+      "parentId": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39"
+    },
+    {
+      "id": "f4f6d481-e383-3b4c-b3bd-f7c248fd8a1b",
+      "title": "lesson 3",
+      "parentId": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39"
+    },
+    {
+      "id": "6fe2cef4-9187-39ad-b585-92a0dd953f53",
+      "title": "Review & Rewards",
+      "parentId": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39"
+    },
+    {
+      "id": "f2d9a99a-a507-39aa-ae99-6388109ed37b",
+      "title": "Story Time",
+      "parentId": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39"
+    },
+    {
+      "id": "07378370-feb5-33e5-a462-5cef07a202ca",
+      "title": "Unit 3 Seasons",
+      "parentId": "f4b3ed70-1b1f-3ba7-bc68-19736e33fb39"
+    },
+    {
+      "id": "f17b6fb4-4e62-3371-8bd4-3fecc3d05ab1",
+      "title": "Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced",
+      "title": "Unit 4 Time",
+      "parentId": ""
+    },
+    {
+      "id": "9158d314-5bc9-364a-955f-831bae04fd16",
+      "title": "lesson 1",
+      "parentId": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced"
+    },
+    {
+      "id": "adade90b-5780-34ac-886e-f859d81d4291",
+      "title": "lesson 2",
+      "parentId": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced"
+    },
+    {
+      "id": "f7e8db72-be9e-34dd-88fd-283a592b1e6b",
+      "title": "lesson 3",
+      "parentId": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced"
+    },
+    {
+      "id": "52444c52-8498-364f-9e5d-1919838f9dca",
+      "title": "Review & Rewards",
+      "parentId": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced"
+    },
+    {
+      "id": "318ef288-b6a1-3cb9-9e09-2580dfea8e15",
+      "title": "Story Time",
+      "parentId": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced"
+    },
+    {
+      "id": "9aadf046-c0d3-3242-be3b-72ba0e3961ae",
+      "title": "Unit 4 Time",
+      "parentId": "3f6f7b40-5b02-3168-a8c3-e1a12f52cced"
+    },
+    {
+      "id": "808a8a48-20ed-341d-8869-0de0711c2f55",
+      "title": "Unit 5 My Day",
+      "parentId": ""
+    },
+    {
+      "id": "d25c9822-84b6-32d1-a100-1b4e96ceb2c0",
+      "title": "lesson 1",
+      "parentId": "808a8a48-20ed-341d-8869-0de0711c2f55"
+    },
+    {
+      "id": "728f1a98-8ba3-32fb-b5f6-b6879e6c6de9",
+      "title": "lesson 2",
+      "parentId": "808a8a48-20ed-341d-8869-0de0711c2f55"
+    },
+    {
+      "id": "4aa98eb3-7511-33ab-99e0-200436f7bf80",
+      "title": "lesson 3",
+      "parentId": "808a8a48-20ed-341d-8869-0de0711c2f55"
+    },
+    {
+      "id": "7faddbd5-2f46-3e12-ba93-c36c9d5570c9",
+      "title": "Review & Rewards",
+      "parentId": "808a8a48-20ed-341d-8869-0de0711c2f55"
+    },
+    {
+      "id": "77c3a4c5-4328-38a8-8ce7-cae218fc105a",
+      "title": "Story Time",
+      "parentId": "808a8a48-20ed-341d-8869-0de0711c2f55"
+    },
+    {
+      "id": "3db9c6df-2c0d-32e8-8168-42c113b325f5",
+      "title": "Unit 5 My Day",
+      "parentId": "808a8a48-20ed-341d-8869-0de0711c2f55"
+    },
+    {
+      "id": "bf9071b3-6c4f-3487-ad13-97ce9a593d59",
+      "title": "Unit 6 My Week",
+      "parentId": ""
+    },
+    {
+      "id": "77dbe619-f543-3afb-af55-36a19426c07d",
+      "title": "lesson 1",
+      "parentId": "bf9071b3-6c4f-3487-ad13-97ce9a593d59"
+    },
+    {
+      "id": "9a6a0235-981f-342e-b7e1-0f71b54c6bc4",
+      "title": "lesson 2",
+      "parentId": "bf9071b3-6c4f-3487-ad13-97ce9a593d59"
+    },
+    {
+      "id": "1b1db6cc-7b5c-3da3-a021-c62d297602c6",
+      "title": "lesson 3",
+      "parentId": "bf9071b3-6c4f-3487-ad13-97ce9a593d59"
+    },
+    {
+      "id": "abe9291e-b3b0-33fc-9ae9-87e2ccc92920",
+      "title": "Review & Rewards",
+      "parentId": "bf9071b3-6c4f-3487-ad13-97ce9a593d59"
+    },
+    {
+      "id": "f248a899-2426-3837-80b4-af167ac14cfa",
+      "title": "Story Time",
+      "parentId": "bf9071b3-6c4f-3487-ad13-97ce9a593d59"
+    },
+    {
+      "id": "a7e32aee-e270-39cd-a5cf-a67d7a8e4838",
+      "title": "Unit 6 My Week",
+      "parentId": "bf9071b3-6c4f-3487-ad13-97ce9a593d59"
+    },
+    {
+      "id": "ebafe48a-6f5b-3149-ad26-d2b6797bd7de",
+      "title": "Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "bcc31d3b-4859-3ddc-a37c-6720b61f71a7",
+      "title": "附录一 歌谣和歌曲",
+      "parentId": ""
+    },
+    {
+      "id": "4e8032fb-4c5c-3ff1-a78c-41af918747d1",
+      "title": "附录二 单元词汇表",
+      "parentId": ""
+    },
+    {
+      "id": "9a158c07-afed-3f76-9353-470a38d492f2",
+      "title": "附录三 总词汇表",
+      "parentId": ""
+    }
+  ],
+  "lessons": []
+}

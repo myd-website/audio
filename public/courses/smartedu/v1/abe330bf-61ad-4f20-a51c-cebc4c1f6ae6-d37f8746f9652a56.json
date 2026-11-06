@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "bookId": "abe330bf-61ad-4f20-a51c-cebc4c1f6ae6",
+  "chapters": [
+    {
+      "id": "235a87f3-9fa8-462a-9562-c6be75050060",
+      "title": "Unit l Travelling",
+      "parentId": ""
+    },
+    {
+      "id": "04c467f1-b04d-4450-8f29-52466ff0f672",
+      "title": "Lesson 1",
+      "parentId": "235a87f3-9fa8-462a-9562-c6be75050060"
+    },
+    {
+      "id": "513758d2-50ec-4e87-a6fb-60a7fa03ceae",
+      "title": "Lesson 2",
+      "parentId": "235a87f3-9fa8-462a-9562-c6be75050060"
+    },
+    {
+      "id": "d2bd9caa-5453-4597-abf0-b124e9b50067",
+      "title": "Lesson 3",
+      "parentId": "235a87f3-9fa8-462a-9562-c6be75050060"
+    },
+    {
+      "id": "983709b6-6eee-49ed-8a6e-d52538623e8c",
+      "title": "Fun time",
+      "parentId": "235a87f3-9fa8-462a-9562-c6be75050060"
+    },
+    {
+      "id": "408c6d4e-251b-4c65-bc99-cd116f3b2779",
+      "title": "Story time",
+      "parentId": "235a87f3-9fa8-462a-9562-c6be75050060"
+    },
+    {
+      "id": "2ad52a63-cbe8-4600-8cbc-804f0070aa2e",
+      "title": "Unit 2 My feelings",
+      "parentId": ""
+    },
+    {
+      "id": "91ff957c-01b6-4e69-9148-15f249cf5d61",
+      "title": "Lesson 1",
+      "parentId": "2ad52a63-cbe8-4600-8cbc-804f0070aa2e"
+    },
+    {
+      "id": "d145d172-4f7f-4776-8112-ad083f5ada44",
+      "title": "Lesson 2",
+      "parentId": "2ad52a63-cbe8-4600-8cbc-804f0070aa2e"
+    },
+    {
+      "id": "11ef7c91-73f5-4637-a123-a5143d20c7c0",
+      "title": "Lesson 3",
+      "parentId": "2ad52a63-cbe8-4600-8cbc-804f0070aa2e"
+    },
+    {
+      "id": "494582fd-ace8-4d03-9352-2ce1fb962a02",
+      "title": "Fun time",
+      "parentId": "2ad52a63-cbe8-4600-8cbc-804f0070aa2e"
+    },
+    {
+      "id": "0bc4061d-d4f6-4074-b788-8672ca5cc557",
+      "title": "Story time",
+      "parentId": "2ad52a63-cbe8-4600-8cbc-804f0070aa2e"
+    },
+    {
+      "id": "20394ee6-0b9e-47be-8128-cd759b0af71f",
+      "title": "Unit 3 Planting and growing",
+      "parentId": ""
+    },
+    {
+      "id": "d45eb7af-2319-44ce-84f3-c7a6179439c7",
+      "title": "Lesson 1",
+      "parentId": "20394ee6-0b9e-47be-8128-cd759b0af71f"
+    },
+    {
+      "id": "45419d8c-959b-4569-8588-e8ac40c29954",
+      "title": "Lesson 2",
+      "parentId": "20394ee6-0b9e-47be-8128-cd759b0af71f"
+    },
+    {
+      "id": "08cbecac-1876-48df-8e5e-45f73c453bfa",
+      "title": "Lesson 3",
+      "parentId": "20394ee6-0b9e-47be-8128-cd759b0af71f"
+    },
+    {
+      "id": "ac8cf852-6f94-4690-a85c-90287a10d0df",
+      "title": "Fun time",
+      "parentId": "20394ee6-0b9e-47be-8128-cd759b0af71f"
+    },
+    {
+      "id": "f95e9e49-3ea5-4cba-a4bf-517a4ed5bfb5",
+      "title": "Story time",
+      "parentId": "20394ee6-0b9e-47be-8128-cd759b0af71f"
+    },
+    {
+      "id": "01c502bc-e5f3-443c-9fbc-a5e0143f97e2",
+      "title": "Revision 1",
+      "parentId": ""
+    },
+    {
+      "id": "9437d74e-b4de-4412-a9ed-d0a80d71c579",
+      "title": "Unit 4 Seasons",
+      "parentId": ""
+    },
+    {
+      "id": "bfb8681c-01b7-4cab-a0b0-31bf8334d2d0",
+      "title": "Lesson 1",
+      "parentId": "9437d74e-b4de-4412-a9ed-d0a80d71c579"
+    },
+    {
+      "id": "8c7ecae6-0f01-4121-93a7-6bbed48b3464",
+      "title": "Lesson 2",
+      "parentId": "9437d74e-b4de-4412-a9ed-d0a80d71c579"
+    },
+    {
+      "id": "bc22909f-2fb7-4f31-addf-d9e9ffd1d5e2",
+      "title": "Lesson 3",
+      "parentId": "9437d74e-b4de-4412-a9ed-d0a80d71c579"
+    },
+    {
+      "id": "eb7952da-c86c-484d-b1fc-f8689caa060c",
+      "title": "Fun time",
+      "parentId": "9437d74e-b4de-4412-a9ed-d0a80d71c579"
+    },
+    {
+      "id": "935fe596-acc5-4439-af6b-3a0cdde3c176",
+      "title": "Story time",
+      "parentId": "9437d74e-b4de-4412-a9ed-d0a80d71c579"
+    },
+    {
+      "id": "0cf67960-563c-41e6-b1f4-9b145a2e98be",
+      "title": "Unit 5 Celebration days",
+      "parentId": ""
+    },
+    {
+      "id": "fb8a839e-5579-4bd2-a4be-42a7537e29f7",
+      "title": "Lesson 1",
+      "parentId": "0cf67960-563c-41e6-b1f4-9b145a2e98be"
+    },
+    {
+      "id": "e9feff90-02be-40d4-a178-e5d79f5f21de",
+      "title": "Lesson 2",
+      "parentId": "0cf67960-563c-41e6-b1f4-9b145a2e98be"
+    },
+    {
+      "id": "09163665-8241-4888-87de-a26d0e80f46e",
+      "title": "Lesson 3",
+      "parentId": "0cf67960-563c-41e6-b1f4-9b145a2e98be"
+    },
+    {
+      "id": "19cba904-44fc-4048-a31d-3557a7535304",
+      "title": "Fun time",
+      "parentId": "0cf67960-563c-41e6-b1f4-9b145a2e98be"
+    },
+    {
+      "id": "932dd60b-9173-45f5-a528-3e670bc4d2e3",
+      "title": "Story time",
+      "parentId": "0cf67960-563c-41e6-b1f4-9b145a2e98be"
+    },
+    {
+      "id": "e510c7b0-5a97-44cf-b2c1-3ea7c3b6478b",
+      "title": "Unit 6 Heroes",
+      "parentId": ""
+    },
+    {
+      "id": "5eb59b41-d93d-4889-a289-2d67e0d569ee",
+      "title": "Lesson 1",
+      "parentId": "e510c7b0-5a97-44cf-b2c1-3ea7c3b6478b"
+    },
+    {
+      "id": "2c0bf22e-ac99-47cd-8421-9ce634225d6f",
+      "title": "Lesson 2",
+      "parentId": "e510c7b0-5a97-44cf-b2c1-3ea7c3b6478b"
+    },
+    {
+      "id": "4ad3685d-c569-448a-b943-936a70b6bb0d",
+      "title": "Lesson 3",
+      "parentId": "e510c7b0-5a97-44cf-b2c1-3ea7c3b6478b"
+    },
+    {
+      "id": "06905ad9-c4cf-4478-a9e9-af8c9c883e10",
+      "title": "Fun time",
+      "parentId": "e510c7b0-5a97-44cf-b2c1-3ea7c3b6478b"
+    },
+    {
+      "id": "afcd4739-e072-4720-99a9-7295826cc4c0",
+      "title": "Story time",
+      "parentId": "e510c7b0-5a97-44cf-b2c1-3ea7c3b6478b"
+    },
+    {
+      "id": "c1790735-efb3-40e9-a06e-9534b3ec2e29",
+      "title": "Revision 2",
+      "parentId": ""
+    },
+    {
+      "id": "d116c685-d7be-4313-b881-347314e91ee0",
+      "title": "Appendix 1 Vocabulary in each unit",
+      "parentId": ""
+    },
+    {
+      "id": "c162fa54-f037-4324-bed1-95245f670229",
+      "title": "Appendix 2 Vocabulary A-Z",
+      "parentId": ""
+    },
+    {
+      "id": "cce05b8d-3abd-4522-b197-e7cced01205d",
+      "title": "Appendix 3 Irregular verbs",
+      "parentId": ""
+    },
+    {
+      "id": "811fa23a-0b7c-4704-a026-6d573b82ad40",
+      "title": "Appendix 4 Cardinal and ordinal numbers",
+      "parentId": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "db7d9ae5-12c5-8306-a38c-ea2f6293eca5",
+      "title": "Lesson 1",
+      "type": "national_lesson",
+      "chapterIds": [
+        "235a87f3-9fa8-462a-9562-c6be75050060",
+        "04c467f1-b04d-4450-8f29-52466ff0f672"
+      ]
+    },
+    {
+      "id": "b671ecf8-c1ca-ee99-6186-02fd7a0fefbc",
+      "title": "Lesson 2",
+      "type": "national_lesson",
+      "chapterIds": [
+        "235a87f3-9fa8-462a-9562-c6be75050060",
+        "513758d2-50ec-4e87-a6fb-60a7fa03ceae"
+      ]
+    },
+    {
+      "id": "888f7366-d4ee-7ce6-889b-9e4b604f1550",
+      "title": "Lesson 3",
+      "type": "national_lesson",
+      "chapterIds": [
+        "235a87f3-9fa8-462a-9562-c6be75050060",
+        "d2bd9caa-5453-4597-abf0-b124e9b50067"
+      ]
+    },
+    {
+      "id": "ef1dd459-69b1-da30-3f95-a288991d8447",
+      "title": "Fun time",
+      "type": "national_lesson",
+      "chapterIds": [
+        "235a87f3-9fa8-462a-9562-c6be75050060",
+        "983709b6-6eee-49ed-8a6e-d52538623e8c"
+      ]
+    },
+    {
+      "id": "926dec9e-7bcd-8671-f18e-ee9c93f1df03",
+      "title": "Story time",
+      "type": "national_lesson",
+      "chapterIds": [
+        "235a87f3-9fa8-462a-9562-c6be75050060",
+        "408c6d4e-251b-4c65-bc99-cd116f3b2779"
+      ]
+    }
+  ]
+}
