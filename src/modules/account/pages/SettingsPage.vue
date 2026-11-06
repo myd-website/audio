@@ -14,6 +14,7 @@ import { importSharedLocal } from "@/modules/music/services/localFiles";
 import { act, message } from "@/shared/lib/feedback";
 import { downloadBlob } from "@/shared/services/download";
 import { useProfileActions } from "@/shared/composables/useProfileActions";
+import AppSelect from "@/shared/components/AppSelect.vue";
 const { exitProfile, exiting } = useProfileActions();
 const store = useWorkspaceStore();
 const router = useRouter();
@@ -23,6 +24,10 @@ const label = profileName(profileId);
 const migratingMusic = ref(false);
 const name = ref(store.data.preferences.name);
 const grade = ref(store.data.preferences.grade);
+const gradeOptions = Array.from({ length: 6 }, (_, index) => ({
+  value: index + 1,
+  label: `${index + 1} 年级`,
+}));
 watch(
   () => store.data.preferences,
   (p) => {
@@ -160,11 +165,12 @@ async function importMusic() {
           v-model="name"
           maxlength="30"
           placeholder="你的昵称" /></label
-      ><label
-        >默认年级<select v-model.number="grade">
-          <option v-for="n in 6" :key="n" :value="n">{{ n }} 年级</option>
-        </select></label
-      ><button class="primary" @click="save" :disabled="!store.ready">
+      ><AppSelect
+        :model-value="grade"
+        label="默认年级"
+        :options="gradeOptions"
+        @update:model-value="grade = Number($event)"
+      /><button class="primary" @click="save" :disabled="!store.ready">
         保存偏好
       </button>
     </section>

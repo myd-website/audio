@@ -79,6 +79,16 @@ const tabs = [
   { id: "practice", label: "课后自测" },
   { id: "slides", label: "演示卡片" },
 ];
+const root = ref<HTMLElement>();
+function goSlide(delta: number) {
+  slideIndex.value += delta;
+  const scroller = root.value?.closest<HTMLElement>(".lesson-details-scroll");
+  const card = root.value?.querySelector<HTMLElement>(".topic-content");
+  if (!scroller || !card) return;
+  // 把演示卡片区域的顶部对齐到弹窗滚动容器顶部。
+  scroller.scrollTop +=
+    card.getBoundingClientRect().top - scroller.getBoundingClientRect().top;
+}
 const courseSlides = computed(
   () => selected.value && openCourseSlides(selected.value.id),
 );
@@ -170,7 +180,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section class="learning-notes" aria-label="课后笔记与重点">
+  <section ref="root" class="learning-notes" aria-label="课后笔记与重点">
     <div class="notes-heading">
       <div>
         <p class="eyebrow">READ & REVIEW</p>
@@ -315,13 +325,13 @@ onBeforeUnmount(() => {
               <button
                 type="button"
                 :disabled="slideIndex === 0"
-                @click="slideIndex--"
+                @click="goSlide(-1)"
               >
                 上一页</button
               ><button
                 type="button"
                 :disabled="slideIndex === slides.length - 1"
-                @click="slideIndex++"
+                @click="goSlide(1)"
               >
                 下一页
               </button>

@@ -15,7 +15,8 @@ defineEmits<{ (event: "plan"): void }>();
 
 <template>
   <section class="lesson-details">
-    <p class="eyebrow">ONE LESSON AT A TIME</p>
+    <div class="lesson-details-scroll">
+      <p class="eyebrow">ONE LESSON AT A TIME</p>
     <h2 id="course-detail-title">{{ lesson.title }}</h2>
     <div class="detail-sources">
       <SourceBadge source="local" label="课程信息" /><SourceBadge
@@ -65,6 +66,7 @@ defineEmits<{ (event: "plan"): void }>();
     <p class="detail-note">
       课程信息来自已同步的本地目录快照，本站不嵌入官方视频；学完后可回到日程勾选完成
     </p>
+    </div>
   </section>
 </template>
 
@@ -72,9 +74,17 @@ defineEmits<{ (event: "plan"): void }>();
 .lesson-details {
   max-width: 680px;
   max-height: min(85dvh, calc(var(--aide-visible-height, 100dvh) - 24px));
-  overflow: auto;
   margin: auto;
   padding: 28px 22px calc(26px + env(safe-area-inset-bottom, 0px));
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+/* 滚动发生在内层，外层内边距固定不动，顶部留白不会随内容滚走。 */
+.lesson-details-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
 }
 .lesson-details h2 {
   font-size: 24px;
