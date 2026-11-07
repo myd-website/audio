@@ -30,6 +30,23 @@ body {
   padding-bottom: calc(
     var(--aide-bottom-clearance) + env(safe-area-inset-bottom, 0px)
   );
+  /* 移动端禁止长按误选文字与弹出系统菜单。 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+/* 可编辑元素仍需允许选词/复制与系统菜单。 */
+.aide-app input,
+.aide-app textarea,
+.aide-app select,
+.aide-app [contenteditable="true"] {
+  -webkit-user-select: auto;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
 }
 .aide-app.has-bottom-nav {
   --aide-bottom-clearance: 65px;
