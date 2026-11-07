@@ -327,6 +327,13 @@ body {
   gap: 2px;
   color: #89938a;
   font-size: 11px;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.08s ease, color 0.12s ease;
+}
+.bottom-nav a:active {
+  transform: scale(0.92);
 }
 .bottom-nav .van-icon {
   font-size: 23px;

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+defineOptions({ name: "PlannerPage" });
 import { computed, ref } from "vue";
 import { onBeforeRouteLeave } from "vue-router";
 import { showConfirmDialog, showToast } from "vant";

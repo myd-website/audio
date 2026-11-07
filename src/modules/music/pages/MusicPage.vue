@@ -1,4 +1,5 @@
 <script setup lang="ts">
+defineOptions({ name: "MusicPage" });
 import { computed, onBeforeUnmount, onMounted, ref, watch } from "vue";
 import { useRouter } from "vue-router";
 import { showConfirmDialog, showToast } from "vant";

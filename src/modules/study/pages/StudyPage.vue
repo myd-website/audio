@@ -1,4 +1,5 @@
 <script setup lang="ts">
+defineOptions({ name: "StudyPage" });
 import { computed, onBeforeUnmount, ref, watch } from "vue";
 import { onBeforeRouteLeave, useRoute } from "vue-router";
 import { showConfirmDialog, showToast } from "vant";

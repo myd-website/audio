@@ -1,4 +1,5 @@
 <script setup lang="ts">
+defineOptions({ name: "TodayPage" });
 import { computed, onBeforeUnmount, ref } from "vue";
 import { useWorkspaceStore } from "@/shared/stores/workspace";
 import { localDate } from "@/shared/lib/workspace";

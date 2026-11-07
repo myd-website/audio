@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from "vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 import GlobalPlayer from "@/modules/music/components/GlobalPlayer.vue";
 import { useWorkspaceStore } from "@/shared/stores/workspace";
 import { useMobileViewport } from "@/shared/composables/useMobileViewport";
@@ -16,6 +16,7 @@ useFixedScale();
 const { exitProfile, exiting } = useProfileActions();
 const { keyboardOpen, viewportStyle } = useMobileViewport();
 const route = useRoute();
+const router = useRouter();
 const workspace = useWorkspaceStore();
 const profile = useProfileStore();
 const player = usePlayerStore();
@@ -24,7 +25,32 @@ const shellMounted = ref(false);
 // Vant 即使隐藏也会创建 Teleport；先挂载目标容器，再渲染包含弹层的页面。
 onMounted(() => {
   shellMounted.value = true;
+  prefetchTabs();
 });
+// 仅缓存五个主 Tab 页面，切换时即时恢复，避免反复重建与重复加载数据。
+const cachedComponents = router
+  .getRoutes()
+  .filter((r) => r.meta.keepAlive)
+  .map((r) => String(r.meta.name))
+  .filter(Boolean);
+// 空闲时顺序预热主 Tab 的懒加载 chunk，消除首次点击的等待与“无响应”感。
+const tabImports = [
+  () => import("@/modules/dashboard/pages/TodayPage.vue"),
+  () => import("@/modules/study/pages/StudyPage.vue"),
+  () => import("@/modules/music/pages/MusicPage.vue"),
+  () => import("@/modules/planner/pages/PlannerPage.vue"),
+  () => import("@/modules/fun/pages/FunPage.vue"),
+];
+function prefetchTabs() {
+  const run = (i: number) => {
+    if (i >= tabImports.length) return;
+    tabImports[i]().finally(() => run(i + 1));
+  };
+  const idle =
+    (window as Window & { requestIdleCallback?: (cb: () => void) => void })
+      .requestIdleCallback || ((cb: () => void) => window.setTimeout(cb, 1));
+  idle(() => run(0));
+}
 const choosingProfile = computed(
   () => !profile.current || route.path === "/profiles",
 );
@@ -85,7 +111,13 @@ const active = computed(() => route.meta.tab || route.path);
         {{ workspace.error }}
         <router-link to="/settings">处理数据问题</router-link>
       </div>
-      <div class="page-content"><router-view /></div>
+      <div class="page-content">
+        <router-view v-slot="{ Component }">
+          <keep-alive :include="cachedComponents">
+            <component :is="Component" />
+          </keep-alive>
+        </router-view>
+      </div>
       <GlobalPlayer />
       <nav class="bottom-nav" aria-label="主导航">
         <router-link

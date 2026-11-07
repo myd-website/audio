@@ -2,6 +2,15 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import type { RouteRecordRaw } from "vue-router";
 import ProfilesPage from "@/modules/account/pages/ProfilesPage.vue";
 import { useProfileStore } from "@/shared/stores/profile";
+
+declare module "vue-router" {
+  interface RouteMeta {
+    tab?: string;
+    keepAlive?: boolean;
+    name?: string;
+  }
+}
+
 const routes: RouteRecordRaw[] = [
   { path: "/", redirect: "/today" },
   {
@@ -11,12 +20,12 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/today",
     component: () => import("@/modules/dashboard/pages/TodayPage.vue"),
-    meta: { tab: "/today" },
+    meta: { tab: "/today", keepAlive: true, name: "TodayPage" },
   },
   {
     path: "/study",
     component: () => import("@/modules/study/pages/StudyPage.vue"),
-    meta: { tab: "/study" },
+    meta: { tab: "/study", keepAlive: true, name: "StudyPage" },
   },
   {
     path: "/calculator",
@@ -37,7 +46,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/music",
     component: () => import("@/modules/music/pages/MusicPage.vue"),
-    meta: { tab: "/music" },
+    meta: { tab: "/music", keepAlive: true, name: "MusicPage" },
   },
   {
     path: "/music/tools",
@@ -47,7 +56,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/planner",
     component: () => import("@/modules/planner/pages/PlannerPage.vue"),
-    meta: { tab: "/planner" },
+    meta: { tab: "/planner", keepAlive: true, name: "PlannerPage" },
   },
   {
     path: "/planner/legacy",
@@ -57,7 +66,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/fun",
     component: () => import("@/modules/fun/pages/FunPage.vue"),
-    meta: { tab: "/fun" },
+    meta: { tab: "/fun", keepAlive: true, name: "FunPage" },
   },
   {
     path: "/settings",
